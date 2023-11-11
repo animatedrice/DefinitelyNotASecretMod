@@ -1,0 +1,100 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+        // get mouse mail
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "MouseRepaired": "Hi poke.^ Just checking if this works ^ -HatMouse [#]HatMouse Quest"
+            }
+        },
+        //Spawn hat mouse chest
+        {
+            "LogName": "Hat mouse chest",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/maps/HatMouseChest.tbin",
+            "ToArea": {
+                "X": 30,
+                "Y": 95,
+                "Width": 2,
+                "Height": 2
+            }
+        },
+        //Hat Mouse Quest begin quest
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Mouse1": {
+                    "Name": "[Mouse1_Name]",
+                    "Requester": "HatMouse",
+                    "Duration": "Month",
+                    "Repeatable": "False",
+                    "RequiredTags": "event_16071996",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Mouse1_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[Mouse1_Objective_1_Text]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "fish_crab_pot"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "MouseRepaired"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        { //Event #1
+            "Action": "EditData",
+            "Target": "data/events/Forest",
+            "When": {
+                "Season": "spring"
+            },
+            "Entries": {
+                "16071996": "continue/-500 -500/farmer 34 98 0/skippable/pause 400/message \"Poke..\"/pause 500/end"
+            }
+        },
+        { //HatMouse strings
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+            "Entries": {
+                "Mouse1_Name": "HatMouse House",
+                "Mouse1_Text": "Hiyo, poke. Is your house leaking? Me is. Bring Materials. Okay, poke?",
+                "Mouse1_Objective_1_Text": "Drop off wood.",
+                "Mouse1_Objective_2_Text": "Collect wood"
+            }
+        },
+        // HATMOUSE HOUSE REPAIRED
+        {
+            "LogName": "HatMouse repaired",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/mapPatches/HatMouseRepaired.tbin",
+            "ToArea": {
+                "X": 30,
+                "Y": 88,
+                "Width": 6,
+                "Height": 7
+            }
+        }
+    ]
+}

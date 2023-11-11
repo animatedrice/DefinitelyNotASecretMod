@@ -1,0 +1,45 @@
+{
+  "Format": "1.29.0",
+  "Changes": [
+    //INCLUDING OTHER CODE FILES
+    {
+      "LogName": "Tilesheets",
+      "Action": "Include",
+      "FromFile": "code/TilesheetEdits.json"
+    },
+    {
+      "LogName": "Characters",
+      "Action": "Include",
+      "FromFile": "code/Characters.json"
+    },
+    {
+      "LogName": "HatMouse",
+      "Action": "Include",
+      "FromFile": "code/HatMouse.json"
+    },
+    {
+      "LogName": "Festival",
+      "Action": "Include",
+      "FromFile": "code/Festival.json"
+    },
+   
+   
+
+    //Cheeky Dono
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "Object.cs.13078": "Gunther will thank you for the cheeky dono if you donate it to the museum."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "Gunther_NothingToDonate": "Thanks for the cheeky dono!"
+      }
+    },
+    
+  ]
+}

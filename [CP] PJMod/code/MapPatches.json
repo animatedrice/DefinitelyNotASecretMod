@@ -1,0 +1,161 @@
+{
+    "Changes": [
+        //DOG SHOP
+        {
+            "LogName": "DogShop",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "Assets/mapPatches/DogShop.tbin",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 7,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 13,
+                "Y": 0,
+                "Width": 7,
+                "Height": 9
+            }
+        },
+        //DOG SHOP DOG ANIMATION
+        {
+            "LogName": "DogShop animation",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "Assets/mapPatches/DogShop.tbin",
+            "FromArea": {
+                "X": 8,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 5,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "Time": "{{Range: 0600, 2000}}"
+            }
+        },
+        //ADD MESSAGE TO SHOP
+        {
+            "LogName": "DogShop dialogue",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapTiles": {
+                "Position": {
+                    "X": 3,
+                    "Y": 7
+                },
+                "Layer": "Building",
+                "SetProperties": {
+                    "TouchAction": null
+                }
+            },
+            "When": {
+                "Time": "{{Range: 2000, 2600}}"
+            }
+        },
+        //HATMOUSE
+        {
+            "LogName": "HatMouse",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/mapPatches/HatMouseBroken.tbin",
+            "ToArea": {
+                "X": 30,
+                "Y": 88,
+                "Width": 6,
+                "Height": 7
+            }
+        },
+        //Beach map lighthouse
+        {
+            "LogName": "Lighthouse",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "Assets/mapPatches/Beach.tbin",
+            "ToArea": {
+                "X": 44,
+                "Y": 0,
+                "Width": 12,
+                "Height": 13
+            }
+        },
+        {
+            "LogName": "Lighthouse Luau",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Luau",
+            "FromFile": "Assets/mapPatches/Beach-Luau.tbin",
+            "ToArea": {
+                "X": 44,
+                "Y": 0,
+                "Width": 12,
+                "Height": 13
+            }
+        },
+        {
+            "LogName": "Lighthouse Jellies",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies",
+            "FromFile": "Assets/mapPatches/Beach-Jellies.tbin",
+            "ToArea": {
+                "X": 44,
+                "Y": 0,
+                "Width": 12,
+                "Height": 13
+            }
+        },
+        {
+            "LogName": "Lighthouse Nightmarket",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Nightmarket",
+            "FromFile": "Assets/mapPatches/Beach-Nightmarket.tbin",
+            "ToArea": {
+                "X": 44,
+                "Y": 0,
+                "Width": 12,
+                "Height": 13
+            }
+        },
+        {
+            "LogName": "Elliots house location",
+            "Action": "EditMap",
+            "Target": "Maps/ElliottHouse",
+            "MapProperties": {
+                "Warp": "3 10 Beach 48 12"
+            }
+        },
+        {
+            "LogName": "Lighthouse light",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapProperties": {
+                "NightTiles": "AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
+            }
+        },
+        {
+            "LogName": "Lighthouse light Jellies",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies",
+            "MapProperties": {
+                "NightTiles": "AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
+            }
+        },
+        {
+            "LogName": "Lighthouse light Nightmarket",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Nightmarket",
+            "MapProperties": {
+                "NightTiles": "AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
+            }
+        }
+    ]
+}
