@@ -20,7 +20,7 @@
         { // Load festival map
             "Action": "Load",
             "Target": "Maps/Town-SweetPotatoPalooza",
-            "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tmx"
+            "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tbin"
         },
         //Sweet potat town crash
         {
@@ -45,6 +45,6 @@
                 "Season": "spring",
                 "Day": "27,28"
             }
-        },
+        }
     ]
 }

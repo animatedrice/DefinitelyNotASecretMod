@@ -262,7 +262,7 @@
             "Action": "Load",
             "Target": "Characters/Dialogue/Marnie",
             "FromFile": "code/Dialogue/oscar_dialogue.json"
-        }
+        },
         //************************
         // LINUS - NINTENDAD
         //************************
@@ -270,8 +270,7 @@
             "Action": "Load",
             "Target": "Characters/Dialogue/Linus",
             "FromFile": "code/Dialogue/nintendad_dialogue.json"
-        }
-
+        },
         //************************
         // LDEMETRIUS - BABABOOEY
         //************************
