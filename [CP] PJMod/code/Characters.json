@@ -179,7 +179,7 @@
         //************************
         { // WIGGLES PORTRAIT
             "Action": "Load",
-            "Target": "assets/Portraits/Dobson",
+            "Target": "Portraits/Dobson",
             "FromFile": "assets/portraits/wiggles_portrait.png"
         },
         { // WIGGLES SPRITE

@@ -91,8 +91,8 @@
             "ToArea": {
                 "X": 30,
                 "Y": 88,
-                "Width": 6,
-                "Height": 7
+                "Width": 7,
+                "Height": 8
             },
             "When": {
                 "HasFlag": "MouseRepaired"

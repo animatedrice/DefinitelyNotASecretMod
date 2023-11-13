@@ -12,11 +12,6 @@
                 "name": "Sweet Potato Palooza"
             }
         },
-        { // // Add festival mail
-            "Action": "Load",
-            "Target": "Data/mail",
-            "FromFile": "code/mail.json"
-        },
         { // Load festival map
             "Action": "Load",
             "Target": "Maps/Town-SweetPotatoPalooza",
@@ -27,7 +22,7 @@
             "LogName": "Sweet potat meteor",
             "Action": "EditMap",
             "Target": "Maps/Town",
-            "FromFile": "assets/mapsPatches/Town-Potat.tbin",
+            "FromFile": "assets/MapPatches/Town-Potat.tbin",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -35,8 +30,8 @@
                 "Height": 5
             },
             "ToArea": {
-                "X": 29,
-                "Y": 60,
+                "X": 27,
+                "Y": 63,
                 "Width": 4,
                 "Height": 5
             },

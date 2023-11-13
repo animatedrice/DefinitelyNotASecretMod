@@ -1,13 +1,12 @@
 {
   "Changes": [
-    
-  { //ADD MAIL
-    "Action": "EditData",
-    "Target": "Data/Mail",
-    "Entries": {
-      "spring_27": "Dear @,^As you might have seen, the town was blessed by a giant sweet potato. ^^To celebrate this blessing, we will honour the sweet potato with a palooza.^You wouldn't want to miss it ^^Make sure to arrive between 12 PM and 6 PM in the town square if you'd like to attend.^ -King Bozo[#]Sweet Potato Palooza Notice",
-      "MouseRepaired": "Hi poke.^^ Just checking if this works ^ -HatMouse [#]HatMouse Quest"
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "spring_27": "Dear @,^As you might have seen, the town was blessed by a giant sweet potato. ^^To celebrate this blessing, we will honour the sweet potato with a palooza.^You wouldn't want to miss it ^^Make sure to arrive between 12 PM and 6 PM in the town square if you'd like to attend.^ -King Bozo[#]Sweet Potato Palooza Notice",
+        "MouseRepaired": "Hi poke.^^ Just checking if this works ^ -HatMouse [#]HatMouse Quest"
+      }
     }
-  }
-]
+  ]
 }
