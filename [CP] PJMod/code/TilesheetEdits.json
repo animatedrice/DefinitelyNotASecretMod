@@ -32,23 +32,15 @@
                 "Height": 9
             }
         },
-        //furniture
-        {
-            "LogName": "Lumpy",
+        { //Replace regular scarecrow with mario one
             "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/Lumpy.png",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 32,
-                "Height": 64
-            },
+            "Target": "Tilesheets/Craftables",
+            "FromFile":"assets/Tilesheets/Scarecrow.png",
             "ToArea": {
-                "X": 112,
-                "Y": 832,
-                "Width": 32,
-                "Height": 64
+                "X": 0,
+                "Y": 32,
+                "Width": 16,
+                "Height": 32
             }
         },
         { // Willy's Boat
