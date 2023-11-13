@@ -1,5 +1,4 @@
 {
-    "Format": "1.29.0",
     "Changes": [
         // get mouse mail
         {
@@ -14,7 +13,7 @@
             "LogName": "Hat mouse chest",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "assets/maps/HatMouseChest.tbin",
+            "FromFile": "assets/MapPatches/HatMouseChest.tbin",
             "ToArea": {
                 "X": 30,
                 "Y": 95,
@@ -94,6 +93,9 @@
                 "Y": 88,
                 "Width": 6,
                 "Height": 7
+            },
+            "When": {
+                "HasFlag": "MouseRepaired"
             }
         }
     ]
