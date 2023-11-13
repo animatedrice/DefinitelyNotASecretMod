@@ -22,6 +22,11 @@
       "Action": "Include",
       "FromFile": "code/Festival.json"
     },
+    {
+      "LogName": "Mail",
+      "Action": "Include",
+      "FromFile": "code/mail.json"
+    },
 
     //Cheeky Dono
     {

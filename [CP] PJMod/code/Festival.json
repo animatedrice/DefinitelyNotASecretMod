@@ -1,50 +1,54 @@
 {
-    "Changes": [
-        { // Add festival data
-            "Action": "Load",
-            "Target": "Data/Festivals/Spring28",
-            "FromFile": "code/spring28.json"
-        },
-        { // Add festival to the list
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring28",
-            "Entries": {
-                "name": "Sweet Potato Palooza"
-            }
-        },
-        { // // Add festival mail
-            "Action": "Load",
-            "Target": "Data/mail",
-            "FromFile": "code/mail.json"
-        },
-        { // Load festival map
-            "Action": "Load",
-            "Target": "Maps/Town-SweetPotatoPalooza",
-            "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tbin"
-        },
-        //Sweet potat town crash
-        {
-            "LogName": "Sweet potat meteor",
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "FromFile": "assets/mapsPatches/Town-Potat.tbin",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 4,
-                "Height": 5
-            },
-            "ToArea": {
-                "X": 29,
-                "Y": 60,
-                "Width": 4,
-                "Height": 5
-            },
-            "PatchMode": "Overlay",
-            "When": {
-                "Season": "spring",
-                "Day": "27,28"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      // Add festival data
+      "Action": "Load",
+      "Target": "Data/Festivals/Spring28",
+      "FromFile": "code/spring28.json"
+    },
+    {
+      // Add festival to the list
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring28",
+      "Entries": {
+        "name": "Sweet Potato Palooza"
+      }
+    },
+    {
+      // // Add festival mail
+      "Action": "Load",
+      "Target": "Data/mail",
+      "FromFile": "code/mail.json"
+    },
+    {
+      // Load festival map
+      "Action": "Load",
+      "Target": "Maps/Town-SweetPotatoPalooza",
+      "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tbin"
+    },
+    //Sweet potat town crash
+    {
+      "LogName": "Sweet potat meteor",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/MapPatches/Town-Potat.tbin",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 29,
+        "Y": 60,
+        "Width": 4,
+        "Height": 5
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Season": "spring",
+        "Day": "27,28"
+      }
+    }
+  ]
 }
