@@ -22,8 +22,6 @@
       "Action": "Include",
       "FromFile": "code/Festival.json"
     },
-   
-   
 
     //Cheeky Dono
     {
@@ -40,6 +38,12 @@
         "Gunther_NothingToDonate": "Thanks for the cheeky dono!"
       }
     },
-    
+    {
+      "Action": "EditData",
+      "Target": "Strings/Locations",
+      "Entries": {
+        "Railroad_TrainComing": "The forever train is passing through Stardew Valley"
+      }
+    }
   ]
 }
