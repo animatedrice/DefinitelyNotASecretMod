@@ -5,6 +5,13 @@
             "Target": "Data/Festivals/Spring28",
             "FromFile": "code/spring28.json"
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/FestivalDates",
+            "Entries": {
+                "spring28": "Sweet Potato Palooza"
+            }
+        },
         { // Add festival to the list
             "Action": "EditData",
             "Target": "Data/Festivals/Spring28",
@@ -38,7 +45,7 @@
             "PatchMode": "Overlay",
             "When": {
                 "Season": "spring",
-                "Day": "27,28"
+                "Day": "27"
             }
         }
     ]

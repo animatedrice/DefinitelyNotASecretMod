@@ -67,6 +67,7 @@
                 "Height": 144
             }
         },
+        /* moved to map patches
         { // Marnie's Ranch
             "LogName": "Ranch Wall",
             "Action": "EditImage",
@@ -258,7 +259,7 @@
                 "Width": 32,
                 "Height": 64
             }
-        },
+        },*/
         { // Pierre's Shop
             "LogName": "Store 1",
             "Action": "EditImage",

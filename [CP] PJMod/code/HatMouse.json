@@ -1,14 +1,24 @@
 {
     "Changes": [
-        // get mouse mail
+        // get mouse mail (does not trigger yet, not sure how to make it that it triggers after unlocking hatmouse but not too soon after)
+        // goal is to give quest to visit the forest to see the event
         {
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "MouseRepaired": "Hi poke.^ Just checking if this works ^ -HatMouse [#]HatMouse Quest"
+                "MouseQuest": "Hi poke.^ Just checking if this works ^ -HatMouse %item quest 1234 true%%[#]HatMouse Quest"
             }
         },
-        //Spawn hat mouse chest
+
+        {
+            "LogName": "Hat Mouse forest quest",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "1234": "Location/Visit HatMouse/You received a letter from the HatMouse. They need help fixing their house./Visit HatMouse in the Forest./Forest/-1/0/-1/false",
+                }
+        },
+        //Spawn hat mouse chest (in the future only spawn it when you have the quest)
         {
             "LogName": "Hat mouse chest",
             "Action": "EditMap",
@@ -21,7 +31,8 @@
                 "Height": 2
             }
         },
-        //Hat Mouse Quest begin quest
+        //Hat Mouse Quest begin quest 
+        // (triggers after seeing event/ after completing it you get the flag "MouseRepaired" which makes it possible to trigger the map change)
         {
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
@@ -47,7 +58,7 @@
                                 "DropBox": "MouseChest",
                                 "DropBoxGameLocation": "Forest",
                                 "DropBoxIndicatorLocation": "30.5 94.5",
-                                "AcceptedContextTags": "fish_crab_pot"
+                                "AcceptedContextTags": "item_hardwood"
                             }
                         }
                     ],
@@ -62,7 +73,8 @@
                 }
             }
         },
-        { //Event #1
+        { //Event #1 
+        //(Now always triggering as long as it's spring, in the future we can trigger it after unlocking HatMouse)
             "Action": "EditData",
             "Target": "data/events/Forest",
             "When": {
@@ -82,7 +94,7 @@
                 "Mouse1_Objective_2_Text": "Collect wood"
             }
         },
-        // HATMOUSE HOUSE REPAIRED
+        // HATMOUSE HOUSE REPAIRED (triggers after completing the quest)
         {
             "LogName": "HatMouse repaired",
             "Action": "EditMap",

@@ -19,13 +19,22 @@
                 "Height": 9
             }
         },
+        {
+            "LogName": "Dogkeeper night",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapProperties": {
+                "NightTiles": "Front 16 6 5 Front 16 5 6"
+            }
+        },
         { //add message
-        "Action": "EditData",
-        "Target": "Strings/StringsFromMap",
-        "Entries": {
-            "DogShopKeeper": "Ramen shop - Does not actually sell ramen"
-        }
-    },
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "DogShopKeeper": "Ramen shop - Does not actually sell ramen",
+                "OscarHotel": "oscar's hotel for fantastical creatures"
+            }
+        },
         //HATMOUSE
         {
             "LogName": "HatMouse",
@@ -40,6 +49,20 @@
             },
             "Patchmode": "Overlay"
         },
+        //MARNIE --> needs a new save file to not spawn bushes
+        {
+            "LogName": "Marnie",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/mapPatches/Forest-Marnie.tbin",
+            "ToArea": {
+                "X": 71,
+                "Y": 0,
+                "Width": 34,
+                "Height": 19
+            },
+            "Patchmode": "Replace"
+        },
         //Beach map lighthouse
         {
             "LogName": "Lighthouse",
@@ -47,9 +70,9 @@
             "Target": "Maps/Beach",
             "FromFile": "Assets/mapPatches/Beach.tbin",
             "ToArea": {
-                "X": 44,
+                "X": 41,
                 "Y": 0,
-                "Width": 12,
+                "Width": 13,
                 "Height": 13
             }
         },
@@ -61,7 +84,7 @@
             "ToArea": {
                 "X": 44,
                 "Y": 0,
-                "Width": 12,
+                "Width": 10,
                 "Height": 13
             }
         },
@@ -71,9 +94,9 @@
             "Target": "Maps/Beach-Jellies",
             "FromFile": "Assets/mapPatches/Beach-Jellies.tbin",
             "ToArea": {
-                "X": 44,
+                "X": 41,
                 "Y": 0,
-                "Width": 12,
+                "Width": 13,
                 "Height": 13
             }
         },
@@ -83,9 +106,9 @@
             "Target": "Maps/Beach-Nightmarket",
             "FromFile": "Assets/mapPatches/Beach-Nightmarket.tbin",
             "ToArea": {
-                "X": 44,
+                "X": 41,
                 "Y": 0,
-                "Width": 12,
+                "Width": 13,
                 "Height": 13
             }
         },
