@@ -1,7 +1,6 @@
 {
     "Changes": [
-        // get mouse mail (does not trigger yet, not sure how to make it that it triggers after unlocking hatmouse but not too soon after)
-        // goal is to give quest to visit the forest to see the event
+        // letter from Robin TO DO -> change text
         {
             "Action": "EditData",
             "Target": "Data/Mail",
@@ -10,29 +9,32 @@
             }
         },
 
-        {
+        { //quest from from Robin TO DO -> change text
             "LogName": "Hat Mouse forest quest",
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "1234": "Location/Visit HatMouse/You received a letter from the HatMouse. They need help fixing their house./Visit HatMouse in the Forest./Forest/-1/0/-1/false",
+                "1234": "Location/Visit HatMouse/You received a letter from the HatMouse. They need help fixing their house./Visit HatMouse in the Forest./Forest/-1/0/-1/false"
                 }
         },
-        //Spawn hat mouse chest (in the future only spawn it when you have the quest)
+        //Spawn hat mouse chestt after event
         {
             "LogName": "Hat mouse chest",
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "FromFile": "assets/MapPatches/HatMouseChest.tbin",
+            "Update": " OnLocationChange",
             "ToArea": {
                 "X": 30,
                 "Y": 95,
                 "Width": 2,
                 "Height": 2
+            },
+            "When": {
+                "HasSeenEvent": "16071996"
             }
         },
-        //Hat Mouse Quest begin quest 
-        // (triggers after seeing event/ after completing it you get the flag "MouseRepaired" which makes it possible to trigger the map change)
+        //Hat Mouse Quest begin quest TO DO -> CHANGE MATERIALS
         {
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
@@ -73,18 +75,17 @@
                 }
             }
         },
-        { //Event #1 
-        //(Now always triggering as long as it's spring, in the future we can trigger it after unlocking HatMouse)
+        { //Event #1 //TO DO -> DIALOGUE EDITING
             "Action": "EditData",
             "Target": "data/events/Forest",
             "When": {
-                "Season": "spring"
+                "Season": "Spring"
             },
             "Entries": {
-                "16071996": "continue/-500 -500/farmer 34 98 0/skippable/pause 400/message \"Poke..\"/pause 500/end"
+                "16071996/F/sunny/t 600 1900": "continue/-500 -500/farmer 28 98 1 Robin 35 98 0/skippable/pause 800/viewport 34 98 clamp/move farmer 5 0 1/faceDirection Robin 3/pause 500/speak Robin \"Hey @!$4#$b#Thanks for meeting me here $0#$b#I heard rumours about an animal moving into this abanonded building. I guess they were telling the truth..$0#$b#I am worried about the structural integrity of the building. It has not been maintained in a long time.$2#$b$#If you have a moment, I will inspect the building.\"/pause 800/move Robin 0 -2 0/viewport move 0 -2 1000/faceDirection farmer 0/pause 200/textAboveHead Robin \"Hmm...\"/pause 1200/emote farmer 8/pause 500/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin -3 0 3/faceDirection Robin 0/pause 800/emote Robin 16/pause 1300/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin 0 1 2/viewport move 0 2 1000/move Robin 3 0 1/move Robin 0 1 2/faceDirection Robin 3/faceDirection farmer 1/pause 500/speak Robin \"Well.. the bad news is I'm afraid that the building is on the verge of collapsing\"/jump farmer/pause 300/emote farmer 16/pause 200/speak Robin \"The good news is that I would be able to repair it if I had the materials.#$b#I'm estimating 400 pieces of wood, 300 pieces of stone, and 50 pieces of hardwood.. $0#$b# and an extra 5 cheese for the Mouse.$1#$b#I will leave a chest here for you to drop off the materials.\"/globalFade/viewport -500 -500/pause 750/message \"If I gather these materials, Robin will repair HatMouse's shop.\"/pause 500/end"
             }
         },
-        { //HatMouse strings
+        { //HatMouse strings //TO DO
             "Action": "EditData",
             "Target": "Strings/SpecialOrderStrings",
             "Entries": {
@@ -93,8 +94,8 @@
                 "Mouse1_Objective_1_Text": "Drop off wood.",
                 "Mouse1_Objective_2_Text": "Collect wood"
             }
-        },
-        // HATMOUSE HOUSE REPAIRED (triggers after completing the quest)
+        }, 
+        // HATMOUSE HOUSE REPAIRED FINISHED
         {
             "LogName": "HatMouse repaired",
             "Action": "EditMap",

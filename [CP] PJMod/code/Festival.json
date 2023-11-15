@@ -24,18 +24,24 @@
             "Target": "Maps/Town-SweetPotatoPalooza",
             "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tbin"
         },
+        { //event with meteor sound --> Meteorite (sound ID)
+            "LogName": "Sweet potat crash",
+            "Action": "EditData",
+            "Target": "data/events/FarmHouse",
+            "Entries": {
+                "2345678/t 600 620": "continue / 1000 -1000/ farmer 13 23 2/pause 1000/playSound Meteorite/pause 300/message \"Sounds like something crashed into town..\" /pause 400/end"
+            },
+            "When": {
+                "Season": "Spring",
+                "Day": 26
+            }
+        },
         //Sweet potat town crash
         {
-            "LogName": "Sweet potat meteor",
+            "LogName": "Sweet potat appearance",
             "Action": "EditMap",
             "Target": "Maps/Town",
             "FromFile": "assets/MapPatches/Town-Potat.tbin",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 4,
-                "Height": 5
-            },
             "ToArea": {
                 "X": 27,
                 "Y": 63,
@@ -44,8 +50,7 @@
             },
             "PatchMode": "Overlay",
             "When": {
-                "Season": "spring",
-                "Day": "27"
+                "HasSeenEvent": "2345678"
             }
         }
     ]
