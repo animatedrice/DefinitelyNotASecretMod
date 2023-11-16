@@ -35,20 +35,6 @@
                 "OscarHotel": "oscar's hotel for fantastical creatures"
             }
         },
-        //HATMOUSE
-        {
-            "LogName": "HatMouse",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "FromFile": "Assets/mapPatches/HatMouseBroken.tbin",
-            "ToArea": {
-                "X": 30,
-                "Y": 88,
-                "Width": 7,
-                "Height": 8
-            },
-            "Patchmode": "Overlay"
-        },
         //MARNIE --> needs a new save file to not spawn bushes
         {
             "LogName": "Marnie",

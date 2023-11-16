@@ -5,7 +5,8 @@
       "Target": "Data/Mail",
       "Entries": {
         "spring_27": "Dear @,^As you might have seen, the town was blessed by a giant sweet potato. ^^To celebrate this blessing, we will honour the sweet potato with a palooza.^You wouldn't want to miss it ^^Make sure to arrive between 12 PM and 6 PM in the town square if you'd like to attend.^ -King Bozo[#]Sweet Potato Palooza Notice",
-        "MouseRepaired": "Hi poke.^^ Just checking if this works ^ -HatMouse [#]HatMouse Quest"
+        "MouseQuest": "Hi @!^ I was taking a walk and noticed something at the abanoned building. Please meet me there at your earliest convienence. ^ - Robin %item quest 1234 true%%[#]HatMouse Quest",
+        "MouseRepaired": "Hey poke,^Thanks so much for fixing my house.^- Hat Mouse[#]A Gift From Hat Mouse"
       }
     }
   ]

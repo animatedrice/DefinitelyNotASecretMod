@@ -1,29 +1,20 @@
 {
     "Changes": [
-        // letter from Robin TO DO -> change text
-        {
-            "Action": "EditData",
-            "Target": "Data/Mail",
-            "Entries": {
-                "MouseQuest": "Hi poke.^ Just checking if this works ^ -HatMouse %item quest 1234 true%%[#]HatMouse Quest"
-            }
-        },
-
         { //quest from from Robin TO DO -> change text
             "LogName": "Hat Mouse forest quest",
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "1234": "Location/Visit HatMouse/You received a letter from the HatMouse. They need help fixing their house./Visit HatMouse in the Forest./Forest/-1/0/-1/false"
-                }
+                "1234": "Location/Visit HatMouse/You received a letter from Robin asking you to meet her in at the abanoned house in the forest. What could it be about?/Visit Robin in the Forest./Forest/-1/0/-1/false"
+            }
         },
-        //Spawn hat mouse chestt after event
+        //Spawn hat mouse chest after event
         {
             "LogName": "Hat mouse chest",
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "FromFile": "assets/MapPatches/HatMouseChest.tbin",
-            "Update": " OnLocationChange",
+            "Update": "OnTimeChange",
             "ToArea": {
                 "X": 30,
                 "Y": 95,
@@ -55,12 +46,45 @@
                         {
                             "Type": "Donate",
                             "Text": "[Mouse1_Objective_1_Text]",
-                            "RequiredCount": "10",
+                            "RequiredCount": "400",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "item_wood"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[Mouse1_Objective_2_Text]",
+                            "RequiredCount": "300",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "item_stone"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[Mouse1_Objective_3_Text]",
+                            "RequiredCount": "50",
                             "Data": {
                                 "DropBox": "MouseChest",
                                 "DropBoxGameLocation": "Forest",
                                 "DropBoxIndicatorLocation": "30.5 94.5",
                                 "AcceptedContextTags": "item_hardwood"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[Mouse1_Objective_4_Text]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "item_cheese"
                             }
                         }
                     ],
@@ -92,23 +116,9 @@
                 "Mouse1_Name": "HatMouse House",
                 "Mouse1_Text": "Hiyo, poke. Is your house leaking? Me is. Bring Materials. Okay, poke?",
                 "Mouse1_Objective_1_Text": "Drop off wood.",
-                "Mouse1_Objective_2_Text": "Collect wood"
-            }
-        }, 
-        // HATMOUSE HOUSE REPAIRED FINISHED
-        {
-            "LogName": "HatMouse repaired",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "FromFile": "Assets/mapPatches/HatMouseRepaired.tbin",
-            "ToArea": {
-                "X": 30,
-                "Y": 88,
-                "Width": 7,
-                "Height": 8
-            },
-            "When": {
-                "HasFlag": "MouseRepaired"
+                "Mouse1_Objective_2_Text": "Drop off stone",
+                "Mouse1_Objective_3_Text": "Drop off hardwood",
+                "Mouse1_Objective_4_Text": "Drop off cheese",
             }
         }
     ]

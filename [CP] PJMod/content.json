@@ -1,5 +1,18 @@
 {
   "Format": "1.29.0",
+  "DynamicTokens": [
+    {
+      "Name": "Mouse",
+      "Value": "Broken"
+    },
+    {
+      "Name":"Mouse",
+      "Value": "Repaired",
+      "When": {
+        "HasFlag": "MouseRepaired"
+      }
+    }
+  ]
   "Changes": [
     //INCLUDING OTHER CODE FILES
     {
