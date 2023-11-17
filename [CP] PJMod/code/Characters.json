@@ -29,12 +29,12 @@
         { //VINCENT PORTRAIT
             "Action": "EditImage",
             "Target": "Portraits/Vincent",
-            "FromFile": "assets/portraits/Vincent_portrait_1.png"
+            "FromFile": "assets/portraits/Vincent_portrait.png"
         },
         { //VINCENT SPRITE
             "Action": "EditImage",
             "Target": "Characters/Vincent",
-            "FromFile": "assets/sprites/Vincent_sprite1.png"
+            "FromFile": "assets/sprites/Vincent_sprite.png"
         },
         { //VINCENT DIALOGUE
             "Action": "Load",
@@ -42,27 +42,45 @@
             "FromFile": "code/Dialogue/vincent_dialogue.json"
         },
         //************************
+        //JAS - OLIVER
+        //************************
+        { //OLIVER - POTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Jas",
+            "FromFile": "assets/portraits/oliver_portrait.png"
+        },
+        { //OLIVER - SPRITES
+            "Action": "EditImage",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/sprites/oliver_sprite.png"
+        },
+        { // OLIVER DIALOGUE
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Jas",
+            "FromFile": "code/Dialogue/oliver_dialogue.json"
+        },
+        //************************
         //KROBUS - SAD GHOST
         //************************
-        { //SAD GHOST - SPRITE
-            "Action": "EditImage",
-            "Target": "Characters/Krobus",
-            "FromFile": "assets/sprites/sad_ghost_4.png"
-        },
         { //SAD GHOST - PORTRAIT
             "Action": "EditImage",
             "Target": "Portraits/Krobus",
-            "FromFile": "assets/portraits/Sad_Ghost_portraits.png"
+            "FromFile": "assets/portraits/ghost_portrait.png"
+        },
+        { //SAD GHOST - SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Krobus",
+            "FromFile": "assets/sprites/ghost_sprite.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/KrobusRaven",
-            "FromFile": "assets/sprites/SadGhostRaven.png"
+            "FromFile": "assets/sprites/ghost_raven.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/SeaMonsterKrobus",
-            "FromFile": "assets/sprites/SeaMonsterSadGhost.png"
+            "FromFile": "assets/sprites/ghost_monster.png"
         },
         { // SAD GHOST DIALOGUE
             "Action": "Load",
@@ -80,12 +98,12 @@
         { //KING BOZO - SPRITES
             "Action": "EditImage",
             "Target": "Characters/Lewis",
-            "FromFile": "assets/sprites/king_bozo_4.png"
+            "FromFile": "assets/sprites/bozo_sprite.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Lewis_Beach",
-            "FromFile": "assets/sprites/KingBozo_Beach.png"
+            "FromFile": "assets/sprites/bozo_beach.png"
         },
         { // KING BOZO DIALOGUE
             "Action": "Load",
@@ -121,12 +139,12 @@
         { //BOBBY BABY PORTAIT
             "Action": "EditImage",
             "Target": "Portraits/Gus",
-            "FromFile": "assets/portraits/Bobby_portrait.png"
+            "FromFile": "assets/portraits/bobby_portrait.png"
         },
         { //BOBBY BABY SPRITE
             "Action": "EditImage",
             "Target": "Characters/Gus",
-            "FromFile": "assets/sprites/Bobby_sprite.png"
+            "FromFile": "assets/sprites/bobby_sprite.png"
         },
         { //BOBBY BABY DIALOGUE
             "Action": "Load",
@@ -139,17 +157,17 @@
         { //BUFF BUOY PORTRAIT
             "Action": "EditImage",
             "Target": "Portraits/Alex",
-            "FromFile": "assets/portraits/Buff_portrait.png"
+            "FromFile": "assets/portraits/buff_portrait.png"
         },
         { //BUFF BUOY SPRITE
             "Action": "EditImage",
             "Target": "Characters/Alex",
-            "FromFile": "assets/sprites/Buff_sprite.png"
+            "FromFile": "assets/sprites/buff_sprite.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Alex",
-            "FromFile": "assets/sprites/Buff_sprite.png"
+            "FromFile": "assets/sprites/buff_sprite.png"
         },
         { //BUFF BUOY DIALOGUE
             "Action": "Load",
@@ -162,12 +180,12 @@
         { //BUOY SPRITE
             "Action": "EditImage",
             "Target": "Characters/Elliott",
-            "FromFile": "assets/sprites/Buoy_sprite.png"
+            "FromFile": "assets/sprites/buoy_sprite.png"
         },
         { //BUOY PORTRAIT
             "Action": "EditImage",
             "Target": "Characters/Elliott_Beach",
-            "FromFile": "assets/sprites/Buoy_Beach.png"
+            "FromFile": "assets/sprites/buoy_beach.png"
         },
         { //BUOY DIALOGUE
             "Action": "Load",
@@ -185,7 +203,7 @@
         { // WIGGLES SPRITE
             "Action": "Load",
             "Target": "Characters/Dobson",
-            "FromFile": "assets/sprites/wiggles_sprites.png"
+            "FromFile": "assets/sprites/wiggles_sprite.png"
         },
         { // WIGGLES DIALOGUE
             "Action": "Load",
@@ -222,6 +240,21 @@
         //************************
         //PIERRE - GIL HARMON
         //************************
+        { // GIL PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Pierre",
+            "FromFile": "assets/portraits/gil_portrait.png"
+        },
+        { // GIL SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Pierre",
+            "FromFile": "assets/sprites/gil_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Pierre_Beach",
+            "FromFile": "assets/sprites/gil_beach.png"
+        },
         { // GIL DIALOGUE
             "Action": "Load",
             "Target": "Characters/Dialogue/Pierre",
@@ -233,22 +266,22 @@
         { // PAUL PORTRAIT
             "Action": "EditImage",
             "Target": "Portraits/Maru",
-            "FromFile": "assets/portraits/Paul_portrait.png"
+            "FromFile": "assets/portraits/paul_portrait.png"
         },
         { // PAUL SPRITE
             "Action": "EditImage",
             "Target": "Characters/Maru",
-            "FromFile": "assets/sprites/Paul_sprite.png"
+            "FromFile": "assets/sprites/paul_sprite.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Maru_Beach",
-            "FromFile": "assets/sprites/Paul_Beach.png"
+            "FromFile": "assets/sprites/paul_beach.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Maru_Hospital",
-            "FromFile": "assets/sprites/Paul_Hospital.png"
+            "FromFile": "assets/sprites/paul_hospital.png"
         },
         { // PAUL DIALOGUE
             "Action": "Load",
@@ -258,6 +291,21 @@
         //************************
         // MARNIE - OSCAR
         //************************
+        { // OSCAR PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Marnie",
+            "FromFile": "assets/portraits/oscar_portrait.png"
+        },
+        { // OSCAR SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/sprites/oscar_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marnie_Beach",
+            "FromFile": "assets/sprites/oscar_beach.png"
+        },
         { // OSCAR DIALOGUE
             "Action": "Load",
             "Target": "Characters/Dialogue/Marnie",
@@ -266,18 +314,56 @@
         //************************
         // LINUS - NINTENDAD
         //************************
-        { // OSCAR DIALOGUE
+        { // NINTENDAD PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Linus",
+            "FromFile": "assets/portraits/nintendad_portrait.png"
+        },
+        { // NINTENDAD SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Linus",
+            "FromFile": "assets/portraits/nintendad_sprite.png"
+        },
+        { // NINTENDAD DIALOGUE
             "Action": "Load",
             "Target": "Characters/Dialogue/Linus",
             "FromFile": "code/Dialogue/nintendad_dialogue.json"
         },
         //************************
-        // LDEMETRIUS - BABABOOEY
+        // DEMETRIUS - BABABOOEY
         //************************
-        { // OSCAR DIALOGUE
+        { // BABABOOEY PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Demetrius",
+            "FromFile": "assets/portraits/bababooey_portrait.png"
+        }, /*
+        { // BABABOOEY SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius",
+            "FromFile": "assets/portraits/bababooey_sprite.png"
+        },*/
+        { // BABABOOEY DIALOGUE
             "Action": "Load",
             "Target": "Characters/Dialogue/Demetrius",
             "FromFile": "code/Dialogue/bababooey_dialogue.json"
-        }
+        },
+        //************************
+        // WIZARD - TINY PLANET EXPLORER
+        //************************
+        { // TINY PLANET EXPLORER PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Wizard",
+            "FromFile": "assets/portraits/explorer_portrait.png"
+        } /*,
+        { // TINY PLANET EXPLORER SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/sprites/explorer_sprite.png"
+        },
+        { // TINY PLANET EXPLORER DIALOGUE
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Wizard",
+            "FromFile": "code/Dialogue/explorer_dialogue.json"
+        }*/
     ]
 }
