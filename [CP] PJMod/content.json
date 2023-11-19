@@ -1,7 +1,26 @@
 {
   "Format": "1.29.0",
+  "DynamicTokens": [
+    //changes the hatmouse house to repaired when it has a certain flag
+    {
+      "Name": "mouse",
+      "Value": "broken"
+    },
+    {
+      "Name":"mouse",
+      "Value": "repaired",
+      "When": {
+        "HasFlag": "MouseRepaired"
+      }
+    }
+  ],
   "Changes": [
     //INCLUDING OTHER CODE FILES
+    {
+      "LogName":"Include Dialogue",
+      "Action": "Include",
+      "FromFile":"code/Characters/Dialogue/bababooey_dialogue.json, code/Characters/Dialogue/bobby_dialogue.json,code/Characters/Dialogue/buffbuoy_dialogue.json, code/Characters/Dialogue/buoy_dialogue.json, code/Characters/Dialogue/gil_dialogue.json, code/Characters/Dialogue/kingbozo_dialogue.json,code/Characters/Dialogue/nintendad_dialogue.json, code/Characters/Dialogue/oliver_dialogue.json, code/Characters/Dialogue/oscar_dialogue.json, code/Characters/Dialogue/paul_dialogue.json, code/Characters/Dialogue/pj_dialogue.json, code/Characters/Dialogue/sadghost_dialogue.json, code/Characters/Dialogue/vincent_dialogue.json, code/Characters/Dialogue/wiggles_dialogue.json"
+    },
     {
       "LogName": "Tilesheets",
       "Action": "Include",
@@ -22,8 +41,16 @@
       "Action": "Include",
       "FromFile": "code/Festival.json"
     },
-   
-   
+    {
+      "LogName": "MapPatches",
+      "Action": "Include",
+      "FromFile": "code/MapPatches.json"
+    },
+    {
+      "LogName": "Mail",
+      "Action": "Include",
+      "FromFile": "code/mail.json"
+    },
 
     //Cheeky Dono
     {

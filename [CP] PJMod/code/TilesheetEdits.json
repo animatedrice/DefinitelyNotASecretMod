@@ -32,25 +32,6 @@
                 "Height": 9
             }
         },
-        //furniture
-        {
-            "LogName": "Lumpy",
-            "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/Lumpy.png",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 32,
-                "Height": 64
-            },
-            "ToArea": {
-                "X": 112,
-                "Y": 832,
-                "Width": 32,
-                "Height": 64
-            }
-        },
         { // Willy's Boat
             "LogName": "Willys boat",
             "Action": "Load",
@@ -73,198 +54,6 @@
                 "Y": 176,
                 "Width": 112,
                 "Height": 144
-            }
-        },
-        { // Marnie's Ranch
-            "LogName": "Ranch Wall",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 0,
-                "Y": 16,
-                "Width": 48,
-                "Height": 80
-            },
-            "ToArea": {
-                "X": 352,
-                "Y": 96,
-                "Width": 48,
-                "Height": 80
-            }
-        },
-        {
-            "LogName": "Ranch Roof window",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 48,
-                "Y": 0,
-                "Width": 48,
-                "Height": 48
-            },
-            "ToArea": {
-                "X": 144,
-                "Y": 1216,
-                "Width": 48,
-                "Height": 48
-            }
-        },
-        {
-            "LogName": "Ranch Chimney",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 96,
-                "Y": 16,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 352,
-                "Y": 64,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "Ranch Broken Brick",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 80,
-                "Y": 48,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 272,
-                "Y": 160,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "Ranch Door",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 96,
-                "Y": 48,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 384,
-                "Y": 64,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "Ranch Sign and Brick",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 80,
-                "Y": 80,
-                "Width": 32,
-                "Height": 16
-            },
-            "ToArea": {
-                "X": 320,
-                "Y": 160,
-                "Width": 32,
-                "Height": 16
-            }
-        },
-        {
-            "LogName": "Ranch Silo",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/RanchSign.png",
-            "ToArea": {
-                "X": 352,
-                "Y": 0,
-                "Width": 48,
-                "Height": 64
-            }
-        },
-        {
-            "LogName": "Ranch Sign and window",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 144,
-                "Y": 80,
-                "Width": 32,
-                "Height": 16
-            },
-            "ToArea": {
-                "X": 320,
-                "Y": 112,
-                "Width": 32,
-                "Height": 16
-            }
-        },
-        {
-            "LogName": "Ranch Arch",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 48,
-                "Y": 48,
-                "Width": 32,
-                "Height": 48
-            },
-            "ToArea": {
-                "X": 320,
-                "Y": 64,
-                "Width": 32,
-                "Height": 48
-            }
-        },
-        {
-            "LogName": "Ranch Big Haybale",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 112,
-                "Y": 0,
-                "Width": 32,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 320,
-                "Y": 128,
-                "Width": 32,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "Ranch Mill",
-            "Action": "EditImage",
-            "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Tilesheets/Ranch_{{season}}.png",
-            "FromArea": {
-                "X": 112,
-                "Y": 32,
-                "Width": 32,
-                "Height": 64
-            },
-            "ToArea": {
-                "X": 0,
-                "Y": 784,
-                "Width": 32,
-                "Height": 64
             }
         },
         { // Pierre's Shop
@@ -376,13 +165,12 @@
                 "Height": 192
             }
         },
-        // HATMOUSE HOUSE BROKEN
-        /*
+        //HATMOUSE --> season and mouse are dynamic tokens (saves double coding)
         {
             "LogName": "Mouse 1",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Mouse_Broken.png",
+            "FromFile": "assets/Tilesheets/Mouse_{{season}}_{{mouse}}.png",
             "FromArea": {
                 "X": 32,
                 "Y": 16,
@@ -400,7 +188,7 @@
             "LogName": "Mouse 2",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Mouse_Broken.png",
+            "FromFile": "assets/Tilesheets/Mouse_{{season}}_{{mouse}}.png",
             "FromArea": {
                 "X": 48,
                 "Y": 0,
@@ -418,7 +206,7 @@
             "LogName": "Mouse 3",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Mouse_Broken.png",
+            "FromFile": "assets/Tilesheets/Mouse_{{season}}_{{mouse}}.png",
             "FromArea": {
                 "X": 32,
                 "Y": 32,
@@ -436,7 +224,7 @@
             "LogName": "Mouse 4",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_outdoorsTileSheet",
-            "FromFile": "assets/Mouse_Broken.png",
+            "FromFile": "assets/Tilesheets/Mouse_{{season}}_{{mouse}}.png",
             "FromArea": {
                 "X": 0,
                 "Y": 64,
@@ -449,18 +237,12 @@
                 "Width": 32,
                 "Height": 64
             }
-        },*/
+        },
         {
             "LogName": "Mouse Cursor",
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
-            "FromFile": "assets/Tilesheets/Mouse Cursors.png",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 59,
-                "Height": 31
-            },
+            "FromFile": "assets/Tilesheets/Mouse_Cursor.png",
             "ToArea": {
                 "X": 605,
                 "Y": 1958,

@@ -1,215 +1,19 @@
 {
     "Changes": [
-        //DATA - DISPOSITIONS
-        {
-            "Action": "EditData",
-            "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Harvey": "adult/polite/neutral/positive/male/not-datable/Maru/Town/winter 11//HarveyRoom 13 4/PJ",
-                "Clint": "adult/rude/shy/negative/male/not-datable/Emily/Town/winter 26/Emily ''/Blacksmith 3 13/Clunt",
-                "Pierre": "adult/neutral/outgoing/positive/male/not-datable/Caroline/Town/spring 26/Abigail 'daughter' Jil 'wife'/SeedShop 4 17/Gil",
-                "Caroline": "adult/polite/neutral/neutral/female/not-datable/Pierre/Town/winter 7/Gil 'husband' Abigail ''/SeedShop 22 5/Jil",
-                "Gus": "adult/neutral/outgoing/positive/male/not-datable/null/Town/summer 8/Emily '' Pam ''/Saloon 18 6/Bobby",
-                "Elliott": "adult/polite/neutral/neutral/male/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/Buoy",
-                "Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Bozo '' Shane 'nephew' Oliver 'niece'/AnimalShop 12 14/Oscar",
-                "Jas": "child/neutral/shy/positive/female/not-datable/Vincent/Town/summer 4/Vincent ''/AnimalShop 4 6/Oliver",
-                "Lewis": "adult/neutral/outgoing/positive/male/not-datable/null/Town/spring 7/Oscar ''/ManorHouse 8 5/King Bozo",
-                "Demetrius": "adult/polite/neutral/positive/male/not-datable/Robin/Town/summer 19/Robin 'wife' Paul ''/ScienceHouse 19 4/Bababooey",
-                "Maru": "teen/neutral/outgoing/positive/female/datable/Harvey/Town/summer 10/Robin 'mom' Bababooey 'dad' Sebastian 'half-brother'/ScienceHouse 2 4/Paul",
-                "Alex": "adult/rude/outgoing/positive/male/datable/Haley/Town/summer 13/George 'grandpa' Evelyn 'grandma'/JoshHouse 19 5/Buff Buoy",
-                "Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 2 2/Nintendad",
-                "Krobus": "adult/polite/shy/neutral/male/secret/null/Other/winter 1//Sewer 31 17/Sad Ghost",
-                "Willy": "adult/neutral/neutral/neutral/male/not-datable/null/Town/summer 24/Buoy ''/FishShop 5 4/Ct. Lannery Storm",
-                "Wizard": "adult/rude/neutral/negative/male/not-datable/null/Other/winter 17//WizardHouse 3 17/Tiny Planet Explorer"
-            }
-        },
-        //************************
-        //VINCENT
-        //************************
-        { //VINCENT PORTRAIT
-            "Action": "EditImage",
-            "Target": "Portraits/Vincent",
-            "FromFile": "assets/portraits/Vincent_portrait_1.png"
-        },
-        { //VINCENT SPRITE
-            "Action": "EditImage",
-            "Target": "Characters/Vincent",
-            "FromFile": "assets/sprites/Vincent_sprite1.png"
-        },
-        { //VINCENT DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Vincent",
-            "FromFile": "code/Dialogue/vincent_dialogue.json"
-        },
-        //************************
-        //KROBUS - SAD GHOST
-        //************************
-        { //SAD GHOST - SPRITE
-            "Action": "EditImage",
-            "Target": "Characters/Krobus",
-            "FromFile": "assets/sprites/sad_ghost_4.png"
-        },
-        { //SAD GHOST - PORTRAIT
-            "Action": "EditImage",
-            "Target": "Portraits/Krobus",
-            "FromFile": "assets/portraits/Sad_Ghost_portraits.png"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/KrobusRaven",
-            "FromFile": "assets/sprites/SadGhostRaven.png"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/SeaMonsterKrobus",
-            "FromFile": "assets/sprites/SeaMonsterSadGhost.png"
-        },
-        { // SAD GHOST DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Krobus",
-            "FromFile": "code/Dialogue/sadghost_dialogue.json"
-        },
-        //************************
-        //LEWIS - KING BOZO
-        //************************
-        { //KING BOZO - POTRAIT
-            "Action": "EditImage",
-            "Target": "Portraits/Lewis",
-            "FromFile": "assets/portraits/bozo_portrait.png"
-        },
-        { //KING BOZO - SPRITES
-            "Action": "EditImage",
-            "Target": "Characters/Lewis",
-            "FromFile": "assets/sprites/king_bozo_4.png"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/Lewis_Beach",
-            "FromFile": "assets/sprites/KingBozo_Beach.png"
-        },
-        { // KING BOZO DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Lewis",
-            "FromFile": "code/Dialogue/kingbozo_dialogue.json"
-        },
-        //************************
-        //HARVEY - PJ
-        //************************
-        { //PJ - PORTRAIT
-            "Action": "Load",
-            "Target": "Portraits/Harvey",
-            "FromFile": "assets/portraits/pj_portrait.png"
-        },
-        { //PJ - SPRITE
-            "Action": "Load",
-            "Target": "Characters/Harvey",
-            "FromFile": "assets/sprites/pj_sprite.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/Harvey_Beach",
-            "FromFile": "assets/sprites/PJ_Beach.png"
-        },
-        { // PJ DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Harvey",
-            "FromFile": "code/Dialogue/pj_dialogue.json"
-        },
-        //************************
-        //GUS - BOBBY BABY
-        //************************
-        { //BOBBY BABY PORTAIT
-            "Action": "EditImage",
-            "Target": "Portraits/Gus",
-            "FromFile": "assets/portraits/Bobby_portrait.png"
-        },
-        { //BOBBY BABY SPRITE
-            "Action": "EditImage",
-            "Target": "Characters/Gus",
-            "FromFile": "assets/sprites/Bobby_sprite.png"
-        },
-        { //BOBBY BABY DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Gus",
-            "FromFile": "code/Dialogue/bobby_dialogue.json"
-        },
-        //************************
-        //ALEX - BUFF BUOY
-        //************************
-        { //BUFF BUOY PORTRAIT
-            "Action": "EditImage",
-            "Target": "Portraits/Alex",
-            "FromFile": "assets/portraits/Buff_portrait.png"
-        },
-        { //BUFF BUOY SPRITE
-            "Action": "EditImage",
-            "Target": "Characters/Alex",
-            "FromFile": "assets/sprites/Buff_sprite.png"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/Alex",
-            "FromFile": "assets/sprites/Buff_sprite.png"
-        },
-        { //BUFF BUOY DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Alex",
-            "FromFile": "code/Dialogue/buffbuoy_dialogue.json"
-        },
-        //************************
-        //ELLIOT - BUOY
-        //************************
-        { //BUOY SPRITE
-            "Action": "EditImage",
-            "Target": "Characters/Elliott",
-            "FromFile": "assets/sprites/Buoy_sprite.png"
-        },
-        { //BUOY PORTRAIT
-            "Action": "EditImage",
-            "Target": "Characters/Elliott_Beach",
-            "FromFile": "assets/sprites/Buoy_Beach.png"
-        },
-        { //BUOY DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Elliot",
-            "FromFile": "code/Dialogue/buoy_dialogue.json"
-        },
-        //************************
-        //WIGGLES 
-        //************************
         { // WIGGLES PORTRAIT
             "Action": "Load",
-            "Target": "assets/Portraits/Dobson",
+            "Target": "Portraits/Dobson",
             "FromFile": "assets/portraits/wiggles_portrait.png"
         },
         { // WIGGLES SPRITE
             "Action": "Load",
             "Target": "Characters/Dobson",
-            "FromFile": "assets/sprites/wiggles_sprites.png"
-        },
-        { // WIGGLES DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Dobson",
-            "FromFile": "code/Dialogue/wiggles_dialogue.json"
+            "FromFile": "assets/sprites/wiggles_sprite.png"
         },
         { // WIGGLES SCHEDULE
             "Action": "Load",
             "Target": "Characters/schedules/Dobson",
             "FromFile": "code/schedule.json"
-        },
-        { // WIGGLES DISPOSITION
-            "Action": "EditData",
-            "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Dobson": "adult/rude/neutral/negative/male/datable//Town/summer 7//BusStop 19 4/Wiggles"
-            }
-        },
-        { // WIGGLES GIFTTASTES
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "Entries": {
-                "Dobson": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very interesting specimen./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
-            }
         },
         { // WIGGLES DIALOGUE MARRIED
             "Action": "EditData",
@@ -219,65 +23,212 @@
                 "Dobson1": "I hope I don't get cold feet"
             }
         },
-        //************************
-        //PIERRE - GIL HARMON
-        //************************
-        { // GIL DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Pierre",
-            "FromFile": "code/Dialogue/gil_dialogue.json"
+        { //VINCENT PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Vincent",
+            "FromFile": "assets/portraits/Vincent_portrait.png"
         },
-        //************************
-        // MARU - PAUL
-        //************************
+        { //VINCENT SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Vincent",
+            "FromFile": "assets/sprites/Vincent_sprite.png"
+        },
+        { //OLIVER - POTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Jas",
+            "FromFile": "assets/portraits/oliver_portrait.png"
+        },
+        { //OLIVER - SPRITES
+            "Action": "EditImage",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/sprites/oliver_sprite.png"
+        },
+        { //SAD GHOST - PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Krobus",
+            "FromFile": "assets/portraits/ghost_portrait.png"
+        },
+        { //SAD GHOST - SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Krobus",
+            "FromFile": "assets/sprites/ghost_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/KrobusRaven",
+            "FromFile": "assets/sprites/ghost_raven.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/SeaMonsterKrobus",
+            "FromFile": "assets/sprites/ghost_monster.png"
+        },
+        { //KING BOZO - POTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Lewis",
+            "FromFile": "assets/portraits/bozo_portrait.png"
+        },
+        { //KING BOZO - SPRITES
+            "Action": "EditImage",
+            "Target": "Characters/Lewis",
+            "FromFile": "assets/sprites/bozo_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Lewis_Beach",
+            "FromFile": "assets/sprites/bozo_beach.png"
+        },
+        { //PJ - PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/portraits/pj_portrait.png"
+        },
+        { //PJ - SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/sprites/pj_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Harvey_Beach",
+            "FromFile": "assets/sprites/PJ_Beach.png"
+        },
+        { //BOBBY BABY PORTAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Gus",
+            "FromFile": "assets/portraits/bobby_portrait.png"
+        },
+        { //BOBBY BABY SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Gus",
+            "FromFile": "assets/sprites/bobby_sprite.png"
+        },
+        { //BUFF BUOY PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Alex",
+            "FromFile": "assets/portraits/buff_portrait.png"
+        },
+        { //BUFF BUOY SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/sprites/buff_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/sprites/buff_sprite.png"
+        },
+        { // BUOY PORTRAIT
+            "Action": "Load",
+            "Target": "Portraits/ELiott",
+            "FromFile": "assets/portraits/buoy_portrait.png"
+        },
+        { //BUOY SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Elliott",
+            "FromFile": "assets/sprites/buoy_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Elliott_Beach",
+            "FromFile": "assets/sprites/buoy_beach.png"
+        },
+        { // GIL PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Pierre",
+            "FromFile": "assets/portraits/gil_portrait.png"
+        },
+        { // GIL SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Pierre",
+            "FromFile": "assets/sprites/gil_sprite.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Pierre_Beach",
+            "FromFile": "assets/sprites/gil_beach.png"
+        },
         { // PAUL PORTRAIT
             "Action": "EditImage",
             "Target": "Portraits/Maru",
-            "FromFile": "assets/portraits/Paul_portrait.png"
+            "FromFile": "assets/portraits/paul_portrait.png"
         },
         { // PAUL SPRITE
             "Action": "EditImage",
             "Target": "Characters/Maru",
-            "FromFile": "assets/sprites/Paul_sprite.png"
+            "FromFile": "assets/sprites/paul_sprite.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Maru_Beach",
-            "FromFile": "assets/sprites/Paul_Beach.png"
+            "FromFile": "assets/sprites/paul_beach.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Maru_Hospital",
-            "FromFile": "assets/sprites/Paul_Hospital.png"
+            "FromFile": "assets/sprites/paul_hospital.png"
         },
-        { // PAUL DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Maru",
-            "FromFile": "code/Dialogue/paul_dialogue.json"
+        { // OSCAR PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Marnie",
+            "FromFile": "assets/portraits/oscar_portrait.png"
         },
-        //************************
-        // MARNIE - OSCAR
-        //************************
-        { // OSCAR DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Marnie",
-            "FromFile": "code/Dialogue/oscar_dialogue.json"
+        { // OSCAR SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/sprites/oscar_sprite.png"
         },
-        //************************
-        // LINUS - NINTENDAD
-        //************************
-        { // OSCAR DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Linus",
-            "FromFile": "code/Dialogue/nintendad_dialogue.json"
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marnie_Beach",
+            "FromFile": "assets/sprites/oscar_beach.png"
         },
-        //************************
-        // LDEMETRIUS - BABABOOEY
-        //************************
-        { // OSCAR DIALOGUE
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Demetrius",
-            "FromFile": "code/Dialogue/bababooey_dialogue.json"
+        { // NINTENDAD PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Linus",
+            "FromFile": "assets/portraits/nintendad_portrait.png"
+        },
+        { // NINTENDAD SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Linus",
+            "FromFile": "assets/sprites/nintendad_sprite.png"
+        },
+        { // BABABOOEY PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Demetrius",
+            "FromFile": "assets/portraits/bababooey_portrait.png"
+        },
+        { // BABABOOEY SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius",
+            "FromFile": "assets/sprites/bababooey_sprite.png"
+        },
+        { // TINY PLANET EXPLORER PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/Wizard",
+            "FromFile": "assets/portraits/explorer_portrait.png"
+        },
+        { // TINY PLANET EXPLORER SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/sprites/explorer_sprite.png"
+        },
+        // only adding fuzzwald if the person playing has expanded
+        { // FUZZWALD PORTRAIT
+            "Action": "EditImage",
+            "Target": "Portraits/MorrisTod",
+            "FromFile": "assets/portraits/fuzzwald_portrait.png",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        { //FUZZWALD SPRITE
+            "Action": "EditImage",
+            "Target": "Characters/MorrisTod",
+            "FromFile": "assets/portraits/fuzzwald_sprite.png",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
         }
     ]
 }

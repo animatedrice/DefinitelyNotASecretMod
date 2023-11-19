@@ -1,0 +1,19 @@
+{
+  "Name": "Mario Scarecrow",
+  "Description": "Prevents crows from attacking your crops. Has a limited radius. (about 8 \"tiles\").",
+  "ProvidesLight": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Pierre",
+  "PurchasePrice": 150,
+  "PurchaseRequirements": null,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 388,
+        "Count": 50
+      }
+    ],
+    "CanPurchase": false
+  }
+}

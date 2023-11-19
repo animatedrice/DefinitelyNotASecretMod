@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Harvey": "",
+                "Clint": "",
+                "Pierre": "",
+                "Caroline": "",
+                "Gus": "",
+                "Elliott": "",
+                "Marnie": "",
+                "Jas": "",
+                "Lewis": "",
+                "Demetrius": "",
+                "Maru": "",
+                "Alex": "",
+                "Linus": "",
+                "Krobus": "",
+                "Willy": "",
+                "Wizard": "",
+                "Dobson": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very interesting specimen./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
+            }
+        }
+    ]
+}
