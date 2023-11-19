@@ -2,6 +2,22 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Strings/SpeechBubbles",
+            "Entries": {
+                "Saloon_Gus_Greeting": "Bobby baby bobby bubbi!",
+                "Saloon_Gus_Summer": "Have some fucking pizza!",
+                "Saloon_Gus_NotSummer": "What can I get for ya?",
+                "Saloon_Gus_Snowing1": "It's cold outside but the za's hot!",
+                "Saloon_Gus_NotSnowing1": "Need some za?",
+                "Saloon_Gus_Raining": "Need a hot pizza with extra pepperoni?",
+                "Saloon_Gus_NotRaining": "Need a drink?",
+                "Saloon_Gus_Snowing2": "Come in out of the cold!",
+                "Saloon_Gus_NotSnowing2": " Bobby baby bobby bubbi",
+                "Saloon_Gus_RareGreeting": "You look like you need some fresh pizza."
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
                 "Introduction": "Well hello there! I'm Gus, chef and owner of the Stardrop Saloon.#$e#Stop in if you need any refreshments. I've always got hot coffee and cold beer at the ready.$h",

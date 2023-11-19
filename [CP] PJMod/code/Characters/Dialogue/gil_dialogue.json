@@ -2,6 +2,21 @@
   "Changes": [
     {
       "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
+      "Entries": {
+        "SeedShop_Pierre_Winter": "Hi there!",
+        "SeedShop_Pierre_NotWinter": "Hi there! Welcome to the Sweet Potato Mart!",
+        "SeedShop_Pierre_Summer": "Summer seeds available!",
+        "SeedShop_Pierre_NotSummer": "Seeds for sale!",
+        "SeedShop_Pierre_Greeting1": "Hello there!",
+        "SeedShop_Pierre_Greeting2": "It's farmer {0}!",
+        "SeedShop_Pierre_Raining": "It's a good day to shop!",
+        "SeedShop_Pierre_NotRaining": "Welcome!",
+        "SeedShop_Pierre_RareGreeting": "Did you remember your wallet"
+      }
+    },
+    {
+      "Action": "EditData",
       "Target": "Characters/Dialogue/Pierre",
       "Entries": {
         "Introduction": "Hello there! I'm Gil Harmon, owner of the Sweet Potato Mart..#$b#Stop by if you’re ever looking for seeds, I’m always home#$e#I’m also very good at advertising, if you need that sort of thing!",

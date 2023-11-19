@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "Action": "Editdata",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                //lannery
+                "FishingQuest.cs.13248": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fisherman who catches {1} {2}. Good luck!  -Captain Lannery",
+                "FishingQuest.cs.13251": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fishing enthusiast who catches {1} {2}. Good luck!  -Captain Lannery",
+                //bababooey
+                "ItemDeliveryQuest.cs.13311": "Greetings! Bababooey here. Could someone please bring me {0}?\nI'm studying them as part of my biological research.",
+                "SlayMonsterQuest.cs.13747": "An invasive crab species is living in the local mine, threatening the native wildlife! These creatures are known for disguising themselves as stones. I'll pay someone to slay {0} of them.  -Bababooey",
+                "ItemDeliveryQuest.cs.13314": "Looking to dissect {0}. Please deliver to Bababooey at 24 Mountain Road.",
+                //oscar
+                "ItemDeliveryQuest.cs.13317": "Howdy neighbors! My goats are really hankerin' for {0}. I can't find any myself! Help?     -Oscar",
+                "ItemDeliveryQuest.cs.13320": "Howdy neighbors! I want to try giving my cows {0} to increase their milk production. If you find one could you swing it by for me?.     -Oscar",
+                //tiny planet explorer
+                "ItemDeliveryQuest.cs.13546": "I require {0} for potion-making. Please deliver directly to my study.     -Tiny Planet Explorer",
+                "ItemDeliveryQuest.cs.13548": "The tiny planet explorer wishes to study the arcane properties of the {0}. You will be rewarded.",
+                "ItemDeliveryQuest.cs.13551": "Need {0} for experiment.    -Tiny Planet Explorer",
+                "ItemDeliveryQuest.cs.13553": "Local astronaut in search of a fresh {0}.",
+                "SlayMonsterQuest.cs.13752": "The monsters known as {0} are throwing the elemental balance into disarray. I would like an adventurer to enter the mines and slay {1} of these {2}.  -Tiny Planet Explorer",
+                //paul
+                "ItemDeliveryQuest.cs.13580": "Need {0} for my latest project. Help!    -Paul",
+                "ItemDeliveryQuest.cs.13583": "I need {0} to power my latest invention. It's the ONLY thing that will work!       -Paul",
+                "ItemDeliveryQuest.cs.13585": "Oh! Perfect! Now I can continue the project I was working on.$h#$b#Thanks a bunch, {0}.$h",
+                "ItemDeliveryQuest.cs.13587": "Oh, that's exactly what I need to power my latest invention, {0}!#$b#Thank you!$h",
+                //clunt
+                "ResourceCollectionQuest.cs.13647": "I am looking for someone to bring me {0} {1}s{2}    -Clunt",
+                "ResourceCollectionQuest.cs.13688": "\n- You can keep the ores after Clunt inspects them."
+            }
+        }
+    ]
+}

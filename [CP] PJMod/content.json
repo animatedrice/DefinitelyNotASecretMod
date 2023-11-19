@@ -22,29 +22,15 @@
       "FromFile": "code/Characters/Dialogue/bababooey_dialogue.json, code/Characters/Dialogue/bobby_dialogue.json,code/Characters/Dialogue/buffbuoy_dialogue.json, code/Characters/Dialogue/buoy_dialogue.json, code/Characters/Dialogue/gil_dialogue.json, code/Characters/Dialogue/kingbozo_dialogue.json,code/Characters/Dialogue/nintendad_dialogue.json, code/Characters/Dialogue/oliver_dialogue.json, code/Characters/Dialogue/oscar_dialogue.json, code/Characters/Dialogue/paul_dialogue.json, code/Characters/Dialogue/pj_dialogue.json, code/Characters/Dialogue/sadghost_dialogue.json, code/Characters/Dialogue/vincent_dialogue.json, code/Characters/Dialogue/wiggles_dialogue.json"
     },
     {
-      "LogName": "Tilesheets",
+      "LogName": "Includes",
       "Action": "Include",
-      "FromFile": "code/TilesheetEdits.json"
+      "FromFile": "code/TilesheetEdits.json,code/MapPatches.json, code/Characters.json, code/HatMouse.json,code/Festival.json,code/mail.json"
     },
     {
-      "LogName": "Characters",
+      //change bulletin board quests to show the correct character's name
+      "LogName": "quest strings",
       "Action": "Include",
-      "FromFile": "code/Characters.json"
-    },
-    {
-      "LogName": "HatMouse",
-      "Action": "Include",
-      "FromFile": "code/HatMouse.json"
-    },
-    {
-      "LogName": "Festival",
-      "Action": "Include",
-      "FromFile": "code/Festival.json"
-    },
-    {
-      "LogName": "MapPatches",
-      "Action": "Include",
-      "FromFile": "code/MapPatches.json"
+      "FromFile": "code/Quest/BulletinBoard.json"
     },
     {
       "LogName": "Mail",
@@ -57,7 +43,7 @@
       "FromFile": "code/Characters/Dispositions.json"
     },
     {
-      "LogName": "Dispositions",
+      "LogName": "Gift Tastes",
       "Action": "Include",
       "FromFile": "code/Characters/GiftTastes.json"
     },
@@ -75,6 +61,15 @@
       "Target": "Data/ExtraDialogue",
       "Entries": {
         "Gunther_NothingToDonate": "Thanks for the cheeky dono!"
+      }
+    },
+    {
+      // trying to see if train pop up changes but nothing for now
+      "LogName": "Train string",
+      "Action": "EditData",
+      "Target": "Data/Strings/Locations",
+      "Entries": {
+        "Railroad_TrainComing": "The forever train is passing through Stardew Valley"
       }
     }
   ]
