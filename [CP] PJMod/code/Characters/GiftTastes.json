@@ -4,23 +4,24 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "Harvey": "",
-                "Clint": "",
-                "Pierre": "",
+                //format: reaction love/item ids/like/ids/dislike/ids/hate/ids/reaction/ids
+                "Harvey": "Thanks for the bits!/614 -6 3000 408 206 224/That's such a nice gift. Thank you!/216 398 223/I'd rather be bonked than getting this../395/That's going to be an IP-ban./303 346 348/I guess I'll accept this for the halibut./708/",
+                "Pierre": "love//like//You are just like my ex-wife…//I would rather go back to jail than have this.//neutral//",
                 "Caroline": "",
-                "Gus": "",
-                "Elliott": "",
+                //Bobby gift like/dislikes (just things beginning with the letter b) Beer, blue jazz, bixite, baryte, basalt, banana, beet, bok choy, bread, bruschetta, baked fish, bean hotpot, blueberry tart, blueberry, blackberry cobbler, blackberry, banana pudding,
+                "Gus": "Bobby baby bobby bubbi!!!//Bobby baby bobby bubbi!!//Bobby baby bobby ew-ie//what did I bobby baby do to deserve this?//Bobby baby bobby bubbi!//",
+                "Elliott": "@, this is a beautiful gift! Thank you!/128/This is for me? Marvelous!/-4/Hmm... I'm not a huge fan of this.//This item gives me a terrible feeling. I'll have to dispose of it.//Oh, a present! Thank you!//",
                 "Marnie": "",
                 "Jas": "",
                 "Lewis": "",
                 "Demetrius": "",
-                "Maru": "",
-                "Alex": "",
+                "Maru": "Wow thank you! PJ usually doesn’t let me have nice things//That's really nice of you, thanks!//Um Thanks I guess..//*BLEEP*//Thank you.//",
+                "Alex": "Hey, awesome! This'll make me more buff!/194 195 560 558/This is cool! Thanks./-5/Um... Okay. Thanks./16 330/Are you serious? This is bad for my muscles./220 221 223 233/Thanks!//",
                 "Linus": "",
-                "Krobus": "",
+                "Krobus": "This is an amazing gift. For my people it is a great honor to receive something like this./276 608 220 881 561 156 221/Thank you very much.//Humans have... interesting tastes.//Oh... Um. I guess I'll accept it./-7 769/Thank you.//",
                 "Willy": "",
                 "Wizard": "",
-                "Dobson": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very interesting specimen./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
+                "Dobson": "Someone could say I love this gift, but love is overrated./224/This is almost as good as a plate of hot fresh spaghett./-12/I once got a gift like this and let's just say no one ever heard from them again.//Are you mocking me? I need money not this garbagio!//What am I supposed to do with that, heh?//"
             }
         }
     ]

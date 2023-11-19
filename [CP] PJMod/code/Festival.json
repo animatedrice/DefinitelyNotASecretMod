@@ -1,5 +1,12 @@
 {
     "Changes": [
+        { //change soup to pie
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Event.cs.1857": "You added {0} to the pie."
+            }
+        },
         { // Add festival data
             "Action": "Load",
             "Target": "Data/Festivals/Spring28",

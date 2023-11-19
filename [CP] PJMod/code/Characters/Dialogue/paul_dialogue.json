@@ -1,14 +1,26 @@
 {
   "Changes": [
     {
+      "Action":"EditData",
+      "Target":"Strings/SpeechBubbles",
+      "Entries": {
+        "Hospital_Maru_Greeting1": "Welcome to the KickthePJ store!",
+        "Hospital_Maru_Greeting2": "Can I help you?",
+        "Hospital_Maru_Greeting3": "We've got art for sale!",
+        "Hospital_Maru_Greeting4": "Are you looking for PJ?",
+        "Hospital_Maru_Greeting5": "Here to buy some cool art?",
+        "Hospital_Maru_Spouse": "Hi, honey"     
+      }
+    },
+    {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Maru",
       "Entries": {
-        "Introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Paul. I’m PJ’s assistant, stream manager, housekeeper etc…!$h#$e# Stop by the art store and I might be able to get you a discount!",
+        "Introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Paul. I’m PJ's assistant, stream manager, housekeeper etc…!$h#$e# Stop by the art store and I might be able to get you a discount!",
         "Resort_Entering": "The captain mentioned that you helped fix the boat. Thanks for doing that!",
         "Resort_Leaving": "That was fun!",
         "Resort": "I've been noticing a few different starfish species. My favorite are the big purple ones, but they're all very interesting!",
-        "Resort_Towel": "It’s nice of PJ to let me have a day off!$3#$b#Even though I have to do double the work tomorrow.",
+        "Resort_Towel": "It's nice of PJ to let me have a day off!$3#$b#Even though I have to do double the work tomorrow.",
         "Resort_Towel_2": "We're so far removed from civilization out here.#$b#Imagine the stars you could see at night.#$e#Who knows, maybe we'd even see a flying saucer or two!$h",
         "Resort_Bar": "Mmmm... Why are tropical fruits so good?",
         "Resort_Shore": "I wonder if the Captain would let me bring my telescope here sometime...#The sky is so clear here, I bet I could spot Pelican Town out in the horizon.#Maybe I'd even see you running around %farm Farm!",
@@ -17,9 +29,9 @@
         "breakUp": "Not good enough for you, huh?$a#$b#Fine...$s",
         "dumped_Girls": "You've got some nerve, speaking to me!$a",
         "secondChance_Girls": "You've lost some respect with me, @... but I'm willing to forgive you.$s",
-        "Mon": "PJ doesn’t pay me.#$e# Yes I work by my own free will…",
-        "Tue": "Have you met my boss? It’s an honor to work for him.",
-        "Wed": "On Tuesdays and Thursdays I work at the KickthePJ art store!.#$b#I do enjoy helping out, even though I don’t get payed…$h#$e#Being a farmer must be pay well, huh?",
+        "Mon": "PJ doesn't pay me.#$e# Yes I work by my own free will…",
+        "Tue": "Have you met my boss? It's an honor to work for him.",
+        "Wed": "On Tuesdays and Thursdays I work at the KickthePJ art store!.#$b#I do enjoy helping out, even though I don't get payed…$h#$e#Being a farmer must be pay well, huh?",
         "Thu": "I plan on spending a lot of time at the art store this summer.",
         "Sat": "Do you know my Dad, Demetrius? He's a scientist. I have a lot of fun helping him out in the laboratory.",
         "Fri": "Hey, sorry if I seem cranky... I'm a little sore from work yesterday.#$c .5# I had to carry ten boxes of buoy plushies to the attic!#$e#I had to beep swears for 3 hours straight!",
@@ -30,7 +42,7 @@
         "Tue2": "Stop by our house when you need to upgrade your buildings.#$e#It's always nice to have visitors.",
         "Fri4": "My mother is a carpenter and my dad is a scientist. I guess it makes sense that I'm into building gadgets.",
         "Mon6": "Sometimes my head gets so cluttered with nonsense I can hardly think. Does that ever happen to you?#$e#Getting some fresh air usually helps.",
-        "Wed8": "I work at KickthePJ’s art store Tuesdays and Thursdays.#$e#He's a good boss",
+        "Wed8": "I work at KickthePJ's art store Tuesdays and Thursdays.#$e#He's a good boss",
         "Thu10": "Oh, @! Is there anything you want to talk to me about?$l",
         "Event_Hospital_1": "Of course he'll know the difference! This print is completely ruined!%fork$s",
         "Event_Hospital_2": "Okay. I'll blame it on you, then.$u",
