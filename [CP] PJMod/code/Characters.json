@@ -216,7 +216,7 @@
         // only adding fuzzwald if the person playing has expanded
         { // FUZZWALD PORTRAIT
             "Action": "EditImage",
-            "Target": "Portraits/MorrisTod",
+            "Target": "Portraits/Morris",
             "FromFile": "assets/portraits/fuzzwald_portrait.png",
             "When": {
                 "HasMod": "FlashShifter.StardewValleyExpandedCP"
@@ -224,11 +224,11 @@
         },
         { //FUZZWALD SPRITE
             "Action": "EditImage",
-            "Target": "Characters/MorrisTod",
+            "Target": "Characters/Morris",
             "FromFile": "assets/portraits/fuzzwald_sprite.png",
             "When": {
                 "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         }
-    ]
+  ]
 }

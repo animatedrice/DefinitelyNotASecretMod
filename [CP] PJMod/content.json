@@ -47,7 +47,6 @@
       "Action": "Include",
       "FromFile": "code/Characters/GiftTastes.json"
     },
-
     //Cheeky Dono
     {
       "Action": "EditData",
