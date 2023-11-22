@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "DogShopKeeper": "Ramen shop - Does not actually sell ramen",
+                "OscarHotel": "Oscar's hotel for fantastical creatures"
+            }
+        },
+        {
+            "LogName": "Train string",
+            "Action": "EditData",
+            "Target": "Data/Strings/Locations",
+            "Entries": {
+                "Railroad_TrainComing": "The forever train is passing through Stardew Valley"
+            }
+        },
+        {
+            "LogName": "Cheeky dono",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Object.cs.13078": "Gunther will thank you for the cheeky dono if you donate it to the museum."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "Gunther_NothingToDonate": "Thanks for the cheeky dono!"
+            }
+        }
+    ]
+}

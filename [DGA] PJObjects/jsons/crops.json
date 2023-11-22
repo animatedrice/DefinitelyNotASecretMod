@@ -1,0 +1,114 @@
+[
+    {
+        "$ItemType": "Object",
+        "ID": "PotatSeeds",
+        "Category": "Seeds",
+        "Texture": "assets/Potat.png:1",
+        "Plants": "SweetPotats.PJObjects/PotatCrop",
+        "SellPrice": 20
+    },
+    {
+        "$ItemType": "Object",
+        "ID": "Potat",
+        "Category": "Vegetable",
+        "Texture": "assets/Potat.png:0",
+        "Edibility": 2,
+        "SellPrice": 80,
+        "ForcePriceOnAllInstances": true,
+        "UniversalGiftTaste": 20,
+        "ContextTags": [
+            "ingredient_sweetpotat",
+            "color_pink",
+            "dye_medium"
+        ]
+    },
+    {
+        "$ItemType": "Crop",
+        "ID": "PotatCrop",
+        "Type": "Normal",
+        "Phases": [
+            {
+                "TextureChoices": [
+                    "assets/Potat_plant.png:0",
+                    "assets/Potat_plant.png:1"
+                ],
+                "Length": 1
+            },
+            {
+                "TextureChoices": [
+                    "assets/Potat_plant.png:2"
+                ],
+                "Length": 1
+            },
+            {
+                "TextureChoices": [
+                    "assets/Potat_plant.png:3"
+                ],
+                "Length": 1
+            },
+            {
+                "TextureChoices": [
+                    "assets/Potat_plant.png:4"
+                ],
+                "Length": 2
+            },
+            {
+                "TextureChoices": [
+                    "assets/Potat_plant.png:5"
+                ],
+                "Length": 1
+            },
+            {
+                "TextureChoices": [
+                    "assets/Potat_plant.png:6"
+                ],
+                "HarvestedDrops": [
+                    {
+                        "MininumHarvestedQuantity": 1,
+                        "MaximumHarvestedQuantity": 2,
+                        "ExtraQuantityChance": 0.25,
+                        "HarvestedExperience": 10,
+                        "Item": [
+                            {
+                                "Weight": 1,
+                                "Value": {
+                                    "Type": "DGAItem",
+                                    "Value": "SweetPotats.PJObjects/Potat"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "Length": 1,
+                "HarvestedExperience": 1
+            }
+        ],
+        "GiantTextureChoices": [
+            "assets/Potat_giant.png"
+        ],
+        "GiantChance": 0.05,
+        "GiantDrops": [
+            {
+                "MininumHarvestedQuantity": 15,
+                "MaximumHarvestedQuantity": 21,
+                "Item": [
+                    {
+                        "Weight": 1,
+                        "Value": {
+                            "Type": "DGAItem",
+                            "Value": "SweetPotats.PJObjects/Potat"
+                        }
+                    }
+                ]
+            }
+        ],
+        "DynamicFields": [
+            {
+                "Conditions": {
+                    "Season | contains=spring, summer": true
+                },
+                "CanGrowNow": true
+            }
+        ]
+    }
+]

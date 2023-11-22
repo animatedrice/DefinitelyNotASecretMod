@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "Tue": "I work part-time at Bobby' pizzeria. It pays the bills.",
+                "Tue4": "I'm just working at Bobby' to make ends meet... but my real passion is tailoring.$u#$e#I made these clothes from scratch, see?",
+                "summer_Tue6": "I feel bad for Nintendad. People judge him, but he's just living a different lifestyle.$u#$e#I wish everyone could learn to be accepting of others.",
+                "summer_Fri": "If I wasn't so busy I'd come help you on the farm!#$e#But Bobby would be upset if I had another job...$s",
+                "summer_Fri6": "You know, I'm sure Bobby would understand if I wanted to leave the Pizzeria someday.#$b#There's so much out there, I can't stay a barmaid forever.$u",
+                "summer_Sat": "Don't overwork yourself or you might end up in the hospital!",
+                "summer_Sun": "Hi @!",
+                "fall_Thu": "Are you friends with Clunt? He's a nice guy, if you get to know him.#$e#He gets lonely working in his shop all day. But he's so shy he has trouble making new friends.",
+                "fall_Thu8": "I think Clunt's mad at me. He never looks at me anymore...$u#$e#I always thought we were friends.$u",
+                "winter_Thu": "It must be so cold for the poor fish.$s#$e#I wonder if any fish hibernate? Maybe I should ask Bababooey."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "Introduction": "Hello! You must be @, the new farmer. I'm Jil.#$e#My husband runs the general store here. And have you met my daughter, Abigail? She's the pale one with the purple hair.",
+                "Resort_Entering": "Captain Lannery gave us each a piece of his fish jerky. I'm still chewing on it.",
+                "Resort_Chair": "%Jil is trying to nap.",
+                "Resort_Bar": "I told Bobby to surprise me, and he made an iced green tea with mango zest. How nice!$h",
+                "Mon8": "#$1 Caroline23#When we first moved to Pelican Town I would take secret walks to the Wizard's tower. Don't tell Gil, he has jealousy issues.#$e#Abigail was born about a year after we moved to Pelican Town. I wonder if she'll ever experience life outside the valley?",
+                "Thu": "#$1 Caroline1#Hmmm... I wonder if I can get Gil to cook dinner tonight.#$e#Hmmm... what am I going to make for dinner tonight?#$e#Maybe I'll just get take-out from the Pizzeria.",
+                "Sat6": "#$1 Caroline12#When we first moved here, I took a while to settle down... I wasn't ready for the domestic life.#$e#Gil's a bit traditional... but he's a good man. He's ambitious, but he always puts his family first.",
+                "fall_Mon_inlaw_Abigail": "Abby was taking online classes here, but I don't think her heart was really in it...#$e#She's a free spirit, like I was before I met Gil. She's probably having the time of her life on your farm."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "Introduction": "Er... hi. I'm Clunt.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.",
+                "Resort_Shore_2": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clunt's body is glistening..."
+            }
+        }
+    ]
+}

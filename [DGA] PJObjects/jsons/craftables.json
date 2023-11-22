@@ -1,0 +1,10 @@
+[
+    {
+        "$ItemType": "BigCraftable",
+        "ID": "MarioScarecrow",
+        "Texture": "assets/mario.png",
+        "ContextTags": [
+            "crow_scare"
+        ]
+    }
+]

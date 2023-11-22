@@ -1,0 +1,346 @@
+{
+    "Changes": [
+        {
+            "LogName": "Wiggles portrait",
+            "Action": "Load",
+            "Target": "Portraits/Dobson",
+            "FromFile": "assets/portraits/wiggles_portrait.png"
+        },
+        {
+            "LogName": "Wiggles sprite",
+            "Action": "Load",
+            "Target": "Characters/Dobson",
+            "FromFile": "assets/sprites/wiggles_sprite.png"
+        },
+        {
+            "LogName": "Wiggles schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Dobson",
+            "FromFile": "code/Characters/schedule.json"
+        },
+        {
+            "LogName": "Vincent portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Vincent",
+            "FromFile": "assets/portraits/Vincent_portrait.png"
+        },
+        {
+            "LogName": "Vincent sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Vincent",
+            "FromFile": "assets/sprites/Vincent_sprite.png"
+        },
+        {
+            "LogName": "Captain portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Willy",
+            "FromFile": "assets/portraits/storm_portrait.png"
+        },
+        {
+            "LogName": "Captain sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Willy",
+            "FromFile": "assets/sprites/storm_sprite.png"
+        },
+        {
+            "LogName": "Oliver portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Jas",
+            "FromFile": "assets/portraits/oliver_portrait.png"
+        },
+        {
+            "LogName": "Oliver sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/sprites/oliver_sprite.png"
+        },
+        {
+            "LogName": "Sad ghost portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Krobus",
+            "FromFile": "assets/portraits/ghost_portrait.png"
+        },
+        {
+            "LogName": "Sad ghost portrait trenchcoat",
+            "Action": "EditImage",
+            "Target": "Portraits/Krobus_Trenchcoat",
+            "FromFile": "assets/portraits/ghost_trenchcoat.png"
+        },
+        {
+            "LogName": "Sad ghost sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Krobus",
+            "FromFile": "assets/sprites/ghost_sprite.png"
+        },
+        {
+            "LogName": "Sad ghost sprite raven",
+            "Action": "EditImage",
+            "Target": "Characters/KrobusRaven",
+            "FromFile": "assets/sprites/ghost_raven.png"
+        },
+        {
+            "LogName": "Sad ghost sprite monster",
+            "Action": "EditImage",
+            "Target": "Characters/SeaMonsterKrobus",
+            "FromFile": "assets/sprites/ghost_monster.png"
+        },
+        {
+            "LogName": "King Bozo portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Lewis",
+            "FromFile": "assets/portraits/bozo_portrait.png"
+        },
+        {
+            "LogName": "King Bozo sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Lewis",
+            "FromFile": "assets/sprites/bozo_sprite.png"
+        },
+        {
+            "LogName": "King Bozo sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Lewis_Beach",
+            "FromFile": "assets/sprites/bozo_beach.png"
+        },
+        {
+            "LogName": "PJ portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/portraits/pj_portrait.png"
+        },
+        {
+            "LogName": "PJ portrait Beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Beach",
+            "FromFile": "assets/portraits/pj_beach.png"
+        },
+        {
+            "LogName": "PJ sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/sprites/pj_sprite.png"
+        },
+        {
+            "LogName": "PJ sprite Beach",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey_Beach",
+            "FromFile": "assets/sprites/pj_beach.png"
+        },
+        {
+            "LogName": "Bobby portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Gus",
+            "FromFile": "assets/portraits/bobby_portrait.png"
+        },
+        {
+            "LogName": "Bobby sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Gus",
+            "FromFile": "assets/sprites/bobby_sprite.png"
+        },
+        {
+            "LogName": "Buff Buoy portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Alex",
+            "FromFile": "assets/portraits/buff_portrait.png"
+        },
+        {
+            "LogName": "Buff Buoy portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Alex_Beach",
+            "FromFile": "assets/portraits/buff_beach.png"
+        },
+        {
+            "LogName": "Buff Buoy sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/sprites/buff_sprite.png"
+        },
+        {
+            "LogName": "Buff Buoy sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Alex_Beach",
+            "FromFile": "assets/sprites/buff_beach.png"
+        },
+        {
+            "LogName": "Buoy portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Elliott",
+            "FromFile": "assets/portraits/buoy_portrait.png"
+        },
+        {
+            "LogName": "Buoy portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Elliott_Beach",
+            "FromFile": "assets/portraits/buoy_beach.png"
+        },
+        {
+            "LogName": "Buoy sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Elliott",
+            "FromFile": "assets/sprites/buoy_sprite.png"
+        },
+        {
+            "LogName": "Buoy sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Elliott_Beach",
+            "FromFile": "assets/sprites/buoy_beach.png"
+        },
+        {
+            "LogName": "Gil portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pierre",
+            "FromFile": "assets/portraits/gil_portrait.png"
+        },
+        {
+            "LogName": "Gil portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Pierre_Beach",
+            "FromFile": "assets/portraits/gil_beach.png"
+        },
+        {
+            "LogName": "Gil sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Pierre",
+            "FromFile": "assets/sprites/gil_sprite.png"
+        },
+        {
+            "LogName": "Gil sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Pierre_Beach",
+            "FromFile": "assets/sprites/gil_beach.png"
+        },
+        {
+            "LogName": "Paul portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Maru",
+            "FromFile": "assets/portraits/paul_portrait.png"
+        },
+        {
+            "LogName": "Paul portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Maru_Beach",
+            "FromFile": "assets/portraits/paul_beach.png"
+        },
+        {
+            "LogName": "Paul portrait hospital",
+            "Action": "EditImage",
+            "Target": "Portraits/Maru_Hospital",
+            "FromFile": "assets/portraits/paul_portrait.png"
+        },
+        {
+            "LogName": "Paul sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/sprites/paul_sprite.png"
+        },
+        {
+            "LogName": "Paul sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Maru_Beach",
+            "FromFile": "assets/sprites/paul_beach.png"
+        },
+        {
+            "LogName": "Paul sprite hospital",
+            "Action": "EditImage",
+            "Target": "Characters/Maru_Hospital",
+            "FromFile": "assets/sprites/paul_hospital.png"
+        },
+        {
+            "LogName": "Oscar portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Marnie",
+            "FromFile": "assets/portraits/oscar_portrait.png"
+        },
+        {
+            "LogName": "Oscar portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Marnie_Beach",
+            "FromFile": "assets/portraits/oscar_beach.png"
+        },
+        {
+            "LogName": "Oscar sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/sprites/oscar_sprite.png"
+        },
+        {
+            "LogName": "Oscar sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Marnie_Beach",
+            "FromFile": "assets/sprites/oscar_beach.png"
+        },
+        {
+            "LogName": "nintendad portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Linus",
+            "FromFile": "assets/portraits/nintendad_portrait.png"
+        },
+        {
+            "LogName": "nintendad sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Linus",
+            "FromFile": "assets/sprites/nintendad_sprite.png"
+        },
+        {
+            "LogName": "bababooey portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Demetrius",
+            "FromFile": "assets/portraits/bababooey_portrait.png"
+        },
+        {
+            "LogName": "bababooey sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius",
+            "FromFile": "assets/sprites/bababooey_sprite.png"
+        },
+        {
+            "LogName": "bababooey sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius_Beach",
+            "FromFile": "assets/sprites/bababooey_beach.png"
+        },
+        {
+            "LogName": "tiny planet explorer portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Wizard",
+            "FromFile": "assets/portraits/explorer_portrait.png"
+        },
+        {
+            "LogName": "tiny planet explorer sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/sprites/explorer_sprite.png"
+        },
+        {
+            "LogName": "Fuzzwald potrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Morris",
+            "FromFile": "assets/portraits/fuzzwald_portrait.png"
+        },
+        {
+            "LogName": "Fuzzwald sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Morris",
+            "FromFile": "assets/sprites/fuzzwald_sprite.png"
+        },
+        {
+            "LogName": "Fuzzwald expanded portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Morris",
+            "FromFile": "assets/portraits/fuzzwald_portrait.png",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        {
+            "LogName": "Fuzzwald expanded sprite",
+            "Action": "EditImage",
+            "Target": "Characters/MorrisTod",
+            "FromFile": "assets/sprites/fuzzwald_sprite.png",
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        }
+    ]
+}

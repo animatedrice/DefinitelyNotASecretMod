@@ -1,17 +1,22 @@
 {
     "Changes": [
-        //DOG SHOP
+        {
+            "LogName": "nintendad tent",
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/mapPatches/Mountain_tent.tbin",
+            "ToArea": {
+                "X": 26,
+                "Y": 0,
+                "Width": 8,
+                "Height": 8
+            }
+        },
         {
             "LogName": "DogShop",
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "FromFile": "Assets/mapPatches/DogShop.tbin",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 7,
-                "Height": 9
-            },
             "ToArea": {
                 "X": 13,
                 "Y": 0,
@@ -19,23 +24,6 @@
                 "Height": 9
             }
         },
-        {
-            "LogName": "Dogkeeper night",
-            "Action": "EditMap",
-            "Target": "Maps/Beach",
-            "MapProperties": {
-                "NightTiles": "Front 16 6 5 Front 16 5 6"
-            }
-        },
-        { //add message
-            "Action": "EditData",
-            "Target": "Strings/StringsFromMaps",
-            "Entries": {
-                "DogShopKeeper": "Ramen shop - Does not actually sell ramen",
-                "OscarHotel": "oscar's hotel for fantastical creatures"
-            }
-        },
-        //MARNIE --> needs a new save file to not spawn bushes
         {
             "LogName": "Marnie",
             "Action": "EditMap",
@@ -49,7 +37,6 @@
             },
             "Patchmode": "Replace"
         },
-        //Beach map lighthouse
         {
             "LogName": "Lighthouse",
             "Action": "EditMap",
@@ -107,13 +94,53 @@
             }
         },
         {
-            "LogName": "Lighthouse light",
+            "LogName": "nintentent light",
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapProperties": {
+                "NightTiles": "Buildings 28 7 35 Buildings 28 6 29",
+                "Light": "28 7 4 28 6 4"
+            }
+        },
+        {
+            "LogName": "Beach light",
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "MapProperties": {
-                "NightTiles": "AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
-                "Light": "47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
+                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             }
+        },
+        {
+            "LogName": "Dogkeeper",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": {"X": 15,"Y": 6},
+                    "SetIndex": "42"
+                },
+                {
+                    "Layer": "Buildings",
+                    "Position": {"X": 16,"Y": 6},
+                    "SetIndex": "43"
+                },
+                {
+                    "Layer": "Buildings",
+                    "Position": {"X": 15,"Y": 7},
+                    "SetIndex": "50"
+                },
+                {
+                    "Layer": "Buildings",
+                    "Position": {"X": 16,"Y": 7},
+                    "SetIndex": "51"
+                }               
+            ],
+            "When": {
+                "Time": "{{Range:1900,2600}}"
+            },
+            "Update": "OnTimeChange"
         },
         {
             "LogName": "Lighthouse light Jellies",

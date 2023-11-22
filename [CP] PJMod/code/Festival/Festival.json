@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        { //change soup to pie
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Event.cs.1857": "You added {0} to the pie."
+            }
+        },
+        { // Add festival data
+            "Action": "Load",
+            "Target": "Data/Festivals/Spring28",
+            "FromFile": "code/Festival/spring28.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/FestivalDates",
+            "Entries": {
+                "spring28": "Sweet Potato Palooza"
+            }
+        },
+        { // Add festival to the list
+            "Action": "EditData",
+            "Target": "Data/Festivals/Spring28",
+            "Entries": {
+                "name": "Sweet Potato Palooza"
+            }
+        },
+        { // Load festival map
+            "Action": "Load",
+            "Target": "Maps/Town-SweetPotatoPalooza",
+            "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tbin"
+        },
+        { //event with meteor sound --> Meteorite (sound ID)
+            "LogName": "Sweet potat crash",
+            "Action": "EditData",
+            "Target": "data/events/FarmHouse",
+            "Entries": {
+                "2345678/t 600 620": "continue / 1000 -1000/ farmer 13 23 2/pause 1000/playSound Meteorite/pause 300/message \"Sounds like something crashed into town..\" /pause 400/end"
+            },
+            "When": {
+                "Season": "Spring",
+                "Day": 26
+            }
+        },
+        //Sweet potat town crash
+        {
+            "LogName": "Sweet potat appearance",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/MapPatches/Town-Potat.tbin",
+            "ToArea": {
+                "X": 27,
+                "Y": 63,
+                "Width": 4,
+                "Height": 5
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "HasSeenEvent": "2345678"
+            }
+        }
+    ]
+}

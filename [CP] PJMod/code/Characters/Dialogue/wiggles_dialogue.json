@@ -1,5 +1,13 @@
 {
   "Changes": [
+    { // WIGGLES DIALOGUE MARRIED
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Dobson0": "I can't believe I am about to be married!$h",
+        "Dobson1": "I hope I don't get cold feet"
+      }
+    },
     {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Dobson",

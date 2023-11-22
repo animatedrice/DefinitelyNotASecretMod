@@ -1,0 +1,14 @@
+[
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "jsons/crops.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath":"jsons/craftables.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath":"jsons/hats.json"
+    }
+]

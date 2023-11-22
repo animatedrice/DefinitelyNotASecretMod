@@ -1,9 +1,0 @@
-{
-  "Name": "Fuji hat",
-  "Description": "Reminds you of the cutest cat.",
-  "CanPurchase": true,
-  "PurchasePrice": 1000,
-  "ShowHair": false,
-  "IgnoreHairstyleOffset": true,
-  "PurchaseRequirements": ["n MouseRepaired"]
-}

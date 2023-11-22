@@ -1,0 +1,16 @@
+[
+    {
+        "$ItemType": "Hat",
+        "ID": "BuoyHat",
+        "Texture": "assets/BuoyHat.png",
+        "HairStyle": "Obscured",
+        "IgnoreHairstyleOffset": true
+    },
+    {
+        "$ItemType": "Hat",
+        "ID": "FujiHat",
+        "Texture": "assets/FujiHat.png",
+        "HairStyle": "Obscured",
+        "IgnoreHairstyleOffset": true
+    }
+]
