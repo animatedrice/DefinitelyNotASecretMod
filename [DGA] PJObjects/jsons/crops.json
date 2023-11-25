@@ -13,7 +13,7 @@
         "Category": "Vegetable",
         "Texture": "assets/Potat.png:0",
         "Edibility": 2,
-        "SellPrice": 80,
+        "SellPrice": 100,
         "ForcePriceOnAllInstances": true,
         "UniversalGiftTaste": 20,
         "ContextTags": [
@@ -91,6 +91,7 @@
             {
                 "MininumHarvestedQuantity": 15,
                 "MaximumHarvestedQuantity": 21,
+                "ExtraQuantityChance":0.2,
                 "Item": [
                     {
                         "Weight": 1,

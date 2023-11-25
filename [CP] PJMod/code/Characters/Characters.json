@@ -13,12 +13,6 @@
             "FromFile": "assets/sprites/wiggles_sprite.png"
         },
         {
-            "LogName": "Wiggles schedule",
-            "Action": "Load",
-            "Target": "Characters/schedules/Dobson",
-            "FromFile": "code/Characters/schedule.json"
-        },
-        {
             "LogName": "Vincent portrait",
             "Action": "EditImage",
             "Target": "Portraits/Vincent",

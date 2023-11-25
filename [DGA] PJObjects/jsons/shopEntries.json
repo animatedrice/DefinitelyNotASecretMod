@@ -1,0 +1,74 @@
+[
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/PotatSeeds"
+        },
+        "ShopId": "Festival.spring28",
+        "Cost": 60
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Poster_ghost"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Poster_space"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Poster_forest"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Poster_buoy"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Poster_sea"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/PJCandle"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/LullabyCube"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 1500
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "Name": "PJMod",
+    "Author": "SweetPotats",
+    "Version": "1.0.0",
+    "Description": "Adds custom shops to the PJ mod",
+    "UniqueID": "SweetPotats.PJShop",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Cherry.ShopTileFramework"
+    },
+    "Dependencies": [
+      {
+        "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+        "IsRequired": false
+      }
+    ]
+  }

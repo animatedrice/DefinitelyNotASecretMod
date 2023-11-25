@@ -10,5 +10,13 @@
     {
         "$ItemType": "ContentIndex",
         "FilePath":"jsons/hats.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath":"jsons/furniture.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath":"jsons/shopEntries.json"
     }
 ]

@@ -1,0 +1,19 @@
+{
+    "Shops": [
+        {
+            "ShopName": "PJShop",
+            "PortraitPath": "assets/PJ_Portrait.png",
+            "Quote": "PJ spends great lengths of time carefully crafting his products with love and imagination.",
+            "MaxNumItemsSoldInStore": 5,
+            "ItemStocks": [
+                {
+                    "ItemType": "Furniture",
+                    "ItemNames": [
+                        null
+                    ],
+                    "StockPrice": 1500
+                }
+            ]
+        }
+    ]
+}

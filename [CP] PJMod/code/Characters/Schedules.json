@@ -1,0 +1,67 @@
+{
+  "Changes": [
+    { //added wiggles bed
+      "LogName": "Wiggles schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Dobson",
+      "Entries": {
+        "Mon": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+        "Tue": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+        "Wed": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+        "Thu": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+        "Fri": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+        "Sat": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+        "Sun": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep"
+      }
+    },
+    { //changed bed location, and marnie standing locations (when she stares into the microwave)
+      "LogName": "Oscar schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Marnie",
+      "Entries": {
+        "rain": "GOTO spring",
+        "winter_18": "900 AnimalShop 11 5 0 \"Strings\\schedules\\Marnie:winter_18.000\"/1040 Hospital 13 14 3 \"Strings\\schedules\\Marnie:winter_18.001\"/1330 Hospital 2 7 1 \"Strings\\schedules\\Marnie:winter_18.002\"/1610 AnimalShop 32 15 0/2100 AnimalShop 14 5 1 marnie_sleep",
+        "winter_16": "830 AnimalShop 11 5 0/850 AnimalShop 12 14 2/1600 Beach 37 31 0 \"Strings\\schedules\\Marnie:winter_16.000\"/2340 AnimalShop 14 5 1 marnie_sleep",
+        "fall_18": "900 AnimalShop 11 5 0 /1030 Hospital 12 14 0/1330 Hospital 4 6 1 \"Strings\\schedules\\Marnie:fall_18.000\"/1600 AnimalShop 32 15 0/2100 AnimalShop 14 5 1 marnie_sleep",
+        "Tue": "900 AnimalShop 11 5 0 /1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 SeedShop 25 15 3 \"Strings\\schedules\\Marnie:Tue.000\"/1810 AnimalShop 32 15 0/2100 AnimalShop 14 5 1 marnie_sleep",
+        "Mon": "810 SeedShop 11 20 0/1200 AnimalShop 32 15 0/2100 AnimalShop 14 5 1 marnie_sleep",
+        "Wed": "GOTO Sat",
+        "Fri": "830 AnimalShop 11 5 0 /850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 8 22 1 marnie_drink/2300 AnimalShop 14 5 1 marnie_sleep",
+        "Sat": "830 AnimalShop 11 5 0 /850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2300 AnimalShop 14 5 1 marnie_sleep",
+        "Sun": "GOTO Sat",
+        "spring": "830 AnimalShop 11 5 0 /850 AnimalShop 12 14 2/1600 AnimalShop 32 15 0/1800 AnimalShop 17 8 1/2100 AnimalShop 14 5 1 marnie_sleep"
+      }
+    },
+    { //changed bed, and jas standing locations: TO DO friendship sam?
+      "LogName": "Oliver schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jas",
+      "Entries": {
+        "9": "NOT friendship Sam 6 Penny 6/GOTO spring",
+        "23": "NOT friendship Sam 6 Penny 6/GOTO spring",
+        "rain": "900 AnimalShop 2 5 0/1100 AnimalShop 15 16 2 square_3_3/1500 AnimalShop 4 16 2 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep",
+        "summer": "900 AnimalShop 2 5 0/1100 Forest 92 20 1/1320 Beach 40 23 jas_jumprope \"Strings\\schedules\\Jas:summer.000\"/1600 AnimalShop 17 14 3 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep",
+        "winter_15": "900 AnimalShop 2 5 0/1100 Forest 38 10 2 jas_jumprope \"Strings\\schedules\\Jas:winter_15.000\"/1450 Beach 19 24 2 \"Strings\\schedules\\Jas:winter_15.001\"/2300 AnimalShop 6 5 1 jas_sleep",
+        "winter_18": "900 AnimalShop 2 5 0 \"Strings\\schedules\\Jas:winter_18.000\"/1030 Hospital 12 14 0/1330 Hospital 4 6 1 \"Strings\\schedules\\Jas:winter_18.001\"/1600 AnimalShop 11 5 3 jas_read/2000 AnimalShop 6 5 1 jas_sleep",
+        "Tue": "900 ArchaeologyHouse 19 10 3 jas_read/1400 Town 85 103 2/1620 Town 16 91 0/1750 AnimalShop 6 5 1 jas_sleep",
+        "Wed": "GOTO Tue",
+        "Fri": "GOTO Tue",
+        "Sat": "1000 Town 31 89 1/1200 Town 24 12 jas_jumprope/1700 Town 28 90 1/2000 AnimalShop 6 5 1 jas_sleep",
+        "spring": "900 AnimalShop 2 5 0/1100 Forest 38 10 2 jas_jumprope \"Strings\\schedules\\Jas:spring.000\"/1500 AnimalShop 17 14 3 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep"
+      }
+    },
+    {
+      "LogName": "Oliver schedule",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Jas",
+      "Entries": {
+        "winter_18.000": "I have to visit the doctor today, but I'm not afraid!",
+        "winter_15.001": "I wish I was old enough to see the mermaid show...$s",
+        "winter_18.001": "Can you show me how this tool works, Doctor Harvey?",
+        "summer.000": "1... 2... 3... 4... Here comes a wave! *giggle*$h",
+        "winter_15.000": "1... 2... 3... 4... Oh no! I messed up again.",
+        "spring.000": "1... 2... 3... 4... Oh no! I messed up again."
+      }
+    }
+  ]
+}

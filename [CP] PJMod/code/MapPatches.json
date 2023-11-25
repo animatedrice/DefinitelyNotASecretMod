@@ -1,6 +1,49 @@
 {
     "Changes": [
         {
+            "LogName": "PJ art shop",
+            "Action": "EditMap",
+            "Target": "Maps/Hospital",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action ": null,
+                        "Shop": "PJShop"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action ": null,
+                        "Shop": "PJShop"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Oscars hotel",
+            "Action": "EditMap", 
+            "Target": "Maps/AnimalShop",
+            "FromFile": "assets/mapPatches/OscarsHotel.tbin",
+            "MapProperties": {
+                "AmbientLight": "95 95 95",
+                "DayTiles": "Front 4 1 256 Front 4 2 288 Front 10 1 256 Front 10 2 288 Front 22 1 256 Front 22 2 288 Front 24 11 256 Front 24 12 288 Front 31 1 256 Front 31 2 288 Front 32 11 256 Front 32 12 288",
+                "Doors": "6 12 1 120 13 12 1 120 21 13 1 120 27 13 1 120",
+                "Light": "5 1 4 5 2 4 10 1 4 10 2 4 22 1 4 22 2 4 24 11 4 24 12 4 4 1 4 6 1 4 9 1 4 11 1 4 21 1 4 23 1 4 30 1 4 32 1 4 23 11 4 25 11 4 32 11 4 11 3 4 14 14 4 29 3 4",
+                "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 10 1 1253 Front 10 2 1285 Front 22 1 1253 Front 22 2 1285 Front 24 11 1253 Front 24 12 1285 Front 31 1 1253 Front 31 2 1285 Front 32 11 1253 Front 32 12 1285 Front 1 1 827 Front 6 1 827 Front 9 1 827 Front 14 1 827 Front 20 1 827 Front 23 1 827 Front 28 1 827 Front 32 1 827 Front 23 11 827 Front 25 11 827 Front 32 11 827 Front 11 3 809 Front 14 14 809 Front 29 3 809 Front 3 3 1347 Front 20 13 1347 Back 4 5 607 Back 4 4 639 Back 22 5 638 Back 22 4 606 Back 31 5 60 Back 31 4 60 Back 32 15 262 Back 24 15 231 Back 24 14 263"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
             "LogName": "nintendad tent",
             "Action": "EditMap",
             "Target": "Maps/Mountain",
@@ -118,24 +161,36 @@
             "MapTiles": [
                 {
                     "Layer": "Buildings",
-                    "Position": {"X": 15,"Y": 6},
+                    "Position": {
+                        "X": 15,
+                        "Y": 6
+                    },
                     "SetIndex": "42"
                 },
                 {
                     "Layer": "Buildings",
-                    "Position": {"X": 16,"Y": 6},
+                    "Position": {
+                        "X": 16,
+                        "Y": 6
+                    },
                     "SetIndex": "43"
                 },
                 {
                     "Layer": "Buildings",
-                    "Position": {"X": 15,"Y": 7},
+                    "Position": {
+                        "X": 15,
+                        "Y": 7
+                    },
                     "SetIndex": "50"
                 },
                 {
                     "Layer": "Buildings",
-                    "Position": {"X": 16,"Y": 7},
+                    "Position": {
+                        "X": 16,
+                        "Y": 7
+                    },
                     "SetIndex": "51"
-                }               
+                }
             ],
             "When": {
                 "Time": "{{Range:1900,2600}}"

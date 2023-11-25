@@ -4,7 +4,6 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                //format: reaction love/item ids/like/ids/dislike/ids/hate/ids/reaction/ids
                 "Harvey": "Thanks for the bits!/614 -6 3000 408 206 224/That's such a nice gift. Thank you!/216 398 223/I'd rather be bonked than getting this../395/That's going to be an IP-ban./303 346 348/I guess I'll accept this for the halibut./708/",
                 "Pierre": "love//like//You are just like my ex-wife…//I would rather go back to jail than have this.//neutral//",
                 "Gus": "Bobby baby bobby bubbi!!!/618 346 216 198 91 904 207 611 234/Bobby baby bobby bubbi!!/539 540 132 284 597/Bobby baby bobby ew-ie/570 410 119 700 800/what did I bobby baby do to deserve this?/132 278 787/Bobby baby bobby bubbi!/767/",
