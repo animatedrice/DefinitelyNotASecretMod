@@ -1,34 +1,46 @@
 {
     "Changes": [
-        {
+        { //To do: night tiles, lights
             "LogName": "PJ art shop",
             "Action": "EditMap",
             "Target": "Maps/Hospital",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 6,
-                        "Y": 16
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action ": null,
-                        "Shop": "PJShop"
-                    }
-                },
-                {
-                    "Position": {
-                        "X": 7,
-                        "Y": 16
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action ": null,
-                        "Shop": "PJShop"
-                    }
-                }
-            ]
+            "FromFile": "assets/mapPatches/PJShop.tbin"
         },
+        {
+            "LogName": "PJ room",
+            "Action": "EditMap",
+            "Target":"Maps/HarveyRoom",
+            "FromFile": "assets/mapPatches/PJRoom.tbin"
+        },
+        // {
+        //     "LogName": "PJ art shop",
+        //     "Action": "EditMap",
+        //     "Target": "Maps/Hospital",
+        //     "MapTiles": [
+        //         {
+        //             "Position": {
+        //                 "X": 6,
+        //                 "Y": 16
+        //             },
+        //             "Layer": "Buildings",
+        //             "SetProperties": {
+        //                 "Action ": null,
+        //                 "Shop": "PJShop"
+        //             }
+        //         },
+        //         {
+        //             "Position": {
+        //                 "X": 7,
+        //                 "Y": 16
+        //             },
+        //             "Layer": "Buildings",
+        //             "SetProperties": {
+        //                 "Action ": null,
+        //                 "Shop": "PJShop"
+        //             }
+        //         }
+        //     ]
+        // },
         {
             "LogName": "Oscars hotel",
             "Action": "EditMap", 
