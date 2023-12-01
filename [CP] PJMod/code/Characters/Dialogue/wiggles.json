@@ -1,6 +1,6 @@
 {
   "Changes": [
-    { // WIGGLES DIALOGUE MARRIED
+    {
       "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "Entries": {

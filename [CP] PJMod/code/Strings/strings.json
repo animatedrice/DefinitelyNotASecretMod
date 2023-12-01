@@ -5,6 +5,19 @@
             "Target": "Strings/StringsFromMaps",
             "Entries": {
                 "DogShopKeeper": "Ramen shop - Does not actually sell ramen",
+                //Festival strings
+                "Town-Potat.1": "The first batch of a giant sweet potato pie. It smells delicious.",
+                "Town-Potat.2": "",
+                "Town-Potat.3": "",
+                "Town-Potat.4": "",
+                "Town-Potat.5": "",
+                "Town-Potat.6": "",
+                "Town-Potat.7": "",
+                "Town-Potat.8": "",
+                "Town-Potat.9": "",
+                "Town-Potat.10": "",
+                "Town-Potat.11": "",
+                //pj shop strings
                 "PJShop1": "Fuji looks very comfortable on her bed.",
                 "PJShop2": "It's a poster made by PJ.",
                 "PJShop3": "The shelves are stacked with art supplies.",
@@ -16,6 +29,7 @@
                 "PJShop9": "PJ's streaming setup. PJ must be pretty serious about streaming.",
                 "PJShop10": "101 Jonks for Jonkers.",
                 "PJShop11": "It's a poster of a robot in a spotlight.",
+                //oscar hotel strings
                 "OscarHotel": "Oscar's hotel for fantastical creatures",
                 "OscarHotel1": "Ding! DING!",
                 "OscarHotel2": "Looks like the guest's mail and room keys are stored here.",
@@ -37,7 +51,14 @@
                 "OscarHotel18": "Clowning for dummies.",
                 "OscarHotel19": "There's a clown's nose stuffed in the drawer.",
                 "OscarHotel20": "It hasn't been tuned.",
-                "OscarHotel21": "There's one message from Red."
+                "OscarHotel21": "There's one message from Red.",
+                //changed strings for shop names etc
+                "Town.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
+                "Town.2": "Sweet Potato Mart Open 9:00 AM to 5:00 PM Closed Wednesdays",
+                "Town-Christmas.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
+                "Town-Halloween.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
+                "Town-EggFestival.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
+                "Town-Fair.3": "KickthePJ shop - Hours 9:00 AM - 3:00 PM"
             }
         },
         {
@@ -46,10 +67,14 @@
             "Entries": {
                 "SamHouse_Sam_Trash": "Looks like JP cleans his trash bin regularly.",
                 "AnimalShop_Marnie_Absent": "Closed for the day.\n\n-Oscar",
+                "Mines_Infested": "This area is infested...",
+                "Mines_Overrun": "This area is overrun with monsters.",
                 "Mines_Fallen": "You fell {0} levels.",
                 "Mines_FallenFar": "You fell {0} levels. Ouch!",
                 "Mines_ShaftJumpIn": "Jump In",
                 "Mines_Shaft": "If you saw a hole in a cave, would you jump into it?",
+                "Mines_LeaveMine": "Eat a ladder snack.",
+                "Mines_DoNothing": "Look for the missed chest.",
                 "Railroad_TrainComing": "The forever train is passing through Stardew Valley",
                 "Town_SeedShopSign": "- Sweet Potato Mart -\nNow open 7 days a week From 9am-5pm!",
                 "Town_PickupTruck": "It's just the back of King Bozo's old pickup truck...",
@@ -117,7 +142,7 @@
                 "ResourceCollectionQuest.cs.13683": "Thank you!$h",
                 "ResourceCollectionQuest.cs.13688": "\n- You can keep the ores after Clunt inspects them.",
                 "SlayMonsterQuest.cs.13747": "An invasive crab species is living in the local mine, threatening the native wildlife! These creatures are known for disguising themselves as stones. I'll pay someone to slay {0} of them.  -Bababooey",
-                "SlayMonsterQuest.cs.13752": "The monsters known as {0} are throwing the elemental balance into disarray. I would like an adventurer to enter the mines and slay {1} of these {2}.  -Tiny Planet Explorer",         
+                "SlayMonsterQuest.cs.13752": "The monsters known as {0} are throwing the elemental balance into disarray. I would like an adventurer to enter the mines and slay {1} of these {2}.  -Tiny Planet Explorer",
                 "WeedingQuest.cs.13816": "Hiring someone to weed the entire town. Once all the weeds are gone, report to King Bozo for payment. Thanks!",
                 "WeedingQuest.cs.13824": "Talk to King Bozo",
                 "TriedToMarryButKrobus": "You can't propose to someone while living with a housemate.",
@@ -134,9 +159,6 @@
                 "Morris_Greeting": "Welcome to JojaMart! How are you doing today?#$b#I don't believe we've met. I'm Fuzzwald, Joja Customer Satisfaction Representative.#$b#When you decide you want to become a Joja Member, I'll be delighted to help make your transition a joyous experience.",
                 "Morris_WeekendGreeting_MembershipAvailable": "Welcome to JojaMart! How is your weekend going?#$b#Membership is now available! With a Joja Membership, you'll be able to make improvements in the community with the help of our dedicated personnel... for a fee, of course.#$b#Oh, and another thing... King Bozo promised us that if anyone else joined up, he'd let us turn that old community center into a Joja Warehouse. Isn't that wonderful?#$q -1 -1#Membership costs {0}g. Well, would you like to join us?#$r -1 -1 Yes#Yes.#$r -1 -1 No#No.",
                 "Morris_FirstGreeting_MembershipAvailable": "Welcome to JojaMart! How are you doing today?#$b#Membership is now available! With a Joja Membership, you'll be able to make improvements in the community with the help of our dedicated personnel... for a fee, of course.#$b#Oh, and another thing... King Bozo promised us that if anyone else joined up, he'd let us turn that old community center into a Joja Warehouse. Isn't that wonderful?#$q -1 -1#Membership costs {0}g. Well, would you like to join us?#$r -1 -1 Yes#Yes.#$r -1 -1 No#No.",
-                "Morris_WeekendGreeting_SecondPlayer": "Welcome to JojaMart! How is your weekend going?#$b#Hmm... Our records show that you live on a farm with some other folks... I'm sorry, but we can only sell a membership to the owner of your residence.",
-                "Morris_FirstGreeting_SecondPlayer": "Welcome to JojaMart! How are you doing today?#$b#Hmm... Our records show that you live on a farm with some other folks... I'm sorry, but we can only sell a membership to the owner of your residence.",
-                "Morris_StillProcessingOrder": "We're currently processing your last Community Development order. Please come back after the work is complete.",          
                 "PurchasedItem_1_QualityHigh": "Hey, {0}.#$b# So I stopped by Gil's the other day and bought {1} {2}. It was the first time I've seen one of those there in a while... #$b#I cooked it up for dinner last night... It filled the house with a {3} smell.. It was a hit!$h#$b#I'm glad Gil's stock is starting to expand again.#$e# Anyways...",
                 "PurchasedItem_1_QualityLow": "Hey, {0}.#$b# So I stopped by Gil's the other day and bought {1} {2}. It was the first time I've seen one of those there in a while... #$b#I cooked it up for dinner last night... It filled the house with a {3} odor. I don't even want to know where Gil found that thing.$s#$e# Anyways...",
                 "PurchasedItem_2_QualityHigh": "Hi... did you sell {1} {2} to the Sweet Potato Mart the other day? I think I bought it...#$e#It was pretty high-quality stuff. I'm impressed.",

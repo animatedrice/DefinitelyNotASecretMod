@@ -20,6 +20,24 @@
                 "Wizard": "",
                 "Dobson": "Someone could say I love this gift, but love is overrated./224/This is almost as good as a plate of hot fresh spaghett./-12/I once got a gift like this and let's just say no one ever heard from them again.//Are you mocking me? I need money not this garbagio!//What am I supposed to do with that, heh?//"
             }
-        }
+        },
+        { // WIGGLES BIRTHDAY GIFTTASTES
+            "Action": "EditData",
+            "Target": "Data/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4274": "This birthday gift is almost as good as having walls!$h",
+                "NPC.cs.4275": "his birthday gift is almost as good as having walls!$h",
+                "NPC.cs.4276": "Maybe I can sell this to make some money.$h/ Maybe I can sell this to make some money.$h",
+                "NPC.cs.4277": "his birthday gift is almost as good as having walls!$h",
+                "NPC.cs.4278": "Are you kidding me? You give me this shit on my birthday?$s/Are you kidding me? You give me this shit on my birthday?$s",
+                "NPC.cs.4279": "Are you kidding me? You give me this shit on my birthday?$s/Are you kidding me? You give me this shit on my birthday?$s",
+                "NPC.cs.4280": "Maybe I can sell this to make some money.",
+                "NPC.cs.4281": "Maybe I can sell this to make some money./Maybe I can sell this to make some money."
+            },
+            "When": {
+                "Season": "summer",
+                "Day": "7"
+            }
+        },
     ]
 }
