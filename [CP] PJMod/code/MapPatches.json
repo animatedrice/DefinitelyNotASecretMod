@@ -4,56 +4,56 @@
             "LogName": "PJ art shop",
             "Action": "EditMap",
             "Target": "Maps/Hospital",
-            "FromFile": "assets/mapPatches/PJShop.tbin"
+            "FromFile": "assets/mapPatches/PJShop.tbin",
+            "MapProperties": {
+                "NightTiles": "Front 14 1 1253 Front 14 2 1254 Front 21 1 1253 Front 21 2 1254 Front 7 7 1345",
+                "DayTiles": "Front 14 1 256 Front 14 2 288 Front 21 1 256 Front 21 2 288",
+                "Warp": "10 20 Town 36 56 10 1 HarveyRoom 10 12 9 1 HarveyRoom 10 12"
+            }
+        },
+        {
+            "LogName": "Town fix",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 48
+                    },
+                    "Layer": "AlwaysFront",
+                    "SetTileSheet": "Town",
+                    "SetIndex": "286"
+                },
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 49
+                    },
+                    "Layer": "AlwaysFront",
+                    "SetTileSheet": "Town",
+                    "SetIndex": "318"
+                }
+            ]
         },
         {
             "LogName": "PJ room",
             "Action": "EditMap",
-            "Target":"Maps/HarveyRoom",
-            "FromFile": "assets/mapPatches/PJRoom.tbin"
-        },
-        // {
-        //     "LogName": "PJ art shop",
-        //     "Action": "EditMap",
-        //     "Target": "Maps/Hospital",
-        //     "MapTiles": [
-        //         {
-        //             "Position": {
-        //                 "X": 6,
-        //                 "Y": 16
-        //             },
-        //             "Layer": "Buildings",
-        //             "SetProperties": {
-        //                 "Action ": null,
-        //                 "Shop": "PJShop"
-        //             }
-        //         },
-        //         {
-        //             "Position": {
-        //                 "X": 7,
-        //                 "Y": 16
-        //             },
-        //             "Layer": "Buildings",
-        //             "SetProperties": {
-        //                 "Action ": null,
-        //                 "Shop": "PJShop"
-        //             }
-        //         }
-        //     ]
-        // },
-        {
-            "LogName": "Oscars hotel",
-            "Action": "EditMap", 
-            "Target": "Maps/AnimalShop",
-            "FromFile": "assets/mapPatches/OscarsHotel.tbin",
+            "Target": "Maps/HarveyRoom",
+            "FromFile": "assets/mapPatches/PJRoom.tbin",
             "MapProperties": {
-                "AmbientLight": "95 95 95",
-                "DayTiles": "Front 4 1 256 Front 4 2 288 Front 10 1 256 Front 10 2 288 Front 22 1 256 Front 22 2 288 Front 24 11 256 Front 24 12 288 Front 31 1 256 Front 31 2 288 Front 32 11 256 Front 32 12 288",
-                "Doors": "6 12 1 120 13 12 1 120 21 13 1 120 27 13 1 120",
-                "Light": "5 1 4 5 2 4 10 1 4 10 2 4 22 1 4 22 2 4 24 11 4 24 12 4 4 1 4 6 1 4 9 1 4 11 1 4 21 1 4 23 1 4 30 1 4 32 1 4 23 11 4 25 11 4 32 11 4 11 3 4 14 14 4 29 3 4",
-                "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 10 1 1253 Front 10 2 1285 Front 22 1 1253 Front 22 2 1285 Front 24 11 1253 Front 24 12 1285 Front 31 1 1253 Front 31 2 1285 Front 32 11 1253 Front 32 12 1285 Front 1 1 827 Front 6 1 827 Front 9 1 827 Front 14 1 827 Front 20 1 827 Front 23 1 827 Front 28 1 827 Front 32 1 827 Front 23 11 827 Front 25 11 827 Front 32 11 827 Front 11 3 809 Front 14 14 809 Front 29 3 809 Front 3 3 1347 Front 20 13 1347 Back 4 5 607 Back 4 4 639 Back 22 5 638 Back 22 4 606 Back 31 5 60 Back 31 4 60 Back 32 15 262 Back 24 15 231 Back 24 14 263"
-            },
-            "Update": "OnLocationChange"
+                "NightTiles": "Front 5 2 1253 Front 5 3 1285 Front 9 2 1253 Front 9 3 1285",
+                "DayTiles": "Front 5 2 256 Front 5 3 288 Front 9 2 256 Front 9 3 288",
+                "Warp": "10 13 Hospital 10 2"
+            }
+        },
+        {
+            "LogName": "Warp tent",
+            "Action": "EditMap",
+            "Target": "Maps/Tent",
+            "MapProperties": {
+                "Warp": "2 6 Mountain 30 7"
+            }
         },
         {
             "LogName": "nintendad tent",
@@ -61,10 +61,34 @@
             "Target": "Maps/Mountain",
             "FromFile": "assets/mapPatches/Mountain_tent.tbin",
             "ToArea": {
-                "X": 26,
-                "Y": 0,
-                "Width": 8,
-                "Height": 8
+                "X": 28,
+                "Y": 2,
+                "Width": 5,
+                "Height": 7
+            },
+            "PatchMode": "Overlay",
+            "MapProperties": {
+                "NightTiles": "Buildings 29 7 35 Buildings 29 6 29",
+                "Light": "29 7 4 29 6 4",
+                "Warp": "30 6 Tent 2 5 14 41 Town 81 0 15 41 Town 81 0 16 41 Town 81 0 54 4 Mine 18 13 9 -1 Railroad 29 59 10 -1 Railroad 29 59 -1 12 Backwoods 49 14 -1 13 Backwoods 49 14 -1 14 Backwoods 49 14 103 15 Mine 67 17 57 41 Town 90 0 85 41 Town 98 0"
+            }
+        },
+        {
+            "LogName": "Expanded back layer fix",
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapTiles": [
+                {
+                    "Layer": "Back",
+                    "Position": {
+                        "X": 28,
+                        "Y": 8
+                    },
+                    "SetIndex": "655"
+                }
+            ],
+            "When": {
+                "HasMod": "Pathoschild.ContentPatcher"
             }
         },
         {
@@ -77,7 +101,12 @@
                 "Y": 0,
                 "Width": 7,
                 "Height": 9
-            }
+            },
+            "MapProperties": {
+                "DayTiles": "Buildings 15 6 42 Buildings 16 6 43 Buildings 15 7 50 16 7 51",
+                "NightTiles": "Front 13 5 0 Front 18 5 1"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Marnie",
@@ -85,12 +114,12 @@
             "Target": "Maps/Forest",
             "FromFile": "Assets/mapPatches/Forest-Marnie.tbin",
             "ToArea": {
-                "X": 71,
-                "Y": 0,
-                "Width": 34,
-                "Height": 19
+                "X": 81,
+                "Y": 6,
+                "Width": 22,
+                "Height": 10
             },
-            "Patchmode": "Replace"
+            "Patchmode": "Overlay"
         },
         {
             "LogName": "Lighthouse",
@@ -102,6 +131,10 @@
                 "Y": 0,
                 "Width": 13,
                 "Height": 13
+            },
+            "MapProperties": {
+                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             }
         },
         {
@@ -114,6 +147,10 @@
                 "Y": 0,
                 "Width": 10,
                 "Height": 13
+            },
+            "MapProperties": {
+                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             }
         },
         {
@@ -126,6 +163,10 @@
                 "Y": 0,
                 "Width": 13,
                 "Height": 13
+            },
+            "MapProperties": {
+                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             }
         },
         {
@@ -138,6 +179,10 @@
                 "Y": 0,
                 "Width": 13,
                 "Height": 13
+            },
+            "MapProperties": {
+                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
+                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             }
         },
         {
@@ -146,85 +191,6 @@
             "Target": "Maps/ElliottHouse",
             "MapProperties": {
                 "Warp": "3 10 Beach 48 12"
-            }
-        },
-        {
-            "LogName": "nintentent light",
-            "Action": "EditMap",
-            "Target": "Maps/Mountain",
-            "MapProperties": {
-                "NightTiles": "Buildings 28 7 35 Buildings 28 6 29",
-                "Light": "28 7 4 28 6 4"
-            }
-        },
-        {
-            "LogName": "Beach light",
-            "Action": "EditMap",
-            "Target": "Maps/Beach",
-            "MapProperties": {
-                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
-                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
-            }
-        },
-        {
-            "LogName": "Dogkeeper",
-            "Action": "EditMap",
-            "Target": "Maps/Beach",
-            "MapTiles": [
-                {
-                    "Layer": "Buildings",
-                    "Position": {
-                        "X": 15,
-                        "Y": 6
-                    },
-                    "SetIndex": "42"
-                },
-                {
-                    "Layer": "Buildings",
-                    "Position": {
-                        "X": 16,
-                        "Y": 6
-                    },
-                    "SetIndex": "43"
-                },
-                {
-                    "Layer": "Buildings",
-                    "Position": {
-                        "X": 15,
-                        "Y": 7
-                    },
-                    "SetIndex": "50"
-                },
-                {
-                    "Layer": "Buildings",
-                    "Position": {
-                        "X": 16,
-                        "Y": 7
-                    },
-                    "SetIndex": "51"
-                }
-            ],
-            "When": {
-                "Time": "{{Range:1900,2600}}"
-            },
-            "Update": "OnTimeChange"
-        },
-        {
-            "LogName": "Lighthouse light Jellies",
-            "Action": "EditMap",
-            "Target": "Maps/Beach-Jellies",
-            "MapProperties": {
-                "NightTiles": "AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
-                "Light": "47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
-            }
-        },
-        {
-            "LogName": "Lighthouse light Nightmarket",
-            "Action": "EditMap",
-            "Target": "Maps/Beach-Nightmarket",
-            "MapProperties": {
-                "NightTiles": "AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
-                "Light": "47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             }
         }
     ]

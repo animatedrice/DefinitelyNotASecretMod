@@ -1,6 +1,54 @@
 {
     "Changes": [
         {
+            "LogName": "Jill Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Caroline",
+            "FromFile": "assets/portraits/Jill_portrait.png"
+        },
+        {
+            "LogName": "Jill Portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Caroline_Beach",
+            "FromFile": "assets/portraits/Jill_beach.png"
+        },
+        {
+            "LogName": "Jill Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Caroline",
+            "FromFile": "assets/sprites/Jill_sprite.png"
+        },
+        {
+            "LogName": "Jill Sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Caroline_Beach",
+            "FromFile": "assets/sprites/Jill_beach.png"
+        },
+        {
+            "LogName": "JP Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "FromFile": "assets/portraits/JP_portrait.png"
+        },
+        {
+            "LogName": "JP Portrait beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam_Beach",
+            "FromFile": "assets/portraits/JP_beach.png"
+        },
+        {
+            "LogName": "JP Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/sprites/JP_sprite.png"
+        },
+        {
+            "LogName": "JP Sprite beach",
+            "Action": "EditImage",
+            "Target": "Characters/Sam_Beach",
+            "FromFile": "assets/sprites/JP_beach.png"
+        },
+        {
             "LogName": "Wiggles portrait",
             "Action": "Load",
             "Target": "Portraits/Dobson",

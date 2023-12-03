@@ -146,6 +146,25 @@
                 "Height": 112
             }
         },
+        {
+            "LogName": "Store 6",
+            "Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Tilesheets/Store_{{season}}.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 32,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 480,
+                "Y": 128,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+
         // Wizard's Tower
         {
             "LogName": "Wizard",
