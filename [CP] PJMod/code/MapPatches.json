@@ -1,5 +1,22 @@
 {
     "Changes": [
+        {
+            "LogName": "Spaceship",
+            "Action":"EditMap",
+            "Target": "Maps/WizardHouse",
+            "FromFile": "assets/mapPatches/spaceship.tbin"
+        },
+        {
+            "LogName": "Pizzeria",
+            "Action":"EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "assets/mapPatches/pizzeria.tbin",
+            "MapProperties": {
+                "NightTiles": "Front 7 1 1253 Front 7 2 1285 Front 19 1 1253 Front 19 2 1285",
+                "DayTiles": "Front 7 1 256 Front 7 2 288 Front 19 1 256 Front 19 2 288",
+                "Doors": "11 9 1 120 20 9 1 120 3 16 1 120 4 16 1 120 31 16 1 120"
+            }
+        },
         { //To do: night tiles, lights
             "LogName": "PJ art shop",
             "Action": "EditMap",

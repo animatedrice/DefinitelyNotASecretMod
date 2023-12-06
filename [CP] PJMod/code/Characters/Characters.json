@@ -1,28 +1,28 @@
 {
     "Changes": [
         {
-            "LogName": "Jill Portrait",
+            "LogName": "Jil Portrait",
             "Action": "EditImage",
             "Target": "Portraits/Caroline",
-            "FromFile": "assets/portraits/Jill_portrait.png"
+            "FromFile": "assets/portraits/Jil_portrait.png"
         },
         {
-            "LogName": "Jill Portrait beach",
+            "LogName": "Jil Portrait beach",
             "Action": "EditImage",
             "Target": "Portraits/Caroline_Beach",
-            "FromFile": "assets/portraits/Jill_beach.png"
+            "FromFile": "assets/portraits/Jil_beach.png"
         },
         {
-            "LogName": "Jill Sprite",
+            "LogName": "Jll Sprite",
             "Action": "EditImage",
             "Target": "Characters/Caroline",
-            "FromFile": "assets/sprites/Jill_sprite.png"
+            "FromFile": "assets/sprites/Jil_sprite.png"
         },
         {
-            "LogName": "Jill Sprite beach",
+            "LogName": "Jil Sprite beach",
             "Action": "EditImage",
             "Target": "Characters/Caroline_Beach",
-            "FromFile": "assets/sprites/Jill_beach.png"
+            "FromFile": "assets/sprites/Jil_beach.png"
         },
         {
             "LogName": "JP Portrait",

@@ -36,11 +36,22 @@
             "Action": "EditData",
             "Target": "data/events/FarmHouse",
             "Entries": {
-                "2345678/t 600 620": "continue / 1000 -1000/ farmer 13 23 2/pause 1000/playSound Meteorite/pause 300/message \"Sounds like something crashed into town..\" /pause 400/end"
+                "2345678/t 600 800": "continue/-500 -500/farmer 13 23 2/pause 1000/playSound Meteorite/pause 300/message \"Sounds like something crashed into town..\"/pause 400/end"
             },
             "When": {
                 "Season": "Spring",
                 "Day": 26
+            }
+        },
+        { //event looking at sweet potat
+            "LogName": "Sweet potat reaction",
+            "Action": "EditData",
+            "Target": "data/events/Town",
+            "Entries": {
+                "223344/t 600 1500": "continue/-500 -500/farmer 26 55 2 Lewis 31 63 2 Jodi 23 67 1 Haley 27 69 0 Harvey 32 67 3/skippable/pause 800/viewport 28 66/pause 500/move farmer 0 3 2/pause 500//jump farmer/pause 300/emote farmer 16//pause 500/speak Lewis \"What is this?\"/pause 800/end"
+            },
+            "When": {
+                "HasSeenEvent": "2345678"
             }
         },
         //Sweet potat town crash
@@ -48,13 +59,14 @@
             "LogName": "Sweet potat appearance",
             "Action": "EditMap",
             "Target": "Maps/Town",
-            "FromFile": "assets/MapPatches/Town-Potat.tbin",
+            "FromFile": "assets/Festival/Town-Potat.tbin",
             "ToArea": {
                 "X": 27,
-                "Y": 63,
+                "Y": 64,
                 "Width": 4,
                 "Height": 5
             },
+            "Update": "OnLocationChange",
             "PatchMode": "Overlay",
             "When": {
                 "HasSeenEvent": "2345678"

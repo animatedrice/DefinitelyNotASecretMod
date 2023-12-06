@@ -5,6 +5,10 @@
             "Target": "Strings/StringsFromMaps",
             "Entries": {
                 "DogShopKeeper": "Ramen shop - Does not actually sell ramen",
+                //Pizzeria strings
+                "Pizzeria.1": "Oh no, you look fabulous!",
+                "Pizzeria.2": "The channel is broadcasting Sabrina the teenage Witch.",
+                "Pizzeria.3": "It's an Italian recipe book, it's opened on a sweet potato chili recipe.",
                 //Festival strings
                 "Town-Potat.1": "The first batch of a giant sweet potato pie. It smells delicious.",
                 "Town-Potat.2": "",

@@ -12,6 +12,10 @@
     {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "Tanpoponoko.SeasonalOutfits",
+      "IsRequired": false
     }
   ]
 }
