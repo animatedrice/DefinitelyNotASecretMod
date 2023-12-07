@@ -9,7 +9,7 @@
       "Name": "mouse",
       "Value": "repaired",
       "When": {
-        "HasFlag": "MouseRepaired"
+        "HasSeenEvent": "192914"
       }
     }
   ],

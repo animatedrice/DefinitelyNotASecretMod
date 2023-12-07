@@ -36,7 +36,7 @@
             "Action": "EditData",
             "Target": "data/events/FarmHouse",
             "Entries": {
-                "2345678/t 600 800": "continue/-500 -500/farmer 13 23 2/pause 1000/playSound Meteorite/pause 300/message \"Sounds like something crashed into town..\"/pause 400/end"
+                "192911/t 600 800": "continue/-500 -500/farmer 13 23 2/pause 1000/playSound Meteorite/pause 1500/message \"Sounds like something crashed into town..\"/pause 600/end"
             },
             "When": {
                 "Season": "Spring",
@@ -48,10 +48,7 @@
             "Action": "EditData",
             "Target": "data/events/Town",
             "Entries": {
-                "223344/t 600 1500": "continue/-500 -500/farmer 26 55 2 Lewis 31 63 2 Jodi 23 67 1 Haley 27 69 0 Harvey 32 67 3/skippable/pause 800/viewport 28 66/pause 500/move farmer 0 3 2/pause 500//jump farmer/pause 300/emote farmer 16//pause 500/speak Lewis \"What is this?\"/pause 800/end"
-            },
-            "When": {
-                "HasSeenEvent": "2345678"
+                "192912/e 192911/t 600 1500": "echos/-500 -500/farmer 28 58 2 Lewis 30 64 2 Jodi 27 69 0 Vincent 28 70 0 Haley 25 67 1 Harvey 32 67 3 Maru 34 68 3/skippable/animate Haley false true 250 25 25 32 33 33 33 33 33 33 33 33/pause 800/viewport 28 68/pause 800/emote Harvey 16/pause 500/textAboveHead Haley \"*Click click*\"/pause 500/move farmer 0 5 2/pause 300/jump farmer/emote Maru 16/pause 500/emote farmer 16/pause 800/emote Lewis 8/pause 300/textAboveHead Lewis \"What is this?!\"/pause 800/emote Jodi 8/pause 800/textAboveHead Vincent \"Ew\"/pause 2000/emote Harvey 12/pause 1500/end position 28 62"
             }
         },
         //Sweet potat town crash
@@ -69,7 +66,7 @@
             "Update": "OnLocationChange",
             "PatchMode": "Overlay",
             "When": {
-                "HasSeenEvent": "2345678"
+                "HasSeenEvent": "192911"
             }
         }
     ]

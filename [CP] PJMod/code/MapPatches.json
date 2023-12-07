@@ -1,14 +1,29 @@
 {
     "Changes": [
         {
-            "LogName": "Spaceship",
-            "Action":"EditMap",
+            "LogName": "Spaceship interior",
+            "Action": "EditMap",
             "Target": "Maps/WizardHouse",
-            "FromFile": "assets/mapPatches/spaceship.tbin"
+            "FromFile": "assets/mapPatches/spaceship.tmx"
+        },
+        {
+            "LogName": "Spaceship basement",
+            "Action": "EditMap",
+            "Target": "Maps/WizardHouseBasement",
+            "FromFile": "assets/mapPatches/spaceship_basement.tmx"
+        },
+        {
+            "LogName": "Lighthouse interior",
+            "Action": "EditMap",
+            "Target": "Maps/ElliottHouse",
+            "FromFile": "assets/mapPatches/Lighthouse.tbin",
+            "MapProperties": {
+                "Warp": "3 10 Beach 49 12"
+            }
         },
         {
             "LogName": "Pizzeria",
-            "Action":"EditMap",
+            "Action": "EditMap",
             "Target": "Maps/Saloon",
             "FromFile": "assets/mapPatches/pizzeria.tbin",
             "MapProperties": {
@@ -21,7 +36,7 @@
             "LogName": "PJ art shop",
             "Action": "EditMap",
             "Target": "Maps/Hospital",
-            "FromFile": "assets/mapPatches/PJShop.tbin",
+            "FromFile": "assets/mapPatches/PJShop.tmx",
             "MapProperties": {
                 "NightTiles": "Front 14 1 1253 Front 14 2 1254 Front 21 1 1253 Front 21 2 1254 Front 7 7 1345",
                 "DayTiles": "Front 14 1 256 Front 14 2 288 Front 21 1 256 Front 21 2 288",
@@ -105,25 +120,8 @@
                 }
             ],
             "When": {
-                "HasMod": "Pathoschild.ContentPatcher"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
-        },
-        {
-            "LogName": "DogShop",
-            "Action": "EditMap",
-            "Target": "Maps/Beach",
-            "FromFile": "Assets/mapPatches/DogShop.tbin",
-            "ToArea": {
-                "X": 13,
-                "Y": 0,
-                "Width": 7,
-                "Height": 9
-            },
-            "MapProperties": {
-                "DayTiles": "Buildings 15 6 42 Buildings 16 6 43 Buildings 15 7 50 16 7 51",
-                "NightTiles": "Front 13 5 0 Front 18 5 1"
-            },
-            "Update": "OnLocationChange"
         },
         {
             "LogName": "Marnie",
@@ -139,20 +137,64 @@
             "Patchmode": "Overlay"
         },
         {
-            "LogName": "Lighthouse",
+            "LogName": "Beach",
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "FromFile": "Assets/mapPatches/Beach.tbin",
             "ToArea": {
-                "X": 41,
+                "X": 0,
                 "Y": 0,
-                "Width": 13,
+                "Width": 54,
                 "Height": 13
             },
             "MapProperties": {
-                "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
-                "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
-            }
+                "NightTiles": "Front 44 31 368 Front 90 35 368 AlwaysFront 48 1 18 AlwaysFront 49 1 19 AlwaysFront 50 1 20 AlwaysFront 48 2 31 AlwaysFront 49 2 32 AlwaysFront 50 2 33 AlwaysFront 48 3 44 AlwaysFront 49 3 45 AlwaysFront 50 3 46 Front 13 6 57 Front 18 6 58",
+                "Light": "13 6 4 18 6 4 48 1 4 49 1 4 50 1 4 48 2 4 49 2 4 50 2 4 48 3 4 49 3 4 50 3 4"
+            },
+            "PatchMode": "Overlay"
+        },
+        {
+            "LogName": "send the dog to work",
+            "Action":"EditMap",
+            "Target": "Maps/Beach",
+            "MapTiles": [
+                {
+                    "Layer": "buildings",
+                    "Position": {
+                        "X": 15,
+                        "Y": 6
+                    },
+                    "SetIndex": "124"
+                },
+                {
+                    "Layer": "buildings",
+                    "Position": {
+                        "X": 16,
+                        "Y": 6
+                    },
+                    "SetIndex": "125"
+                },
+                {
+                    "Layer": "buildings",
+                    "Position": {
+                        "X": 15,
+                        "Y": 7
+                    },
+                    "SetIndex": "137"
+                },
+                {
+                    "Layer": "buildings",
+                    "Position": {
+                        "X": 16,
+                        "Y": 7
+                    },
+                    "SetIndex": "138"
+                }
+            ],
+            "When": {
+                "Time": "{{Range: 2000, 2600}}"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Lighthouse Luau",
@@ -200,14 +242,6 @@
             "MapProperties": {
                 "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
                 "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
-            }
-        },
-        {
-            "LogName": "Elliots house location",
-            "Action": "EditMap",
-            "Target": "Maps/ElliottHouse",
-            "MapProperties": {
-                "Warp": "3 10 Beach 48 12"
             }
         }
     ]

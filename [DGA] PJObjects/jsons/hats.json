@@ -12,5 +12,25 @@
         "Texture": "assets/FujiHat.png",
         "HairStyle": "Obscured",
         "IgnoreHairstyleOffset": true
-    }
+    },
+    {
+        "$ItemType": "Hat",
+        "ID": "FrogHat",
+        "Texture": "assets/FrogHat.png",
+        "HairStyle": "Obscured",
+        "IgnoreHairstyleOffset": true
+    },
+    {
+        "$ItemType": "Hat",
+        "ID": "HollowHat",
+        "Texture": "assets/HollowHat.png",
+        "IgnoreHairstyleOffset": true
+    },
+    {
+        "$ItemType": "Hat",
+        "ID": "PotatHat",
+        "Texture": "assets/PotatHat.png",
+        "HairStyle": "Obscured",
+        "IgnoreHairstyleOffset": true
+    },
 ]

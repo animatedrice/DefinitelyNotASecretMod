@@ -4,7 +4,20 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "DogShopKeeper": "Ramen shop - Does not actually sell ramen",
+                "dogshop.1": "Ramen shop - Open every day from 0900 to 1800",
+                //spaceship strings
+                "spaceship.1": "Some mysterious fluid.",
+                "spaceship.2": "Beep boop!",
+                "spaceship.3": "", //PJ merch
+                "spaceship.4": "", //note
+                "spaceship.5": "",  //computer
+                "spaceship.6": "", //potat in tube
+                //Lighthouse strings
+                "BuoyHouse.1": "It's a big anchor. It looks very heavy.",
+                "BuoyHouse.2": "The Buoy's work desk. It's covered in seagull feathers.",
+                "BuoyHouse.3": "There's message scratched into the wood: Never get lost again.",
+                "BuoyHouse.4": "It's a very tall palm. It's imported from Calico Desert.",
+                "BuoyHouse.5": "It's an empty cubby",
                 //Pizzeria strings
                 "Pizzeria.1": "Oh no, you look fabulous!",
                 "Pizzeria.2": "The channel is broadcasting Sabrina the teenage Witch.",

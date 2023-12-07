@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="9">
+ <properties>
+  <property name="AmbientLight" value="170 190 90"/>
+  <property name="Light_Asdf" value="4 4 4 7 1 4 13 1 4"/>
+  <property name="Music" value="Upper_Ambient"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="../../../../../../../../../../Users/katja/Desktop/PJ Stardew Mod/mods/Content (unpacked)/Maps/paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="wizardhouse" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="../../../../../../../../../../Users/katja/Desktop/PJ Stardew Mod/mods/Content (unpacked)/Maps/townInterior" width="512" height="1088"/>
+  <tile id="2046">
+   <animation>
+    <frame tileid="2046" duration="500"/>
+    <frame tileid="2009" duration="500"/>
+    <frame tileid="2046" duration="1000"/>
+    <frame tileid="2009" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="2047">
+   <animation>
+    <frame tileid="1977" duration="500"/>
+    <frame tileid="2047" duration="500"/>
+    <frame tileid="2047" duration="1000"/>
+    <frame tileid="1977" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2213" name="wizard_interior_tiles" tilewidth="16" tileheight="16" tilecount="72" columns="9">
+  <image source="wizard_interior_tiles.png" width="144" height="128"/>
+ </tileset>
+ <tileset firstgid="2285" name="wizardinterior" tilewidth="16" tileheight="16" tilecount="198" columns="18">
+  <image source="wizardinterior.png" width="288" height="176"/>
+ </tileset>
+ <layer id="1" name="Back" width="16" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2351,2351,2351,2351,2351,2351,2351,2351,2351,2351,2351,2351,2351,2351,0,
+0,2316,2316,2316,2316,2316,2316,2316,2316,2316,2316,2316,2316,2316,2316,0,
+0,2316,2341,2341,2341,2341,2341,2341,2341,2341,2341,2341,2341,2341,2316,0,
+0,1662,1662,1727,2308,2309,2308,2309,2308,2309,2308,2309,2308,2309,2308,0,
+0,1662,967,1891,2326,2327,2326,2327,2326,2327,2326,2327,2326,2327,2326,0,
+0,1891,1662,1727,2308,2309,2308,2309,2308,2309,2308,2309,2308,2309,2308,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="16" height="8">
+  <data encoding="csv">
+2285,2286,2287,2287,2287,2287,2287,2287,2287,2287,2287,2287,2287,2287,2288,2285,
+2303,2304,2214,1427,2347,0,0,1661,0,0,0,0,1427,0,2306,2307,
+2321,2322,2323,2323,2323,2323,2323,2323,2323,2323,2323,2323,2323,2323,2324,2325,
+2321,2340,2341,2341,2383,2341,2341,2341,2341,2341,2341,2341,2341,2341,2342,2325,
+2321,2358,0,1217,0,0,1391,1391,1833,1834,1215,1302,1303,1304,2360,2325,
+2321,0,0,0,0,0,0,0,0,0,0,0,0,0,1215,2325,
+2339,0,0,0,2083,2084,0,0,0,0,0,0,0,0,0,2382,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="16" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9,0,0,0,0,0,0,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,9,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="16" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,1822,1822,1823,1824,0,0,0,0,0,
+0,0,1001,0,0,1073743678,1073743679,1073743680,1854,1855,1856,2231,0,0,0,0,
+0,0,1033,0,2365,1073743646,1073743647,1073743648,0,0,0,1238,1239,1240,0,0,
+0,0,0,0,0,0,1359,1359,0,0,0,1270,1271,1272,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2148,0,
+0,0,0,0,2051,2052,0,0,0,0,0,0,0,0,0,0,
+2339,2380,2380,2380,2380,2380,2380,2380,2380,2380,2380,2380,2380,2380,2381,2382,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37
+</data>
+ </layer>
+ <objectgroup id="5" name="Back" visible="0">
+  <object id="1" name="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="MagicWarp WitchHut 11 11 henchmanGone"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Buildings" visible="0">
+  <object id="2" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 4 5 WizardHouse "/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="WizardShrine"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="47.9163" y="64.4762" width="16" height="16">
+   <properties>
+    <property name="Message" value="Beep boop!"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="64.046" y="95.0151" width="16" height="16">
+   <properties>
+    <property name="Message" value="Some mysterios fluid."/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="80.3908" y="95.0151" width="16" height="16">
+   <properties>
+    <property name="Message" value="Some mysterios fluid."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Paths" visible="0"/>
+ <objectgroup id="8" name="Front"/>
+</map>

@@ -3,10 +3,75 @@
         "$ItemType": "ShopEntry",
         "Item": {
             "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/MarioScarecrow"
+        },
+        "ShopId": "Festival.spring28",
+        "Cost": 1500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/PotatHat"
+        },
+        "ShopId": "STF.MouseShop",
+        "Cost": 500
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
             "Value": "SweetPotats.PJObjects/PotatSeeds"
         },
         "ShopId": "Festival.spring28",
-        "Cost": 60
+        "Cost": 40
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "ShopId": "SeedShop",
+        "Item": {
+            "Value": "SweetPotats.PJObjects/PotatSeeds"
+        },
+        "Cost":60,
+        "EnableConditions": {
+            "Season |contains=spring": "true"
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/FujiHat"
+        },
+        "ShopId": "HatMouse",
+        "Cost": 1000,
+        "EnableConditions": {
+            "HasFlag |contains=MouseRepaired": "true"
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/FrogHat"
+        },
+        "ShopId": "HatMouse",
+        "Cost": 1000,
+        "EnableConditions": {
+            "HasFlag |contains=MouseRepaired": "true"
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/HollowHat"
+        },
+        "ShopId": "HatMouse",
+        "Cost": 1000,
+        "EnableConditions": {
+            "HasFlag |contains=MouseRepaired": "true"
+          }
     },
     {
         "$ItemType": "ShopEntry",
