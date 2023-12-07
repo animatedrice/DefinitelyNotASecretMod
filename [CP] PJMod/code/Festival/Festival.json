@@ -68,6 +68,26 @@
             "When": {
                 "HasSeenEvent": "192911"
             }
+        },
+         //Sweet potat statue
+         {
+            "LogName": "Sweet potat golden statue",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Festival/Town-statue.tbin",
+            "ToArea": {
+                "X": 27,
+                "Y": 64,
+                "Width": 4,
+                "Height": 5
+            },
+            "Update": "OnLocationChange",
+            "PatchMode": "Overlay",
+            "When": {
+                "Season": "Summer",
+                "Day": 1,
+                "Year": 1
+            }
         }
     ]
 }

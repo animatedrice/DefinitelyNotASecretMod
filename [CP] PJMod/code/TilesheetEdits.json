@@ -1,5 +1,21 @@
 {
     "Changes": [
+        {//train
+        "Action": "EditImage",
+        "Target": "TileSheets/Cursors",
+        "FromFile": "assets/Tilesheets/Train.png",
+        "ToArea": {
+            "X":224,
+            "Y":576,
+            "Width":480,
+            "Height": 160
+        }
+        },
+        { //intro
+            "Action": "EditImage",
+            "Target": "Minigames/jojacorps",
+            "FromFile": "assets/Tilesheets/intro_changes.png"
+        },
         { //StartScreen
             "Action": "EditImage",
             "Target": "Minigames/TitleButtons",
@@ -164,7 +180,6 @@
                 "Height": 32
             }
         },
-
         // Wizard's Tower
         {
             "LogName": "Wizard",
