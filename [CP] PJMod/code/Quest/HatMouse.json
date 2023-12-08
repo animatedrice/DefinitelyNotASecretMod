@@ -9,8 +9,7 @@
             },
             "When": {
                 "HasReadLetter": "Hatter",
-                "Hearts:Robin": "{{Range:2,14}}",
-                "DaysPlayed": "10"
+                "Hearts:Robin": "{{Range:2,14}}"
             }
         },
         {
@@ -18,10 +17,10 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "MouseRepaired": "Hey poke,^Thanks so much for fixing my house. I added some new hats to my shop! ^- Hat Mouse[#]A Gift From Hat Mouse"
+                "MouseRepaired": "Hey poke,^Thanks so much for fixing my house. I added some new hats to my shop! ^- Hat Mouse[#]A Note From Hat Mouse"
             }
         },
-        { //quest from from Robin TO DO -> change text
+        { //quest from from Robin
             "LogName": "Hat Mouse forest quest",
             "Action": "EditData",
             "Target": "Data/Quests",
@@ -132,7 +131,7 @@
                 }
             }
         },
-        { //Event #1 //TO DO -> DIALOGUE EDITING
+        { //Event #1
             "Action": "EditData",
             "Target": "data/events/Forest",
             "Entries": {
