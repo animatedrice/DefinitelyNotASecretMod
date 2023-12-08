@@ -17,12 +17,12 @@
     {
       "LogName": "Include asset/map changes",
       "Action": "Include",
-      "FromFile": "code/TilesheetEdits.json,code/MapPatches.json"
+      "FromFile": "code/TilesheetEdits.json,code/MapPatches.json,code/Movies.json"
     },
     {
       "LogName": "Include Characters",
       "Action": "Include",
-      "FromFile": "code/Characters/Characters.json, code/Characters/Dispositions.json,code/Characters/GiftTastes.json, code/Characters/Schedules.json"
+      "FromFile": "code/Characters/Characters.json, code/Characters/Dispositions.json,code/Characters/GiftTastes.json, code/Characters/Schedules.json, code/Characters/EventChanges.json"
     },
     {
       "LogName": "Include Dialogue",

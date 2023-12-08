@@ -1,20 +1,21 @@
 {
   "Changes": [
-    { //added wiggles bed
-      "LogName": "Wiggles schedule",
-      "Action": "EditData",
-      "Target": "Characters/schedules/Dobson",
-      "Entries": {
-        "Mon": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Tue": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Wed": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Thu": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Fri": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Sat": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Sun": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep"
-      }
-    },
-    { //changed bed location, and marnie standing locations (when she stares into the microwave)
+    // { //added wiggles bed
+    //   "LogName": "Wiggles schedule",
+    //   "Action": "EditData",
+    //   "Target": "Characters/schedules/Dobson",
+    //   "Entries": {
+    //     "Mon": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    //     "Tue": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    //     "Wed": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    //     "Thu": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    //     "Fri": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    //     "Sat": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    //     "Sun": "700 JojaMart 9 17 2/1230 JojaMart 5 13 2/1330 JojaMart 21 16 2/1430 JojaMart 25 12 2/1530 JojaMart 17 12 2/1630 JojaMart 7 25 1/1700 Saloon 21 17 2/2300 AnimalShop 33 5 1 dobson_sleep"
+    //   }
+    //},
+    {
+      //changed bed location, and marnie standing locations (when she stares into the microwave)
       "LogName": "Oscar schedule",
       "Action": "EditData",
       "Target": "Characters/schedules/Marnie",
@@ -32,7 +33,8 @@
         "spring": "830 AnimalShop 11 5 0 /850 AnimalShop 12 14 2/1600 AnimalShop 32 15 0/1800 AnimalShop 17 8 1/2100 AnimalShop 14 5 1 marnie_sleep"
       }
     },
-    { //changed bed, and jas standing locations: TO DO friendship sam?
+    {
+      //changed bed, and jas standing locations: TO DO friendship sam?
       "LogName": "Oliver schedule",
       "Action": "EditData",
       "Target": "Characters/schedules/Jas",
@@ -61,6 +63,54 @@
         "summer.000": "1... 2... 3... 4... Here comes a wave! *giggle*$h",
         "winter_15.000": "1... 2... 3... 4... Oh no! I messed up again.",
         "spring.000": "1... 2... 3... 4... Oh no! I messed up again."
+      }
+    },
+    {
+      "LogName": "Gil schedule",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Pierre",
+      "Entries": {
+        "rain": "GOTO spring",
+        "Fri": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 SeedShop 37 18 0 \"Strings\\schedules\\Pierre:Fri.000\"/2250 SeedShop 24 4 1 pierre_sleep",
+        "spring": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 SeedShop 11 20 0/1900 SeedShop 37 5 0/2100 SeedShop 20 5 0/2300 SeedShop 24 4 1 pierre_sleep"
+      }
+    },
+    {
+      "LogName": "PJ schedule",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Harvey",
+      "Entries": {
+        "rain": "GOTO winter",
+        "marriageJob": "630 Hospital 1 5 0 \"Strings\\schedules\\Harvey:marriageJob.000\"/1250 Hospital 13 15 0/1800 BusStop -1 23 3",
+        "marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1200 Town 23 27 1 \"Strings\\schedules\\Harvey:marriage_Mon.001\"/1700 BusStop -1 23 3",
+        "Mon": "730 Hospital 14 5 0/1250 Hospital 5 14 2/1450 Hospital 3 4 0/2000 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+        "Wed": "GOTO Mon",
+        "Fri": "GOTO Mon",
+        "Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+        "winter_15": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 HarveyRoom 11 5 3 harvey_read/1700 Beach 37 31 0 \"Strings\\schedules\\Harvey:winter_15.000\"/2400 HarveyRoom 13 4 1 harvey_sleep",
+        "winter": "800 HarveyRoom 19 7 0/840 Hospital 5 14 2/1200 HarveyRoom 8 15 0/1600 HarveyRoom 11 5 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+        "fall": "700 HarveyRoom 21 7 0/830 Hospital 5 14 2/1200 Town 46 102 2/1700 HarveyRoom 4 5 1 harvey_radio/2200 HarveyRoom 13 4 1 harvey_sleep",
+        "summer": "700 HarveyRoom 21 7 0/830 Hospital 5 14 2/1200 Town 23 36 2 square_7_5/1730 Beach 15 30 3/2040 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep",
+        "spring": "700 HarveyRoom 21 7 0/830 Hospital 5 14 2/1200 Town 10 64 2 square_5_5/1730 Hospital 8 15 0/1840 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep"
+      }
+    },
+    {
+      "LogName": "Buoy schedule",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Elliott",
+      "Entries": {
+        "rain": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1330 ElliottHouse 1 5 0/1800 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "marriage_Mon": "830 Beach 46 11 2 \"Strings\\schedules\\Elliott:marriage_Mon.000\"/1700 BusStop -1 23 3",
+        "winter_17": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1650 Beach 38 36 2 \"Strings\\schedules\\Elliott:winter_17.000\"/2500 ElliottHouse 13 4 1 elliott_sleep",
+        "summer_9": "900 ElliottHouse 1 5 0/1030 Hospital 12 14 0 \"Strings\\schedules\\Elliott:summer_9.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Elliott:summer_9.001\"/1600 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "winter": "GOTO fall",
+        "fall": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1730 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "Thu": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 SeedShop 10 20 0/1730 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "Sun": "GOTO Fri",
+        "Fri": "NOT friendship Leah 6/800 ElliottHouse 1 5 0/1100 Beach 24 32 3 square_1_5_3/1700 Saloon 4 19 2 elliott_drink/2340 ElliottHouse 13 4 1 elliott_sleep",
+        "Fri6": "GOTO Thu",
+        "summer": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 Forest 96 39 2/1700 Beach 27 36 2/2200 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "spring": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1200 Beach 49 19 2/1330 ElliottHouse 1 5 0/1500 Town 55 104 1/1700 Beach 27 36 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
       }
     }
   ]
