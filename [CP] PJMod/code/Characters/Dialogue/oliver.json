@@ -2,32 +2,44 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Strings/schedule/Jas",
+            "Entries": {
+                "winter_18.000": "We are going to film a hotel promo video with PJ today",
+                "winter_15.001": "I wonder if a mermaid will ever stay at the hotel...$s",
+                "winter_18.001": "What was my line again?  - The hospitality is extraordinary?",
+                "summer.000": "1... 2... 3... 4... Oh no! I messed up again.",
+                "winter_15.000": "1... 2... 3... 4… 5… 6… Oh no! I keep messing up.",
+                "spring.000": "1... 2... 3... 4… 5… 6… 7… 8… Oh no! Again! But I am  getting better."                
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Introduction": "...$u#$b#Hi...$u",
+                "Introduction": "Hello$u#$b#I'm Oliver, ass. manager at Oscar's Hotel$u",
                 "Resort_Entering": "I see a crab!",
                 "Resort_Leaving": "I've got sand in my shoe...$s",
-                "Resort_Shore": "I'm collecting seashells... I'm gonna make a necklace!",
-                "Resort": "Aunt Marnie told me not to get burnt... But when I walk fast, it feels cool, so I think I'll be okay.$h",
+                "Resort_Shore": "I'm collecting seashells... they will make for nice decor in the hotel!",
+                "Resort": "Oscar told me not to get burnt... But when I walk fast, it feels cool, so I think I'll be okay.$h",
                 "reject_869": "Ew, gross!$s",
-                "Mon": "Oh...Are you looking for Aunt Marnie?$u",
-                "Mon4": "Hi, Mr. @.^Hi, Ms. @.#$e#It's fun to live on a farm.$h",
+                "Mon": "I don't know the first thing about running a hotel, but I am using it to further my studies of creatures.$u",
+                "Mon4": "Hi, @.#$e#It's fun to run a hotel and sell farm animals on the side.$h",
                 "Tue": "What? *giggle*$h#$e#...hi.",
-                "Tue6": "You can play with my dolls if you want to. Just make sure to brush their hair when you're done.",
+                "Tue6": "Oscar showed me the book \"How to manage a hotel\" which includes all you have to know about the business. ... Shhh... come closer. ... The book actually includes another book. It's called \"How to manage creatures\". That's all you need to know.",
                 "Wed": "...$u",
                 "Wed2": "...Hi.$u",
-                "Wed4": "Aunt Marnie won't let me go out after 6 o'clock. It's not fair!$s#$e#I'm not afraid of the dark anymore!",
-                "Thu": "I'm not supposed to talk to strangers...$u",
-                "Thu2": "Miss Penny is teaching me how to write in cursive.$h#$e#She has such pretty handwriting.",
-                "Fri": "... I don't know you.$u",
-                "Fri2": "Do you like my bow?",
-                "Fri4": "I like living on the farm... my favorite is the fresh ice cream from our cows' milk.",
+                "Wed4": "I would love to go volcano zorbing with Oscar one day!$s#$e#It sounds fun",
+                "Thu": "Wiggles keeps asking for “hot spaghet” for his roomservice.$u",
+                "Thu2": "I go to the library to study creatures.$h#$e#There are many interesting books on the topic",
+                "Fri": "If you have any hotel questions, please ask Oscar instead$u",
+                "Fri2": "Do you like my jacket?",
+                "Fri4": "I like living in the hotel... I meet so many interesting people and creatures",
                 "Sat": "You smell like grass.$u",
-                "Sat2": "Sometimes I look for crawdads in the river. Don't tell Aunt Marnie... but I fed one to a cow once.#$e#She loved it.",
-                "Sat8": "You're always so nice to me, Mr. @$h^You're always so nice to me, Ms. @.$h#$e#Grown-ups are usually mean and boring, but you're different.",
-                "Sun": "Um... d...do you want something?$u#$e#I'm not supposed to talk to strangers.$u",
-                "Sun2": "Shane's gone a lot, and Aunt Marnie is busy all the time... so I have to invent my own games.#$e#I'm thankful for all my toys.$h",
-                "Sun10": "Did you know Shane's my godfather? He was a friend of my parents.$s#$e#...they died.*sniff*$s"
+                "Sat2": "Sometimes I look for crawdads in the river. Don't tell Oscar... but I fed one to a cow once.#$e#She loved it.",
+                "Sat8": "You're always so nice to me, @.$h#$e#Guests are usually mean, but you're different.",
+                "Sun": "Um... d...do you want something?$u#$e#I don't know what to say.$u",
+                "Sun2": "Shane's gone a lot, and Oscar is busy all the time... so I have to look out for the hotel alone sometimes.#$e#I'm thankful for all my books.$h",
+                "Sun10": "Did you know Shane's my friend?$s#$e#... yes he is capable of having friends you know$s"
             }
         }
     ]

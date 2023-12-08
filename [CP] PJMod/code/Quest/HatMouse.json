@@ -10,7 +10,8 @@
             "When": {
                 "HasReadLetter": "Hatter",
                 "Hearts:Robin": "{{Range:2,14}}"
-            }
+            },
+            "Update":"OnLocationChange"
         },
         {
             "LogName": "Mouse mail",

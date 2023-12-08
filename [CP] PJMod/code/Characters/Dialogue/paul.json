@@ -1,22 +1,36 @@
 {
   "Changes": [
     {
-      "Action":"EditData",
-      "Target":"Strings/SpeechBubbles",
+      "Action": "EditData",
+      "Target": "Strings/Schedule/Maru",
+      "Entries": {
+        "marriage_Mon.002": "I hope Penny decides to get married someday.",
+        "winter_16.000": "Wow, the tech on this thing is amazing!",
+        "marriageJob.000": "I'm at work, honey! Don't let PJ see.",
+        "marriageJob.002": "I'm almost off work...",
+        "marriage_Mon.001": "Dad's making good progress on his experiment.",
+        "summer.000": "It's hard to really grasp the scale of the universe.$8",
+        "marriage_Mon.000": "Hey! Mom seems to be doing okay without my help. She's a tough lady.",
+        "marriageJob.001": "It's nice for you to visit me.$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
       "Entries": {
         "Hospital_Maru_Greeting1": "Welcome to the KickthePJ store!",
         "Hospital_Maru_Greeting2": "Can I help you?",
         "Hospital_Maru_Greeting3": "We've got art for sale!",
         "Hospital_Maru_Greeting4": "Are you looking for PJ?",
         "Hospital_Maru_Greeting5": "Here to buy some cool art?",
-        "Hospital_Maru_Spouse": "Hi, honey"     
+        "Hospital_Maru_Spouse": "Hi, honey"
       }
     },
     {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Maru",
       "Entries": {
-        "Introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Paul. I’m PJ's assistant, stream manager, housekeeper etc…!$h#$e# Stop by the art store and I might be able to get you a discount!",
+        "Introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Paul. I'm PJ's assistant, stream manager, housekeeper etc…!$h#$e# Stop by the art store and I might be able to get you a discount!",
         "Resort_Entering": "The captain mentioned that you helped fix the boat. Thanks for doing that!",
         "Resort_Leaving": "That was fun!",
         "Resort": "I've been noticing a few different starfish species. My favorite are the big purple ones, but they're all very interesting!",
@@ -33,14 +47,14 @@
         "Tue": "Have you met my boss? It's an honor to work for him.",
         "Wed": "On Tuesdays and Thursdays I work at the KickthePJ art store!.#$b#I do enjoy helping out, even though I don't get payed…$h#$e#Being a farmer must be pay well, huh?",
         "Thu": "I plan on spending a lot of time at the art store this summer.",
-        "Sat": "Do you know my Dad, Demetrius? He's a scientist. I have a lot of fun helping him out in the laboratory.",
+        "Sat": "Do you know my Dad, Bababooey? He's a scientist bard.#$e#I have a lot of fun helping him out in the laboratory. Just between us, it's more fun than working for PJ.",
         "Fri": "Hey, sorry if I seem cranky... I'm a little sore from work yesterday.#$c .5# I had to carry ten boxes of buoy plushies to the attic!#$e#I had to beep swears for 3 hours straight!",
         "Sun": "Hi!#$q 3/4 Sun_01_old#Do you have fun working on the farm?#$r 3 0 Sun_01_01#Yes.#$r 4 0 Sun_01_02#No.",
         "Sun_01_old": "$p 3#Hey, you've made another week of progress on the farm! It seems like things are going well for you.$h|Another tiring week on the farm, huh? It must really be a lot of work...$s",
         "Sun_01_01": "Well that's good, isn't it?$h",
         "Sun_01_02": "Yikes! I'm sorry. Have you ever thought of doing something different...?$s",
         "Tue2": "Stop by our house when you need to upgrade your buildings.#$e#It's always nice to have visitors.",
-        "Fri4": "My mother is a carpenter and my dad is a scientist. I guess it makes sense that I'm into building gadgets.",
+        "Fri4": "My mother is a carpenter and my dad is a scientist bard. I guess it makes sense that I'm into building useful gadgets for a successful campaign.",
         "Mon6": "Sometimes my head gets so cluttered with nonsense I can hardly think. Does that ever happen to you?#$e#Getting some fresh air usually helps.",
         "Wed8": "I work at KickthePJ's art store Tuesdays and Thursdays.#$e#He's a good boss",
         "Thu10": "Oh, @! Is there anything you want to talk to me about?$l",
@@ -61,7 +75,7 @@
         "summer_1": "This is going to be a great season for stargazing.",
         "summer_Mon": "Hmm... I wonder how many swears I have to bleep today",
         "summer_Mon6": "Come to my room if you ever want to tinker with my gadgets.",
-        "summer_Tue": "Sebastian is my half-brother, if you didn't know already.#$e#We look totally different.",
+        "summer_Tue": "Sebastian is my half-brother, if you didn't know already.#$e#We do look totally different. Genetic is fun.",
         "summer_Tue4": "Sebastian hardly ever talks to me. I wonder if he even likes me at all?#$e#It's sad, I want to have a brother but he doesn't act like one.",
         "summer_Wed": "Are you enjoying the season?#$e#It's been so warm this year.$h",
         "summer_Thu": "Sorry, I was just thinking about some gadgets I'm making.#$q 35/36 Thu_01_old#I've decided I'm going to build a robot someday.#$r 35 30 Thu_0#That should be very easy for you#$r 36 -50 Thu_01_01#You should be more realistic#$r 35 40 Thu_01_02#It sounds challenging",
@@ -71,7 +85,7 @@
         "Thu_01_02": "You're right, but I love a challenge!$h",
         "summer_Sat": "Hey, have any interesting farm stories to tell me?#$e#Guess not.",
         "summer_Fri": "I worked at the art store yesterday. We didn't have a single costumer.#$e#I guess people already have a lot of art.",
-        "summer_Sun": "I bet you're growing some interesting crops right now.#$b#Dad says a lot of exotic plants grow in the valley this time of year.",
+        "summer_Sun": "I bet you're growing some interesting crops right now.#$b#Dad says a lot of foreign plants grow in the valley this time of year. Plants you usually only find on adventures.",
         "summer_Fri2": "Hey, tell me a story about farming.#$e#That's really interesting!",
         "summer_Wed4": "Is it just me or did it suddenly get really hot?#$e#I guess it's just me.",
         "summer_Sun6": "Some day I'm going to be a world-class stream manager.$u#$e#You're lucky to be friends with me!#$b#...just kidding.",
