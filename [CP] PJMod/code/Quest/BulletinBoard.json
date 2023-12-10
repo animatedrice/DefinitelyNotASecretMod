@@ -2,32 +2,38 @@
     "Changes": [
         {
             "Action": "Editdata",
-            "Target": "Strings/StringsFromCSFiles",
+            "Target": "Data/Quests",
             "Entries": {
-                //lannery
-                "FishingQuest.cs.13248": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fisherman who catches {1} {2}. Good luck!  -Captain Lannery",
-                "FishingQuest.cs.13251": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fishing enthusiast who catches {1} {2}. Good luck!  -Captain Lannery",
-                //bababooey
-                "ItemDeliveryQuest.cs.13311": "Greetings! Bababooey here. Could someone please bring me {0}?\nI'm studying them as part of my biological research.",
-                "SlayMonsterQuest.cs.13747": "An invasive crab species is living in the local mine, threatening the native wildlife! These creatures are known for disguising themselves as stones. I'll pay someone to slay {0} of them.  -Bababooey",
-                "ItemDeliveryQuest.cs.13314": "Looking to dissect {0}. Please deliver to Bababooey at 24 Mountain Road.",
-                //oscar
-                "ItemDeliveryQuest.cs.13317": "Howdy neighbors! My goats are really hankerin' for {0}. I can't find any myself! Help?     -Oscar",
-                "ItemDeliveryQuest.cs.13320": "Howdy neighbors! I want to try giving my cows {0} to increase their milk production. If you find one could you swing it by for me?.     -Oscar",
-                //tiny planet explorer
-                "ItemDeliveryQuest.cs.13546": "I require {0} for potion-making. Please deliver directly to my study.     -Tiny Planet Explorer",
-                "ItemDeliveryQuest.cs.13548": "The tiny planet explorer wishes to study the arcane properties of the {0}. You will be rewarded.",
-                "ItemDeliveryQuest.cs.13551": "Need {0} for experiment.    -Tiny Planet Explorer",
-                "ItemDeliveryQuest.cs.13553": "Local astronaut in search of a fresh {0}.",
-                "SlayMonsterQuest.cs.13752": "The monsters known as {0} are throwing the elemental balance into disarray. I would like an adventurer to enter the mines and slay {1} of these {2}.  -Tiny Planet Explorer",
-                //paul
-                "ItemDeliveryQuest.cs.13580": "Need {0} for my latest project. Help!    -Paul",
-                "ItemDeliveryQuest.cs.13583": "I need {0} to power my latest invention. It's the ONLY thing that will work!       -Paul",
-                "ItemDeliveryQuest.cs.13585": "Oh! Perfect! Now I can continue the project I was working on.$h#$b#Thanks a bunch, {0}.$h",
-                "ItemDeliveryQuest.cs.13587": "Oh, that's exactly what I need to power my latest invention, {0}!#$b#Thank you!$h",
-                //clunt
-                "ResourceCollectionQuest.cs.13647": "I am looking for someone to bring me {0} {1}s{2}    -Clunt",
-                "ResourceCollectionQuest.cs.13688": "\n- You can keep the ores after Clunt inspects them."
+                "1": "Location/Meet The Explorer/You received a letter from the local astronaut. He claims to have information regarding the old community center./Enter the Explorer's tower./WizardHouse/-1/0/-1/false",
+                "3": "Basic/The Mysterious Qi/You've found another note written by 'Mr. Qi'. The request is even more unusual this time./Place 10 beets inside King Bozo' fridge./null/-1/0/-1/false",
+                "4": "Basic/The Mysterious Qi/You've found yet another strange note within the King's fridge. This time, the instructions are more cryptic./\"Give the sand dragon his final meal.\"/null/-1/0/-1/false",
+                "10": "Basic/Copper Ore/You found a piece of copper ore. You're not sure what you can use it for, but the local blacksmith ought to know./Bring a piece of copper ore to Clunt's blacksmith shop././-1/0/-1/false",
+                "12": "ItemHarvest/Smelting/Now that you've built a furnace, you can smelt some metal. According to Clunt's instructions, if you place 5 copper ore and 1 piece of coal in the furnace, it should produce a copper bar./Use your furnace to smelt a Copper Bar./334 1/-1/0/-1/true",
+                "13": "Basic/To The Beach/Someone named Lannery invited you to visit the beach south of town. He says he has something to give you./Visit the beach south of town before 5:00pm./-1/-1/0/-1/true",
+                "21": "Basic/Oscar's Request/Oscar came by the farm and asked if you'd bring him a cave carrot. She's trying to train his goats to speak, and cave carrot is their favorite snack./Bring a Cave Carrot into Oscar's shop./-1/-1/0/-1/true",
+                "28": "Basic/Dark Talisman/The Tiny Planet Explorer asked me to retrieve the magic ink from his ex-wife's house... but to gain access I'll need a dark talisman./Enter the sewer and ask Krobus about the dark talisman./-1/-1/0/-1/false",
+                "100": "LostItem/Robin's Lost Axe/Robin lost her favorite axe. The last time she remembers using it, she was cutting wood south of Oscar's hotel./Find Robin's lost axe./Robin 788 Forest 110 81/-1/250/-1/true/Hey, you found my axe! What a relief... I almost chopped my toe off with the other one I was using. Thank you!",
+                "102": "LostItem/King's \"Shorts\"/King bozo has lost his purple \"shorts\". He's asking you to find and return them... Discreetly./Find and return King Bozo' purple shorts./Lewis 789 AnimalShop 13 7/-1/750/-1/true/You found them... where? ...Oh!...Uhmm...Heh.#$b#There? I have no idea how they could've gotten there...*cough*#$b#This stays between you and me. Got it?$u",
+                "104": "ItemDelivery/Crop Research/Bababooey needs a fresh melon for his research./Bring Bababooey a melon./Demetrius 254/-1/550/-1/true/This is perfect! It's just what I need for my research. It's going to be hard not to eat it! Thanks a bunch.",
+                "106": "ItemDelivery/Cow's Delight/Oscar wants to give his cows a special treat. She's asking for a single bunch of amaranth./Bring Oscar one bunch of amaranth./Marnie 300/-1/500/-1/true/Oh, the amaranth I asked for! Thank you so much... my cows are going to love this!$h",
+                "107": "LostItem/Blackberry Basket/It's blackberry season, but Nintendad can't find his basket! He's asking you to help him find it. He has no idea where it is./Find Nintendad' basket and return it to him./Linus 790 Backwoods 27 27/-1/0/-1/true/My basket! Thank you. This means a lot to me.$h",
+                "108": "ItemDelivery/Carving Pumpkins/Jil wants to carve a pumpkin with her daughter. She asked you to bring her one from the farm./Bring Jil a pumpkin./Caroline 276/-1/500/-1/true/Oh, the pumpkin! It's a good one... Abigail will be so happy when she sees this. Thanks, @!$h",
+                "109": "ItemDelivery/Catch A Squid/Lannery is challenging you to catch a squid. He says you can fish them from the ocean on winter nights./Bring Lannery a squid./Willy 151/-1/800/-1/true/Hey, you did it! Not bad. Not bad at all. I'm impressed.#$b#Winter's a good time to break out the old fishing rod, isn't it?",
+                "110": "ItemDelivery/Clunt's Attempt/Clunt wants you to give Emily an amethyst. He wants you to tell her it's from him./Bring Emily an Amethyst./Emily 66/-1/0/-1/true/Oh, my favorite stone! You're so sweet!$h#$b#Huh? It's from who?$u#$b#Oh, you got it at Clunt's? Well I don't care where you got it from, it's beautiful! Thank you! *smooch*$h",
+                "111": "ItemDelivery/A Dark Reagent/The Explorer wants you to descend into the mines and fetch him a Void Essence. He needs it for some kind of dark magic./Bring Explorer a Void Essence./Wizard 769/-1/1000/-1/true/Ah, you've brought it. You've earned my gratitude, and a 1000g reward. Now go.",
+                "112": "ItemDelivery/A Favor For Clunt/Clunt got a new hammer and he wants to test it out on a variety of metals./Bring Clunt an Iron Bar./Clint 335/-1/500/-1/true/Hey, it's the iron bar I asked for. It looks strong... perfect.#$b#Thanks, @. I appreciate this.",
+                "114": "ItemDelivery/Fish Stew/Bobby wants to make fish stew, but he needs an albacore./Bring Bobby an Albacore./Gus 705/-1/400/-1/true/*sniff*...*sniff*... What's that? Something smells like albacore!#$b#Aha! You brought it! Thanks a million!",
+                
+                "116": "ItemDelivery/Granny's Gift/Evelyn wants to surprise her husband with a gift./Bring Evelyn a Leek./Evelyn 20/-1/500/-1/true/Oh, thank you, dear. This leek looks delicious. George will be so happy.#$b#He loves when I make eggs with leeks for breakfast.",
+                "117": "ItemDelivery/Gil's Notice/Gil will pay \"top coin\" to whoever brings him a plate of sashimi. Apparently he's really craving the stuff./Bring Gil some Sashimi./Pierre 227/-1/1000/-1/true/It's about time! I was starting to get the shakes, I wanted this fish so bad. *munch*... Mmm, now that's good.#$b#Thanks, @.$h",
+                "118": "ItemDelivery/Aquatic Research/Bababooey is studying the toxin levels of the local pufferfish. He'd like you to bring him one./Bring Bababooey a Pufferfish./Demetrius 128/-1/1000/-1/true/There you are. The specimen looks perfect. I'm going to get it on ice straight away. Thanks, @!",
+                
+                "120": "ItemDelivery/King's Need/King Bozo wants truffle oil. He won't explain what it's for. Maybe it's none of your business./Bring King Bozo a bottle of Truffle Oil./Lewis 432/-1/750/-1/true/You got the oil? Let me see...#$b#It's high quality... very slick. Great. Thank you.",
+                "121": "ItemDelivery/Wanted: Lobster/Bobby put out a notice requesting a fresh lobster./Bring Bobby a Lobster./Gus 715/-1/500/-1/true/Something smells like fresh lobster. Oh, that's good.$h#$b#Take care, friend.",
+               
+                "123": "ItemDelivery/Staff Of Power/The Explorer is creating a staff of phenomenal power. Who knows what it's for. He needs an iridium bar to finish it./Bring Explorer an Iridium Bar./Wizard 337/-1/5000/-1/true/Ah, precious iridium. You've done well, @. You have my gratitude. Now, leave.",
+                "124": "ItemDelivery/Catch a Lingcod/Lannery is challenging you to catch a Lingcod./Bring Lannery a Lingcod./Willy 707/-1/550/-1/true/Hey, that's a real lunker! You've certainly got the angler's blood in you.$h",
+                "125": "ItemDelivery/Exotic Spirits/Bobby wants to make a Coco-no-no, but he's missing the main ingredient./Bring Bobby a Coconut./Gus 88/-1/600/-1/true/Coconut! Now there's a soothing sight for my winter eyes.$h#$b#It's going to be perfect for my coco-no-no. Thanks!"
             }
         }
     ]

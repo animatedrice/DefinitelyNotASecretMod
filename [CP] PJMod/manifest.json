@@ -10,6 +10,14 @@
   },
   "Dependencies": [
     {
+      "UniqueID": "spacechase0.DynamicGameAssets",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Cherry.ShopTileFramework",
+      "IsRequired": true
+    },
+    {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false
     },

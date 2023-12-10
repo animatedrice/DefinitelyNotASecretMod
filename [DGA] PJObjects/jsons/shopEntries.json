@@ -3,6 +3,54 @@
         "$ItemType": "ShopEntry",
         "Item": {
             "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Radioactive"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 500,
+        "EnableConditions": {
+            "query: {{Hearts:Harvey}} >=2": true
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Buoy"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 500,
+        "EnableConditions": {
+            "query: {{Hearts:Harvey}} >=4": true
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Obsidian"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 500,
+        "EnableConditions": {
+            "query: {{Hearts:Harvey}} >=6": true
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
+            "Value": "SweetPotats.PJObjects/Pixel"
+        },
+        "ShopId": "STF.PJShop",
+        "Cost": 500,
+        "EnableConditions": {
+            "query: {{Hearts:Harvey}} >=8": true
+          }
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Type": "DGAItem",
             "Value": "SweetPotats.PJObjects/MarioScarecrow"
         },
         "ShopId": "Festival.spring28",
@@ -34,7 +82,7 @@
         },
         "Cost":60,
         "EnableConditions": {
-            "Season |contains=spring": "true"
+            "Season |contains=spring": true
           }
     },
     {

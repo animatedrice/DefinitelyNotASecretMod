@@ -2,56 +2,95 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "1298": "Sweet Potat Badge/decor/1 2/1 1/1/500",
+                "1300": "Twin Potat Badge/decor/1 2/1 1/1/500",
+                "1304": "Silver Potat Badge/decor/1 2/1 1/1/500",
+                "1305": "Gold Potat Badge/decor/1 2/1 1/1/500",
+                "1299": "Ruby Potat Badge/decor/1 2/1 1/1/500/500",
+                "1301": "Diamond Potat Badge/decor/1 2/1 1/1/500",
+                "1302": "World Potat Badge/decor/1 2/1 1/1/500",
+                "1303": "Rainbow Potat Badge/decor/1 2/1 1/1/500",
+                "1545": "Rare Fire Dragon Card/painting/-1/-1/1/1000"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftablesInformation",
+            "Entries": {
+                "88": "Sweet Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/false/0/Sweet Potat Badge",
+                "94": "Twin Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/false/0/Twin Potat Badge",
+                "28": "Silver Potat Badge/50/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Silver Potat Badge",
+                "31": "Gold Potat Badge/50/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Gold Potat Badge",
+                "89": "Ruby Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/false/0/Ruby Potat Badge",
+                "85": "Diamond Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/false/0/Diamond Potat Badge",
+                "86": "World Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/false/0/World Potat Badge",
+                "87": "Rainbow Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/false/0/Rainbow Potat Badge",
+                "36": "Wiggles Potat Badge/50/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Wiggles Potat Badge"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Entries": {
+                "224": "Hot fresh spaghett/120/30/Cooking -7/Hot fresh spaghett/An old favorite./food/0 0 0 0 0 0 0 0 0 0 0/0"
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "dogshop.1": "Ramen shop - Open every day from 0900 to 1800",
+                "dogshop.1": "Ramen Shop - Hours 9:00 AM - 6:00 PM",
                 //spaceship strings
                 "spaceship.1": "Some mysterious fluid.",
                 "spaceship.2": "Beep boop!",
-                "spaceship.3": "", //PJ merch
-                "spaceship.4": "", //note
-                "spaceship.5": "",  //computer
-                "spaceship.6": "", //potat in tube
-                //Lighthouse strings
+                "spaceship.3": "A collection of exquisite things.",
+                "spaceship.4": "Don't forget to water your plant friends.",
+                "spaceship.5": "Flashing buttons and levers. It looks complicated.",
+                "spaceship.6": "What is this?",
                 "BuoyHouse.1": "It's a big anchor. It looks very heavy.",
                 "BuoyHouse.2": "The Buoy's work desk. It's covered in seagull feathers.",
                 "BuoyHouse.3": "There's message scratched into the wood: Never get lost again.",
                 "BuoyHouse.4": "It's a very tall palm. It's imported from Calico Desert.",
-                "BuoyHouse.5": "It's an empty cubby",
+                "BuoyHouse.5": "A globe with pins in it. They all stick in parts of the ocean.",
                 //Pizzeria strings
                 "Pizzeria.1": "Oh no, you look fabulous!",
-                "Pizzeria.2": "The channel is broadcasting Sabrina the teenage Witch.",
-                "Pizzeria.3": "It's an Italian recipe book, it's opened on a sweet potato chili recipe.",
+                "Pizzeria.2": "A 'Sabrina the Teenage Witch' marathon is on.",
+                "Pizzeria.3": "It's an Italian recipe book, it's opened on a secret veggie chili recipe.",
                 //Festival strings
                 "Town-Potat.1": "The first batch of a giant sweet potato pie. It smells delicious.",
-                "Town-Potat.2": "",
+                "Town-Potat.2": "A giant sweet potato! No one knows where it came crashing from, but it sure looks scrumptious.",
                 "Town-Potat.3": "A fragrant vase of summer flowers.",
                 "Town-Potat.4": "The baked sweet potatoes look delicious.",
                 "Town-Potat.5": "The table is filled with sweet potato dishes.",
-                "Town-Potat.6": "",
-                "Town-Potat.7": "",
-                "Town-Potat.8": "",
-                "Town-Potat.9": "",
-                "Town-Potat.10": "",
-                "Town-Potat.11": "",
+                "Town-Potat.6": "We came down to Pelican Town as soon as we heard about the giant sweet potato.",
+                "Town-Potat.7": "I'm a big fan of sweet potatoes, I had to come see this giant one with my own two eyes.",
+                "Town-Potat.8": "The sweet potato roast, it is PJ's specialty.",
+                "Town-Potat.9": "Oh my, the sweet potato dishes here are truly excellent.",
+                "Town-Potat.10": "Pelican Town is known for its sweet potato specialties, but I think they've really outdone themselves this year",
+                "Town-Potat.11": "I brought my brother to the Sweet Potato Festival. He was so excited about it, he could barely sleep last night!",
+                "Town-Potat.12": "This is the best day ever!!! The giant sweet potato is my favorite!",
+                "Town-Potat.13": "Who would put this rude sign here…?",
+                "Town-Potat.14": "The market stalls are filled with a variety of sweet potato products sold by the townsfolk.",
                 //pj shop strings
                 "PJRoom.1": "Welcome to Welwick's Oracle... I sense that one lucky gamer will be showered with good fortune. ",
                 "PJRoom.2": "An interesting placement of the bed.",
-                "PJRoom.3": "The fridge is filled with salads.",
+                "PJRoom.3": "The fridge is filled with salads and spicy eels.",
                 "PJRoom.4": "The book is filled with weird challenges.",
                 "PJRoom.5": "Leftovers of a salad.",
                 "PJRoom.6": "The barrel is overflowing with prismatic shards.",
                 "PJRoom.7": "The shoes are well worn.",
                 "PJRoom.8": "The sack is filled with prismatic shards.",
                 "PJRoom.9": "The wooden box seems handmade. It's filled to the brim with prismatic shards.",
-                "PJRoom.10": "The hammer is engraved. It says: Babonk!",
+                "PJRoom.10": "The hammer is engraved. It says: Badonk!",
                 "PJShop.1": "Fuji looks very comfortable on her bed.",
                 "PJShop.2": "It's a poster made by PJ.",
                 "PJShop.3": "The shelves are stacked with art supplies.",
                 "PJShop.4": "These pots are very well made.",
                 "PJShop.5": "PJ's own clothing line.",
                 "PJShop.6": "It's a Buoy plushie.",
-                "PJShop.7": "Green tea.",
+                "PJShop.7": "A steaming cup of green tea.",
                 "PJShop.8": "Hey, this plant's fake!",
                 "PJShop.9": "PJ's streaming setup. PJ must be pretty serious about streaming.",
                 "PJShop.10": "101 Jonks for Jonkers.",
@@ -90,13 +129,26 @@
                 "Town-Christmas.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
                 "Town-Halloween.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
                 "Town-EggFestival.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
-                "Town-Fair.3": "KickthePJ shop - Hours 9:00 AM - 3:00 PM"
+                "Town-Fair.3": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
+                "SeedShop.1": "'11 Solo Sonatas For The Wooden Flute'",
+                "SeedShop.2": "David the Guinea Pig",
+                "SeedShop.3": "David the Guinea Pig",
+                "SeedShop.4": "'The The Art of Scamming'",
+                "SeedShop.5": "'Divorce 101: How to live with your ex'",
+                "SeedShop.6": "It's loaded with fresh veggies.",
+                "SeedShop.7": "'Journey Of The Prairie King: Console Edition'",
+                "SeedShop.8": "'Why JojaCo Must Be Stopped'",
+                "SeedShop.9": "To Mr. Gil:^It pains me to be the bearer of bad news, but I feel obligated to inform you of a recent development most threatening to your livelihood.^Joja Co. has decided to expand into Pelican Town.^It's too late for protest. Joja Builders have already broken ground for the new JojaMart.^^This must be devastating news for you. So many years in business...a local standby... and now, obscured by the shadow of a powerful, efficient, economically viable corporation. What a shame!^^As manager of the new JojaMart, I feel, to some degree, personally responsible for your predicament. As such, I'd like to offer you a position as Assistant Grocer. Wages start at 5g an hour. I look forward to seeing your resume!^^-Mr. Fuzzwald, Manager^Pelican Town JojaMart",
+                "SeedShop.10": "Spirit Board",
+                "SeedShop.11": "This drawer's ",
+                "SeedShop.12": "This cupboard is full of exercise equipment."
             }
         },
         {
             "Action": "EditData",
             "Target": "Strings/Locations",
             "Entries": {
+                "SeedShop_Yoba": "Altar of Yoda",
                 "SamHouse_Sam_Trash": "Looks like JP cleans his trash bin regularly.",
                 "AnimalShop_Marnie_Absent": "Closed for the day.\n\n-Oscar",
                 "Mines_Infested": "This area is infested...",
@@ -120,6 +172,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
+                "Buff.cs.470": "Yoda's Blessing",
                 "Object.cs.13078": "Gunther will thank you for the cheeky dono if you donate it to the museum.",
                 "Event.cs.1068": "PJ charged me {0}g for the rescue. ",
                 "Event.cs.1070": "I have no money, but PJ was obligated to save my life free of charge. ",
@@ -177,7 +230,6 @@
                 "SlayMonsterQuest.cs.13752": "The monsters known as {0} are throwing the elemental balance into disarray. I would like an adventurer to enter the mines and slay {1} of these {2}.  -Tiny Planet Explorer",
                 "WeedingQuest.cs.13816": "Hiring someone to weed the entire town. Once all the weeds are gone, report to King Bozo for payment. Thanks!",
                 "WeedingQuest.cs.13824": "Talk to King Bozo",
-                "TriedToMarryButKrobus": "You can't propose to someone while living with a housemate.",
                 "KrobusShopGone": "I'm away. Please leave your payment in the box. -Sad Ghost"
             }
         },

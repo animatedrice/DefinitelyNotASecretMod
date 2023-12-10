@@ -2,6 +2,15 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Strings/Schedule/Vincent",
+            "Entries": {
+                "spring_11.001": "*gulp*... Mommy, can I have everything?$h",
+                "spring_11.002": "Do I get a new toy?",
+                "spring_11.000": "We are going to the art shop today.$h"
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
                 "Mon": "I eat 6 cookies for breakfast every day.#$q 305/306 beachquestion_followup#Do you think that's weird?#$r 305 15 beachquestion_yes#Yes#$r 306 -10 beachquestion_no#No",

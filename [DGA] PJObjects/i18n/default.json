@@ -2,9 +2,17 @@
   "object.Potat.name": "Sweet Potato",
   "object.Potat.description": "A wildly popular vegetable. The sweet taste compliments any dish.",
   "object.PotatSeeds.name": "Sweet Potato Seeds",
-  "object.PotatSeeds.description": "Plant in Spring for a lovely purple veggie. Takes 5 days to mature.",
+  "object.PotatSeeds.description": "Plant in Spring for a lovely purple veggie. Takes 7 days to mature.",
   "big-craftable.MarioScarecrow.name": "Scarecrow",
   "big-craftable.MarioScarecrow.description": "Prevents crows from \n attacking your crops. \n Has a limited radius. \n (about 8 \"tiles\").",
+  "big-craftable.Radioactive.name": "Radioactive Potat Badge",
+  "big-craftable.Radioactive.description": "A badge to show off the membership to a very special club",
+  "big-craftable.Buoy.name": "Buoy Potat Badge",
+  "big-craftable.Buoy.description": "A badge to show off the membership to a very special club",
+  "big-craftable.Obsidian.name": "Obsidian Potat Badge",
+  "big-craftable.Obsidian.description": "A badge to show off the membership to a very special club",
+  "big-craftable.Pixel.name": "Pixel Potat Badge",
+  "big-craftable.Pixel.description": "A badge to show off the membership to a very special club",
   "hat.BuoyHat.name": "Buoy Hat",
   "hat.BuoyHat.description": "Here comes the buoy!",
   "hat.FujiHat.name": "Fuji Hat",
@@ -31,4 +39,13 @@
   "furniture.LullabyCube.description": "Can be placed as decoration.",
   "furniture.Poster_sea.name": "Ocean Kid",
   "furniture.Poster_sea.description": "Can be placed inside your house.",
+
+
+
+
+  "108": "Radioactive Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Radioactive Potat Badge",
+  "109": "Radioactive Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Radioactive Potat Badge",
+  "112": "Pixel Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Pixel Potat Badge",
+  "144": "Obsidian Potat Badge/40/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Obsidian Potat Badge",
+  "145": "Buoy Potat Badge/100/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Buoy Potat Badge"
 }

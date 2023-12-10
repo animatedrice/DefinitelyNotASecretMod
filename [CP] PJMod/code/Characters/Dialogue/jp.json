@@ -30,7 +30,7 @@
         "divorced": "I'm sorry, @. I don't think I can still be your friend.$s",
         "Mon2": "Hey, how's it going?#$e#Last night I practiced guitar for 4 hours straight. My fingers hurt like crazy.$s#$e#Bye, I've got something to do...",
         "Mon": "Hey there. Did you meet PJ yet?#$e#Can you believe he is my cousin? Definitely less cool right?",
-        "Mon8": "I'll tell you a secret... my name 'JP' is short for 'Samson'.$10#$e#Most people don't know that so keep it on mute.",
+        "Mon8": "I'll tell you a secret... my name 'JP' is short for Jimmy Page.$10#$e#My dad is a big Led Zeppelin fan. $10#$e#Most people don't know that so keep it on mute.",
         "Tue": "Oh, hi! It's good to see you again.#$e#Take it easy.",
         "Tue4": "Hi, @. Do you want to hang out or something?#$e#Sleeping feels nice but sometimes I wish I could skip it... it's just such a time-waster.",
         "Wed": "I'm trying to come up with a new song for my band, but I'm blanking...#$q 19/20 Wed_old#Hey.. What do you think my new song should be about?#$r 20 30 Wed_20#The funny guy called Wiggles.#$r 8820 30 Wed_20#My boring cousin PJ.#$r 8821 30 Wed_20#The sad ghost, I see sometimes.#$r 19 -50 Wed_19#Choose anything. It'll still be a horrible song.",

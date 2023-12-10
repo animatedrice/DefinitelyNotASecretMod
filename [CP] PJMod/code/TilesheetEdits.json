@@ -1,5 +1,167 @@
 {
     "Changes": [
+        { //musueum
+            "LogName": "charizard",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Tilesheets/museum/art.png",
+            "ToArea": {
+                "X": 144,
+                "Y": 768,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "lumpy",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Tilesheets/museum/statue.png",
+            "ToArea": {
+                "X": 112,
+                "Y": 832,
+                "Width": 32,
+                "Height": 64
+            }
+        },
+        {
+            "LogName": "ghost",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Tilesheets/museum/plush.png",
+            "ToArea": {
+                "X": 80,
+                "Y": 832,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "Potats",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 128,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 288,
+                "Y": 624,
+                "Width": 128,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "golden badge",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 96,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "twin badge",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 96,
+                "Y": 352,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "potat and ruby badges",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 352,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "diamond,world and rainbow badges",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 48,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 320,
+                "Width": 48,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "silver badge",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 96,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 96,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "LogName": "wiggles badge",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromArea": {
+                "X": 128,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 128,
+                "Width": 16,
+                "Height": 32
+            }
+        },
         { //train
             "Action": "EditImage",
             "Target": "TileSheets/Cursors",
@@ -283,18 +445,6 @@
                 "Width": 59,
                 "Height": 31
             }
-        },
-        {
-            "LogName": "rewards",
-            "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/museum/museum_rewards.png"
-        },
-        {
-            "LogName": "rewards",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/craftables.png"
         }
     ]
 }

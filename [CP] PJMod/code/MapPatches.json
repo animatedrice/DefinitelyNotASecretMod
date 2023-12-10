@@ -1,16 +1,57 @@
 {
     "Changes": [
         {
+            "LogName": "Remove smoke",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/mapPatches/SmokePatch.png",
+            "ToArea": {
+                "X": "372",
+                "Y":"1955",
+                "Width": "11",
+                "Height": "13"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName|contains=Wizardhouse": "true"
+            }
+            },
+        {
+            "LogName": "Remove fire",
+            "Action": "EditImage",
+            "Target": "Minigames/MineCart",
+            "FromFile": "Assets/mapPatches/FirePatch2.png",
+            "ToArea": {
+                "X": "400",
+                "Y":"590",
+                "Width": "48",
+                "Height": "12"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName|contains=Wizardhouse": "true"
+            }
+        },
+        {
+            "LogName": "Seedshop interior",
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "assets/mapPatches/SeedShop.tmx",
+            "PatchMode": "Replace"
+        },
+        {
             "LogName": "Spaceship interior",
             "Action": "EditMap",
             "Target": "Maps/WizardHouse",
-            "FromFile": "assets/mapPatches/spaceship.tmx"
+            "FromFile": "assets/mapPatches/spaceship.tmx",
+            "PatchMode": "Replace"
         },
         {
             "LogName": "Spaceship basement",
             "Action": "EditMap",
             "Target": "Maps/WizardHouseBasement",
-            "FromFile": "assets/mapPatches/spaceship_basement.tmx"
+            "FromFile": "assets/mapPatches/spaceship_basement.tmx",
+            "PatchMode": "Replace"
         },
         {
             "LogName": "Lighthouse interior",
@@ -19,7 +60,8 @@
             "FromFile": "assets/mapPatches/Lighthouse.tbin",
             "MapProperties": {
                 "Warp": "3 10 Beach 49 12"
-            }
+            },
+            "PatchMode": "Replace"
         },
         {
             "LogName": "Pizzeria",
@@ -30,7 +72,8 @@
                 "NightTiles": "Front 7 1 1253 Front 7 2 1285 Front 19 1 1253 Front 19 2 1285",
                 "DayTiles": "Front 7 1 256 Front 7 2 288 Front 19 1 256 Front 19 2 288",
                 "Doors": "11 9 1 120 20 9 1 120 3 16 1 120 4 16 1 120 31 16 1 120"
-            }
+            },
+            "PatchMode": "Replace"
         },
         { //To do: night tiles, lights
             "LogName": "PJ art shop",
@@ -41,7 +84,8 @@
                 "NightTiles": "Front 14 1 1253 Front 14 2 1254 Front 21 1 1253 Front 21 2 1254 Front 7 7 1345",
                 "DayTiles": "Front 14 1 256 Front 14 2 288 Front 21 1 256 Front 21 2 288",
                 "Warp": "10 20 Town 36 56 10 1 HarveyRoom 10 12 9 1 HarveyRoom 10 12"
-            }
+            },
+            "PatchMode": "Replace"
         },
         {
             "LogName": "Town fix",
@@ -77,7 +121,8 @@
                 "NightTiles": "Front 5 2 1253 Front 5 3 1285 Front 9 2 1253 Front 9 3 1285",
                 "DayTiles": "Front 5 2 256 Front 5 3 288 Front 9 2 256 Front 9 3 288",
                 "Warp": "10 13 Hospital 10 2"
-            }
+            },
+            "PatchMode": "Replace"
         },
         {
             "LogName": "Warp tent",
@@ -153,50 +198,7 @@
             },
             "PatchMode": "Overlay"
         },
-        {
-            "LogName": "send the dog to work",
-            "Action":"EditMap",
-            "Target": "Maps/Beach",
-            "MapTiles": [
-                {
-                    "Layer": "buildings",
-                    "Position": {
-                        "X": 15,
-                        "Y": 6
-                    },
-                    "SetIndex": "124"
-                },
-                {
-                    "Layer": "buildings",
-                    "Position": {
-                        "X": 16,
-                        "Y": 6
-                    },
-                    "SetIndex": "125"
-                },
-                {
-                    "Layer": "buildings",
-                    "Position": {
-                        "X": 15,
-                        "Y": 7
-                    },
-                    "SetIndex": "137"
-                },
-                {
-                    "Layer": "buildings",
-                    "Position": {
-                        "X": 16,
-                        "Y": 7
-                    },
-                    "SetIndex": "138"
-                }
-            ],
-            "When": {
-                "Time": "{{Range: 2000, 2600}}"
-            },
-            "Update": "OnLocationChange"
-        },
-        {
+        { //TODO
             "LogName": "Lighthouse Luau",
             "Action": "EditMap",
             "Target": "Maps/Beach-Luau",

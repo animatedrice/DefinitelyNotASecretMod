@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="27">
+ <properties>
+  <property name="DayTiles" value="Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 27 1 256 Front 27 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102"/>
+  <property name="Doors" value="13 11 1 120 20 11 1 120 14 16 1 120"/>
+  <property name="NightTiles" value="Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 27 1 1253 Front 27 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103"/>
+  <property name="Warp" value="6 30 Town 43 57"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="547" duration="150"/>
+    <frame tileid="548" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+    <frame tileid="546" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source=".townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2305" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source=".paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2341" name="z_PotatTilesheets" tilewidth="16" tileheight="16" tilecount="400" columns="10">
+  <image source="PotatTilesheets.png" width="160" height="640"/>
+ </tileset>
+ <layer id="1" name="Back" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzVl8tOFEEUhk8P00MxiboxoFGQqIOgzwByCczAO8iARiFh5QPo4Ma4cSWiLhS8JHjdqHvYgdF3UGOQwcQH0MToOVad1Omavs0IQ6zkm1PV1VP991+nqrs9APD+A6IK9e3Dn/0NcMCz43+vA6mnN0ab1LhT+un8ndBfzgBMISXQkdthMU4/9Uv9l6FWMx2TROkHE/sN7v/6hf4KXncemQVNKQTqryToP4v9AxkdB0VcNlB70wf4imwhVWQb+YZMZqz+AaQzBV3Cf7rulgIYw/YpL5wTXrL/n808Ecc9PW9rhgs4vp8DyCGtiELakHxOn8f6jwjfo+hGjjr+X8d6r9D7BTTc7kvQT+NMtwD88jQ8rowF1NqDnEJ6kT7kdE7316N/UOjn/Cb9rZ6lxcDtUgr/R5T1X66bsvF/FLWOIUWkhIwjEw343x/hv9TvkpQ/PM6tPMwjf9vnlT0+rGrnQ/ruknQf0n/yJkl/Gv/Jx/uoHwnMAzGkdD+VIuh9oZwJ3y9KRj9fL+55VNkh/eznCupfydv2iPF92kSpfz5Bf1Sfy5TZL5YwriLXTOQ215OeX0zYs4Pvh/V7EMz7sPxxdS5G6Jf5yNeUecrH0uoP23tYO5V1ZAMZx5PfmTpHro+b+Z4zxOUQnevqXsAcuI0s5oNrLUm/ey9JzHm1xxT+tDn3tpoFaAfNWjbYp8R+PeFpHqDuJWQ5b48l6X+Sj2chY+FjB7O2zvqryLaB6x/xvA7QfMoG++S9s9anON4z5HlK/XG6z7Tp+DZjidPP/hNcP4bvGQVP0+0H+8L0v8bx3tA183rO0vr/vs78If38X+l/p69zK44uv9b/w2aOrgiofQiS9dO63ASbm5sQXJthsWDyfMvopnHI0994X/fwnu7GAH6t/+0R+ttT6CcvfM/mJtU5Ryn2qGDbjVUxDuX7TdR4JwZeB5wzBK9xqZ+PJeknL0oq2u+CsjkbFl3/k/Sz/1I/e+3q70jpP+mnWFS6/hCv8wh5jJxUOk9yDuvm/Eb9d/OHOCeox3/KEfYT7YEXeJ2XyKu87nN95/yZUY37L58R/+o/5cgN0Lj5XQjJf7lXSv/T6N8N/ylH2A9eD7PGd9nnRh+sfoq039N7QRzdMfuPS5L+qtFBWkfpW1QF10Oa/Zz17yZRReb1RdR8SfjO+ex+27sx7NndrELebZhYFHnO+xDtJ8Mq+F7ttsP0f2iS/qh9fcboJ/+HxDckfVtOq+D7ddUZs5n+UwnLt4Jn1yTpld/2Q47/bk5NZmIu1qRCez4V0k96K8LvaWc+ykK7vK+9KnIe2P8fmEc/s9Z/bl8N+V5zv9v2Wn+Uvqj8b2b5A7ZmkbM=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzNmElPFEEUx6u7JTNg3A8uePFgXBJNVBJJPKESFT2gF/CIK6AH5MJmNCYaxHjAMXoAYvSgEPUDuF4khtUP4HbgxBITObgBbv9KV2VeF9Vd1c0Qfck/3V316tWvet6bqhnGGFsELU4gbo5QUksbtN4yTmfMebvEVfLfzmPspoVu5WVjbIA2GrTJsIYSqBx6Dh2OoRfQEcJfbjmOjykV8+6DuvGS97NwHRD+Ufx10HvoHDTu+FeqUbSNQdUuYzWu3/YBqif8dcL3GPqPC5+T6Dglkkve1xP+01Af+MvgXyFUCR2FqpmvGgv+dugCYl+E8jH2tZLQKbSloatQm+u3cZ8M4W8XvpfRf8UNny9D+FtFWy38G4QaoSaoGWrh81nwc7uToAhXuln+VRrmEnTsdoL3GSfLb2OTjh1/EnvpZPk/g38y4r1LG3H1/A8R5BH0WHmPjmfm3+PFofbtE+b5SPiXIMZSJc4UOqahGcJU5c3mb3OC/APCf7Nrx38f/g8i8sdRpGtT9wHOtBrzr4EK3SwTNx3/IDQEDTtB3yoLfpNRtmJx3anxk33qmjwh2tZrMa80Y/4g4F7N+7/rBHnKoErRVwEdVCT7dGtTrVh57ijAHgp1FQTbeb33RMQJywOdaqFGqAlqgM4okn26tYWttdRSNmbiv2YZh69N7nnqGulaKb+JK8r41x49M6km81f14dd8EZ/WEf/M5Z7HrRCD10KXPH/PoEbZ1ZySeRjFvy6iLyymroaT7COcXbLR2pLG8/AQi+YvEWOj8pQ+V7BgDcv4c+HnY2VtUeN5eNaCn48Ny9OnXnid0vhx+Rd6QX5eW0VoWwYth1Z4/vN1C/6ounxr2JtlfB5nyOL8QPlfiXu6F2xD+3ZoB5nXxC9r6gvGfIW+Qd+hH9CUxdkiCf+g69fPE+bXU1HIPLzdxN9swTgDn5/QL+g39IePWRDk3xXjDDvhZvcJWrcNXlbSTPwdCc5v1JLWr9wDeT3N5f0/E2NbcD2fYC1J8ifMkrz/d8K3E9euEH6b/InLr55b1c9APpv4p3OQP/fE/Q3LGsg4s/mj4kf1VeZFOFhYnDNgUoUZf/8ndIcexVpT+P2e0j/rzssxvormZJy/38Ivil89L5vOLLk0zr8F739r2v8cwnKpG6w9Kf2z+lvAdGbJtYXlG73vA2s/4R/A/SB5Hsba34g8NJ1Z5tt0/KNgHSO847ifSLFQ+9/4bY3/j9Wb/vf88/mdl0v7C2DZydc=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="208" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="512" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp_Sunroom_Door"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.2&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.3&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="176" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage Abigail &quot;Data\ExtraDialogue:SeedShop_Abigail_Drawers/Strings\Locations:SeedShop_Abigail_Drawers&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="320" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.4&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="336" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.5&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="624" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.6&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.7&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="Actionasdf" value="Message "/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="400" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.8&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="640" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Letter &quot;SeedShop.9&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.10&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="208" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Abigail"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="320" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Pierre Caroline"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="368" y="208" width="16" height="16">
+   <properties>
+    <property name="asdf" value="Message &quot;SeedShop.11&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="224" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="576" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Yoba"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="592" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Yoba"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="608" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Yoba"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="64" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Buy General"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="80" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Buy General"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="112" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="BuyBackpack"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SeedShop.12&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="288" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox PierreBox"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="304" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox PierreBox"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzlWElPFEEUru6BMCHRg4DxisaL8eauJxTiEtGbCWA0EI2Mu/wClagRiHE54XJQCCAgAS5GwSV60JtoFFFwgSsnYQQTPfi9VL/Mm5peYdSDX/Klq6rrVX/16lXVm1FKKRuMCe6I+9eZOaDl0BzDy45tlGHj9c0c5Y9icAW4xxm0JFep1/QNS5NB7Uk8v4NF+PBicCXKy8UYl/DNUrSXgf1iDLLlsmlzATZ9eBbAphCcUJoz4KxK9fdCiShfE3qLLU2JQtSLwDX4zlpbt5WJMXqg5QDaD9qZY8iytGGsgs1q0LY0N6K8SXwjSP8+2OwH+8Atuel9lmKcZWAtmHDG5D6H4+lapP5qjFVjZZZN/Rb6n8S7JjvVVolyVQT9c8GspcdOYA4/rMz3Z9B21kov1wmbMBiytI+8QONsjkVVrnHLSvnyFXw1ZAdZaJhrRmjAWI20BoYfxu0/53+CWywzPkDLR3BUaOq3Mm0SaDsO7gbLwbuivx1C/zn0P++y/oxWsA3cDr+1iLZ2sAO8Dd5RqXesieKZNPUamtz07wJPgMeMvg0B+il+2tG/w0c/21N4PHfKz1Tm2c7veL485zZR5zmHjX+CX/yTH15A+0sX/afFecHnNWGD8xxW+uy+D/aKdzw3voNuYOI37fS7iefKuJyv1BXwan56O+93L/DaB/lLrncFOOIxXoXzbAavO+UBaB909vYQ+Eb0b3X5pqzz9+eLKPuc5vYAfOjUR6F9zONsIt9yDrLTyCHK46l3XrB8KCHXSe5hc18TaM0nxH30E89fYE1M3xlu+uXeYlAcBuU/Mvdyy7fc8iq5h3n8uZzDNP96lb63TATlP2xLuRXHJZWn8JwW/dZR3iN8x3uYx5+LfvY92yaNGEtGyB84t5qxdXkRWAA2x7TuJca6V4hylHyAMWnrc9EStoX41je0T4HTtq4H6Y/6XTdwPtAVMn8gTNrp/jd9z0iGuH95T73FfN+Bw+B7cCSm70/CAMqD4CPwMfgEfCr8E1V/p526J2g/sa9NUHvQ/VUZIn8bRZ8x8BP4GfwCfhX6o67juBGPc/V/NuNnPvDzf9j8swp993qMk+34ccN8zp8ghImfqPr5/uO7z1wDrgfF/3wh8+FTfpe9QJ2VOj+DNATF//pcnw4OtuYptS3PvU46gvJAr7yM9PvZBuVvNPfSEHv4ELTW5rnXzd8CnFP45VZWyD5B+VvY+GmE1qNCfwLlblGfdZ70H1BQzpJNUPwsABfG9Tp4xVKXoZf0N+Wl96Eco8dZS7+YzSY49mTMyfyYy0cM/19EuVPUu2F/T8Sh35mRbZixxjHl99+CH+rjf8//bqhWeh0oN4+qn/7HavnH+gm853kuMr78fq9SOVu/Wf8H/AblJvXK
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="48" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztVwEOwyAIrG6u+v8Pb2YxYwYoiLY18RJjSimclALdtoWFeZHS/17LW+1x8iiw7T86r/TVlej3AuYrVtwDwynL81l3xRnrFcGu5R4Qe7WM4190nwLf9Rlbc4azicm42Eri3qKrtVli4ZFYnsFf8y4iyA0J1178YV6O+sYxu3fOH6vfGfg7ok6V2iTFVfw535q6L6mxo6DlD+vJlXE/4uCIvGrNMQ2wmkvJjmLI1W/LsxTgvEXdg8uSuyP77kh/Ja6UPQ/mVW0/29PPfn72AeaI3nOWpXZRwGZMav609nyKZzDGn7q2xAV7V1SNsnxT5b+jAM6hI+b00YCcXYecORt36JFaaPrXwkJvrLxamA1vo+wLLw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt10ENACAMBMFWHLwB/2LoHwdlJrnkLGwEXY2MmPl+AAAA/raqD3ft6EQAaO0CFUUCEQ==
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

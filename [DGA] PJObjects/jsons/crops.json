@@ -22,7 +22,7 @@
         "Edibility": 5,
         "SellPrice": 100,
         "ForcePriceOnAllInstances": true,
-        "UniversalGiftTaste": 20,
+        "UniversalGiftTaste": 50,
         "ContextTags": [
             "ingredient_sweetpotat",
             "color_pink",
