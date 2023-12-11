@@ -1,5 +1,17 @@
 {
     "Changes": [
+        {
+            "LogName": "Festival string",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+              "Event.cs.1527": "$q -1 null#Should we move forward with the Palooza? The governor seems a little hungry.#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet."
+            },
+            "When": {
+                "Season": "Spring",
+                "Day": 28
+            }
+          },
         { //change soup to pie
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
