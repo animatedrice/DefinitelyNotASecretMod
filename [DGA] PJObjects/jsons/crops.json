@@ -2,8 +2,8 @@
     { 
         "$ItemType": "GiftTaste",
         "ObjectId": "SweetPotats.PJObjects/Potat",
-        "NPC": "Abigail, Alex, Andy, Caroline, Clint, Demetrius, Dwarf, Elliott, Emily, Evelyn, George, Gus, Haley, Harvey, Jas, Jodi, Krobus, Lance, Leah, Lewis, Linus, Marlon, Marnie, Maru, Olivia, Pam, Penny, Pierre, Robin, Sam, Sandy, Sebastian, Shane, Willy, Wizard, Dobson",
-        "Amount": 100
+        "NPC": "Vincent,",
+        "Amount": 80
       },
     {
         "$ItemType": "Object",
@@ -22,7 +22,7 @@
         "Edibility": 5,
         "SellPrice": 100,
         "ForcePriceOnAllInstances": true,
-        "UniversalGiftTaste": 50,
+        "UniversalGiftTaste": 80,
         "ContextTags": [
             "ingredient_sweetpotat",
             "color_pink",

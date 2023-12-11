@@ -1,4 +1,4 @@
-{ 
+{
   "object.Potat.name": "Sweet Potato",
   "object.Potat.description": "A wildly popular vegetable. The sweet taste compliments any dish.",
   "object.PotatSeeds.name": "Sweet Potato Seeds",
@@ -39,10 +39,6 @@
   "furniture.LullabyCube.description": "Can be placed as decoration.",
   "furniture.Poster_sea.name": "Ocean Kid",
   "furniture.Poster_sea.description": "Can be placed inside your house.",
-
-
-
-
   "108": "Radioactive Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Radioactive Potat Badge",
   "109": "Radioactive Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Radioactive Potat Badge",
   "112": "Pixel Potat Badge/0/-300/Crafting -9/A badge to show off the membership to a very special club/true/true/0/Pixel Potat Badge",
