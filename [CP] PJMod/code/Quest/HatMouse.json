@@ -3,15 +3,10 @@
         {
             "LogName": "Robin mail",
             "Action": "EditData",
-            "Target": "Data/Mail",
+            "Target": "data/events/Forest",
             "Entries": {
-                "MouseQuest/": "Hi @!^ I was taking a walk and noticed something at the abanoned building. Please meet me there at your earliest convienence. ^ - Robin %item quest 1234 true%%[#]Robin's note"
-            },
-            "When": {
-                "HasReadLetter": "Hatter",
-                "Hearts:Robin": "{{Range: 2, 8}}"
-            },
-            "Update":"OnLocationChange"
+                "192910/t 600 1500/f Robin 500/n hatter/x MouseQuest": "null"
+            }
         },
         {
             "LogName": "Mouse mail",
