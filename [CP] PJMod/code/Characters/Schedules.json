@@ -210,15 +210,15 @@
       "Target": "characters/schedules/Harvey",
       "Entries": {
         "rain": "GOTO winter",
-        "Mon": "610 HarveyRoom 12 10 1/730 Hospital 14 5 0/1250 Hospital 5 15 2/1600 Hospital 3 5 0/2000 HarveyRoom 22 7 0/2300 HarveyRoom 12 10 1 harvey_sleep",
-        "Wed": "610 HarveyRoom 12 10 1/730 Hospital 14 5 0/1250 Hospital 5 15 2/1600 Hospital 3 5 0 \"Strings\\schedules\\Harvey:Wed.000\/1900 HarveyRoom 37 18 0/2300 HarveyRoom 12 10 1 harvey_sleep",
-        "Fri": "610 HarveyRoom 12 10 1/730 Hospital 14 5 0/1200 SeedShop 2 23 3 \"Strings\\schedules\\Harvey:Fri.000\"/1600 Hospital 3 5 0 \"Strings\\schedules\\Harvey:Fri.001\/1900 Saloon 37 18 0 \"Strings\\schedules\\Harvey:Fri.002\/2400 HarveyRoom 12 10 1 harvey_sleep",
-        "Sat": "610 HarveyRoom 12 10 1/700 HarveyRoom 7 6 0/830 ArchaeologyHouse 16 9 0/1500 HarveyRoom 7 6 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "winter_15": "610 HarveyRoom 12 10 1/800 HarveyRoom 9 8 0/840 Hospital 5 15 2/1200 HarveyRoom 22 10 1/1600 HarveyRoom 11 10 3 harvey_read/1700 Beach 37 31 0 \"Strings\\schedules\\Harvey:winter_15.000\"/2400 HarveyRoom 12 10 1 harvey_sleep",
-        "winter": "610 HarveyRoom 12 10 1/800 HarveyRoom 9 8 0/840 Hospital 5 15 2/1200 HarveyRoom 8 15 0/1600 HarveyRoom 11 10 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "fall": "610 HarveyRoom 12 10 1/700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 46 102 2/1700 HarveyRoom 22 10 1/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "summer": "610 HarveyRoom 12 10 1/700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 23 36 2 square_7_5/1730 Beach 15 30 3/2040 HarveyRoom 11 10 3 harvey_read/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "spring": "610 HarveyRoom 12 10 1/700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 8 15 0/1840 HarveyRoom 11 10 3 harvey_read/2200 HarveyRoom 12 10 1 harvey_sleep"
+        "Mon": "730 Hospital 14 5 0/1250 Hospital 5 15 2/1600 Hospital 3 5 0/2000 HarveyRoom 22 7 0/2300 HarveyRoom 12 10 1 harvey_sleep",
+        "Wed": "730 Hospital 14 5 0/1250 Hospital 5 15 2/1600 Hospital 3 5 0 \"Strings\\schedules\\Harvey:Wed.000\/1900 HarveyRoom 37 18 0/2300 HarveyRoom 12 10 1 harvey_sleep",
+        "Fri": "730 Hospital 14 5 0/1200 SeedShop 2 23 3 \"Strings\\schedules\\Harvey:Fri.000\"/1600 Hospital 3 5 0 \"Strings\\schedules\\Harvey:Fri.001\/1900 Saloon 37 18 0 \"Strings\\schedules\\Harvey:Fri.002\/2400 HarveyRoom 12 10 1 harvey_sleep",
+        "Sat": "700 HarveyRoom 7 6 0/830 ArchaeologyHouse 16 9 0/1500 HarveyRoom 7 6 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 12 10 1 harvey_sleep",
+        "winter_15": "800 HarveyRoom 9 8 0/840 Hospital 5 15 2/1200 HarveyRoom 22 10 1/1600 HarveyRoom 11 10 3 harvey_read/1700 Beach 37 31 0 \"Strings\\schedules\\Harvey:winter_15.000\"/2400 HarveyRoom 12 10 1 harvey_sleep",
+        "winter": "800 HarveyRoom 9 8 0/840 Hospital 5 15 2/1200 HarveyRoom 8 15 0/1600 HarveyRoom 11 10 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 12 10 1 harvey_sleep",
+        "fall": "700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 46 102 2/1700 HarveyRoom 22 10 1/2200 HarveyRoom 12 10 1 harvey_sleep",
+        "summer": "700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 23 36 2 square_7_5/1730 Beach 15 30 3/2040 HarveyRoom 11 10 3 harvey_read/2200 HarveyRoom 12 10 1 harvey_sleep",
+        "spring": "700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 8 15 0/1840 HarveyRoom 11 10 3 harvey_read/2200 HarveyRoom 12 10 1 harvey_sleep"
       }
     },
     {

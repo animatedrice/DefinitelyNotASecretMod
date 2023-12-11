@@ -2,8 +2,8 @@
     { 
         "$ItemType": "GiftTaste",
         "ObjectId": "SweetPotats.PJObjects/Potat",
-        "NPC": "Vincent,",
-        "Amount": 80
+        "NPC": "Vincent, Kent",
+        "Amount": 20
       },
     {
         "$ItemType": "Object",
@@ -22,7 +22,7 @@
         "Edibility": 5,
         "SellPrice": 100,
         "ForcePriceOnAllInstances": true,
-        "UniversalGiftTaste": 80,
+        "UniversalGiftTaste": 100,
         "ContextTags": [
             "ingredient_sweetpotat",
             "color_pink",
