@@ -9,7 +9,7 @@
             },
             "When": {
                 "HasReadLetter": "Hatter",
-                "Hearts:Robin": "{{Range:2, {{MaxHearts}}}}"
+                "Hearts:Robin": "{{Range: 2, 8}}"
             },
             "Update":"OnLocationChange"
         },
