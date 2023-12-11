@@ -236,7 +236,7 @@
         "Wed": "GOTO Mon",
         "Fri": "GOTO Mon"
       }
-    }
+    },
     {
       "LogName": "Oscar schedule",
       "Action": "EditData",
