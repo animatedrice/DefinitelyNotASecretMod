@@ -7,7 +7,7 @@
             "FromFile": "Assets/mapPatches/SmokePatch.png",
             "ToArea": {
                 "X": "372",
-                "Y":"1955",
+                "Y": "1955",
                 "Width": "11",
                 "Height": "13"
             },
@@ -15,7 +15,7 @@
             "When": {
                 "LocationName|contains=Wizardhouse": "true"
             }
-            },
+        },
         {
             "LogName": "Remove fire",
             "Action": "EditImage",
@@ -23,7 +23,7 @@
             "FromFile": "Assets/mapPatches/FirePatch2.png",
             "ToArea": {
                 "X": "400",
-                "Y":"590",
+                "Y": "590",
                 "Width": "48",
                 "Height": "12"
             },
@@ -32,6 +32,18 @@
                 "LocationName|contains=Wizardhouse": "true"
             }
         },
+        {
+            "LogName": "hotel interior",
+            "Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+            "FromFile": "assets/mapPatches/OscarsHotel.tbin",
+            "PatchMode": "Replace",
+            "MapProperties":{
+                "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 10 1 1253 Front 10 2 1285 Front 22 1 1253 Front 22 2 1285 Front 24 11 1253 Front 24 12 1285 Front 31 1 1253 Front 31 2 1285 Front 32 11 1253 Front 32 12 1285 Front 1 1 827 Front 6 1 827 Front 9 1 827 Front 14 1 827 Front 20 1 827 Front 23 1 827 Front 28 1 827 Front 32 1 827 Front 23 11 827 Front 25 11 827 Front 32 11 827 Front 11 3 809 Front 14 14 809 Front 29 3 809 Front 3 3 1347 Front 20 13 1347 Back 4 5 607 Back 4 4 639 Back 22 5 638 Back 22 4 606 Back 31 5 60 Back 31 4 60 Back 32 15 262 Back 24 15 231 Back 24 14 263",
+                "DayTiles": "Front 4 1 256 Front 4 2 288 Front 10 1 256 Front 10 2 288 Front 22 1 256 Front 22 2 288 Front 24 11 256 Front 24 12 288 Front 31 1 256 Front 31 2 288 Front 32 11 256 Front 32 12 288",
+                "Doors": "6 12 1 120 13 12 1 120 21 13 1 120 27 13 1 120"
+            }
+            },
         {
             "LogName": "Seedshop interior",
             "Action": "EditMap",
