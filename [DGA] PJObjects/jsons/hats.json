@@ -30,7 +30,7 @@
         "$ItemType": "Hat",
         "ID": "PotatHat",
         "Texture": "assets/PotatHat.png",
-        "HairStyle": "Obscured",
+        "HairStyle": "Full",
         "IgnoreHairstyleOffset": true
     },
 ]

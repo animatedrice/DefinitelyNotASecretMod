@@ -1,5 +1,5 @@
 {
-    "Shops": [
+       "Shops": [
         {
             "ShopName": "PJShop",
             "PortraitPath": "assets/PJ_Portrait.png",
@@ -83,6 +83,22 @@
             "ClosedMessage": "Woof woof woof.",
             "When": [
                 "t 900 2000"
+            ]
+        }
+    ],
+    "Vanilla shops": [
+        {
+            "ShopName": "PierreShop",
+            "ReplaceInsteadOfAdd": false,
+            "AddStockAboveVanilla": true,
+            "StockPrice": 60,
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "ItemIDs": [
+                        3001
+                    ]
+                }
             ]
         }
     ]

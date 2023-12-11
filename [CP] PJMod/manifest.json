@@ -10,6 +10,9 @@
   },
   "Dependencies": [
     {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+    {
       "UniqueID": "spacechase0.DynamicGameAssets",
       "IsRequired": true
     },
@@ -24,6 +27,10 @@
     {
       "UniqueID": "Tanpoponoko.SeasonalOutfits",
       "IsRequired": false
-    }
+    },
+    {
+      "UniqueID": "ZeroMeters.SAAT.API",
+      "IsRequired": true
+   }
   ]
 }

@@ -10,10 +10,12 @@
     "Category": "Sound"
   },
   {
-    "Id": "springtown",
-    "Filepath": "assets/PJ_Stardew_Mod_Song.ogg",
-    "Loop": "true",
-    "Category": "Music"
+    "Id": "SweetPotats",
+    "Filepath": "assets/PJ_Stardew_Mod_Song.wav",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
   },
   {
     "Id": "clubSmash",

@@ -1,5 +1,5 @@
 {
-  "Name": "Sweet Potato",
+  "Name": "SweetPotato",
   "Product": "Sweet Potato",
   "SeedName": "Sweet Potato Seeds",
   "SeedDescription": "Plant in Spring for a lovely purple veggie. Takes 10 days to mature.",
@@ -19,12 +19,11 @@
   "Colors": null,
   "Bonus": {
     "MinimumPerHarvest": 1,
-    "MaximumPerHarvest": 1,
+    "MaximumPerHarvest": 2,
     "MaxIncreasePerFarmLevel": 5,
-    "ExtraChance": 0.5
+    "ExtraChance": 0.2
   },
-  "SeedPurchaseFrom": "Pierre",
-  "SeedPurchasePrice": 60,
-  "SeedSellPrice": 30,
-  "PurchaseRequirements": null
+  "SeedPurchaseFrom": "JojaMart",
+  "SeedPurchasePrice": 75,
+  "SeedSellPrice": 30
 }

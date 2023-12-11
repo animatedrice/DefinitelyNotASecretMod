@@ -1,6 +1,22 @@
 {
     "Changes": [
         {
+            "LogName": "change wizard",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/mapPatches/Wizard.png",
+            "ToArea": {
+                "X": "387",
+                "Y": "1965",
+                "Width": "16",
+                "Height": "31"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName|contains=Wizardhouse": "true"
+            }
+        },
+        {
             "LogName": "Remove smoke",
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
@@ -17,15 +33,15 @@
             }
         },
         {
-            "LogName": "Remove fire",
+            "LogName": "remove fire",
             "Action": "EditImage",
-            "Target": "Minigames/MineCart",
-            "FromFile": "Assets/mapPatches/FirePatch2.png",
+            "Target": "TileSheets/Animations",
+            "FromFile": "Assets/mapPatches/FirePatch.png",
             "ToArea": {
-                "X": "400",
-                "Y": "590",
-                "Width": "48",
-                "Height": "12"
+                "X": "0",
+                "Y": "1919",
+                "Width": "244",
+                "Height": "63"
             },
             "Update": "OnLocationChange",
             "When": {
@@ -49,7 +65,11 @@
             "Action": "EditMap",
             "Target": "Maps/SeedShop",
             "FromFile": "assets/mapPatches/SeedShop.tmx",
-            "PatchMode": "Replace"
+            "PatchMode": "Replace",
+            "MapProperties":{
+                "NightTiles": "Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 25 1 1253 Front 25 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103",
+                "DayTiles": "Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 25 1 256 Front 25 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102"
+            }
         },
         {
             "LogName": "Spaceship interior",
@@ -130,7 +150,7 @@
             "Target": "Maps/HarveyRoom",
             "FromFile": "assets/mapPatches/PJRoom.tbin",
             "MapProperties": {
-                "NightTiles": "Front 5 2 1253 Front 5 3 1285 Front 9 2 1253 Front 9 3 1285",
+                "NightTiles": "Front 5 2 1253 Front 5 3 1285 Front 9 2 1253 Front 9 3 1285 Front 11 2 827",
                 "DayTiles": "Front 5 2 256 Front 5 3 288 Front 9 2 256 Front 9 3 288",
                 "Warp": "10 13 Hospital 10 2"
             },
