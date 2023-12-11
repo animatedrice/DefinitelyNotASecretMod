@@ -23,7 +23,7 @@
     "MaxIncreasePerFarmLevel": 5,
     "ExtraChance": 0.2
   },
-  "SeedPurchaseFrom": "JojaMart",
-  "SeedPurchasePrice": 75,
+  "SeedPurchaseFrom": "PierreShop",
+  "SeedPurchasePrice": 60,
   "SeedSellPrice": 30
 }
