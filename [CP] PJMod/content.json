@@ -27,7 +27,7 @@
     {
       "LogName": "Include Dialogue",
       "Action": "Include",
-      "FromFile": "code/Characters/Dialogue/bababooey.json, code/Characters/Dialogue/bobby.json,code/Characters/Dialogue/buffbuoy.json, code/Characters/Dialogue/buoy.json, code/Characters/Dialogue/gil.json, code/Characters/Dialogue/kingbozo.json,code/Characters/Dialogue/nintendad.json, code/Characters/Dialogue/oliver.json, code/Characters/Dialogue/oscar.json, code/Characters/Dialogue/paul.json, code/Characters/Dialogue/pj.json, code/Characters/Dialogue/sadghost.json, code/Characters/Dialogue/vincent.json, code/Characters/Dialogue/wiggles.json, code/Characters/Dialogue/storm.json, code/Characters/Dialogue/explorer.json, code/Characters/Dialogue/jil.json, code/Characters/Dialogue/JP.json, code/Characters/Dialogue/character_mentions.json"
+      "FromFile": "code/Characters/Dialogue/bababooey.json, code/Characters/Dialogue/bobby.json,code/Characters/Dialogue/buffbuoy.json, code/Characters/Dialogue/buoy.json, code/Characters/Dialogue/gil.json, code/Characters/Dialogue/kingbozo.json,code/Characters/Dialogue/nintendad.json, code/Characters/Dialogue/oliver.json, code/Characters/Dialogue/oscar.json, code/Characters/Dialogue/paul.json, code/Characters/Dialogue/pj.json, code/Characters/Dialogue/sadghost.json, code/Characters/Dialogue/vincent.json, code/Characters/Dialogue/storm.json, code/Characters/Dialogue/explorer.json, code/Characters/Dialogue/jil.json, code/Characters/Dialogue/JP.json, code/Characters/Dialogue/character_mentions.json"
     },
     {
       "LogName": "Include Festival",
