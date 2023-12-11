@@ -38,6 +38,17 @@
       "LogName": "Include Quests/Strings",
       "Action": "Include",
       "FromFile": "code/Quest/HatMouse.json, code/Quest/BulletinBoard.json, code/Strings/mail.json,code/Strings/strings.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Dobson",
+      "FromFile": "code/Characters/Dialogue/wiggles.json"
+    },
+    {
+      "LogName": "Wiggles schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Dobson",
+      "FromFile": "code/Characters/wiggles.json"
     }
   ]
 }

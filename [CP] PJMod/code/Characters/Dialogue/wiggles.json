@@ -1,17 +1,4 @@
 {
-  "Changes": [
-    {
-      "Action": "EditData",
-      "Target": "Data/EngagementDialogue",
-      "Entries": {
-        "Dobson0": "I can't believe I am about to be married!$h",
-        "Dobson1": "I hope I don't get cold feet"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Dobson",
-      "Entries": {
         "Mon": "Leave me alone you mook",
         "danceRejection": "You think you can go toe to toe with a clown? I don't think so chump..$s",
         "divorced": "...$a#$e#...Leave me alone.$a",
@@ -43,7 +30,4 @@
         "Sun10": "Hi, @. I've actually been having a pretty good day so far.$h",
         "Sun4": "Hmm... it's %time. Should I eat spaghetti now, or should I wait?$u",
         "Sun2": "You again? How many times do I have to tell you to leave me alone?$s"
-      }
-    }
-  ]
 }

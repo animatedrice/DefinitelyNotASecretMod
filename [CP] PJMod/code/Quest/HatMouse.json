@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "MouseQuest": "Hi @!^ I was taking a walk and noticed something at the abanoned building. Please meet me there at your earliest convienence. ^ - Robin %item quest 1234 true%%[#]Robin's note"
+                "MouseQuest/": "Hi @!^ I was taking a walk and noticed something at the abanoned building. Please meet me there at your earliest convienence. ^ - Robin %item quest 1234 true%%[#]Robin's note"
             },
             "When": {
                 "HasReadLetter": "Hatter",

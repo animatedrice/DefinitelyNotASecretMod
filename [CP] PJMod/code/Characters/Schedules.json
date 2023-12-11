@@ -138,7 +138,6 @@
         "winter_16": "900 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:winter_16.000\"/1030 Hospital 7 15 3 \"Strings\\schedules\\Clint:winter_16.001\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Clint:winter_16.002\"/1600 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
       }
     },
-    
     {
       "LogName": "Alex hospital",
       "Action": "EditData",
@@ -153,20 +152,6 @@
       "Target": "characters/schedules/Abigail",
       "Entries": {
         "spring_4": "900 SeedShop 11 5 0 \"Strings\\schedules\\Abigail:spring_4.000\"/1230 Hospital 13 15 2 \"Strings\\schedules\\Abigail:spring_4.001\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Abigail:spring_4.002\"/1600 SeedShop 10 5 0/2000 SeedShop 1 9 3 abigail_sleep"
-      }
-    },
-    {
-      "LogName": "Wiggles schedule",
-      "Action": "EditData",
-      "Target": "characters/schedules/Dobson",
-      "Entries": {
-        "spring": "700 Town 32 56 2/1200 Town 16 24 1/1640 Town 24 90 0/2000 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "rain": "700 Town 51 87 0/1230 Town 47 87 0/1530 Town 44 89 3/1700 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "fall": "700 HaleyHouse 18 16 0/1330 Forest 4 20 1/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "winter": "700 Hospital 14 5 0/1030 Mine 12 8 2/1700 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "summer": "700 Beach 14 8 1/1400 Beach 41 36 2/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Sat": "700 Town 34 57 0/850 Town 32 55 2/930 Town 24 90 0/1110 Town 21 96 1/1200 JojaMart 12 20 2/1600 Blacksmith 7 12 0/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
-        "Sun": "800 SeedShop 36 18 0/1200 Mountain 28 9 1/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep"
       }
     },
     {
@@ -219,7 +204,6 @@
         "fall": "700 HarveyRoom 23 8 2/830 Hospital 4 15 2/1200 Town 46 102 2/1700 HarveyRoom 4 5 1 harvey_radio/2200 HarveyRoom 12 9 1 harvey_sleep",
         "summer": "700 HarveyRoom 23 8 2/830 Hospital 4 15 2/1200 Town 23 36 2 square_7_5/1730 Beach 15 30 3/2040 HarveyRoom 11 5 1 harvey_read/2200 HarveyRoom 12 9 1 harvey_sleep",
         "spring": "700 HarveyRoom 23 8 2/830 Hospital 4 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 8 15 0/1840 HarveyRoom 11 5 1 harvey_read/2200 HarveyRoom 12 9 1 harvey_sleep"
-     
       }
     },
     {
