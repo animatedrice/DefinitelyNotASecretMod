@@ -213,23 +213,30 @@
         "Mon": "730 Hospital 14 5 0/1250 Hospital 5 15 2/1600 Hospital 3 5 0/2000 HarveyRoom 22 7 0/2300 HarveyRoom 12 10 1 harvey_sleep",
         "Wed": "730 Hospital 14 5 0/1250 Hospital 5 15 2/1600 Hospital 3 5 0 \"Strings\\schedules\\Harvey:Wed.000\/1900 HarveyRoom 37 18 0/2300 HarveyRoom 12 10 1 harvey_sleep",
         "Fri": "730 Hospital 14 5 0/1200 SeedShop 2 23 3 \"Strings\\schedules\\Harvey:Fri.000\"/1600 Hospital 3 5 0 \"Strings\\schedules\\Harvey:Fri.001\/1900 Saloon 37 18 0 \"Strings\\schedules\\Harvey:Fri.002\/2400 HarveyRoom 12 10 1 harvey_sleep",
-        "Sat": "700 HarveyRoom 7 6 0/830 ArchaeologyHouse 16 9 0/1500 HarveyRoom 7 6 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "winter_15": "800 HarveyRoom 9 8 0/840 Hospital 5 15 2/1200 HarveyRoom 22 10 1/1600 HarveyRoom 11 10 3 harvey_read/1700 Beach 37 31 0 \"Strings\\schedules\\Harvey:winter_15.000\"/2400 HarveyRoom 12 10 1 harvey_sleep",
-        "winter": "800 HarveyRoom 9 8 0/840 Hospital 5 15 2/1200 HarveyRoom 8 15 0/1600 HarveyRoom 11 10 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "fall": "700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 46 102 2/1700 HarveyRoom 22 10 1/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "summer": "700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 23 36 2 square_7_5/1730 Beach 15 30 3/2040 HarveyRoom 11 10 3 harvey_read/2200 HarveyRoom 12 10 1 harvey_sleep",
-        "spring": "700 HarveyRoom 7 6 0/830 Hospital 5 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 8 15 0/1840 HarveyRoom 11 10 3 harvey_read/2200 HarveyRoom 12 10 1 harvey_sleep"
+        "Sat": "700 HarveyRoom 23 8 2/830 ArchaeologyHouse 16 9 0/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 12 9 1 harvey_sleep",
+        "winter_15": "800 HarveyRoom 23 8 2/840 Hospital 4 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 HarveyRoom 11 5 1 harvey_read/1700 Beach 37 31 0 \"Strings\\schedules\\Harvey:winter_15.000\"/2400 HarveyRoom 12 9 1 harvey_sleep",
+        "winter": "800 HarveyRoom 23 8 2/840 Hospital 4 15 2/1200 HarveyRoom 8 8 0/1600 HarveyRoom 11 5 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 12 9 1 harvey_sleep",
+        "fall": "700 HarveyRoom 23 8 2/830 Hospital 4 15 2/1200 Town 46 102 2/1700 HarveyRoom 4 5 1 harvey_radio/2200 HarveyRoom 12 9 1 harvey_sleep",
+        "summer": "700 HarveyRoom 23 8 2/830 Hospital 4 15 2/1200 Town 23 36 2 square_7_5/1730 Beach 15 30 3/2040 HarveyRoom 11 5 1 harvey_read/2200 HarveyRoom 12 9 1 harvey_sleep",
+        "spring": "700 HarveyRoom 23 8 2/830 Hospital 4 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 8 15 0/1840 HarveyRoom 11 5 1 harvey_read/2200 HarveyRoom 12 9 1 harvey_sleep"
+     
       }
     },
     {
-      "LogName": "Maru schedule Hospital changes",
+      "LogName": "Paul schedule",
       "Action": "EditData",
-      "Target": "characters/schedules/Maru",
+      "Target": "Characters/schedules/Maru",
       "Entries": {
-        "marriageJob": "730 Hospital 5 15 2 \"Strings\\schedules\\Maru:marriageJob.000\"/1400 Hospital 14 17 3 \"Strings\\schedules\\Maru:marriageJob.001\"/1600 Hospital 14 15 0 \"Strings\\schedules\\Maru:marriageJob.002\"/1640 BusStop -1 23 3",
-        "Tue": "730 Hospital 5 15 2/1400 Hospital 2 15 0/1600 Hospital 14 15 0/1640 ScienceHouse 26 13 1/2200 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep"
+        "rain": "800 ScienceHouse 6 4 0/1000 ScienceHouse 9 6 1/1230 ScienceHouse 2 21 1/1430 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 ScienceHouse 2 6 3/2000 ScienceHouse 9 6 1/2300 ScienceHouse 2 4 3 maru_sleep",
+        "marriage_Mon": "800 ScienceHouse 6 20 0 \"Strings\\schedules\\Maru:marriage_Mon.000\"/1200 ScienceHouse 16 18 0 \"Strings\\schedules\\Maru:marriage_Mon.001\"/1400 Town 63 15 2 maru_sit_down \"Strings\\schedules\\Maru:marriage_Mon.002\"/1800 BusStop -1 23 3",
+        "marriageJob": "730 Hospital 6 15 2 \"Strings\\schedules\\Maru:marriageJob.000\"/1400 Hospital 9 15 3 \"Strings\\schedules\\Maru:marriageJob.001\"/1600 Hospital 8 17 1 \"Strings\\schedules\\Maru:marriageJob.002\"/1640 BusStop -1 23 3",
+        "Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1640 ScienceHouse 26 13 1/2200 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep",
+        "Thu": "GOTO Tue",
+        "Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1400 Hospital 6 5 3/1830 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",
+        "Wed": "GOTO Mon",
+        "Fri": "GOTO Mon"
       }
-    },
+    }
     {
       "LogName": "Oscar schedule",
       "Action": "EditData",

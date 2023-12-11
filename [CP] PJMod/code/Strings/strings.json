@@ -2,6 +2,33 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Data/RandomBundles",
+            "TargetField": [
+                "Pantry",
+                "BundleSets",
+                "#0",
+                "Bundles",
+                "#0"
+            ],
+            "Entries": {
+                "Items": "1 Parsnip, 1 Green Bean, 1 Cauliflower, 1 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}}"
+            },
+            "When": {
+                "HasMod": "spacechase0.jsonAssets"
+             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0/0"
+            },
+            "When": {
+                "HasMod": "spacechase0.jsonAssets"
+             }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/Furniture",
             "Entries": {
                 "1298": "Sweet Potat Badge/decor/1 2/1 1/1/500",

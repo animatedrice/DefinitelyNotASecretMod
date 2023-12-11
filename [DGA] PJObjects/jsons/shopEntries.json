@@ -65,26 +65,26 @@
         "ShopId": "STF.MouseShop",
         "Cost": 500
     },
-    {
-        "$ItemType": "ShopEntry",
-        "Item": {
-            "Type": "DGAItem",
-            "Value": "SweetPotats.PJObjects/PotatSeeds"
-        },
-        "ShopId": "Festival.spring28",
-        "Cost": 40
-    },
-    {
-        "$ItemType": "ShopEntry",
-        "ShopId": "SeedShop",
-        "Item": {
-            "Value": "SweetPotats.PJObjects/PotatSeeds"
-        },
-        "Cost":60,
-        "EnableConditions": {
-            "Season |contains=spring": true
-          }
-    },
+    // {
+    //     "$ItemType": "ShopEntry",
+    //     "Item": {
+    //         "Type": "DGAItem",
+    //         "Value": "SweetPotats.PJObjects/PotatSeeds"
+    //     },
+    //     "ShopId": "Festival.spring28",
+    //     "Cost": 40
+    // },
+    // {
+    //     "$ItemType": "ShopEntry",
+    //     "ShopId": "SeedShop",
+    //     "Item": {
+    //         "Value": "SweetPotats.PJObjects/PotatSeeds"
+    //     },
+    //     "Cost":60,
+    //     "EnableConditions": {
+    //         "Season |contains=spring": true
+    //       }
+    // },
     {
         "$ItemType": "ShopEntry",
         "Item": {

@@ -1,7 +1,7 @@
 {
   "name": "Sweet Potato Palooza",
   "conditions": "Town/1300 1800",
-  "shop": "BO 184 350 -1 BO 188 350 -1",
+  "shop": "O 3001 30 -1 BO 184 350 -1 BO 188 350 -1",
   "set-up": "Spring Potato Palooza/27 60/farmer 12 54 1/changeToTemporaryMap Town-SweetPotatoPalooza/loadActors Set-Up/addTemporaryActor Governor 16 32 28 56 2/addTemporaryActor Dobson 16 32 37 69 1/playMusic spring3/advancedMove Dobson true -3 0 1 5000 3 0 1 5000/advancedMove Vincent true 3 0 3 3000 -3 0 3 3000/advancedMove Jas true 3 0 1 3000 -3 0 1 3000/advancedMove Pam true 4 25000 -5 0 4 20000 5 0/advancedMove Gus True 0 0 3 4000 0 0 3 4000/advancedMove Shane true 1 10000 0 1 1 10000 0 -1/advancedMove Clint true 4 15000 -3 0 4 15000 6 0 4 10000 -3 0/animate Emily false true 250 16 17 16 17 20 21 20 21 18 19 18 19 22 23 22 23/animate Robin false true 500 20 21 20 22/animate Demetrius false true 500 24 25 24 26/animate Marnie false true 200 17 18 17 19/positionOffset Marnie 0 16/viewport 27 60 clamp true/pause 1000/playerControl luau",
   "mainEvent": "pause 500/playMusic springtown/globalFade/viewport -1000 -1000/loadActors MainEvent/addTemporaryActor Governor 16 32 30 56 2/warp farmer1 32 62/warp farmer2 34 62/warp farmer3 40 56/warp farmer4 28 56/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 1/viewport 32 61 true/pause 2000/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 100/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/speak Lewis \"Well folks, it's time for the sweet potato pie ceremony.#$b#Oliver baked a big pie out of the ingredients you provided. I trust that you all brought high-quality ingredients this year. We don't want the governor to regret his visit to the valley!\"/pause 1000/faceDirection Lewis 3/pause 500/speak Lewis \"Well... Governor? Would you do us the honor of tasting the pie?\"/pause 500/speak Governor \"Of course! I've been looking forward to this since I was invited to the palooza.\"/pause 500/move Governor 0 1 2/pause 1000/playSound dwop/showFrame Governor 8 true/pause 1000/animate Governor false false 200 8 8 9 10 11 11/pause 1100/playSound sipTea/pause 1000/playSound gulp/pause 500/showFrame Governor 8 true/animate Governor false false 200 11 10 9 8/pause 900/speak Governor \"...$h\"/pause 300/cutscene governorTaste/null",
   "governorReaction6": "pause 1000/speak Governor \"Hmm... It's a bit tangy... but actually, the flavor is quite good!\"/pause 600/emote Governor 8/speak Governor \"Just one minute... there's something in my bowl... what's this?$2\"/pause 500/showFrame Governor 14/playSound slimeHit/jump Governor/pause 500/showFrame Lewis 24/jump Lewis/textAboveHead Lewis \"Whaaaat?!\"/showFrame Emily 26/pause 1000/showFrame Marnie 16/jump Marnie/textAboveHead Marnie \"*gasp*\"/pause 1000/shake Governor 2000/emote Governor 12/pause 500/showFrame Emily 4/showFrame Marnie 8/speak Governor \"This... This is outrageous!$1#$b#I've never been so insulted in all my life!$1\"/pause 600/showFrame Governor 13/playSound throw/specificTemporarySprite PaloozaShorts/pause 500/jump Lewis/pause 1000/speak Governor \"Blech... my tongue is swelling up... I think I'm going to be sick.$u\"/pause 400/globalFade/viewport -1000 -1000/pause 1000/warp Governor -100 -100/playSound slimedead/faceDirection Lewis 2/viewport 35 12 true/pause 1000/speak Lewis \"Whoever took part in this appalling act is truly reprehensible. Using my very private item for this sick purpose!$4#$b#And to ruin a perfectly good poe... unforgivable! I've never been more ashamed of this community... Truly disgusting.$4\"/pause 500/faceDirection Lewis 0/emote Lewis 12/speak Lewis \"Go home, the festival is over.$s\"/pause 500/globalFade/viewport -1000 -1000/message \"I guess the 'little prank' didn't go over too well...\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
@@ -17,7 +17,7 @@
   "Maru_spouse": "I'm just catching up with Penny. Have you had your fill of sweet potatoes yet?",
   "Penny_spouse": "Maru's trying to convince me to eat some of the sweet potato pie. I'm just not sure if I am allowed before the governor...",
   "Haley_spouse": "I was going to eat some pie, but then I remembered I'm on a spring diet.",
-  "Sebastian_spouse": "Do you know where the giant potato came from?It's amazing!$h",
+  "Sebastian_spouse": "Do you know where the giant potato came from?It’s amazing!$h",
   "Sam_spouse": "The gang's just the same as always. Are you having a good time?",
   "Alex_spouse": "Ungh... I think I ate a dozen too many sweet potatoes...$s",
   "Harvey_spouse": "Oh dear… that is an impressive sweet potat...$h",
@@ -36,7 +36,7 @@
   "Alex": "I try to eat at least three sweet potatoes every day.#$e#It is great for your health.",
   "George": "What's everyone so happy about? Hmmph...#$b#Sweet potatoes... why sweet potatoes?",
   "Evelyn": "I hope this becomes a new tradition.#$b#Tradition connects us with both the past and the future... it's comforting.",
-  "Lewis": "Look sharp! The governor's here!.#$b#If you brought something for the pie make sure and add it to the stand with the other ingredients in front of Gil's store. Oscar will take care of it.",
+  "Lewis": "Look sharp! The governor's here!.#$b#If you brought something for the pie make sure and add it to the stand with the other ingredients in front of Gil’s store. Oscar will take care of it.",
   "Clint": "Why am I here and not at the food table?",
   "Penny": "The children are so excited about this strange giant sweet potato and are debating about its origin.",
   "Pam": "Hehe... I put something strong into the punch.$h#$e#Shhh... that's just as always between you and me, kid.",
@@ -44,10 +44,10 @@
   "Jodi": "Vincent loves sweet potatoes... where did he go? Did you see him lately?$s",
   "Kent": "I'm not a big fan of sweet potatoes, to tell you the truth.",
   "Marlon": "Even with my bad leg, I never miss a town festival.",
-  "Sam": "Governor? Who cares...#$e#Another random old guy who doesn't have a clue what's really going on in the world!",
+  "Sam": "Governor? Who cares...#$e#Another random old guy who doesn’t have a clue what’s really going on in the world!",
   "Leah": "Mmmm... This fruit punch is unusually punchy.$h",
   "Shane": "Oscar, Bobby and Octochef have been working overtime to prepare for this festival.#$b#They deserve a nice break afterwards!$h",
-  "Marnie": "Welcome to the Sweet Potato Palooza... complements of our head chef. $h If you brought something for the pie, put it just right on the stand in front of Gil's store with the other ingredients.",
+  "Marnie": "Welcome to the Sweet Potato Palooza... complements of our head chef. $h If you brought something for the pie, put it just right on the stand in front of Gil’s store with the other ingredients.",
   "Elliott": "I hope to find new inspiration here at the palooza.",
   "Gus": "I hope everyone's enjoying the food... I've been cooking day and night with the head chef of Oscar's hotel to get everything ready.#$b# Baked sweet potato, sweet potato fries, sweet potato curry, sweet potato soup,... you name it!$h",
   "Wizard": "Hmm... I wonder who threw the sweet potato down to earth.",
@@ -57,4 +57,5 @@
   "Willy": "What a weird thing to fall down from the sky. Makes you wonder what else is up there. Possibly as much secrets as deep down in the ocean!",
   "Dobson": "What a weird occasion. A giant sweet potato fell from the sky and no one questions it?",
   "Krobus": "I was too curious about the loud noise but am too scared of rejection to go further.$s"
+
 }

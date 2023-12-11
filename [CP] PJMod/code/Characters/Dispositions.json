@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Harvey": "adult/polite/neutral/positive/male/not-datable/Maru/Town/winter 11//HarveyRoom 13 4/PJ",
+                "Harvey": "adult/polite/neutral/positive/male/not-datable/Maru/Town/winter 11//HarveyRoom 23 8 2/PJ",
                 "Clint": "adult/rude/shy/negative/male/not-datable/Emily/Town/winter 26/Emily ''/Blacksmith 3 13/Clunt",
                 "Pierre": "adult/neutral/outgoing/positive/male/not-datable/Caroline/Town/spring 26/Abigail 'daughter' Jil 'wife'/SeedShop 4 17/Gil",
                 "Caroline": "adult/polite/neutral/neutral/female/not-datable/Pierre/Town/winter 7/Gil 'husband' Abigail ''/SeedShop 22 5/Jil",
