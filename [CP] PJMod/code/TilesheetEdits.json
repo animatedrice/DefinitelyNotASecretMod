@@ -1,10 +1,42 @@
 {
     "Changes": [
+        {
+            "LogName": "change wizard",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/Tilesheets/Wizard.png",
+            "ToArea": {
+                "X": "387",
+                "Y": "1965",
+                "Width": "16",
+                "Height": "31"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName|contains=Wizardhouse": "true"
+            }
+        },
+        {
+            "LogName": "Remove smoke",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/Tilesheets/SmokePatch.png",
+            "ToArea": {
+                "X": "372",
+                "Y": "1955",
+                "Width": "11",
+                "Height": "13"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName|contains=Wizardhouse": "true"
+            }
+        },
         { //musueum
             "LogName": "charizard",
             "Action": "EditImage",
             "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/museum/art.png",
+            "FromFile": "assets/Tilesheets/art.png",
             "ToArea": {
                 "X": 144,
                 "Y": 768,
@@ -16,7 +48,7 @@
             "LogName": "lumpy",
             "Action": "EditImage",
             "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/museum/statue.png",
+            "FromFile": "assets/Tilesheets/statue.png",
             "ToArea": {
                 "X": 112,
                 "Y": 832,
@@ -28,7 +60,7 @@
             "LogName": "ghost",
             "Action": "EditImage",
             "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/museum/plush.png",
+            "FromFile": "assets/Tilesheets/plush.png",
             "ToArea": {
                 "X": 80,
                 "Y": 832,
@@ -40,7 +72,7 @@
             "LogName": "Potats",
             "Action": "EditImage",
             "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -58,7 +90,7 @@
             "LogName": "golden badge",
             "Action": "EditImage",
             "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 112,
                 "Y": 0,
@@ -76,7 +108,7 @@
             "LogName": "twin badge",
             "Action": "EditImage",
             "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 32,
                 "Y": 0,
@@ -94,7 +126,7 @@
             "LogName": "potat and ruby badges",
             "Action": "EditImage",
             "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -112,7 +144,7 @@
             "LogName": "diamond,world and rainbow badges",
             "Action": "EditImage",
             "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 48,
                 "Y": 0,
@@ -130,7 +162,7 @@
             "LogName": "silver badge",
             "Action": "EditImage",
             "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 96,
                 "Y": 0,
@@ -148,7 +180,7 @@
             "LogName": "wiggles badge",
             "Action": "EditImage",
             "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/museum/badges.png",
+            "FromFile": "assets/Tilesheets/badges.png",
             "FromArea": {
                 "X": 128,
                 "Y": 0,
@@ -162,13 +194,38 @@
                 "Height": 32
             }
         },
-        { //train
+        { 
+        "LogName": "poster",
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/Tilesheets/poster.png",
+        "ToArea": {
+            "X": 65,
+            "Y": 982,
+            "Width": 15,
+            "Height": 21
+        }
+    },
+        { 
+            "LogName": "billboard",
             "Action": "EditImage",
-            "Target": "TileSheets/Cursors",
+            "Target": "LooseSprites/Billboard",
+            "FromFile": "assets/Tilesheets/Billboard.png",
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 337,
+                "Height": 198
+            }
+        },
+        { 
+            "LogName": "Train",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
             "FromFile": "assets/Tilesheets/Train.png",
             "ToArea": {
                 "X": 224,
-                "Y": 576,
+                "Y": 578,
                 "Width": 480,
                 "Height": 160
             }

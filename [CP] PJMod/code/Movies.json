@@ -4,7 +4,13 @@
             "LogName": "Buoy movie",
             "Action": "EditImage",
             "Target": "LooseSprites/Movies",
-            "FromFile": "assets/Tilesheets/Movies_PJ.png"
+            "FromFile": "assets/Tilesheets/Movies.png",
+            "ToArea": {
+                "X": "0",
+                "Y": "512",
+                "Width": "512",
+                "Height": "128"
+            }
         },
         {
             "Action": "EditData",

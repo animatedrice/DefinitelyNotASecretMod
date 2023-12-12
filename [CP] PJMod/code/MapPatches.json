@@ -1,54 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "change wizard",
-            "Action": "EditImage",
-            "Target": "LooseSprites/Cursors",
-            "FromFile": "Assets/mapPatches/Wizard.png",
-            "ToArea": {
-                "X": "387",
-                "Y": "1965",
-                "Width": "16",
-                "Height": "31"
-            },
-            "Update": "OnLocationChange",
-            "When": {
-                "LocationName|contains=Wizardhouse": "true"
-            }
-        },
-        {
-            "LogName": "Remove smoke",
-            "Action": "EditImage",
-            "Target": "LooseSprites/Cursors",
-            "FromFile": "Assets/mapPatches/SmokePatch.png",
-            "ToArea": {
-                "X": "372",
-                "Y": "1955",
-                "Width": "11",
-                "Height": "13"
-            },
-            "Update": "OnLocationChange",
-            "When": {
-                "LocationName|contains=Wizardhouse": "true"
-            }
-        },
-        {
-            "LogName": "remove fire",
-            "Action": "EditImage",
-            "Target": "TileSheets/Animations",
-            "FromFile": "Assets/mapPatches/FirePatch.png",
-            "ToArea": {
-                "X": "0",
-                "Y": "1919",
-                "Width": "244",
-                "Height": "63"
-            },
-            "Update": "OnLocationChange",
-            "When": {
-                "LocationName|contains=Wizardhouse": "true"
-            }
-        },
-        {
             "LogName": "hotel interior",
             "Action": "EditMap",
             "Target": "Maps/AnimalShop",
@@ -177,7 +129,7 @@
             },
             "PatchMode": "Overlay",
             "MapProperties": {
-                "NightTiles": "Buildings 29 7 35 Buildings 29 6 29",
+                "NightTiles": "Buildings 29 7 226 Buildings 29 6 213",
                 "Light": "29 7 4 29 6 4",
                 "Warp": "30 6 Tent 2 5 14 41 Town 81 0 15 41 Town 81 0 16 41 Town 81 0 54 4 Mine 18 13 9 -1 Railroad 29 59 10 -1 Railroad 29 59 -1 12 Backwoods 49 14 -1 13 Backwoods 49 14 -1 14 Backwoods 49 14 103 15 Mine 67 17 57 41 Town 90 0 85 41 Town 98 0"
             }
