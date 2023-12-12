@@ -4,6 +4,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lewis",
             "Entries": {
+                "Potat_Crash": "Something like this has never happened before in all my years of being King.",
                 "Introduction": "So, how was your first night in the old cottage?#$e#Your grandpa used to complain about the rickety old bed. But I think, deep down, he actually loved that house.",
                 "Resort": "I'm impressed, @. You've really fixed up the place!$h",
                 "Resort_Leaving": "Everyone aboard! We're heading back to the valley!",

@@ -16,6 +16,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
+                "Potat_Crash": "I hope that giant sweet potato will bring more people to our hotel! $h",
                 "Introduction": "Hello$u#$b#I'm Oliver, ass. manager at Oscar's Hotel$u",
                 "Resort_Entering": "I see a crab!",
                 "Resort_Leaving": "I've got sand in my shoe...$s",

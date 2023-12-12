@@ -30,6 +30,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Marnie",
       "Entries": {
+        "Potat_Crash": "My cows were really shaken up by the loud noise last night $s.",
         "Introduction": "Ah, King Bozo told me you just arrived. I'm Oscar!#$e#I run the hotel and just expanded into selling livestock and animal care products . You should swing by some time.$h",
         "Resort": "Hehe... finally a chance to show off all my hard work at aerobics club.$h",
         "Resort_Leaving": "I feel warm.",

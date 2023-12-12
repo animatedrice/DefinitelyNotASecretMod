@@ -5,13 +5,13 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-              "Event.cs.1527": "$q -1 null#Should we move forward with the Palooza? The governor seems a little hungry.#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet."
+                "Event.cs.1527": "$q -1 null#Should we move forward with the Palooza? The governor seems a little hungry.#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet."
             },
             "When": {
                 "Season": "Spring",
                 "Day": 28
             }
-          },
+        },
         { //change soup to pie
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
@@ -60,7 +60,7 @@
             "Action": "EditData",
             "Target": "data/events/Town",
             "Entries": {
-                "192912/e 192911/t 600 1500": "echos/-500 -500/farmer 28 58 2 Lewis 30 64 2 Jodi 27 69 0 Vincent 28 70 0 Haley 25 67 1 Harvey 32 67 3 Maru 34 68 3/skippable/animate Haley false true 250 25 25 32 33 33 33 33 33 33 33 33/pause 800/viewport 28 68/pause 800/emote Harvey 16/pause 500/textAboveHead Haley \"*Click click*\"/pause 500/move farmer 0 5 2/pause 300/jump farmer/emote Maru 16/pause 500/emote farmer 16/pause 800/emote Lewis 8/pause 300/textAboveHead Lewis \"What is this?!\"/pause 800/emote Jodi 8/pause 800/textAboveHead Vincent \"Ew\"/pause 2000/emote Harvey 12/pause 1500/end position 28 62"
+                "192912/e 192911/t 600 1500": "echos/-500 -500/farmer 28 55 2 Lewis 30 64 2 Jodi 27 69 0 Vincent 28 70 0 Haley 25 67 1 Harvey 32 67 3 Maru 34 68 3/skippable/addConversationTopic Potat_Crash 2/animate Haley false true 250 25 25 32 33 33 33 33 33 33 33 33/pause 800/viewport 28 65/pause 800/emote Harvey 16/pause 500/textAboveHead Haley \"*Click click*\"/pause 500/move farmer 0 8 2/pause 300/jump farmer/emote Maru 16/pause 500/emote farmer 16/pause 800/emote Lewis 8/pause 300/textAboveHead Lewis \"What is this?!\"/pause 800/emote Jodi 8/pause 800/textAboveHead Vincent \"Ew\"/pause 2000/emote Harvey 12/pause 1500/end position 28 62"
             }
         },
         //Sweet potat town crash
@@ -78,11 +78,12 @@
             "Update": "OnLocationChange",
             "PatchMode": "Overlay",
             "When": {
-                "HasSeenEvent": "192911"
+                "HasSeenEvent": "192911",
+                "HasFlag |contains=summer_1": false
             }
         },
-         //Sweet potat statue
-         {
+        //Sweet potat statue
+        {
             "LogName": "Sweet potat golden statue",
             "Action": "EditMap",
             "Target": "Maps/Town",
@@ -96,9 +97,7 @@
             "Update": "OnLocationChange",
             "PatchMode": "Overlay",
             "When": {
-                "Season": "Summer",
-                "Day": 1,
-                "Year": 1
+                "HasFlag": "summer_1"
             }
         }
     ]

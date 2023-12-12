@@ -30,6 +30,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Maru",
       "Entries": {
+        "Potat_Crash": "PJ tells me not to worry about the crash and to just do my job..",
         "Introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Paul. I'm PJ's assistant, stream manager, housekeeper etc…!$h#$e# Stop by the art store and I might be able to get you a discount!",
         "Resort_Entering": "The captain mentioned that you helped fix the boat. Thanks for doing that!",
         "Resort_Leaving": "That was fun!",

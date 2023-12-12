@@ -19,6 +19,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pierre",
       "Entries": {
+        "Potat_Crash": "That giant sweet potato probably is worth a lot.. #$2#$b#What?",
         "Introduction": "Hello there! I'm Gil Harmon, owner of the Sweet Potato Mart..#$b#Stop by if you're ever looking for seeds, I'm always home#$e#I'm also very good at advertising, if you need that sort of thing!",
         "Resort": "I'm losing a lot of money being away from the shop...$s#$b#But I have to take advantage of house arrest leave when I can!",
         "Resort_Shore": "When I'm free for good, I want to live here.",

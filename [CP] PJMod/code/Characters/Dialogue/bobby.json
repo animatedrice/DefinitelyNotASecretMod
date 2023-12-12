@@ -4,6 +4,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
+                "Potat_Crash": "That giant potato has me wondering what dishes I could make with sweet potatoes.. ",
                 "Introduction": "Well hello there! I'm Bobby, chef and owner of the Pizzeria.#$e#Stop by if you need any refreshments. I've always got hot za and cold bobby baby bobby beer at the ready.$h",
                 "accept_865": "*sniff* sniff* ... that sharp smell!#$b#*slurp* *slurp* ... that zesty taste! That gritty texture!#$b#It can only be gourmet tomato salt! I'll trade you for it.",
                 "Resort_Entering": "Hey, @! Glad you're here. I'm gonna be serving up some good stuff from behind the bar.",

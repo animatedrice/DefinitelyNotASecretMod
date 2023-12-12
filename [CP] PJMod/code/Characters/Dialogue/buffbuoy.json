@@ -4,6 +4,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Alex",
               "Entries": {
+                "Potat_Crash": "I probably could lift that sweet potato.$4",
                 "Introduction": "Oh, hey. So you're the new guy, huh? Cool.^Hey, you're the new girl, huh? I think we're going to get along great. I'm Buff Buoy.#$e#I'll see you around.",
                 "Resort_Entering": "Finally, we're here!",
                 "Resort_Leaving": "Aw... I guess it can't last forever.$s",

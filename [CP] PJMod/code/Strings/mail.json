@@ -4,6 +4,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
+        "summer_1": "Dear @,^To honour the arrival of the giant sweet potato I have decided to place a statue in the Town square. Please take some time out of your day to admire it.^ - King Bozo[#]Sweet Potato Statue", 
         "MouseQuest": "Hi @!^ I was taking a walk and noticed something at the abanoned building. Please meet me there at your earliest convienence. ^ - Robin %item quest 1234 true%%[#]Robin's note",
         "spring_27": "Dear @,^As you might have seen, the town was blessed by a giant sweet potato. ^^To celebrate this blessing, we will honour the sweet potato with a palooza.^You wouldn't want to miss it ^^Make sure to arrive between 12 PM and 6 PM in the town square if you'd like to attend.^ -King Bozo[#]Sweet Potato Palooza Notice",  
         "Demetrius": "Dear @,^I was conducting a field study the other day, and I found this specimen. ^I hope you find it as interesting as I did.    ^   -Bababooey%item object 392 1 394 1 132 1 66 1 %%[#]A Gift From Bababooey",

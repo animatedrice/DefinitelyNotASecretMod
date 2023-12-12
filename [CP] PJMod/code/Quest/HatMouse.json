@@ -38,7 +38,8 @@
                 "Height": 2
             },
             "When": {
-                "HasSeenEvent": "16071996"
+                "HasSeenEvent": "16071996",
+                "HasSeenEvent |contains=192914": false
             },
             "Patchmode": "Overlay"
         },
@@ -132,7 +133,7 @@
             "Action": "EditData",
             "Target": "data/events/Forest",
             "Entries": {
-                "16071996/F/sunny/t 600 1500/n MouseQuest": "continue/-500 -500/farmer 28 98 1 Robin 35 98 0/skippable/pause 800/viewport 34 98 clamp/move farmer 5 0 1/faceDirection Robin 3/pause 500/speak Robin \"Hey @!$4#$b#Thanks for meeting me here. $0#$b#I heard rumors about a strange mouse that had moved into the abandoned building. It appears the rumors were true.$0#$b#I am concerned about the structural integrity of the building since it has not been maintained for a long time.$2#$b$#If you have a moment, I will inspect the building.\"/pause 800/move Robin 0 -2 0/viewport move 0 -2 1000/faceDirection farmer 0/pause 200/textAboveHead Robin \"Hmm...\"/pause 1200/emote farmer 8/pause 500/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin -3 0 3/faceDirection Robin 0/pause 800/emote Robin 16/pause 1300/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin 0 1 2/viewport move 0 2 1000/move Robin 3 0 1/move Robin 0 1 2/faceDirection Robin 3/faceDirection farmer 1/pause 500/speak Robin \"Well.. the bad news is I'm afraid that the building is on the verge of collapsing.\"/jump farmer/pause 300/emote farmer 16/pause 200/speak Robin \"The good news is that I would be able to repair it if I had the materials.#$b#I estimate that I'll need 400 pieces of wood, 300 pieces of stone, and 50 pieces of hardwood..$0#$b# and an extra 5 pieces of cheese for the Mouse.$1#$b#I will leave a chest here for you to drop off the materials.\"/globalFade/viewport -500 -500/pause 750/message \"If I gather these materials, Robin will repair HatMouse's shop.\"/pause 500/end"
+                "16071996/F/sunny/t 600 1500/n MouseQuest": "continue/-500 -500/farmer 28 98 1 Robin 35 98 0/skippable/pause 800/viewport 34 98 clamp/move farmer 5 0 1/faceDirection Robin 3/pause 500/speak Robin \"Hey @!$4#$b#Thanks for meeting me here. $0#$b#I heard rumors about a strange mouse that had moved into the abandoned building. It appears the rumors were true.$0#$b#I am concerned about the structural integrity of the building since it has not been maintained for a long time.$2#$b$#If you have a moment, I will inspect the building.\"/pause 800/move Robin 0 -2 0/viewport move 0 -2 1000/faceDirection farmer 0/pause 200/textAboveHead Robin \"Hmm...\"/pause 1200/emote farmer 8/pause 500/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin -3 0 3/faceDirection Robin 0/pause 800/emote Robin 16/pause 1300/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin 0 1 2/viewport move 0 2 1000/move Robin 3 0 1/move Robin 0 1 2/faceDirection Robin 3/faceDirection farmer 1/pause 500/speak Robin \"Well.. the bad news is I'm afraid that the building is on the verge of collapsing.\"/jump farmer/pause 300/emote farmer 16/pause 200/speak Robin \"The good news is that I would be able to repair it if I had the materials.#$b#I estimate that I'll need 400 pieces of wood, 300 pieces of stone, and 50 pieces of hardwood..$0#$b# and an extra 5 pieces of cheese for the Mouse.$1#$b#I will leave a chest here for you to drop off the materials.\"/globalFade/viewport -500 -500/pause 750/message \"If I gather these materials, Robin will repair HatMouse's shop.\"/pause 500/end dialogue Robin \"I hope we can fix HatMouse shop soon! #$e# Let me know when you got all the materials!\""
             }
         },
         { //event repairing house
@@ -140,7 +141,7 @@
             "Action": "EditData",
             "Target": "data/events/FarmHouse",
             "Entries": {
-                "192914/n MouseRepaired/t 600 620": "continue/-500 -500/farmer 5 5 0 Robin 5 5 0/skippable/pause 500/changeLocation forest/warp Robin 37 94/faceDirection Robin 3/animate Robin false true 150 24 25 26 25/pause 800/playSound axe/pause 800/playSound axe/pause 800/viewport 37 94 clamp/pause 800/playSound axe/pause 800/playSound axe/pause 800/playSound axe/pause 800/playSound axe/globalFade/viewport -1000 -1000/pause 800/end"
+                "192914/n MouseRepaired/t 600 620": "continue/-500 -500/farmer 5 5 0 Robin 5 5 0/skippable/pause 500/changeLocation forest/warp Robin 37 94/faceDirection Robin 3/animate Robin false true 150 24 25 26 25/pause 800/playSound axe/pause 800/playSound axe/pause 800/viewport 37 94 clamp/pause 800/playSound axe/pause 800/playSound axe/pause 800/playSound axe/pause 800/playSound axe/globalFade/viewport -1000 -1000/pause 800/end dialogue Robin \"I'm so glad we were able to help HatMouse!\""
             }
         }
     ]

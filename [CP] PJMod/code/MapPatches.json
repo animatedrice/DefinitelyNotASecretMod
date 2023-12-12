@@ -6,20 +6,20 @@
             "Target": "Maps/AnimalShop",
             "FromFile": "assets/mapPatches/OscarsHotel.tbin",
             "PatchMode": "Replace",
-            "MapProperties":{
+            "MapProperties": {
                 "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 10 1 1253 Front 10 2 1285 Front 22 1 1253 Front 22 2 1285 Front 24 11 1253 Front 24 12 1285 Front 31 1 1253 Front 31 2 1285 Front 32 11 1253 Front 32 12 1285 Front 1 1 827 Front 6 1 827 Front 9 1 827 Front 14 1 827 Front 20 1 827 Front 23 1 827 Front 28 1 827 Front 32 1 827 Front 23 11 827 Front 25 11 827 Front 32 11 827 Front 11 3 809 Front 14 14 809 Front 29 3 809 Front 3 3 1347 Front 20 13 1347 Back 4 5 607 Back 4 4 639 Back 22 5 638 Back 22 4 606 Back 31 5 60 Back 31 4 60 Back 32 15 262 Back 24 15 231 Back 24 14 263",
                 "DayTiles": "Front 4 1 256 Front 4 2 288 Front 10 1 256 Front 10 2 288 Front 22 1 256 Front 22 2 288 Front 24 11 256 Front 24 12 288 Front 31 1 256 Front 31 2 288 Front 32 11 256 Front 32 12 288",
                 "Doors": "6 12 1 120 13 12 1 120 21 13 1 120 27 13 1 120"
             }
-            },
+        },
         {
             "LogName": "Seedshop interior",
             "Action": "EditMap",
             "Target": "Maps/SeedShop",
             "FromFile": "assets/mapPatches/SeedShop.tmx",
             "PatchMode": "Replace",
-            "MapProperties":{
-                "NightTiles": "Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 25 1 1253 Front 25 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103",
+            "MapProperties": {
+                "NightTiles": "Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 27 1 1253 Front 27 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103",
                 "DayTiles": "Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 25 1 256 Front 25 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102"
             }
         },
@@ -65,8 +65,8 @@
             "Target": "Maps/Hospital",
             "FromFile": "assets/mapPatches/PJShop.tmx",
             "MapProperties": {
-                "NightTiles": "Front 14 1 1253 Front 14 2 1254 Front 21 1 1253 Front 21 2 1254 Front 7 7 1345",
-                "DayTiles": "Front 14 1 256 Front 14 2 288 Front 21 1 256 Front 21 2 288",
+                "NightTiles": "Front 2 11 1253 Front 2 12 1285 Front 15 1 1253 Front 15 2 1285 Front 20 1 1253 Front 20 2 1285 Front 14 8 1347 Front 7 7 1345",
+                "DayTiles": "Front 2 11 256 Front 2 12 288 Front 15 1 256 Front 15 2 288 Front 20 1 256 Front 20 2 288",
                 "Warp": "10 20 Town 36 56 10 1 HarveyRoom 10 12 9 1 HarveyRoom 10 12"
             },
             "PatchMode": "Replace"
@@ -94,7 +94,8 @@
                     "SetTileSheet": "Town",
                     "SetIndex": "318"
                 }
-            ]
+            ],
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "PJ room",

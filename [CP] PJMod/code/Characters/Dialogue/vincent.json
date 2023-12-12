@@ -13,6 +13,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
+                "Potat_Crash": "Ew I hate Sweet potatoes. #$b I hope mom won't make me eat any.. $s",
                 "Mon": "I eat 6 cookies for breakfast every day.#$q 305/306 beachquestion_followup#Do you think that's weird?#$r 305 15 beachquestion_yes#Yes#$r 306 -10 beachquestion_no#No",
                 "beachquestion_yes": "Oh.$s",
                 "beachquestion_no": "Good.$h",

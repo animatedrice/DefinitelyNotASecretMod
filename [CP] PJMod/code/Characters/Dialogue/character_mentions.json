@@ -270,6 +270,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
+                "Potat_Crash": "I hope my pictures of the giant sweet potato go viral! $h",
                 "Resort_Bar": "Bobby made a cute, fruity drink just for me!$h",
                 "Event_room1": "Him? No!#$b#...Well, I guess I used to like Buff Buoy. But not anymore! He's immature.",
                 "summer_Fri": "I wonder what Buff Buoy is doing today...#$e#Huh? I didn't notice you standing there.",
@@ -308,6 +309,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
+                "Potat_Crash": "Everyone is making a lot of fuss about that sweet potato..",
                 "Wed8": "I guess I've grown attached to Oscar and Oliver. We're a ragtag bunch but it kind of feels like a weird family.#$e#I never really had much of a family as a kid.$s",
                 "Sat4": "$d Joja#I'm renting my room from Oscar at a really good price. It's small but I can't complain.|If I could reset my life maybe I'd start a chicken farm. Only free-range eggs of course.",
                 "Sat8": "I've really grown attached to Oscar's chickens.$h",
@@ -326,6 +328,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
+                "Potat_Crash": "I can feel a positive energy emanating from that sweet potato.",
                 "Mon8": "There's good people in this town who just can't seem to find happiness. It makes me sad.$u#$e#Working in the restaurant, I hear first-hand about everyone's problems.$u",
                 "Tue": "I work part-time at Bobby' pizzeria. It pays the bills.",
                 "Tue4": "I'm just working at Bobby' to make ends meet... but my real passion is tailoring.$u#$e#I made these clothes from scratch, see?",
@@ -351,6 +354,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
             "Entries": {
+                "Potat_Crash": "*sigh*... I wish Emily would talk to me about that crash.$s",
                 "Introduction": "Er... hi. I'm Clunt.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.",
                 "Resort_Shore_2": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clunt's body is glistening..."
             }

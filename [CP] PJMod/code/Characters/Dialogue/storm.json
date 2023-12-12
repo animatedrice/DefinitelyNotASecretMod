@@ -19,6 +19,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Willy",
       "Entries": {
+        "Potat_Crash": "I heard the crash all the way from my boat!",
         "Introduction": "Ahoy there! It's nice to see young folk movin' to the valley. It's not very common these days.",
         "accept_869": "Ah... That's the perrrrfect bait for a catfish I've been tryin' to catch!#$b#Here, let me trade you this for it. I'm not sure what it is, but it washed up on the beach not too long ago.#$b#Somethin' tells me you could use it, lad.^Somethin' tells me you could use it, miss.",
         "FullCrabPond": "*sniff*... Ah... That old familiar scent. You've been raisin' crabs, haven't ya?#$b#Yer a man after me own heart, @. Hah!$h^Yer a lady after me own heart, @. Hah!$h#$b#Here, take this. I found it on the beach... Been savin' it fer a special occasion. It's not every day I discover a fellow crab enthusiast! [797]",

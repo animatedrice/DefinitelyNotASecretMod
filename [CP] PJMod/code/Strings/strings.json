@@ -11,21 +11,23 @@
                 "#0"
             ],
             "Entries": {
-                "Items": "1 Parsnip, 1 Green Bean, 1 Cauliflower, 1 {{spacechase0.jsonAssets/ObjectId:SweetPotato}}"
+                "Items": "1 Parsnip, 1 Green Bean, 1 Cauliflower, 1 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}}"
             },
             "When": {
                 "HasMod": "spacechase0.jsonAssets"
-             }
+             },
+             "Update":"OnLocationChange"
         },
         {
             "Action": "EditData",
             "Target": "Data/Bundles",
             "Entries": {
-                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 {{spacechase0.jsonAssets/ObjectId:SweetPotato}} 1 0/0"
+                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0/0"
             },
             "When": {
                 "HasMod": "spacechase0.jsonAssets"
-             }
+             },
+             "Update":"OnLocationChange"
         },
         {
             "Action": "EditData",
@@ -102,6 +104,7 @@
                 "Town-Potat.12": "This is the best day ever!!! The giant sweet potato is my favorite!",
                 "Town-Potat.13": "Who would put this rude sign here…?",
                 "Town-Potat.14": "The market stalls are filled with a variety of sweet potato products sold by the townsfolk.",
+                "Town-Potat.15": "A golden statue honouring the giant sweet potato.",
                 //pj shop strings
                 "PJRoom.1": "Welcome to Welwick's Oracle... I sense that one lucky gamer will be showered with good fortune. ",
                 "PJRoom.2": "An interesting placement of the bed.",

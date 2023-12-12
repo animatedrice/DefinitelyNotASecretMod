@@ -435,7 +435,8 @@
                 "Y": 1120,
                 "Width": 16,
                 "Height": 16
-            }
+            },
+            "Update":  "OnLocationChange"
         },
         {
             "LogName": "Mouse 2",
@@ -453,7 +454,8 @@
                 "Y": 1136,
                 "Width": 64,
                 "Height": 32
-            }
+            },
+            "Update":  "OnLocationChange"
         },
         {
             "LogName": "Mouse 3",
@@ -471,7 +473,8 @@
                 "Y": 1168,
                 "Width": 80,
                 "Height": 96
-            }
+            },
+            "Update":  "OnLocationChange"
         },
         {
             "LogName": "Mouse 4",
@@ -489,7 +492,8 @@
                 "Y": 1200,
                 "Width": 32,
                 "Height": 64
-            }
+            },
+            "Update":  "OnLocationChange"
         },
         {
             "LogName": "Mouse Cursor",

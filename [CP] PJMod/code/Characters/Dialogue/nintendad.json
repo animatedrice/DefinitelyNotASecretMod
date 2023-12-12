@@ -4,6 +4,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Linus",
             "Entries": {
+                "Potat_Crash": "I heard a loud crash last night. I wonder what happened..",
                 "Introduction": "A new face?... Hello.#$e#Don't mind me. I just live out here alone.",
                 "reject_869": "What do you have there? Looks like it would make good bait.$h",
                 "cc_Boulder": "My old friend, the glimmering boulder, has moved on. It may not seem like an important event, like the nintendo direct, but to me it's a big change.#$b#I'm happy for the old rock to see more of the world, though.$h",

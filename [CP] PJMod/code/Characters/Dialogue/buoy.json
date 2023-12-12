@@ -4,6 +4,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Elliot",
         "Entries": {
+          "Potat_Crash": "I love sweet potatoes!$2",
           "Introduction": "Ah, the new farmer we've all been expecting... and whose arrival has sparked many a conversation!#$b#I'm Buoy... I live in the lighthouse by the beach. It's a pleasure to meet you.",
           "Resort_Entering": "That was quite the ride!",
           "Resort_Leaving": "I'll see you back in the valley.",

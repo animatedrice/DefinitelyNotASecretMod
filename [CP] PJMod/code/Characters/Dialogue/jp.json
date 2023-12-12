@@ -13,6 +13,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
+        "Potat_Crash": "Ugh who cares about sweet potatoes..",
         "10": "Did you watch the game last night?#$b#Or wait, do you even have a TV set...?",
         "14": "Ugh, I stepped in something gross earlier... and I just bought these shoes.$s",
         "Introduction": "Hey, I'm JP. Good to meet you.$h",
