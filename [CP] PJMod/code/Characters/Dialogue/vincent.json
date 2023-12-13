@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "EditData",
-            "Target": "Strings/Schedule/Vincent",
+            "Target": "Strings/Schedules/Vincent",
             "Entries": {
                 "spring_11.001": "*gulp*... Mommy, can I have everything?$h",
                 "spring_11.002": "Do I get a new toy?",

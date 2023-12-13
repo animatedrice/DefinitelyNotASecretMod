@@ -12,14 +12,14 @@
                 "Day": 28
             }
         },
-        { //change soup to pie
+        { 
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
                 "Event.cs.1857": "You added {0} to the pie."
             }
         },
-        { // Add festival data
+        { 
             "Action": "Load",
             "Target": "Data/Festivals/Spring28",
             "FromFile": "code/Festival/spring28.json"
@@ -31,19 +31,19 @@
                 "spring28": "Sweet Potato Palooza"
             }
         },
-        { // Add festival to the list
+        { 
             "Action": "EditData",
             "Target": "Data/Festivals/Spring28",
             "Entries": {
                 "name": "Sweet Potato Palooza"
             }
         },
-        { // Load festival map
+        { 
             "Action": "Load",
             "Target": "Maps/Town-SweetPotatoPalooza",
             "FromFile": "assets/Festival/Town-SweetPotatoPalooza.tbin"
         },
-        { //event with meteor sound --> Meteorite (sound ID)
+        { 
             "LogName": "Sweet potat crash",
             "Action": "EditData",
             "Target": "data/events/FarmHouse",
@@ -55,7 +55,7 @@
                 "Day": 26
             }
         },
-        { //event looking at sweet potat
+        { 
             "LogName": "Sweet potat reaction",
             "Action": "EditData",
             "Target": "data/events/Town",
@@ -63,7 +63,6 @@
                 "192912/e 192911/t 600 1500": "echos/-500 -500/farmer 28 55 2 Lewis 30 64 2 Jodi 27 69 0 Vincent 28 70 0 Haley 25 67 1 Harvey 32 67 3 Maru 34 68 3/skippable/addConversationTopic Potat_Crash 2/animate Haley false true 250 25 25 32 33 33 33 33 33 33 33 33/pause 800/viewport 28 65/pause 800/emote Harvey 16/pause 500/textAboveHead Haley \"*Click click*\"/pause 500/move farmer 0 8 2/pause 300/jump farmer/emote Maru 16/pause 500/emote farmer 16/pause 800/emote Lewis 8/pause 300/textAboveHead Lewis \"What is this?!\"/pause 800/emote Jodi 8/pause 800/textAboveHead Vincent \"Ew\"/pause 2000/emote Harvey 12/pause 1500/end position 28 62"
             }
         },
-        //Sweet potat town crash
         {
             "LogName": "Sweet potat appearance",
             "Action": "EditMap",
@@ -82,7 +81,6 @@
                 "HasFlag |contains=summer_1": false
             }
         },
-        //Sweet potat statue
         {
             "LogName": "Sweet potat golden statue",
             "Action": "EditMap",

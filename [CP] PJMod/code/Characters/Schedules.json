@@ -110,7 +110,7 @@
       "Action": "EditData",
       "Target": "characters/schedules/Evelyn",
       "Entries": {
-        "2": "800 JoshHouse 3 17 0 square_3_1_0/1030 Hospital 14 15 0 \"Strings\\schedules\\Evelyn:2.000\"/1330 Hospital 10 16 1 \"Strings\\schedules\\Evelyn:2.001\"/1600 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+        "2": "800 JoshHouse 3 17 0 square_3_1_0/1030 Hospital 14 15 0 \"Strings\\schedules\\Evelyn:2.000\"/1330 Hospital 4 7 0 \"Strings\\schedules\\Evelyn:2.001\"/1600 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
         "23": "800 JoshHouse 3 17 0 square_3_1_0/1040 Hospital 10 16 0 \"Strings\\schedules\\Evelyn:23.000\"/1330 Hospital 4 7 0 \"Strings\\schedules\\Evelyn:23.001\"/1610 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
       }
     },
@@ -213,8 +213,8 @@
       "Entries": {
         "rain": "800 ScienceHouse 6 4 0/1000 ScienceHouse 9 6 1/1230 ScienceHouse 2 21 1/1430 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 ScienceHouse 2 6 3/2000 ScienceHouse 9 6 1/2300 ScienceHouse 2 4 3 maru_sleep",
         "marriage_Mon": "800 ScienceHouse 6 20 0 \"Strings\\schedules\\Maru:marriage_Mon.000\"/1200 ScienceHouse 16 18 0 \"Strings\\schedules\\Maru:marriage_Mon.001\"/1400 Town 63 15 2 maru_sit_down \"Strings\\schedules\\Maru:marriage_Mon.002\"/1800 BusStop -1 23 3",
-        "marriageJob": "730 Hospital 6 15 2 \"Strings\\schedules\\Maru:marriageJob.000\"/1400 Hospital 9 15 3 \"Strings\\schedules\\Maru:marriageJob.001\"/1600 Hospital 8 17 1 \"Strings\\schedules\\Maru:marriageJob.002\"/1640 BusStop -1 23 3",
-        "Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1640 ScienceHouse 26 13 1/2200 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep",
+        "marriageJob": "730 Hospital 5 15 2 \"Strings\\schedules\\Maru:marriageJob.000\"/1400 Hospital 9 15 3 \"Strings\\schedules\\Maru:marriageJob.001\"/1600 Hospital 8 17 1 \"Strings\\schedules\\Maru:marriageJob.002\"/1640 BusStop -1 23 3",
+        "Tue": "730 Hospital 5 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1640 ScienceHouse 26 13 1/2200 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep",
         "Thu": "GOTO Tue",
         "Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1400 Hospital 6 5 3/1830 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",
         "Wed": "GOTO Mon",

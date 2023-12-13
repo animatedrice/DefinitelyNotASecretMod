@@ -32,7 +32,7 @@
                 "LocationName|contains=Wizardhouse": "true"
             }
         },
-        { //musueum
+        {
             "LogName": "charizard",
             "Action": "EditImage",
             "Target": "TileSheets/furniture",
@@ -230,12 +230,12 @@
                 "Height": 160
             }
         },
-        { //intro
+        { 
             "Action": "EditImage",
             "Target": "Minigames/jojacorps",
             "FromFile": "assets/Tilesheets/intro_changes.png"
         },
-        { //StartScreen
+        { 
             "Action": "EditImage",
             "Target": "Minigames/TitleButtons",
             "FromFile": "assets/Tilesheets/TitleButtons_Sweetpotato.png"
@@ -245,7 +245,7 @@
             "Target": "LooseSprites/logo",
             "FromFile": "assets/Tilesheets/logo_sweetpotato.png"
         },
-        { //Fish On
+        { 
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
             "FromFile": "assets/Tilesheets/FishOn.png",
@@ -256,7 +256,7 @@
                 "Height": 48
             }
         },
-        { //Buoy bobber
+        {
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
             "FromFile": "assets/Tilesheets/Buoy.png",
@@ -267,13 +267,13 @@
                 "Height": 9
             }
         },
-        { // Willy's Boat
+        { 
             "LogName": "Willys boat",
             "Action": "Load",
             "Target": "LooseSprites/WillysBoat",
             "FromFile": "assets/Tilesheets/WillysBoat.png"
         },
-        { // Saloon
+        { 
             "LogName": "Saloon",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_town",
@@ -291,7 +291,7 @@
                 "Height": 144
             }
         },
-        { // Pierre's Shop
+        { 
             "LogName": "Store 1",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_town",
@@ -399,7 +399,6 @@
                 "Height": 32
             }
         },
-        // Wizard's Tower
         {
             "LogName": "Wizard",
             "Action": "EditImage",
@@ -418,7 +417,6 @@
                 "Height": 192
             }
         },
-        //HATMOUSE --> season and mouse are dynamic tokens (saves double coding)
         {
             "LogName": "Mouse 1",
             "Action": "EditImage",

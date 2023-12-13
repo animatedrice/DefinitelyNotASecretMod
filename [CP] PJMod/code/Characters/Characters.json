@@ -375,7 +375,7 @@
         {
             "LogName": "Fuzzwald expanded portrait",
             "Action": "EditImage",
-            "Target": "Portraits/Morris",
+            "Target": "Portraits/MorrisTod",
             "FromFile": "assets/portraits/fuzzwald_portrait.png",
             "When": {
                 "HasMod": "FlashShifter.StardewValleyExpandedCP"

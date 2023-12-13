@@ -5,13 +5,13 @@
       "Target": "Strings/Schedules/Harvey",
       "Entries": {
         "Mon.000": "This chat is turning my brain into slop $4", 
-        "Wed.000": "Madness? Welcome to Sparta! $s", 
+        "Wed.000": "Madness? Welcome to Sparta! $h", 
         "Wed.001": "Oh God, I think I just prismatic sharded myself",
-        "Fri.000": "Today there will be no more zamns, no more tomfoolery. Just good clean fun.$s", 
+        "Fri.000": "Today there will be no more zamns, no more tomfoolery. Just good clean fun.$h", 
         "Fri.001": "I've been in my cringe era for as long as I can remember$2",
         "Fri.002": "I am the best gamer in this room right now. $h",
-        "Sat.000": "Sex is illegal in the eyes of god.$s", 
-        "winter_15.000": "I'm not sharing my soup with anyone$2"
+        "Sat.000": "Sex is illegal in the eyes of god.$h", 
+        "winter_15.000": "I'm not sharing my soup with anyone$h"
       }
     },
     {

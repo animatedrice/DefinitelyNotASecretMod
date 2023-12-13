@@ -37,7 +37,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="24" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1k8tKw0AUhg+5WDc+gYhPILgUGi+oKG5suvKSrr0tbNCVJq2Cl53aRVNRfABfxYVbfQp3bkX/kAk5nUyYoeCBj2bOnPl6ZiZxLSL3n3mslXmqFfN55ONnRb1ufR8kYEBlnzzeBA0NPuv/gTnSSMeJVe0/BoFD1LaqCdn6OtZ6YB4sgFlwSnQp++t49sA9iOCPQQd0wQWYdLK6L5uox/wryK1SOfL5jiAALfBtK4pZTDjq81W5+XyE57iinkcDft8p1qf72kJ+G+yws0jDM/DJ0YYvdIZ7lPsNxHvQUtwv39MdzuoH/IJ3dm4Du9qfnnUk3oO4wv9mF/4p9DrtDPvlelVvcmyM+P2uUfHdrQuXLsfndH6f9dgUv7ocn9P5d1FzIggoO39djs/p/CHu5QN7/awVfc2ALnhhve6BfXAADsEROB/T+1Uxp04rQ+dfRM2SxLLCc5b2CyKWuzXwm8YVuAY3LNcz9Ce4g6ab8Tpu/p9k4DdhVM8fyalPDg==
+   eJy1k8tKw0AUhg/JxLrxCUR8AsGl0HhBRRHBpisv6drbwgRdadoqeNmpXZiK4gP4Ki7c6lO4cyv6hyTkdDJhhoIHPjo5c+bryUniWETOP/NYK/NUK/bzyK+fFfW68w8gBn0q++TrDdDQ4LH+75kjieQ6tqr9R8AXRIFVTcjO13HWBbNgDkyDE6IL2V/H2gV3IIK/DTqgC87BuEjrvmyiHvMvIbdM5cj3150UH+sW+LYVxSzGhHq+Kjffj7BuV9TzaMDvieJ8cl+byG+BbTaLJFwDnxwBfKEY7FHu18/eg5bi+fJ7usWsfsAveGdz69vV/o6VziKQ5sFr3uzCP4FeJ8WgX65X9SbH2pDf7woV391q5tLl+J7O77Eem9mvLsf3dP4d1Bxn+JTOX5fjezp/iOfygXv9rBV9TYEueGG97oI9sA8OwCE4G9H7VTGjTitD559HzYLEosJzmvQLIpa7MfCbxiW4Atcs1zP0x3gGTSflddT8P8nAb8Kwnj/GuU6w
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -206,11 +206,6 @@
     <property name="Action" value="Message &quot;PJShop.4&quot;"/>
    </properties>
   </object>
-  <object id="34" name="TileData" x="256" y="256" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;PJShop.18&quot;"/>
-   </properties>
-  </object>
   <object id="35" name="TileData" x="176" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;PJShop.4&quot;"/>
@@ -226,26 +221,21 @@
     <property name="Action" value="Message &quot;PJShop.4&quot;"/>
    </properties>
   </object>
-  <object id="38" name="TileData" x="256" y="272" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;PJShop.18&quot;"/>
-   </properties>
-  </object>
   <object id="39" name="TileData" x="48" y="256" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;PJShop.7&quot;"/>
    </properties>
   </object>
  </objectgroup>
- <layer id="7" name="Paths" width="24" height="20" visible="0">
+ <layer id="7" name="Paths" width="24" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBj6gHOgHTAEAAeVzMAX1rjkSBUnFgymeKfELYPJH6Ng8ANi8jI5+R09HZLKHwWkAwAWpgCN
+   eJxjYBj6gJOK+vCZRa49gwFwUMkMcsKHVHFiwWCKD0rcMpj8MVCA3mFATJqkhpto4S9i8jI5+Z0TjcYlj4s/CkgHADSZANU=
   </data>
  </layer>
  <objectgroup id="8" name="Paths"/>
  <layer id="5" name="Front" width="24" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlLdOA0EQhldgc1Q2L2GSEFkgkIDKQiZLhAKRXgABEqmggYZYECSgITSASS28gQk1LeJBaPhWN4uX8/mwML/0ae9mZ//bmbu9SIFSDkRlNBRDOAtFnlwvUVmvFZdxC7ZhB2JQS7wCIta6EohBtawJF6oMmZhZr/3LuC+HCqiEGtiEREH6+crnPiZe7SGlOkI/Y3Z+Hdf10ACNUAoH1nybkIIn8Z/HZwzPcZiASfj01GPWt3Ddmlnq9/y4cOgodQxvPn2x9ch8XTizXltJ4usB80GqoZbaUNpf19VLvA/6JScl7/TpD/5G2v8CLuFGuJJea8WdzJpMjtE0e3uHD7i3+rZY6PrbClv9zrYfk9PppP13Qy73Pu/Xq6B+G39vzX7cwp2cn6iF6fcz44vwKrGUJ9dQErCnuHx3+twtcb+s3P6fMJ7CGZxLTOcluO6CbuiBI8e/D95+6HO3yrim3P5fMSbhGm5U+p0MwhAMw4jVtyD/Abwf2Mej9b1Uwx7sW7lj+jkwAZMwBaNFue0/H/3m36xcqmRsypI7A7MwZ8VWcvDPV7n4L1hnY6P4//xzOSvmf5D0mTPnKB+ZGoP2mU1f9xNcpw==
+   eJytlMlKA0EQhpuYcQKC8SXijjuKgnoSiTu4HMTtBUQFt4MXvbgeXEC9uFzUuORq3iAuZ6/ig3jxa6bbaSeTMRgLPqqnuvpPVc10ikNC2BBVXhMBKwuFnlwvUXVeWpfyO7ALexCDOuIVUGycK4EY1KgzVoHIMB3T56V+Gc/lUAGVUAvbEA+5vy98nmNKqyMsRGf4Z8zMr2fdAI3QBKVwZOwXWQ5p1k9KfxGdCTQnYQqm4dPTjz7fyrots9Xv/SrL4dgW4hTefOZiWor9eiuzX9MSxDcD9oOsll7qwq6+7Kuf+AAMqpy0eqdPf9DXJvWv4BruFDfQrr8tO7MnnaNtltre4QOSxtyWCxx90yzVz2SWmuMhN6fbdvX3ww5Jn/frtaB5a31vz37cw4O6P1EDPe9n/IviVcXSnlxNSUBNsl753cl7t8LzqnDmf4Y/hwu4VDGZF2fdA73QBye2/xy885D3bh2/IZz53+ATcAt3wn0nwzACozBmzC1IfwjtR+pIGd9LDRzAoZE7IX8HpmAaZmC8MLf687Hf9FuEQ7XyzVly52AeFozYWg76+Vou+kvG3diK/J9+LndF/x8kfPb0PcrHdI9BdWazL4dzW+s=
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
