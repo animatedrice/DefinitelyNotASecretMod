@@ -1,5 +1,5 @@
 {
-    "Name": "PJMod",
+    "Name": "PJShop",
     "Author": "SweetPotats",
     "Version": "1.0.0",
     "Description": "Adds custom shops to the PJ mod",
@@ -12,6 +12,9 @@
       {
         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
         "IsRequired": false
+      },
+      {
+        "UniqueID":"spacechase0.JsonAssets"
       }
     ]
   }

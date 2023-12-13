@@ -1,5 +1,5 @@
 {
-       "Shops": [
+    "Shops": [
         {
             "ShopName": "PJShop",
             "PortraitPath": "assets/PJ_Portrait.png",
@@ -83,6 +83,23 @@
             "ClosedMessage": "Woof woof woof.",
             "When": [
                 "t 900 2000"
+            ]
+        }
+    ],
+    "VanillaShops": [
+        {
+            "ShopName": "PierreShop",
+            "ReplaceInsteadOfAdd": false,
+            "AddStockAboveVanilla": true,
+            "ItemStocks": [
+            
+                {
+                    "ItemType": "Seed",
+                    
+                    "JAPacks": [
+                        "SweetPotats.PJPotat"
+                    ]
+                }
             ]
         }
     ]

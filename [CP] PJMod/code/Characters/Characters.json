@@ -1,6 +1,12 @@
 {
     "Changes": [
         {
+            "LogName": "Robin Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Robin",
+            "FromFile": "assets/sprites/Robin_sprite.png"
+        },
+        {
             "LogName": "Jil Portrait",
             "Action": "EditImage",
             "Target": "Portraits/Caroline",

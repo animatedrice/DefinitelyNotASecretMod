@@ -3,7 +3,7 @@
   "Description": "A wildly popular vegetable. The sweet taste compliments any dish.",
   "Category": "Vegetable",
 
-  "Edibility": 10,
+  "Edibility": 30,
   "EdibleIsDrink": false,
 
   "EdibleBuffs": {

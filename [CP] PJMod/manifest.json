@@ -13,12 +13,10 @@
       "UniqueID": "spacechase0.JsonAssets"
     },
     {
-      "UniqueID": "spacechase0.DynamicGameAssets",
-      "IsRequired": true
+      "UniqueID": "spacechase0.DynamicGameAssets"
     },
     {
-      "UniqueID": "Cherry.ShopTileFramework",
-      "IsRequired": true
+      "UniqueID": "Cherry.ShopTileFramework"
     },
     {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
@@ -29,8 +27,7 @@
       "IsRequired": false
     },
     {
-      "UniqueID": "ZeroMeters.SAAT.API",
-      "IsRequired": true
+        "UniqueID": "esztike.customSounds"
    }
   ]
 }
