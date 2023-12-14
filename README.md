@@ -29,7 +29,6 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 * 1.0.1
     * Various map fixes
     * Dialogue fix
-    * Added item to festival
   
  ## Credit
  * Coding
