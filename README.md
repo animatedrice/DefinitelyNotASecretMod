@@ -1,4 +1,4 @@
-# Definitely Not A SecretMod
+# Definitely Not A Secret Mod
 This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content related to PJ's creations to the game.
 
 ![Credit image](credit.png "Credit")
@@ -17,11 +17,10 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 2. Install [this mod](https://github.com/animatedrice/DefinitelyNotASecretMod/releases/download/v.1.0.1/PjStardewMod.zip)
 3. Run the game using SMAPI.
 
-### Known issues
-* Limited compatibility with *Stardew Expanded*.
-     * Some locations might look wonky
-     * Dialogue might reference to the wrong character name
-* Doors might not use the correct gender
+>[!CAUTION]
+> * Limited compatibility with *Stardew Expanded*. You might consider disabling Expanded to use this mod in a different savefile.
+>     * Some locations might look wonky
+>     * Dialogue might reference to the wrong character name
 
 ## Future updates 
 - [ ] Migration to 1.6
