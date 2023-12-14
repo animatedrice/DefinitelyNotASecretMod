@@ -4,6 +4,10 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 ![Credit image](credit.png "Credit")
 
 ## Get started
+>[!CAUTION]
+> * Highly recommended to start a new save file
+> * For the optimal experience remove Stardew Expanded and other mods that alter dialogue while playing this mod!
+
 ### Needed mods
 1. Install the latest versions of:
    * [SMAPI](https://smapi.io/)
@@ -14,10 +18,6 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
    * [SAAT](https://www.nexusmods.com/stardewvalley/mods/10747)
 2. Install [this mod](https://github.com/animatedrice/DefinitelyNotASecretMod/releases/download/v.1.0.1/PjStardewMod.zip)
 3. Run the game using SMAPI.
-
->[!CAUTION]
-> * Highly recommended to start a new save file
-> * For the optimal experience remove Stardew Expanded and other mods that alter dialogue while playing this mod!
 
 ## Future updates 
 - [ ] Migration to 1.6
