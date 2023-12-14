@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Harvey": "Thanks for the bits!/614 408 206 224 424 613/That's such a nice gift. Thank you!/248 216 398 223/I'd rather be bonked than getting this../395 /That's going to be an IP-ban./303 346 348/I guess I'll accept this for the halibut./708/",
+                "Pierre": "It's truly special. Thanks for bringing some beauty into my world./254 190 258 276 336 122/Just what I need for tending to my seeds. Good choice, thanks!/368 369 371 384/You are just like my ex-wife…/614/I would rather go back to jail than have this./170/I'm not much of a chef, but maybe I'll find some inspiration. Thanks./260 256 270/",
+                "Gus": "Bobby baby bobby bubbi!!!/618 346 216 198 91 904 207 611 234/Bobby baby bobby bubbi!!/539 540 132 284 597/Bobby baby bobby ew-ie/570 410 119 700 800/what did I bobby baby do to deserve this?/132 278 787/Bobby baby bobby bubbi!/767/",
+                "Elliott": "@, this is a beautiful gift! Thank you!/128 216 130 131 132 138/This is for me? Marvelous!/-4/Hmm... I'm not a huge fan of this.//This item gives me a terrible feeling. I'll have to dispose of it.//Oh, a present! Thank you!//",
+                "Marnie": "Oh, this is exquisite! It'll be a perfect addition to the hotel. Thank you so much!/461 66 96 113/Ah, a nice touch! These always create a cozy atmosphere. Thanks!/446 432 348 210 807 815/Uh, thanks, I guess. Not really what I was hoping for./88 118/Why on earth would you give me this? Please, keep it away from the hotel./172 167 110/Hmm, thanks. These are always interesting to have around./174 176 206 223/",
+                "Jas": "Thank you! Honestly, thank you! I was searching for something like that for forever.$h/221 595 604 682 795 104 241/This is amazing, thanks!/18 60 64 70 88 232 233 234 222 223 340 344 402 418 903/The hell is that?!?$s/253 395 459 -26 2 16 330 873/That's the most disgusting thing I have seen in my life!//Is this a gift? Really...$s/-5 -81 -75 -79 80/",
+                "Lewis": "A splendid choice! This crown is fit for a king. You have my utmost gratitude!/124 125 373 395 163 446/Ah, a fine addition to my chambers! This tapestry is quite elegant. Thank you./336 384 791/Is this a joke? Such a gift is beneath my royal standards./170 118 80/What is the meaning of this? I have no use for such rubbish. Remove it from my sight!/103 112/Hmm, a gem. It's a decent gift. I appreciate the gesture./70 72 68 66 64/",
+                "Demetrius": "Meow-wow! This is purr-fect! A companion for my imaginary adventures. Thank you!/279 908 130 306 562/Ah, for magical duels! Excellent choice, adventurer. I appreciate the thought./99 104 129 119 109/What sorcery is this? I don't need this for my quests. Keep your bath-related items to yourself./93 342/Hiss! A weapon of watery doom! I disdain such devices. Begone, vile contraption!/554 635/Hmm. I suppose it could be a makeshift magical orb. Thanks, I guess./684 142 168/",
+                "Maru": "Wow thank you! PJ usually doesn't let me have nice things/108 107/That's really nice of you, thanks!/618 224 206/Um Thanks I guess..//*BLEEP*//Thank you.//",
+                "Alex": "Hey, awesome! This'll make me more buff!/194 195 560 558/This is cool! Thanks./-5/Um... Okay. Thanks./16 330/Are you serious? This is bad for my muscles./220 221 223 233/Thanks!//",
+                "Linus": "Oh, fantastic! A rare collectible! You've got a keen eye for treasures. Thank you so much!/928 852 797 791/Ah, a subtle nod to my profession! I appreciate the thoughtful gesture. This is charming./787 773 636/Interesting choice. I suppose these have their charm. Thanks, I guess./167 127 20/What's this? A prank? I don't have time for such nonsense. Keep your pranks to yourself./171 205 404 420 422/Hmm, a snack. It's not caviar, but it's a nice change. Thanks for thinking of me./720 730 732 723S/",
+                "Krobus": "This is an amazing gift. For my people it is a great honor to receive something like this./276 608 220 881 561 156 221/Thank you very much.//Humans have... interesting tastes.//Oh... Um. I guess I'll accept it./-7 769/Thank you.//",
+                "Willy": "This is truly special. Thank you for remembering her. It means more to me than words can express./421 591 595/A thoughtful addition to my rod! I appreciate the practicality. Thanks, friend./685 774 908/Not my cup of tea, but I appreciate the effort./447 812/What's this supposed to be? I don't need gimmicks. My powers are my own. Keep your trinkets./265 279 769 151/Reminds me of the shore. Nice gesture, I suppose. Thanks./392 394 393 131 140/",
+                "Wizard": "Incredible! Where did you find this? It's like a piece of another world. You've made my day, thank you!/578 308 769 269 551/This will come in handy on my next expedition. Nice choice, thanks!/268 305 768/Not really my style. I prefer things from the great unknown. But I appreciate the gesture./400 22/What is this nonsense? I don't have time for fake artifacts. Stick to real discoveries, please./428 410/This might be useful. Thanks for thinking of me.//",
+                "Dobson": "Someone could say I love this gift, but love is overrated./224 446 348 420/This is almost as good as a plate of hot fresh spaghett./-12/I once got a gift like this and let's just say no one ever heard from them again./113/Are you mocking me? I need money not this garbagio!/126 127/What am I supposed to do with that, heh?//"
+            }
+        },
+        {
+            // WIGGLES BIRTHDAY GIFTTASTES
+            "Action": "EditData",
+            "Target": "Data/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4274": "This birthday gift is almost as good as having walls!$h",
+                "NPC.cs.4275": "his birthday gift is almost as good as having walls!$h",
+                "NPC.cs.4276": "Maybe I can sell this to make some money.$h/ Maybe I can sell this to make some money.$h",
+                "NPC.cs.4277": "his birthday gift is almost as good as having walls!$h",
+                "NPC.cs.4278": "Are you kidding me? You give me this shit on my birthday?$s/Are you kidding me? You give me this shit on my birthday?$s",
+                "NPC.cs.4279": "Are you kidding me? You give me this shit on my birthday?$s/Are you kidding me? You give me this shit on my birthday?$s",
+                "NPC.cs.4280": "Maybe I can sell this to make some money.",
+                "NPC.cs.4281": "Maybe I can sell this to make some money./Maybe I can sell this to make some money."
+            },
+            "When": {
+                "Season": "summer",
+                "Day": "7"
+            }
+        }
+    ]
+}

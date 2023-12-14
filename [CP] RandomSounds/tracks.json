@@ -1,0 +1,25 @@
+[
+  {
+    "Id": "yoba",
+    "Filepath": "assets/shorter-yoda.ogg",
+    "Category": "Sound"
+  },
+  {
+    "Id": "FishHit",
+    "Filepath": "assets/fish_on.ogg",
+    "Category": "Sound"
+  },
+  {
+    "Id": "SweetPotats",
+    "Filepath": "assets/PJ_Stardew_Mod_Song.wav",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "clubSmash",
+    "Filepath": "assets/badonk_02.ogg",
+    "Category": "Sound"
+  }
+]

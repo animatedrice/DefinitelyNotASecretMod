@@ -1,0 +1,37 @@
+{
+  "Name": "Sweet Potato",
+  "Description": "A wildly popular vegetable. The sweet taste compliments any dish.",
+  "Category": "Vegetable",
+
+  "Edibility": 30,
+  "EdibleIsDrink": false,
+
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 0
+  },
+
+  "Price": 160,
+
+  "IsColored": false,
+  "Recipe": null,
+
+  "GiftTastes": {
+    "Love": ["Pam", "Abigail", "Harvey", "Maru"],
+    "Like": ["Willy", "Elliott", "Alex"],
+    "Neutral": [],
+    "Dislike": ["Clint", "Sam"],
+    "Hate": ["Vincent", "Kent"]
+  },
+
+  "ContextTags": ["color_purple", "dye_medium"]
+}

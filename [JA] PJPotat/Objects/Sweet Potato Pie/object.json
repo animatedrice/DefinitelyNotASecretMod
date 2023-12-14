@@ -1,0 +1,91 @@
+{
+    "Name": "Sweet Potato Pie",
+    "Price": 300,
+    "Description": "A deep, caramelized flavor with a touch of spice.",
+    "Category": "Cooking",
+    "Edibility": 80,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 2,
+        "Duration": 180
+    },
+    "IsColored": false,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Sweet Potato",
+                "Count": 1
+            },
+            {
+                "Object": -6,
+                "Count": 1
+            },
+            {
+                "Object": 246,
+                "Count": 1
+            },
+            {
+                "Object": -5,
+                "Count": 1
+            },
+            {
+                "Object": 245,
+                "Count": 1
+            }
+        ],
+        "IsDefault": false,
+        "CanPurchase": true,
+        "PurchaseFrom": "Hospital",
+        "PurchaseRequirements": null
+    },
+    "GiftTastes": {
+        "Love": [
+			"Harvey",
+			"Elliott",
+			"Willy",
+			"Maru",
+			"Krobus",
+			"Gus"
+		],
+		"Like": [
+			"Abigail",
+			"Alex",
+			"Caroline",
+			"Demetrius",
+			"Dwarf",
+			"Emily",
+			"Evelyn",
+			"George",
+			"Haley",
+			"Jas",
+			"Leah",
+			"Linus",
+			"Marnie",
+			"Penny",
+			"Pierre",
+			"Robin",
+			"Sandy",
+			"Shane",
+			"Wizard"
+		],
+		"Neutral": null,
+		"Dislike": [
+			"Kent",
+			"Clint",
+			"Vincent",
+			"Alex",
+			"Sam"
+		],
+		"Hate": null
+    }
+}

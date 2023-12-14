@@ -1,0 +1,123 @@
+{
+    "Changes": [
+        {
+            "LogName": "Buoy movie",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Movies",
+            "FromFile": "assets/Tilesheets/Movies.png",
+            "ToArea": {
+                "X": "0",
+                "Y": "512",
+                "Width": "512",
+                "Height": "128"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Movies",
+            "Entries": {
+                "winter_movie_1": {
+                    "ID": null,
+                    "SheetIndex": 4,
+                    "Title": "The Lost Buoy",
+                    "Description": "A beloved movie classic, carefully restored for modern theaters.",
+                    "Tags": [
+                        "classic",
+                        "family",
+                        "art"
+                    ],
+                    "Scenes": [
+                        {
+                            "Image": 0,
+                            "Music": "movie_nature",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "'The Lost Buoy by PJ Liguori'",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_0"
+                        },
+                        {
+                            "Image": 1,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 500/playSound seagulls/pause 1000/playSound seagulls/pause 2000",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": "",
+                            "ID": "winter1_1"
+                        },
+                        {
+                            "Image": 2,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/playMusic rain/pause 1000/playSound thunder/pause 500",
+                            "Text": "AHHHHHHH",
+                            "Shake": true,
+                            "ResponsePoint": "",
+                            "ID": "winter1_2"
+                        },
+                        {
+                            "Image": 3,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/playMusic movie_nature/pause 800/playSound dwoop/pause 500/playSound dwoop/pause 500/playSound dwoop/pause 1000",
+                            "Text": "I know how lonely this great ocean can be. Very best of luck to you, O bulbous one. - Wise whale",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_3"
+                        },
+                        {
+                            "Image": 4,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 1000/playSound waterSlosh/pause 1000/playSound waterSlosh/pause 1000/playSound waterSlosh/pause 1500",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_4"
+                        },
+                        {
+                            "Image": 5,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 300/playSound wind/pause 3500",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_5"
+                        },
+                        {
+                            "Image": 6,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 300/playMusic rain/pause 900/playSound parrot_squawk/pause 1000/playSound parrot_squawk/pause 800/playSound parrot_squawk/pause 2000",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_6"
+                        },
+                        {
+                            "Image": 7,
+                            "Music": "movie_nature",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 3000",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_7"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

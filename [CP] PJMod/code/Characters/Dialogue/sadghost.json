@@ -1,0 +1,28 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Krobus",
+      "Entries": {
+        "4": "...Have you encountered others like me, in the mines? I'm sorry if they were hostile towards you. You see, we've learned to fear humans... there have been too many... unpleasant encounters.#$e#You haven't... slain any of my friends, have you?",
+        "8": "People are scared of my kind. No one wants to visit me. I would love to throw a big party and invite everyone!",
+        "15": "Please keep my hiding spot secret. If the others knew of me, they'd call the ghostbusters!",
+        "Fri": "BoOoOoO!",
+        "reject_868": "Oh, it's an arctic shard! That's a very rare magical item.#$b#I'd bring that to the Wizard if I were you!",
+        "Wed": "You wouldn't believe what I find in the mines. Have a look!",
+        "Wed6": "If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3",
+        "Thu": "Let's keep these encounters our secret. Would you?",
+        "Thu6": "Do the others ever talk about ghosts? I wanna make friends but rejection frightens me.",
+        "Tue": "I am very sensitive. Going outside scares me.",
+        "Mon": "Baking is a hobby of mine. In fact, I made a cake this morning. Do you want a piece?",
+        "Mon2": "Did you come back for more cake? I love cake too.",
+        "Mon6": "Look what I found! It is so red! Actually I don't really know what it is. I heard people calling it bahloOoOoOon or something. Do you know what I am supposed to do with it?",
+        "Sat": "It's Saturday! Time to do nothing.",
+        "Sun": "BoOoOo! Sorry, you surprised me. How is was your week, human friend?",
+        "Sun4": "I like you. You are a good one.",
+        "Sun8": "Do you wanna come to my party? You can have my balloon!",
+        "divorved": "bohoho!"
+      }
+    }
+  ]
+}

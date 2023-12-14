@@ -1,0 +1,106 @@
+{
+    "Shops": [
+        {
+            "ShopName": "PJShop",
+            "PortraitPath": "assets/PJ_Portrait.png",
+            "Quote": "PJ spends great lengths of time carefully crafting his products with love and imagination.",
+            "MaxNumItemsSoldInStore": 5,
+            "ItemStocks": [
+                {
+                    "ItemType": "Furniture",
+                    "ItemNames": [
+                        "DGA.PJCandle",
+                        "DGA.LullabyCube",
+                        "DGA.Poster_sea",
+                        "DGA.Poster_catcher",
+                        "DGA.Poster_ghost",
+                        "DGA.Poster_space",
+                        "DGA.Poster_forest",
+                        "DGA.Poster_buoy"
+                    ],
+                    "StockPrice": 1500
+                }
+            ],
+            "When": [
+                "NPCAt Harvey 4 15 5 15",
+                "NPCAt Maru 4 15 5 15"
+            ],
+            "ClosedMessage": "Come back later bozo."
+        },
+        {
+            "ShopName": "MouseShop",
+            "PortraitPath": "assets/Mouse_Portrait.png",
+            "Quote": "You have coins? Me sell hats.",
+            "ItemStocks": [
+                {
+                    "ItemType": "Hat",
+                    "ItemNames": [
+                        "Chef Hat"
+                    ],
+                    "StockPrice": 500
+                }
+            ]
+        },
+        {
+            "ShopName": "DogShop",
+            "PortraitPath": "assets/Dog_Portrait.png",
+            "Quote": "Woof.",
+            "CategoriesToSellHere": [
+                -7,
+                -5,
+                -6,
+                -14
+            ],
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Maki Roll",
+                        "Sashimi"
+                    ]
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Fiddlehead Risotto",
+                        "Salmon Dinner",
+                        "Fried Calamari",
+                        "Rice Pudding",
+                        "Stir Fry"
+                    ],
+                    "MaxNumItemsSoldInItemStock": 1
+                },
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
+                        "Shrimp Cocktail"
+                    ],
+                    "When": [
+                        "d friday/t 1800 2000"
+                    ]
+                }
+            ],
+            "ClosedMessage": "Woof woof woof.",
+            "When": [
+                "t 900 2000"
+            ]
+        }
+    ],
+    "VanillaShops": [
+        {
+            "ShopName": "PierreShop",
+            "ReplaceInsteadOfAdd": false,
+            "AddStockAboveVanilla": true,
+            "ItemStocks": [
+            
+                {
+                    "ItemType": "Seed",
+                    
+                    "JAPacks": [
+                        "SweetPotats.PJPotat"
+                    ]
+                }
+            ]
+        }
+    ]
+}

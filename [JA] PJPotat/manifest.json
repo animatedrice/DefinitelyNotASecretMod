@@ -1,0 +1,11 @@
+{
+  "Name": "PJPotat",
+  "Author": "SweetPotats",
+  "Version": "1.0.0",
+  "Description": "Adding new crops",
+  "UniqueID": "SweetPotats.PJPotat",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}
