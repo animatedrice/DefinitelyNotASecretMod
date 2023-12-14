@@ -1,5 +1,5 @@
-# Definitely Not A Secret Mod
-This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content related to PJ's creations to the game.
+# PJ Stardew Mod
+This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content celebrating PJ's creations and storytelling.
 
 ![Credit image](credit.png "Credit")
 
