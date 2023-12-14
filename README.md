@@ -11,8 +11,8 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
    * [SMAPI](https://smapi.io/)
    * [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915)
    * [Json Assets](https://www.nexusmods.com/stardewvalley/mods/1720)
-   * [Shop Tile Framework](https://www.nexusmods.com/stardewvalley/mods/5005)  (until 1.6)
-   * [Dynamic Game Assets](https://www.nexusmods.com/stardewvalley/mods/9365) (until 1.6)
+   * [Shop Tile Framework](https://www.nexusmods.com/stardewvalley/mods/5005) 
+   * [Dynamic Game Assets](https://www.nexusmods.com/stardewvalley/mods/9365) 
    * [SAAT](https://www.nexusmods.com/stardewvalley/mods/10747)
 2. Install [this mod](https://github.com/animatedrice/DefinitelyNotASecretMod/releases/download/v.1.0.1/PjStardewMod.zip)
 3. Run the game using SMAPI.
@@ -24,7 +24,6 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 
 ## Future updates 
 - [ ] Migration to 1.6
-- [ ] Upload to the Nexus
   
 ## Version History
 * 1.0.1
