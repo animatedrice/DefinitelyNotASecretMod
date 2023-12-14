@@ -2,8 +2,6 @@
 This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content related to PJ's creations to the game.
 
 ![Credit image](credit.png "Credit")
->[!NOTE]
->This mod alters vanilla characters' names & genders, locations, dialogue and game events!
 
 ## Get started
 ### Needed mods
@@ -18,17 +16,11 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 3. Run the game using SMAPI.
 
 >[!CAUTION]
-> * Limited compatibility with *Stardew Expanded*. You might consider disabling Expanded to use this mod in a different savefile.
->     * Some locations might look wonky
->     * Dialogue might reference to the wrong character name
+> * Highly recommended to start a new save file
+> * For the optimal experience remove Stardew Expanded and other mods that alter dialogue while playing this mod!
 
 ## Future updates 
 - [ ] Migration to 1.6
-  
-## Version History
-* 1.0.1
-    * Various map fixes
-    * Dialogue fix
   
  ## Credit
  * Coding
