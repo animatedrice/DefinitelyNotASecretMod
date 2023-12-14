@@ -1,0 +1,81 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sweet potato seeds",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "PJMod_SweetPotatoSeeds": {
+                    "Name": "Sweet Potato Seeds",
+                    "Displayname": "Sweet Potato Seeds",
+                    "Description": "Plant in Spring for a lovely purple veggie. Takes 10 days to mature.",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 60,
+                    "Texture": "assets/Objects/SweetPotato/seeds.png",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "Sweet potato",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "PJMod_SweetPotato": {
+                    "Name": "Sweet Potato",
+                    "Displayname": "Sweet Potato",
+                    "Description": "A wildly popular vegetable. The sweet taste compliments any dish.",
+                    "Type": "Object",
+                    "Category": -75,
+                    "Price": 160,
+                    "Texture": "assets/Objects/SweetPotato/SweetPotat.png",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "LogName": "Gift tastes Sweet potato",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Love"
+                    ],
+                    "Value": "PJMod_SweetPotato",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Sweet potato crop",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "PJMod_SweetPotato": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        2,
+                        3
+                    ],
+                    "HarvestItemId": "PJMod_SweetPotato",
+                    "Texture": "assets/objects/sweetPotato/Crops.png",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/PJMod_SweetPotato/Crops, Mods/PJMod_SweetPotato/Objects, Mods/PJMod_SweetPotato/Objects",
+            "FromFile": "assets/objects/sweetPotato/crops.png, assets/objects/sweetPotato/seeds.png, assets/objects/sweetPotato/object.png," 
+        }
+    ]
+}

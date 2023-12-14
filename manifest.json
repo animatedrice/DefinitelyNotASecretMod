@@ -1,0 +1,11 @@
+{
+  "Name": "PJMod",
+  "Author": "SweetPotats",
+  "Version": "1.0.1",
+  "Description": "Various mods",
+  "UniqueID": "SweetPotats.PJMod",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
