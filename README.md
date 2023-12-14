@@ -1,6 +1,8 @@
 # Definitely Not A SecretMod
 This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content to the game.
-This mod alters characters names/genders, locations, dialogue and game events!
+
+>[!NOTE]
+>This mod alters characters names/genders, locations, dialogue and game events!
 
 ## Get started
 ### Needed mods
@@ -11,7 +13,7 @@ This mod alters characters names/genders, locations, dialogue and game events!
    * [Shop Tile Framework](https://www.nexusmods.com/stardewvalley/mods/5005)  (until 1.6)
    * [Dynamic Game Assets](https://www.nexusmods.com/stardewvalley/mods/9365) (until 1.6)
    * [SAAT](https://www.nexusmods.com/stardewvalley/mods/10747)
-2. Install [this mod](https://drive.google.com/file/d/1yWu89vDr3ol685jT6v42mWSiuUZdWXVd/view?usp=sharing)
+2. Install [this mod](https://github.com/animatedrice/DefinitelyNotASecretMod/releases/download/v.1.0.1/PjStardewMod.zip)
 3. Run the game using SMAPI.
 
 ### Known issues
