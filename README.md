@@ -1,8 +1,9 @@
 # Definitely Not A SecretMod
-This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content to the game.
+This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content related to PJ's creations to the game.
 
+![Credit image](credit.png "Credit")
 >[!NOTE]
->This mod alters characters names/genders, locations, dialogue and game events!
+>This mod alters vanilla characters' names & genders, locations, dialogue and game events!
 
 ## Get started
 ### Needed mods
@@ -17,8 +18,10 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 3. Run the game using SMAPI.
 
 ### Known issues
-* Limited compatibility with Stardew Expanded. Locations might look wonky and dialogue might reference to the wrong character name.
-* Doors do not use the right gender for Oscar and Oliver.
+* Limited compatibility with *Stardew Expanded*.
+     * Some locations might look wonky
+     * Dialogue might reference to the wrong character name
+* Doors might not use the correct gender
 
 ## Future updates 
 - [ ] Migration to 1.6
@@ -30,7 +33,7 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
     * Dialogue fix
     * Added item to festival
   
- ## Authors
+ ## Credit
  * Coding
      * Eszti, Ellie
  * Art
