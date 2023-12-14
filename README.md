@@ -1,7 +1,7 @@
 # PJ Stardew Mod
 This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content celebrating PJ's creations and storytelling.
 
-![Credit image](credit.png "Credit")
+![Credit image](Unbenanntes_Projekt.webp "Credit")
 
 ## Get started
 >[!CAUTION]
@@ -24,9 +24,9 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
   
  ## Credit
  * Coding
-     * Eszti, Ellie
+     * Eszti, Animatedrice
  * Art
-     * Ingrid, Katja, Lofi_Lotad, Nodunintended, Ellie
+     * Ingrid, Katja, Lofi_Lotad, Nodunintended, Animatedrice
 * Music
      * HanzoKotomi
 * Ideas
