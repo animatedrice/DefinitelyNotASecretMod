@@ -27,7 +27,7 @@ This mod alters characters names/genders, locations, dialogue and game events!
     * Various map fixes
     * Dialogue fix
     * Added item to festival
-    * 
+  
  ## Authors
  * Coding
      * Eszti, Ellie
@@ -37,3 +37,5 @@ This mod alters characters names/genders, locations, dialogue and game events!
      * HanzoKotomi
 * Ideas
    * SofieSpruce, Nat, MattFraser, Dozy, Mulch, Contentiousares, Mindblown, Mettelicious, Sish, Nimo, City of Illustrations, Ajdigitial, and everyone mentioned above.
+ 
+
