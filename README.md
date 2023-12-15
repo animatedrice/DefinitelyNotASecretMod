@@ -8,7 +8,7 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
 > * Highly recommended to start a new save file
 > * For the optimal experience remove Stardew Expanded and other mods that alter dialogue while playing this mod!
 
-### Needed mods
+### Install guide
 1. Install the latest versions of:
    * [SMAPI](https://smapi.io/)
    * [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915)
@@ -16,7 +16,7 @@ This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.n
    * [Shop Tile Framework](https://www.nexusmods.com/stardewvalley/mods/5005) 
    * [Dynamic Game Assets](https://www.nexusmods.com/stardewvalley/mods/9365) 
    * [SAAT](https://www.nexusmods.com/stardewvalley/mods/10747)
-2. Install [this mod](https://github.com/animatedrice/DefinitelyNotASecretMod/releases/download/v.1.0.1/PjStardewMod.zip)
+2. Install [our mod!](https://github.com/animatedrice/DefinitelyNotASecretMod/releases/download/v.1.0.1/PjStardewMod.zip)
 3. Run the game using SMAPI.
 
 ## Future updates 
