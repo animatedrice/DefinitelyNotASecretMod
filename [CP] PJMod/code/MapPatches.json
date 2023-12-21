@@ -1,6 +1,14 @@
 {
     "Changes": [
         {
+            "LogName": "JojaMart",
+            "Action": "EditMap",
+            "Target": "Maps/JojaMart",
+            "FromFile": "assets/mapPatches/JojaMart.tbin",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange"
+        },
+        {
             "LogName": "hotel interior",
             "Action": "EditMap",
             "Target": "Maps/AnimalShop",
@@ -11,7 +19,7 @@
                 "DayTiles": "Front 4 1 256 Front 4 2 288 Front 10 1 256 Front 10 2 288 Front 22 1 256 Front 22 2 288 Front 24 11 256 Front 24 12 288 Front 31 1 256 Front 31 2 288 Front 32 11 256 Front 32 12 288",
                 "Doors": "6 12 1 120 13 12 1 120 21 13 1 120 27 13 1 120"
             },
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Seedshop interior",
@@ -23,7 +31,7 @@
                 "NightTiles": "Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 27 1 1253 Front 27 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103",
                 "DayTiles": "Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 25 1 256 Front 25 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102"
             },
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Spaceship interior",
@@ -60,9 +68,9 @@
                 "Doors": "11 9 1 120 20 9 1 120 3 16 1 120 4 16 1 120 31 16 1 120"
             },
             "PatchMode": "Replace",
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
-        { 
+        {
             "LogName": "PJ art shop",
             "Action": "EditMap",
             "Target": "Maps/Hospital",
@@ -73,7 +81,7 @@
                 "Warp": "10 20 Town 36 56 10 1 HarveyRoom 10 12 9 1 HarveyRoom 10 12"
             },
             "PatchMode": "Replace",
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Town fix",
@@ -100,9 +108,26 @@
                 }
             ],
             "Update": "OnLocationChange",
-            "When":{
+            "When": {
                 "LocationName|contains=Town": "true"
             }
+        },
+        {
+            "LogName":"PJ shop door",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 36,
+                        "Y": 55
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 10 19 Hospital 900 2100"
+                    }
+                }
+            ]
         },
         {
             "LogName": "PJ room",
@@ -115,7 +140,7 @@
                 "Warp": "10 13 Hospital 10 2"
             },
             "PatchMode": "Replace",
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Warp tent",
@@ -142,7 +167,7 @@
                 "Light": "29 7 4 29 6 4",
                 "Warp": "30 6 Tent 2 5 14 41 Town 81 0 15 41 Town 81 0 16 41 Town 81 0 54 4 Mine 18 13 9 -1 Railroad 29 59 10 -1 Railroad 29 59 -1 12 Backwoods 49 14 -1 13 Backwoods 49 14 -1 14 Backwoods 49 14 103 15 Mine 67 17 57 41 Town 90 0 85 41 Town 98 0"
             },
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Expanded back layer fix",
@@ -174,7 +199,7 @@
                 "Height": 10
             },
             "Patchmode": "Overlay",
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Beach",
@@ -192,7 +217,50 @@
                 "Light": "13 6 4 18 6 4 48 1 4 49 1 4 50 1 4 48 2 4 49 2 4 50 2 4 48 3 4 49 3 4 50 3 4"
             },
             "PatchMode": "Overlay",
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "DogShop",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "124"
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "125"
+                },
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 7
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "137"
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 7
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "138"
+                }
+            ],
+            "When": {
+                "Query: {{Time}} >= 0600 AND {{Time}} <= 900 OR {{Time}} >= 2000 AND {{Time}} <= 2600": true
+            },
+            "Update": "OnTimeChange"
         },
         {
             "LogName": "Lighthouse Luau",
@@ -209,7 +277,7 @@
                 "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
                 "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             },
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Lighthouse Jellies",
@@ -226,7 +294,7 @@
                 "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
                 "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             },
-            "Update":"OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Lighthouse Nightmarket",
@@ -239,7 +307,7 @@
                 "Width": 13,
                 "Height": 13
             },
-            "Update":"OnLocationChange",
+            "Update": "OnLocationChange",
             "MapProperties": {
                 "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
                 "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
