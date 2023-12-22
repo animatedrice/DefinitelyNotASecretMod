@@ -2,6 +2,13 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "MagicInkDescription": "You've found the Explorer's lost {0}! Better return it to him."
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/RandomBundles",
             "TargetField": [
                 "Pantry",
@@ -15,8 +22,8 @@
             },
             "When": {
                 "HasMod": "spacechase0.jsonAssets"
-             },
-             "Update":"OnLocationChange"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "Action": "EditData",
@@ -26,8 +33,8 @@
             },
             "When": {
                 "HasMod": "spacechase0.jsonAssets"
-             },
-             "Update":"OnLocationChange"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "Action": "EditData",

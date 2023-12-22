@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Morris": "Fuzzwald"
+            }
+        },
+        {
+            "LogName": "Wiggles schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Dobson",
+            "FromFile": "assets/Characters/Wiggles.json"
+          },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Dobson0": "I can't believe I am about to be married!$h",
+                "Dobson1": "I hope I don't get cold feet"
+            }
+        },
+        {
+            "LogName": "load dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Dobson, Characters/Dialogue/Alex, Characters/Dialogue/Caroline, Characters/Dialogue/Demetrius, Characters/Dialogue/Elliott, Characters/Dialogue/Gus, Characters/Dialogue/Harvey, Characters/Dialogue/Jas, Characters/Dialogue/Krobus, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Maru, Characters/Dialogue/Pierre,Characters/Dialogue/Sam, Characters/Dialogue/Willy, Characters/Dialogue/Wizard",
+            "FromFile": "assets/{{Target}}.json"
+        },
+        {
+            "LogName": "Load all portraits and sprites",
+            "Action": "Load",
+            "Target": "Characters/Dobson, Portraits/Dobson, Characters/Alex, Characters/Alex_Beach, Portraits/Alex, Portraits/Alex_Beach, Characters/Demetrius, Portraits/Demetrius, Characters/Caroline, Characters/Caroline_Beach, Portraits/Caroline, Portraits/Caroline_Beach, Characters/Gus, Portraits/Gus, Characters/Harvey, Characters/Harvey_Beach, Portraits/Harvey, Portraits/Harvey_Beach, Characters/Jas, Portraits/Jas, Characters/Lewis, Characters/Lewis_Beach, Portraits/Lewis, Characters/Krobus, Characters/Krobus_Trenchcoat, Characters/KrobusRaven, Portraits/Krobus, Portraits/Krobus_Trenchcoat, Characters/Linus, Portraits/Linus, Characters/Marnie, Characters/Marnie_Beach, Portraits/Marnie, Portraits/Marnie_Beach, Characters/Maru, Characters/Maru_Beach, Characters/Maru_Hospital, Portraits/Maru, Portraits/Maru_Beach, Portraits/Maru_Hospital, Characters/Morris, Portraits/Morris, Characters/Pierre, Characters/Pierre_Beach, Portraits/Pierre, Portraits/Pierre_Beach, Characters/Sam, Characters/Sam_Beach, Portraits/Sam, Portraits/Sam_Beach, Characters/Vincent, Portraits/Vincent, Characters/Willy, Portraits/Willy, Characters/Wizard, Portraits/Wizard",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "LogName": "Include gifttastes, schedules and events",
+            "Action": "Include",
+            "FromFile": "assets/Characters/GiftTastes.json, assets/Characters/Schedules.json, assets/Characters/EventChanges.json, assets/Characters/OtherDialogue.json, assets/Characters/SchedStrings.json, assets/Characters/Speechbubbles.json, assets/Characters/Dispositions.json"
+        }
+    ]
+}

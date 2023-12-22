@@ -1,6 +1,28 @@
 {
     "Changes": [
         {
+            "Action": "EditImage",
+            "Target": "Tilesheets/ChairTiles",
+            "FromFile": "assets/tilesheets/PotatChairs.png",
+            "ToArea": {
+                "X": "0",
+                "Y": "128",
+                "Width": "48",
+                "Height": "32"
+            }
+        },
+        {
+            "LogName": "Sitting",
+            "Action": "EditData",
+            "Target": "Data/ChairTiles",
+            "Entries": {
+                "PotatTilesheets/0/3": "1/1/right/chair/-1/-1/false",
+                "PotatTilesheets/1/5": "1/2/up/highback_chair/1/9/false/",
+                "PotatTilesheets/4/20": "1/1/down/couch/-1/-1/false",
+                "PotatTilesheets/5/20": "1/1/down/couch/-1/-1/false"
+            }
+        },
+        {
             "LogName": "JojaMart",
             "Action": "EditMap",
             "Target": "Maps/JojaMart",
@@ -113,7 +135,7 @@
             }
         },
         {
-            "LogName":"PJ shop door",
+            "LogName": "PJ shop door",
             "Action": "EditMap",
             "Target": "Maps/Town",
             "MapTiles": [

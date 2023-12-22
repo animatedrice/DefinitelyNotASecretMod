@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/SpeechBubbles",
+            "Entries": {
+                "SeedShop_Pierre_Winter": "Hi there!",
+                "SeedShop_Pierre_NotWinter": "Hi there! Welcome to the Sweet Potato Mart!",
+                "SeedShop_Pierre_Summer": "Summer seeds available!",
+                "SeedShop_Pierre_NotSummer": "Seeds for sale!",
+                "SeedShop_Pierre_Greeting1": "Hello there!",
+                "SeedShop_Pierre_Greeting2": "It's farmer {0}!",
+                "SeedShop_Pierre_Raining": "It's a good day to shop!",
+                "SeedShop_Pierre_NotRaining": "Welcome!",
+                "SeedShop_Pierre_RareGreeting": "Did you remember your wallet",
+                "AnimalShop_Marnie_Greeting1": "Welcome to Oscar's Hotel!",
+                "AnimalShop_Marnie_Greeting2": "Hello there!",
+                "AnimalShop_Marnie_CloseFriends": "Hi, {0}",
+                "AnimalShop_Marnie_NotCloseFriends": "Looking for a room?",
+                "AnimalShop_Marnie_Raining": "Wipe your feet!",
+                "AnimalShop_Marnie_NotRaining": "Welcome to Oscar's Hotel!",
+                "AnimalShop_Marnie_Greeting3": "Hey! How's {1} Farm doin'?",
+                "AnimalShop_Marnie_RareGreeting": "Gotta get that cleaned up…",
+                "Hospital_Maru_Greeting1": "Welcome to the KickthePJ store!",
+                "Hospital_Maru_Greeting2": "Can I help you?",
+                "Hospital_Maru_Greeting3": "We've got art for sale!",
+                "Hospital_Maru_Greeting4": "Are you looking for PJ?",
+                "Hospital_Maru_Greeting5": "Here to buy some cool art?",
+                "Hospital_Maru_Spouse": "Hi, honey",
+                "Saloon_Gus_Greeting": "Come in, come in!",
+                "Saloon_Gus_Summer": "Need a cold drink?",
+                "Saloon_Gus_NotSummer": "What can I get for ya?",
+                "Saloon_Gus_Snowing1": "It's cold outside but the pizza's hot!",
+                "Saloon_Gus_NotSnowing1": "Need a hot meal?",
+                "Saloon_Gus_Raining": "Have some fucking pizza!",
+                "Saloon_Gus_NotRaining": "Bobby baby bobby bubbi",
+                "Saloon_Gus_Snowing2": "Come in out of the cold!",
+                "Saloon_Gus_NotSnowing2": "Welcome!",
+                "Saloon_Gus_RareGreeting": "You look like you need a pizza."
+            }
+        }
+    ]
+}

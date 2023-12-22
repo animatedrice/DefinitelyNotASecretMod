@@ -2,74 +2,24 @@
     "Changes": [
         {
             "Action": "EditData",
-            "Target": "Data/EngagementDialogue",
-            "Entries": {
-              "Dobson0": "I can't believe I am about to be married!$h",
-              "Dobson1": "I hope I don't get cold feet"
-            }
-          },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/Rainy",
             "Entries": {
-        
-            "Wizard": "Stormy days are the only time I can commune with certain Aliens.#$e#I don't expect you to understand.",
-            "Harvey": "Hi @! Rainy days are perfect for a prismatic shard run #$e#Heh. Well, I need to be on hole patrol $u",
-            "Krobus": "Ah, the sewers are flowing quickly today. It'll get nice and humid in here... Just how I like it.",
-            "Leo": "The valley is peaceful when it rains.#$e#To me... nature is someone I know, with different moods."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/NPCNames",
-            "Entries": {
-                "Morris": "Fuzzwald"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Objects",
-            "Entries": {
-                "MagicInkDescription": "You've found the Explorer's lost {0}! Better return it to him."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/SpeechBubbles",
-            "Entries": {
-                "AnimalShop_Marnie_Greeting1": "Hello!",
-                "AnimalShop_Marnie_Greeting2": "Hello, welcome to Oscar's Hotel!",
-                "AnimalShop_Marnie_CloseFriends": "Hi, {0}",
-                "AnimalShop_Marnie_NotCloseFriends": "Looking for a room?",
-                "AnimalShop_Marnie_Raining": "Wipe your feet!",
-                "AnimalShop_Marnie_NotRaining": "Hey! How's the weather?",
-                "AnimalShop_Marnie_Greeting3": "Hey! How's {1} Farm doin'?",
-                "AnimalShop_Marnie_RareGreeting": "King..? Oh...",
-                "Saloon_Gus_Greeting": "Come in, come in!",
-                "Saloon_Gus_Summer": "Need a cold drink?",
-                "Saloon_Gus_NotSummer": "What can I get for ya?",
-                "Saloon_Gus_Snowing1": "It's cold outside but the pizza's hot!",
-                "Saloon_Gus_NotSnowing1": "Need a hot meal?",
-                "Saloon_Gus_Raining": "Have some fucking pizza!",
-                "Saloon_Gus_NotRaining": "Bobby baby bobby bubbi",
-                "Saloon_Gus_Snowing2": "Come in out of the cold!",
-                "Saloon_Gus_NotSnowing2": "Welcome!",
-                "Saloon_Gus_RareGreeting": "You look like you need a pizza.",
-                "SeedShop_Pierre_Winter": "Welcome to the Sweet Potato Mart!",
-                "SeedShop_Pierre_NotWinter": "Hi there!",
-                "SeedShop_Pierre_Summer": "Summer seeds available!",
-                "SeedShop_Pierre_NotSummer": "Seeds for sale!",
-                "SeedShop_Pierre_Greeting1": "Hello!",
-                "SeedShop_Pierre_Greeting2": "It's farmer {0}!",
-                "SeedShop_Pierre_Raining": "It's a good day to shop!",
-                "SeedShop_Pierre_NotRaining": "Welcome!",
-                "SeedShop_Pierre_RareGreeting": "Did you remember your wallet?",
-                "Hospital_Maru_Greeting1": "Are you looking for art?",
-                "Hospital_Maru_Greeting2": "Can I help you?",
-                "Hospital_Maru_Greeting3": "We've got art for sale!",
-                "Hospital_Maru_Greeting4": "We have great art in stock!",
-                "Hospital_Maru_Greeting5": "Here to see PJ?",
-                "Hospital_Maru_Spouse": "Hi, honey"
+                "Alex": "Hmmph. This is not good weather for sports.$s#$e#Oh well, I can always lift weights inside.$h",
+                "Wizard": "Stormy days are the only time I can commune with certain Aliens.#$e#I don't expect you to understand.",
+                "Harvey": "Hi @! Rainy days are perfect for a prismatic shard run. #$e#Heh. Well, I need to be on hole patrol $h",
+                "Krobus": "Ah, the sewers are flowing quickly today. It'll get nice and humid in here... Just how I like it.",
+                "Robin": "The rain doesn't stop me from getting a job done!$h#$e#Although soggy wood isn't a joy to work with.$s",
+                "Demetrius": "Greetings. Stay inside if you want to keep warm.",
+                "Maru": "When it rains I have a good excuse to work on new stream features for PJ all day.$h#$e#It must be kind of boring for you, though.",
+                "Linus": "A warm rain is a pleasant way to get clean.$h",
+                "Pierre": "Most people stay indoors on days like this... It's not good for business.$s",
+                "Caroline": "My garden is happy today.$h#$e#...and our water bill will be lower this month.",
+                "Lewis": "Hi there, @. Taking a break?#$e#The rain is good for the kingdom.",
+                "Clint": "Today would be a good day to explore the mines... Who knows, you might find some rare ores.",
+                "Sam": "Rain muffles sound, so I can play my guitar louder without my Mom getting mad. Hehe.$h",
+                "Marnie": "Hi @. Hopefully the rain won't keep the tourists away from the valley.. $s",
+                "Elliott": "The rain reminds me of the storm I once got lost in..$s#$b#But luckily everything is okay now!$h",
+                "Gus": "There's nothing like a hot fresh spaghett on a day like this, huh?#$e#I love my job. Hehehe."
             }
         },
         {
@@ -112,28 +62,12 @@
         },
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/Pam",
-            "Entries": {
-                "spring_25.000": "*grumble*... PJ know-it-all... *grumble*$4",
-                "spring_25.001": "How much do I drink every day? What kind of a question is that?$u"
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
                 "Sun": "I hope Bababooey doesn't get hurt on one of his adventures.#$e#I'm not even sure where he is going or what he has to fight but it sure sounds dangerous.",
                 "Sun2": "#$1 RobinDem#My husband almost set the house on fire last night with his science experiment. One of his beakers exploded and sent a fireball into the rafters! Thank Yoba I used fire-resistant lacquer when I built the place.$u#$e#Sorry if it smells weird in here, @. It's my husband's bizarre project...",
                 "fall_Mon": "#$1 RobinMaru#Paul likes gems. He uses them in his inventions.#$e#So how are you and Paul getting along?",
                 "fall_Fri": "Have you met the wild man that lives behind our house?$s#$e#I feel like I recognize him from somewhere..."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Robin",
-            "Entries": {
-                "summer_18.001": "How is life, PJ?",
-                "summer_18.000": "Do you need new art supplies?"
             }
         },
         {
@@ -145,15 +79,6 @@
                 "Wed2": "You know what? I should take Vincent and maybe Oliver on a field trip some time. Maybe to the forest.#$e#A guest speaker would be nice... maybe someone familiar with nature?#$e#Sorry, I'm just thinking out loud.",
                 "Sat2": "$d Joja#Things changed a lot after the JojaMart went up. It's been really bad for Gil's shop. Mom loves JojaMart, though. The prices are cheap, so she can afford a lot more there than she ever could at Gil's.|Mom's been complaining ever since JojaMart closed down. I think it's good for her, though. Maybe she'll drink less Joja Cola now.",
                 "winter_Fri2": "Are you friends with Nintendad? He lives in a tent up in the mountains.#$e#Everyone ignores him, the poor guy. He's actually really nice... Just a little odd.#$e#It must be so cold to live in a tent this time of year."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Penny",
-            "Entries": {
-                "winter_4.001": "Shh, we're livestreaming!",
-                "marriage_Mon.002": "I wonder if Paul will get married some day?",
-                "winter_4.000": "I have an appointment with PJ this afternoon."
             }
         },
         {
@@ -180,17 +105,6 @@
         },
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/Jodi",
-            "Entries": {
-                "spring_11.003": "Vincent enjoyed the trip to the art shop. He is so happy.",
-                "spring_11.001": "Now Vincent, what do you wanna buy?",
-                "spring_18.000": "Hey! You can't just barge into a private appointment!$u",
-                "spring_11.002": "I'm worried about Vincent's shenanigans. I hope a creative outlet will help him.",
-                "spring_11.000": "Vincent loves arts and crafts. I'm sure we will find something here."
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
                 "Wed": "#$1 evelynGarden1#I saw the most beautiful family of butterflies sunning themselves in the town garden yesterday.$k#$e#King Bozo put me in charge of the town's public gardens.#$e#I've been working on the town flower beds for weeks, so don't step on them!",
@@ -201,31 +115,12 @@
         },
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/Evelyn",
-            "Entries": {
-                "2.001": "Oh dear, did inspiration hit? Why are you here?$h",
-                "23.000": "Now now, dear... It's important that PJ shows you around. He's a nice young man! Behave yourself, for your dear old wife's sake.",
-                "23.001": "Do you think George finds some inspiration here?",
-                "2.000": "When you get to be my age you have to find new hobbies."
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/George",
             "Entries": {
                 "Introduction": "Hmmph... It's irritating to have to meet all these new people, huh?#$b#Name's George, by the way. Now fuck off... Hmmph.",
                 "Wed": "Buff Buoy is my grandson. Have I told you that already?#$e#Huh? Speak up.",
                 "Wed_inlaw_Alex": "Never have I expected to see Buff buoy so happy. Welcome to the family!^You're part of the family, now. I'm glad that my grandson found such a nice wife.",
                 "Wed8": "I wish my legs worked so I could play catch with Buff Buoy.$s#$e#That'll never happen.$s"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/George",
-            "Entries": {
-                " 23.000": "Hmmpph... The wife's making me go to the art shop today.",
-                "23.001": "*grumble*... Good for nothing PJ... *grumble*",
-                "23.002": "Well how much longer do I have to be here, PJ?"
             }
         },
         {
@@ -244,26 +139,9 @@
         },
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/Sebastian",
-            "Entries": {
-                "summer_4.000": "Dammit... I almost forgot. I have to go to the art store today.",
-                "Fri.000": "Should I let JP win for once? ...nah.$h",
-                "marriage_Fri.001": "My skills haven't declined... JP's still just as easy to beat.$h"
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
                 "Resort_Wander": "Mmm, I bet the trees around here would make for an interesting medium to work with.#$e#Though Lannery probably wouldn't be happy with me if I dragged a bunch of logs onto his ship!$h"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Leah",
-            "Entries": {
-                "spring_16.001": "Do you have art advice for me, PJ?",
-                "spring_16.000": "Hi. Here to see PJ?"
             }
         },
         {
@@ -280,29 +158,12 @@
         },
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/Haley",
-            "Entries": {
-                "winter_9.000": "Do they have photography supplies here?",
-                "winter_9.001": "Well... how many followers do you think I will gain from a collab, PJ!"
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
                 "Resort_Leaving": "I'm gonna ask Lannery if we can take the scenic route back.",
                 "Resort_Bar": "Bobby made me a dark purple refresher, to match my hair. It tastes great!$h",
                 "Resort": "Bummer... Lannery says we have to stay on the beach...$s#$b#And I brought my sword and everything...$s",
                 "Fri2": "We're all going to hang out in the pizzeria this evening. It's kind of like a friday tradition, I guess."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Abigail",
-            "Entries": {
-                "spring_4.000": "Ugh... I have an appointment later.$s",
-                "spring_4.002": "How much longer do we stream, PJ? I'm hungry.$s",
-                "spring_4.001": "I'm just here for a collab! Don't worry, it will not be very long! Heh.$9"
             }
         },
         {
@@ -314,14 +175,6 @@
                 "Sat4": "$d Joja#I'm renting my room from Oscar at a really good price. It's small but I can't complain.|If I could reset my life maybe I'd start a chicken farm. Only free-range eggs of course.",
                 "Sat8": "I've really grown attached to Oscar's chickens.$h",
                 "event_room1": "Okay... that'll require a great script. Maybe I'll ask Buoy for advice next time I see him at the saloon.$s"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Shane",
-            "Entries": {
-                "marriage_Fri.002": "If I don't order a cold one now and then, Bobby will go out of business. I'm just doing my civic duty. I'll head home around 10.",
-                "winter_15.000": "I'm taking a night off from being out late for Oliver' sake..."
             }
         },
         {
@@ -343,30 +196,11 @@
         },
         {
             "Action": "EditData",
-            "Target": "Strings/schedules/Emily",
-            "Entries": {
-                "marriage_Mon.002": "Bobby seems to have problems organising everything without me around.",
-                "winter_11.000": "A lot of us visit PJ for advice, a fun collab or even just getting some art supplies.",
-                "winter_11.001": "PJ, I'd like to get some new art supplies."
-            }
-        },
-        {
-            "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
             "Entries": {
                 "Potat_Crash": "*sigh*... I wish Emily would talk to me about that crash.$s",
                 "Introduction": "Er... hi. I'm Clunt.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.",
                 "Resort_Shore_2": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clunt's body is glistening..."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/schedules/Clint",
-            "Entries": {
-                "winter_16.002": "What do you think PJ? A fun collab about learning how to use the furnace?",
-                "winter_15.000": "I have an appointment tomorrow... Maybe the mermaid show will calm my nerves? But what if they think I'm ogling... *gulp*",
-                "winter_16.001": "I'm going to PJ's to see if a collab is possible… that could get me more customers.",
-                "winter_16.000": "I have an appointment today, so if you need to buy anything you'd better hurry."
             }
         }
     ]
