@@ -1,7 +1,7 @@
 # PJ Stardew Mod
 This mod, made by the Sweet Potats, is a [Stardew Valley](http://stardewvalley.net/) mod which adds custom content celebrating PJ's creations and storytelling.
 
-![Credit image](Unbenanntes_Projekt.webp "Credit")
+![Credit image](https://github.com/animatedrice/DefinitelyNotASecretMod/blob/main/credit.png "Credit")
 
 ## Get started
 >[!CAUTION]
