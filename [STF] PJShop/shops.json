@@ -44,7 +44,7 @@
         {
             "ShopName": "DogShop",
             "PortraitPath": "assets/Dog_Portrait.png",
-            "Quote": "Woof.",
+            "Quote": "Woof woof. Woof?",
             "CategoriesToSellHere": [
                 -7,
                 -5,
@@ -80,7 +80,7 @@
                     ]
                 }
             ],
-            "ClosedMessage": "Woof woof woof.",
+            "ClosedMessage": "Woof. It's closed.",
             "When": [
                 "t 900 2000"
             ]
