@@ -2,6 +2,13 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "MagicInkDescription": "You've found the Explorer's lost {0}! Better return it to him."
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/RandomBundles",
             "TargetField": [
                 "Pantry",
@@ -15,8 +22,8 @@
             },
             "When": {
                 "HasMod": "spacechase0.jsonAssets"
-             },
-             "Update":"OnLocationChange"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "Action": "EditData",
@@ -26,8 +33,8 @@
             },
             "When": {
                 "HasMod": "spacechase0.jsonAssets"
-             },
-             "Update":"OnLocationChange"
+            },
+            "Update": "OnLocationChange"
         },
         {
             "Action": "EditData",
@@ -71,7 +78,6 @@
             "Target": "Strings/StringsFromMaps",
             "Entries": {
                 "dogshop.1": "Ramen Shop - Hours 9:00 AM - 6:00 PM",
-                //spaceship strings
                 "spaceship.1": "Some mysterious fluid.",
                 "spaceship.2": "Beep boop!",
                 "spaceship.3": "A collection of exquisite things.",
@@ -84,12 +90,15 @@
                 "BuoyHouse.3": "There's message scratched into the wood: Never get lost again.",
                 "BuoyHouse.4": "It's a very tall palm. It's imported from Calico Desert.",
                 "BuoyHouse.5": "A globe with pins in it. They all stick in parts of the ocean.",
-                //Pizzeria strings
                 "Pizzeria.1": "Oh no, you look fabulous!",
                 "Pizzeria.2": "A 'Sabrina the Teenage Witch' marathon is on.",
                 "Pizzeria.3": "It's an Italian recipe book, it's opened on a secret veggie chili recipe.",
                 "Pizzeria.4": "It's a claw machine full of stuffed toys who look like Sad Ghost.",
-                //Festival strings
+                "Pizzeria.5": "Fresh out of the oven.",
+                "Pizzeria.6": "The pizza looks delicious.",
+                "Pizzeria.7": "Bobby is cooking some bobby baby delicious dishes.",
+                "Pizzeria.8": "The box is sealed shut.",
+                "Pizzeria.9": "There's frozen steak in the freezer. They look a bit... sloppy?",
                 "Town-Potat.1": "The first batch of a giant sweet potato pie. It smells delicious.",
                 "Town-Potat.2": "A giant sweet potato! No one knows where it came crashing from, but it sure looks scrumptious.",
                 "Town-Potat.3": "A fragrant vase of summer flowers.",
@@ -107,7 +116,6 @@
                 "Town-Potat.15": "A golden statue honouring the giant sweet potato.",
                 "Town-Potat.16": "We were going to bomble at the festival but King Bozo forbid it... He wasn't listening to me when I told him it was nothing like gambling.. ",
                 "Town-Potat.17": "The arrow seems stuck..",
-                //pj shop strings
                 "PJRoom.1": "Welcome to Welwick's Oracle... I sense that one lucky gamer will be showered with good fortune. ",
                 "PJRoom.2": "An interesting placement of the bed.",
                 "PJRoom.3": "The fridge is filled with salads and spicy eels.",
@@ -118,6 +126,8 @@
                 "PJRoom.8": "The sack is filled with prismatic shards.",
                 "PJRoom.9": "The wooden box seems handmade. It's filled to the brim with prismatic shards.",
                 "PJRoom.10": "The hammer is engraved. It says: Badonk!",
+                "PJRoom.11": "'To dew list: 1. Do not talk about Fart Farm.' The other items are all crossed out.",
+                "PJRoom.12": "The kitchen looks unused.",
                 "PJShop.1": "Fuji looks very comfortable on her bed.",
                 "PJShop.2": "It's a poster made by PJ.",
                 "PJShop.3": "The shelves are stacked with art supplies.",
@@ -134,7 +144,6 @@
                 "PJShop.14": "Smells like pizza.",
                 "PJShop.15": "There's a note on the fridge: DO NOT LOOK INSIDE MY FRIDGE - PJ",
                 "PJShop.16": "The cabinet is filled with different cloths for crafting.",
-                //oscar hotel strings
                 "OscarHotel": "Oscar's hotel for fantastical creatures",
                 "OscarHotel.1": "Ding! DING!",
                 "OscarHotel.2": "Looks like the guest's mail and room keys are stored here.",
@@ -157,7 +166,6 @@
                 "OscarHotel.19": "There's a clown's nose stuffed in the drawer.",
                 "OscarHotel.20": "It hasn't been tuned.",
                 "OscarHotel.21": "There's one message from Red.",
-                //changed strings for shop names etc
                 "Town.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
                 "Town.2": "Sweet Potato Mart Open 9:00 AM to 5:00 PM Closed Wednesdays",
                 "Town-Christmas.1": "KickthePJ shop - Hours 9:00 AM - 3:00 PM",
