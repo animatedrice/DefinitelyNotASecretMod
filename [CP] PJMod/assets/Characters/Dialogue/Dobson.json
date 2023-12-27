@@ -15,7 +15,7 @@
     "spring_17": "If you're here about lil Vincent's birthday last week...$1#$e#He pushed me first okay. I did not want that to get as ugly as it did.$3.",
     "spring_Sun": "I got a question. #$q 1/2 rich_followup#Do you have any rich relatives who have not yet written their will? #$r 1 25 rich_yes#Sorry, my grandpa left everything to me.#$r 2 -25 rich_no#Slowly back away..",
     "rich_yes": "All right, I guess you're useless.",
-    "rich_no": "Hey! Where're going you mook? $a",
+    "rich_no": "Hey! Where are you going you mook? $a",
     "rich_followup": "If I don't pay my rent, Oscar might take my walls away..#$p 1 #Let me know if you ever get new rich relatives!$h | I don't have time to say hi, I need money! $3",
     "Mon": "Leave me alone you mook",
     "Mon2": "Hey don't touch the jacket!",
