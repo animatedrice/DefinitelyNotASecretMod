@@ -3,117 +3,12 @@
         {
             "Action": "EditData",
             "Target": "Data/Events/ElliottHouse",
-            "Entries": 
-            {
+            "Entries": {
                 "39/f Elliott 500/p Elliott": "50s/2 5/farmer 3 9 0 Elliott 1 5 0/skippable/move farmer 0 -1 0/pause 400/faceDirection Elliott 2/emote Elliott 16/speak Elliott \"@! Come in.\"/pause 500/move farmer 0 -2 3/move farmer -2 0 0/pause 500/speak Elliott \"Welcome to my humble... well, shack.\"/faceDirection Elliott 0/speak Elliott \"This is my writing desk. It's where I spend most of my time.\"/pause 500/faceDirection Elliott 2/speak Elliott \"For as long as I can remember, I've wanted to be a writer. Have I told you that?#$b#That's why I live out here by myself. I figured a lonely life by the sea would help me focus on my literary aspirations...$s\"/faceDirection Elliott 1/speak Elliott \"Everyone back home said I was nuts... that I could never make it as a writer.#$b#Can you believe it? They said 'For every successful author there's 1000 who fail miserably'. Such pessimism... it's sickening.\"/pause 700/faceDirection Elliott 2/speak Elliott \"I can see it in your eyes... you believe in me, @. You've got that spark.#$b#Now that's inspiring! That's what I'm looking for...\"/pause 500/emote Elliott 16/speak Elliott \"$q 958699 null#A question... What kind of books do you like, @?#$r 958699 30 event_idea1#Mystery#$r 958700 30 event_idea2#Romance#$r 958701 30 event_idea3#Sci-Fi\"/pause 500/speak Elliott \"Well! Enough talk about me!\"/pause 400/emote Elliott 16/speak Elliott \"Hmm... you probably know a lot about plants, don't you?\"/pause 500/faceDirection Elliott 1/speak Elliott \"Would you mind taking a look at this palm, here? I'm afraid it's not doing so well.$7\"/pause 400/move farmer 1 0 0/pause 400/animate farmer true true 100 35/pause 200/end dialogue Elliott \"Thanks for talking with me... I'll be thinking about what you said.\"",
                 "423502/f Elliott 1500/p Elliott": "elliottPiano/-200 -1000/farmer 3 9 0 Elliott 7 4 0/skippable/positionOffset Elliott 32 16/animate Elliott false true 400 25 26 26 27 27 26 26 25 26 27 27 26 26 25/pause 1000/viewport 7 4 true/pause 24000/stopAnimation Elliott/showFrame Elliott 24/move farmer 0 -3 0/move farmer 3 0 0/showFrame Elliott 28/pause 1000/speak Elliott \"Ah... I thought someone was there.$7\"/pause 1000/showFrame Elliott 30/animate Elliott false false 200 28 29 30/playSound dwop/pause 1000/question fork1 \"#That was wonderful.#How long have you been playing?\"/fork howLong/pause 500/emote Elliott 32/speak Elliott \"Thank you. I'm not very good, but it's fun to play.$h\"/switchEvent elliottPianoJoin",
                 "howLong": "pause 500/resetVariable/speak Elliott \"Oh, I'm not sure... I've been dabbling in piano since I was a kid.$7#$b#I'm not very good, but it's fun.\"/switchEvent elliottPianoJoin",
                 "elliottPianoJoin": "pause 800/showFrame Elliott 0/animate Elliott false true 220 0 1 2 3/playSound woodyStep/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/stopAnimation Elliott/faceDirection Elliott 2/pause 500/move Elliott 1 0 1 true/faceDirection farmer 1/pause 1500/showFrame Elliott 31/pause 800/emote Elliott 28/pause 800/speak Elliott \"I've been working day and night to try and finish my book... It's been driving me insane, @.$s\"/showFrame Elliott 4/pause 800/move Elliott -2 0 0/pause 800/speak Elliott \"An occasional tune is the only recreation I allow myself.$7\"/pause 600/faceDirection Elliott 2/speak Elliott \"There's just too much work to do! And my bank account's starting to run dry.$7#$b#Sometimes I wish I could just throw it all away and become a farmer like you.$h\"/pause 300/faceDirection farmer 0/question fork1 \"#It's just as hard to be a farmer, you know.#Come live on the farm, I could use the extra help.\"/fork extraHelp/pause 500/emote Elliott 16/speak Elliott \"You're right... that was an insensitive thing to say.$8\"/move Elliott 0 1 3/faceDirection farmer 1/speak Elliott \"What I meant is that I'd like to get away from this dark, musty prison and experience a little bit of real life... that's all.$s\"/animate Elliott true true 100 31/pause 800/emote Elliott 28/pause 500/speak Elliott \"*sigh*... sorry I'm complaining like this. I just need someone to talk to now and then.$7\"/pause 500/stopAnimation Elliott/showFrame Elliott 4/pause 600/faceDirection Elliott 3/globalFade/viewport -1000 -1000/end",
                 "extraHelp": "pause 500/emote Elliott 16/speak Elliott \"Seriously?$8\"/faceDirection Elliott 1/pause 400/speak Elliott \"It sounds wonderful... but I can't give up on my novel. It's already half-way done.$7\"/animate Elliott true true 100 31/pause 800/emote Elliott 28/pause 500/speak Elliott \"*sigh*... sorry I'm complaining like this. I just need someone to talk to now and then.$7\"/pause 500/stopAnimation Elliott/showFrame Elliott 4/pause 600/faceDirection Elliott 3/globalFade/viewport -1000 -1000/end"
-            }},
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring13",
-            "Entries": {
-                "Maru_spouse": "I'm just catching up with Penny. Have you had your fill of eggs?",
-                "Penny_spouse": "Paul's trying to convince me to eat a deviled egg. I'm just not sure I can stomach it...",
-                "Elliott_spouse": "I enjoy seeing you so relaxed, my dear.$h",
-                "Sebastian": "We used to do a rotten egg toss...#$b#King Bozo put an end to that pretty quick.",
-                "Penny": "The children have been looking forward to this festival for weeks.",
-                "Elliott": "Taking breaks from work can make you more productive in the long run.",
-                "Harvey": "Hey there! Good to see you here.#$e#I hope this time Vincent doesn't stand a chance in the egg hunt.$h",
-                "Jas": "I try to snatch all the eggs before Vincent gets to them...$h",
-                "Dobson": "The rotten egg toss with JP was so much fun!$4#$b#Sad that King Bozo thought of it differently"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring24",
-            "Entries": {
-                "Caroline": "I wish Gil would spend this time with his daughter...$s",
-                "Marnie": "*sigh*... Love is in the air... And I'm still single.$s",
-                "Elliott": "I wore my best shorts for the dance... This sort of thing doesn't happen very often!",
-                "Harvey": "Sophie isn't here today, so I'm working up the courage to ask someone else to dance with me.$11",
-                "Jas": "Some day, I'm going to be the flower queen!",
-                "Dobson": "I will just stay here and watch the others join this ridiculous dance.$2"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11",
-            "Entries": {
-                "Maru_spouse": "PJ  keeps trying to talk to me, but all I want is a piece of this roast.",
-                "Elliott_spouse": "The lighthouse seems to be holding up well. Every time I return I half expect the thing to be rotted...",
-                "Maru": "Whatever Nintendad is roasting smells awfully good... *slurp*",
-                "Sebastian": "One year Wiggles put a pound of anchovies in the potluck soup.#$e#Ever wondered why Wiggles leads the town in community service hours?$h",
-                "Pierre": "Hmm... maybe if I get on the governor's good side he'll give my business a tax break...#$b#I wonder if he likes aged whiskey?#$e#Now if only King Bozo would stop shmoozing with him all afternoon.",
-                "Penny": "We do this festival every year to give the governor a taste of everything the valley has to offer.#$e#King Bozo hopes it will get the governor on our good side. That's why he's so neurotic about the way the soup tastes.",
-                "Harvey": "Ah, yes the beach.#$e#I hope I can find some time later for a quick dip in the ocean.$h",
-                "Dobson": "I am planning on adding something fun to the potluck again. Can you make sure, no one is looking?$4"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer28",
-            "Entries": {
-                "Pam": "Don't tell Bobby, but I'm a little disappointed there's no buffet tonight.",
-                "Harvey": "Well, summer's over and I didn't have time to go standup paddling once.$s",
-                "Dobson": "Oh I like how calm it is. I can't wait for the light show."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall16",
-            "Entries": {
-                "Sebastian_spouse": "Hey, @. I'm just catching up with JP. Go ahead and have some fun.",
-                "Caroline": "Gil is very serious about his grange display. He's been setting aside the best-looking produce for weeks in preparation.#$e#Hey, best of luck to you if you enter!",
-                "Evelyn": "I wish Bobby would include a vegetarian option. The famous veggie chili, maybe?",
-                "Jodi": "He doesn't look very happy... I guess Wiggles refused and King Bozo had to cut costs with a budget clown this year.",
-                "Marnie": "I tried my best, but my display is pretty weak compared to Gil's.$s#$e#Well, maybe the judges will give me bonus points for the massive cheese wheel.",
-                "Elliott": "I'm trying to get Bobby to tell me his chili recipe, but he won't budge.",
-                "Gus": "Eat as much as you like! It's all free today... compliments of King Bozo.$h#$e#Oh! Make sure to dribble some of my secret sauce on there.",
-                "Wizard": "Welwick and I have known each other for a long time... she is a remarkable diviner, and a good friend.#$e#...#$e#That clown... I know him from somewhere.#$e#Was it the Planet of Jonks? Or maybe the Galaxy of Tomfoolery? Hmm...",
-                "Harvey": "And just a few steps over there, Bobby is grilling up a batch of pork ribs... Yikes.$s#$e#I've got some soul-searching to do...$11",
-                "Jas": "Ah! Why is the hen attacking me?$u",
-                "Dobson": "King Bozo asked me to be the entertainment for today… for free… can you believe that?$6#$e#Look at what he got instead? A discount clown."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27",
-            "Entries": {
-                "Demetrius": "I haven't seen Paul in hours... I hope he's alright.",
-                "Evelyn": "I wish Bobby would include a vegetarian option. Where is the famous veggie chili he is always talking about?",
-                "Lewis": "Good evening, @. Have you ventured into the haunted maze yet? It's quite spooky..#$e#That strange man who lives in the spaceship set it all up himself. He wouldn't let anyone near while he was working on it.",
-                "Wizard": "The affairs of others don't really matter to me, but the elementals like a chance to see you up close.#$e#I made the silly maze for them.",
-                "Harvey": "Oh! You found me...$8#$b#The truth is, the last corner scared me more than anticipated. I'm trying to recover from that.#$e#Don't tell anyone, especially not JP. He will never let it go.$s",
-                "Jas": "Oscar dares me to go into the maze. I'm not sure if I am prepared for the creatures in there!$s",
-                "Dobson": "I like to sneak into the maze and scare the others.$4"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
-            "Entries": {
-                "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Here's your prize, Captain Lannery. Enjoy.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Well, that's it for this year's Festival of Ice. Thanks for coming, everyone!#$b#Now let's release these poor fish...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"I didn't win the competition, but it was still fun! Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-                "Shane": "If it was up to me, I'd probably have a pizza festival at the pizzeria, instead...",
-                "Pam": "I plan on winning the ice fishing competition!#$e#Captain Lannery is gonna be pretty hard to beat, though... He does this kinda stuff day and night.$s",
-                "Elliott": "I'm entering the ice fishing competition today. Why not?#$e#Maybe I have a chance against my dad, the Captain.",
-                "Wizard": "Sneaking off to visit my spaceship? You're an odd one.",
-                "Harvey": "Don't you think it is especially cold today? I might have to get a warmer coat!#$e#Oh, and enjoy the festival!$h",
-                "Jas": "Why do we stick to a classical form? Let's try a creature next.$h",
-                "Dobson": "It's cold! Don't you think it's cold? Who decided, it would be a great idea to have a festival outside?$2"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter25",
-            "Entries": {
-                "Sam": "I'm thankful for my guitar and my skateboard. Oh, and my family I guess.",
-                "Leah": "Bobby was just telling me about his artisan candy canes. *yawn*$u#$e#I think he had too much cinnamon nog.",
-                "Harvey": "I'm thankful for this community and the giant sweet potato that brought us all together!",
-                "Leo": "Nintendad feels uncomfortable about joining in, so I'm going to keep him company.#$e#We'll have our own little feast... mashed winter root and spice berry fish!$h",
-                "Dobson": "Can't wait to see what present I get! I hope it has a good sell prize.$2"
             }
         },
         {
@@ -161,7 +56,6 @@
                 "102/z spring/z summer/z fall/d Mon Tue Wed Thu Fri Sat/y 1/H": "continue/64 15/farmer 64 16 2 Pierre 64 18 0/broadcastEvent/skippable/pause 1500/speak Pierre \"Hello there, @. So! Your first year in Stardew Valley is almost over, huh?#$b#If you keep buying seeds from me, you'll be twice as productive next year!$h#$b#And I have some exciting news...#$b#I'll be selling new seed varieties in my shop next year! I should have 1 new variety per season.#$b#...Well, that's all I wanted to say. Have a good one.\"/pause 300/move Pierre 0 1 2/pause 1000/faceDirection Pierre 0/speak Pierre \"You know... I wouldn't even bother trying my competitor's seeds.$u#$b# Gil's seeds are the *highest* quality seeds you'll find anywhere. That's a promise.$h\"/pause 500/end",
                 "980558/t 600 1130/w sunny/f Gus 1250": "playful/64 15/farmer 64 16 2 Gus 64 18 0/skippable/pause 1500/speak Gus \"Good morning!\"/pause 500/faceDirection Gus 3/pause 600/speak Gus \"Ah... what a beautiful day, huh?\"/pause 400/faceDirection Gus 0/speak Gus \"You know, as the Pizzeria owner, I hear about everything that's going on in town.#$b#I remember when you first moved here... everyone was a bit unsure of what to expect.#$b#A stranger from the city... an unknown personality...$s\"/textAboveHead Gus \"One sec...\"/faceDirection Gus 2/animate Gus false true 250 24 25/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/stopAnimation Gus/pause 500/faceDirection Gus 0/pause 500/speak Gus \"Sorry, I have to stir this pot every 5 minutes.\"/emote farmer 40/speak Gus \"Anyway, what was I saying? Oh yeah... you know, it's like when you're making a sauce...\"/playMusic none/speak Gus \"...If you put in a new spice you could ruin everything!$s\"/pause 500/playSound fireball/animate Gus false true 100 26/shake Gus 1000/specificTemporarySprite sauceFire/pause 2000/animate Gus false true 200 24 25/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/animate Gus false true 100 24/pause 500/playSound discoverMineral/specificTemporarySprite sauceGood/pause 800/playMusic distantBanjo/speak Gus \"...But then again, there's always a chance you'll create something new and delicious! Right? Hahahaha.$h\"/pause 100/stopAnimation Gus/faceDirection Gus 0/emote farmer 8/faceDirection Gus 3/faceDirection Gus 0/pause 500/speak Gus \"Er... What I'm trying to say is...$s#$b#It's been great having you in town, and I've come to think of you as one of my good friends!\"/emote farmer 32/speak Gus \"Anyway, I came to give you something...#$b#I was cleaning out the back room and I found this old Mini-Jukebox. I want you to have it!\"/pause 800/itemAboveHead jukebox/playSound getNewSpecialItem/pause 3300/awardFestivalPrize jukebox/pause 200/message \"Received a 'Mini-Jukebox'\"/pause 800/speak Gus \"It's actually an old Do-It-Yourself project of mine, from many years ago. They're pretty easy to make!#$b#So, just in case you wanted to make more, I brought the blueprints for you...\"/pause 200/playSound getNewSpecialItem/addCraftingRecipe Mini-Jukebox/pause 500/message \"Learned how to craft a 'Mini-Jukebox'\"/pause 800/speak Gus \"Well, I'm gonna head home. I gotta get this marinara back on the stove! Have a good one!\"/pause 500/end",
                 "91/f Marnie 750/t 600 930": "continue/64 15/farmer 64 16 2 Marnie 64 18 0/pause 1500/addQuest 21/skippable/speak Marnie \"Good morning, Mr. @!$h^Good Morning, Ms. @!$h#$b#I came by to ask you a favor, since you're such a kind neighbor.#$b#You see, I'm trying to train my goats to say 'hello'... but they simply won't pay attention to me unless I have their favorite treat, cave carrots!$u#$b#So... since I'm scared of the mines... I thought, well, maybe you would bring me a cave carrot when you have the chance?#$b#There's no pressure... but if you want to, just swing by my house between 9:00 AM and 5:00 PM with a cave carrot. You'll make an old man very happy. Bye.\"/pause 300/end dialogue Marnie \"My goats go wild over cave carrot... I can't imagine why.\""
-   
             }
         },
         {
@@ -205,7 +99,6 @@
                 "6/f Maru 500/p Maru": "breezy/20 19/farmer 9 20 1 Maru 22 20 1 Demetrius 19 18 0 Robin 13 6 0 Sebastian -100 -100 2/skippable/move farmer 7 0 1/faceDirection Maru 3/faceDirection Demetrius 3/speak Maru \"Oh, hello there!\"/move farmer 1 0 1/speak Maru \"My Dad and I are just testing some soil samples.\"/pause 800/emote farmer 40/speak Maru \"Don't be shy! We could use a hand, actually.$h\"/move farmer 4 0 1/faceDirection Demetrius 2/speak Maru \"Could you watch this beaker for me? I'm gonna grab the last batch of samples.#$b#I'll be right back.\"/pause 400/move farmer 0 -1 1/move farmer 1 0 1/faceDirection Demetrius 0/speed Maru 4/move Maru -16 0 3/speed Maru 4/move Maru 0 3 2/move Maru 0 1 2/warp Maru -100 -100/playSound doorClose/faceDirection Demetrius 2/speak Demetrius \"Thanks for helping out, @.\"/faceDirection farmer 3/pause 500/faceDirection Demetrius 0/faceDirection farmer 1/pause 1000/speak Demetrius \"Paul's a good kid. She's my special little boy...\"/pause 500/faceDirection Demetrius 2/stopMusic/pause 800/speak Demetrius \"I wouldn't want anything getting in the way of his bright future, know what I mean?$5\"/pause 400/faceDirection farmer 3/emote farmer 8/faceDirection Demetrius 0/speak Demetrius \"Just some food for thought... *chuckle*$h\"/playSound doorClose/warp Maru 6 24/playMusic kindadumbautumn/move Maru 0 -4 1/emote farmer 40 true/move Maru 3 0 1/faceDirection farmer 1 true/move Maru 8 0 1/speak Maru \"Hey, sorry about that. I hope you found something to talk about while I was gone.\"/faceDirection farmer 3/faceDirection Demetrius 3/pause 500/speak Demetrius \"...I was just telling @ about the soil samples we're testing.\"/pause 500/faceDirection Demetrius 2/speak Demetrius \"$q 15933 null#Right, @?#$r 15933 10 Event_Lab_Silence#(Say nothing)#$r 15933 -100 Event_Lab_Rat#Actually, your Dad was being weird.\"/fork DadWeird/pause 500/speak Maru \"Okay! Here, @... let me show you how to use the equipment.\"/move Maru 4 0 1/faceDirection Demetrius 2/move Maru 0 1 1/move Maru 1 0 0/faceDirection farmer 2/pause 500/end Maru1",
                 "DadWeird": "speak Maru \"Huh? What did you say to him, Dad?$a^Huh? What did you say to her, Dad?$a\"/pause 500/faceDirection Demetrius 2/emote Demetrius 28/speak Demetrius \"Okay, okay... we were talking about you.$5#$b#I wanted to say a few things to @ about you... but I didn't want to embarrass you. I shouldn't have lied about it.$s\"/faceDirection Demetrius 0/pause 300/emote Maru 28/move Maru 2 0 0/speak Maru \"That's okay, Dad. I understand.#$b#We should get back to work before these samples crystallize.\"/faceDirection Demetrius 2/emote Demetrius 32/move Maru 3 0 1/faceDirection Demetrius 0/faceDirection farmer 1/end Maru1",
                 "25/f Demetrius 1500/p Demetrius/p Robin": "jaunty/-1000 -1000/farmer -10 -10 0 Demetrius 6 21 3 Robin 5 21 1/skippable/showFrame Demetrius 28/viewport 6 21 true/pause 900/speak Robin \"Bababooey, I didn't tell you to get tomatoes. I said to get fruit.\"/emote Demetrius 8/speak Demetrius \"I don't understand. Tomatoes are fruits!\"/emote Robin 12/speak Robin \"When a normal person says they want fruit, they NEVER mean tomatoes. It doesn't matter what the scientific classification is.\"/warp farmer 6 24/playSound doorClose/pause 500/showFrame Demetrius 29/faceDirection Robin 2/speak Demetrius \"@! I'm glad you're here. You'll be able to put this argument to rest.\"/move farmer 0 -2 0/emote farmer 8/speak Demetrius \"$q 59 null#How would you classify a tomato?#$r 59 -30 Event_tomato1#Vegetable#$r 59 50 Event_tomato2#Fruit\"/pause 500/showFrame Demetrius 28/speak Demetrius \"I just want you to understand my point of view.#$b#It's hard for me to know exactly what assumptions I should make when you tell me something.\"/pause 300/faceDirection Robin 1/pause 300/speak Demetrius \"But I'll try to get better at it.\"/pause 600/emote Robin 20/pause 300/showFrame Demetrius 29/pause 600/speak Demetrius \"Thanks for your help, @.$h\"/pause 800/end"
-    
             }
         },
         {

@@ -1,0 +1,274 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add wiggles to egg hunt",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 29 62 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Dobson 25 67 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to flowerdance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 6 33 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Dobson 23 22 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 49 24 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Dobson 46 12 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 41 36 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 19 77 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to Halloween",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 37 28 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to Fish festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 59 25 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters"
+                    ],
+                    "Value": "Dobson 73 42 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Add wiggles to Winter Star",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Dobson 22 63 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Maru_spouse": "I'm just catching up with Penny. Have you had your fill of eggs?",
+                "Penny_spouse": "Paul's trying to convince me to eat a deviled egg. I'm just not sure I can stomach it...",
+                "Elliott_spouse": "I enjoy seeing you so relaxed, my dear.$h",
+                "Sebastian": "We used to do a rotten egg toss...#$b#King Bozo put an end to that pretty quick.",
+                "Penny": "The children have been looking forward to this festival for weeks.",
+                "Elliott": "Taking breaks from work can make you more productive in the long run.",
+                "Harvey": "Hey there! Good to see you here.#$e#I hope this time Vincent doesn't stand a chance in the egg hunt.$h",
+                "Jas": "I try to snatch all the eggs before Vincent gets to them...$h",
+                "Dobson": "The rotten egg toss with JP was so much fun!$4#$b#Sad that King Bozo thought of it differently."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Caroline": "I wish Gil would spend this time with his daughter...$s",
+                "Marnie": "*sigh*... Love is in the air... And I'm still single.$s",
+                "Elliott": "I wore my best shorts for the dance... This sort of thing doesn't happen very often!",
+                "Harvey": "Sophie isn't here today, so I'm working up the courage to ask someone else to dance with me.$11",
+                "Jas": "Some day, I'm going to be the flower queen!",
+                "Dobson": "I will just stay here and watch the others join this ridiculous dance.$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Maru_spouse": "PJ  keeps trying to talk to me, but all I want is a piece of this roast.",
+                "Elliott_spouse": "The lighthouse seems to be holding up well. Every time I return I half expect the thing to be rotted...",
+                "Maru": "Whatever Nintendad is roasting smells awfully good... *slurp*",
+                "Sebastian": "One year Wiggles put a pound of anchovies in the potluck soup.#$e#Ever wondered why Wiggles leads the town in community service hours?$h",
+                "Pierre": "Hmm... maybe if I get on the governor's good side he'll give my business a tax break...#$b#I wonder if he likes aged whiskey?#$e#Now if only King Bozo would stop shmoozing with him all afternoon.",
+                "Penny": "We do this festival every year to give the governor a taste of everything the valley has to offer.#$e#King Bozo hopes it will get the governor on our good side. That's why he's so neurotic about the way the soup tastes.",
+                "Harvey": "Ah, yes the beach.#$e#I hope I can find some time later for a quick dip in the ocean.$h",
+                "Dobson": "I am planning on adding something fun to the potluck again. Can you make sure, no one is looking?$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Pam": "Don't tell Bobby, but I'm a little disappointed there's no buffet tonight.",
+                "Harvey": "Well, summer's over and I didn't have time to go standup paddling once.$s",
+                "Dobson": "Oh I like how calm it is. I can't wait for the light show."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Sebastian_spouse": "Hey, @. I'm just catching up with JP. Go ahead and have some fun.",
+                "Caroline": "Gil is very serious about his grange display. He's been setting aside the best-looking produce for weeks in preparation.#$e#Hey, best of luck to you if you enter!",
+                "Evelyn": "I wish Bobby would include a vegetarian option. The famous veggie chili, maybe?",
+                "Jodi": "He doesn't look very happy... I guess Wiggles refused and King Bozo had to cut costs with a budget clown this year.",
+                "Marnie": "I tried my best, but my display is pretty weak compared to Gil's.$s#$e#Well, maybe the judges will give me bonus points for the massive cheese wheel.",
+                "Elliott": "I'm trying to get Bobby to tell me his chili recipe, but he won't budge.",
+                "Gus": "Eat as much as you like! It's all free today... compliments of King Bozo.$h#$e#Oh! Make sure to dribble some of my secret sauce on there.",
+                "Wizard": "Welwick and I have known each other for a long time... she is a remarkable diviner, and a good friend.#$e#...#$e#That clown... I know him from somewhere.#$e#Was it the Planet of Jonks? Or maybe the Galaxy of Tomfoolery? Hmm...",
+                "Harvey": "And just a few steps over there, Bobby is grilling up a batch of pork ribs... Yikes.$s#$e#I've got some soul-searching to do...$11",
+                "Jas": "Ah! Why is the hen attacking me?$u",
+                "Dobson": "King Bozo asked me to be the entertainment for today...for free... can you believe that?$6#$e#Look at what he got instead... a discount clown.$5"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Demetrius": "I haven't seen Paul in hours... I hope he's alright.",
+                "Evelyn": "I wish Bobby would include a vegetarian option. Where is the famous veggie chili he is always talking about?",
+                "Lewis": "Good evening, @. Have you ventured into the haunted maze yet? It's quite spooky..#$e#That strange man who lives in the spaceship set it all up himself. He wouldn't let anyone near while he was working on it.",
+                "Wizard": "The affairs of others don't really matter to me, but the elementals like a chance to see you up close.#$e#I made the silly maze for them.",
+                "Harvey": "Oh! You found me...$8#$b#The truth is, the last corner scared me more than anticipated. I'm trying to recover from that.#$e#Don't tell anyone, especially not JP. He will never let it go.$s",
+                "Jas": "Oscar dares me to go into the maze. I'm not sure if I am prepared for the creatures in there!$s",
+                "Dobson": "I like to sneak into the maze and scare the others.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Here's your prize, Captain Lannery. Enjoy.\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Well, that's it for this year's Festival of Ice. Thanks for coming, everyone!#$b#Now let's release these poor fish...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"I didn't win the competition, but it was still fun! Time to head home.\"/waitForOtherPlayers festivalEnd/end",
+                "Shane": "If it was up to me, I'd probably have a pizza festival at the pizzeria, instead...",
+                "Pam": "I plan on winning the ice fishing competition!#$e#Captain Lannery is gonna be pretty hard to beat, though... He does this kinda stuff day and night.$s",
+                "Elliott": "I'm entering the ice fishing competition today. Why not?#$e#Maybe I have a chance against my dad, the Captain.",
+                "Wizard": "Sneaking off to visit my spaceship? You're an odd one.",
+                "Harvey": "Don't you think it is especially cold today? I might have to get a warmer coat!#$e#Oh, and enjoy the festival!$h",
+                "Jas": "Why do we stick to a classical form? Let's try a creature next.$h",
+                "Dobson": "It's cold! Don't you think it's cold?$1#$e#Who decided, it would be a great idea to have a festival outside?$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Maru": "Hi, @.$h#$b#I'm thankful that PJ hasn't fired me... yet.$9",
+                "Sam": "I'm thankful for my guitar and my skateboard. Oh, and my family I guess.",
+                "Leah": "Bobby was just telling me about his artisan candy canes. *yawn*$u#$e#I think he had too much cinnamon nog.",
+                "Harvey": "I'm thankful for this community and the giant sweet potato that brought us all together!",
+                "Leo": "Nintendad feels uncomfortable about joining in, so I'm going to keep him company.#$e#We'll have our own little feast... mashed winter root and spice berry fish!$h",
+                "Dobson": "Can't wait to see what present I get! I hope it has a good sell prize.$h"
+            }
+        }
+    ]
+}

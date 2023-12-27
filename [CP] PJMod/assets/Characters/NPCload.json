@@ -36,7 +36,7 @@
         {
             "LogName": "Include gifttastes, schedules and events",
             "Action": "Include",
-            "FromFile": "assets/Characters/GiftTastes.json, assets/Characters/Schedules.json, assets/Characters/EventChanges.json, assets/Characters/OtherDialogue.json, assets/Characters/SchedStrings.json, assets/Characters/Speechbubbles.json, assets/Characters/Dispositions.json"
+            "FromFile": "assets/Characters/GiftTastes.json, assets/Characters/Schedules.json, assets/Characters/EventChanges.json, assets/Characters/OtherDialogue.json, assets/Characters/SchedStrings.json, assets/Characters/Speechbubbles.json, assets/Characters/Dispositions.json, assets/Characters/Festivals.json"
         }
     ]
 }

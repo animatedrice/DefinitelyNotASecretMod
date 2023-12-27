@@ -94,7 +94,7 @@
             "Target": "Maps/HarveyRoom",
             "FromFile": "assets/mapPatches/{{TargetWithoutPath}}.tmx",
             "MapProperties": {
-                "NightTiles": "Front 5 2 1253 Front 5 3 1285 Front 9 2 1253 Front 9 3 1285 Front 11 2 827 Front 15 9 809 Front 1 9 1347",
+                "NightTiles": "Front 5 2 1253 Front 5 3 1285 Front 9 2 1253 Front 9 3 1285 Front 11 2 827 Front 15 9 809 Front 1 9 1347 Front 23 3 827",
                 "DayTiles": "Front 5 2 256 Front 5 3 288 Front 9 2 256 Front 9 3 288",
                 "BrookSounds": "15 6 1",
                 "Warp": "10 13 Hospital 10 2"
@@ -279,15 +279,16 @@
             "Target": "Maps/Beach-Luau, Maps/Beach-Jellies, Maps/Beach-Nightmarket",
             "FromFile": "assets/mapPatches/{{TargetWithoutPath}}.tbin",
             "ToArea": {
-                "X": 44,
+                "X": 41,
                 "Y": 0,
-                "Width": 10,
+                "Width": 13,
                 "Height": 13
             },
             "MapProperties": {
                 "NightTiles": "Front 13 6 0 Front 18 6 1 AlwaysFront 47 1 13 AlwaysFront 48 1 14 AlwaysFront 49 1 15 AlwaysFront 47 2 21 AlwaysFront 48 2 22 AlwaysFront 49 2 23 AlwaysFront 47 3 29 AlwaysFront 48 3 30 AlwaysFront 49 3 31",
                 "Light": "13 6 4 18 6 4 47 1 4 48 1 4 49 1 4 47 2 4 48 2 4 49 2 4 47 3 4 48 3 4 49 3 4"
             },
+            "PatchMode": "Overlay",
             "Update": "OnLocationChange"
         }
     ]

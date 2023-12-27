@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="20">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="25">
  <properties>
   <property name="DayTiles" value="Front 7 1 256 Front 7 2 288 Front 19 1 256 Front 19 2 288"/>
   <property name="Doors" value="11 9 1 120 20 9 1 120 3 16 1 120 4 16 1 120 31 16 1 120"/>
@@ -72,8 +72,8 @@
  <tileset firstgid="2305" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source=".paths.png" width="64" height="144"/>
  </tileset>
- <tileset firstgid="2341" name="z_PotatTilesheets" tilewidth="16" tileheight="16" tilecount="500" columns="10">
-  <image source="PotatTilesheets.png" width="160" height="800"/>
+ <tileset firstgid="2341" name="z_PotatTilesheets" tilewidth="16" tileheight="16" tilecount="520" columns="10">
+  <image source="PotatTilesheets.png" width="160" height="832"/>
   <tile id="238">
    <animation>
     <frame tileid="238" duration="250"/>
@@ -171,18 +171,6 @@
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Back2" width="46" height="25">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAjwYR+AAB
-  </data>
- </layer>
- <objectgroup id="4" name="Back2"/>
- <layer id="5" name="Back3" width="46" height="25">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAjwYR+AAB
-  </data>
- </layer>
- <objectgroup id="6" name="Back3"/>
  <layer id="7" name="Buildings" width="46" height="25">
   <data encoding="base64" compression="zlib">
    eJzVl0tI1EEcx0f/Ge1AWiFEGvS4BZVBWRBRaOKlB2ugWYc8pJbQofRg0otO5U2UOrTe6pDW2UtdA+1xDXpcs7r1tBdUn2Hnz87Ozn/2/99dg37wYXZmfjPzndfvP1slhKj6z4ljSXztNotFGjo8HEng62qjuFkjxEQRbtQk030WznkYtHy3VAuxFZqgKxDiWJDz7cOpvyq/Tdz52nMtxhi0o2GAzA/4Cb9gClZTPm75LqesFurgPJpH4Ix1iMZFvLX5lhLie6pwfeLwSI85SroGLQ3QCHO6XNX7zvdwkPvdglOrdrTX5mqQo3cZ+ySpg2oIZOFcK3kv1frfYowMTMpof3Ouim7Obho6agp9VV3z0myaRLe9xz7dvrn76meX+PvvLEG3uusZ4b7jk7rfqHqXj8rbsSFc627Heiu7wNm5GCSPgw+E+44/hBFPvctH5e3YIIT7nLxhnechg+bJhLrVXX8l3Pf9te4/qt7lo/K+2CASaPMxJipvvthQKd3C01cQQbnjLaZu8+6FdonYdxmu6Bg4Yd0/c15RcyxXt4ojPUYMPiFzOlX5OlgPG2Cj9rtGeh1GI9qZfOE7+BUWUvnxJbSTlPVCHzw3ymd0uiDyLWw/g/+AMf5pfjfBNpkt3wRTLNg0bOb3ATgIh+AwpGWunct+o/cPCJk/bqlmxpEhmY1hikF+12tU+XbYAc2wEzqhC45CNxyX2W+12a5NU2+xR2b3pUePV0ta52Ge+b6Fd/AeVsic7hd8s19W++e4F/99nu+5bY3szVr9BglNvV/aZXZfzP29re/NHZ32U3cKnpH/gNaP8Ak+Q4OMt1+7Emjd7fFVmldSv0rvy1CCfk1TbxFbt/meC/Mt9N8K+2OkbSVqSWLDQaHucD3itDVTu7xcu8v5mIJpuAf3jfjr0h01dqX02ONGfT9m0TkHj+EJPLXeMqZ/MW3hXpQ6B/N8R+mO07c577jno5geV5nrLPnWO/S3/5PEmfe/fFuUyl/YwK8U
@@ -284,6 +272,31 @@
     <property name="Action" value="Saloon"/>
    </properties>
   </object>
+  <object id="20" name="TileData" x="256" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.7&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="208" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.6&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="176" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.5&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="512" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.8&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="528" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.9&quot;"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="9" name="Front" width="46" height="25">
   <data encoding="base64" compression="zlib">
@@ -291,7 +304,7 @@
   </data>
  </layer>
  <objectgroup id="10" name="Front"/>
- <layer id="11" name="Paths" width="46" height="25">
+ <layer id="11" name="Paths" width="46" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJztV4sOwyAInO065f9/eDWR7MqQarWvZSSmq1U8DgT2ePyOENnvV5davDXrtbV346e3bLV/mPe95hFO5C8kDHGMBg7GGDE/T8BrxZ038Lhk23TBGLVw16xhGcCXoUNc5fIgYyrxScndqLGxRXrz/ce9jDk5JuMbj5pc0hP3Ub7reVa8S3fEjbrW8gEZ63DO0uML1m3Rtbe0nhXtsGpizuZSLlA/ivQtPmt7I6zXJX1Ji9TwrdVSOUcJN887WvZXWJvxd05y3DFurvEh8azpsvzFOkYlr2i+1J545tpd8/TJYQ58rNUJrV/zYCsJHTJGgoIP39neQXCo1TOJE2uWxofEMqW9OM/noS/lWYOCgc/24ntrT84+CQIjchUgvqUvkA+MJUffXEouSvKE/B7A7tx+R7oPc/HGHGr6MOa29tV7/E8+sj5p8gZMOQ9A
   </data>

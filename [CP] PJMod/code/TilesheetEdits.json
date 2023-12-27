@@ -1,6 +1,11 @@
 {
     "Changes": [
         {
+            "Action": "EditImage",
+            "Target": "Minigames/jojacorps, Minigames/TitleButtons, LooseSprites/logo, Minigames/intro, LooseSprites/WillysBoat",
+            "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
+        },
+        {
             "LogName": "change wizard",
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
@@ -194,23 +199,23 @@
                 "Height": 32
             }
         },
-        { 
-        "LogName": "poster",
-        "Action": "EditImage",
-        "Target": "TileSheets/furniture",
-        "FromFile": "assets/Tilesheets/poster.png",
-        "ToArea": {
-            "X": 65,
-            "Y": 982,
-            "Width": 15,
-            "Height": 21
-        }
-    },
-        { 
+        {
+            "LogName": "poster",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Tilesheets/poster.png",
+            "ToArea": {
+                "X": 65,
+                "Y": 982,
+                "Width": 15,
+                "Height": 21
+            }
+        },
+        {
             "LogName": "billboard",
             "Action": "EditImage",
             "Target": "LooseSprites/Billboard",
-            "FromFile": "assets/Tilesheets/Billboard.png",
+            "FromFile": "assets/Tilesheets/{{Target}}.png",
             "ToArea": {
                 "X": 0,
                 "Y": 0,
@@ -218,7 +223,7 @@
                 "Height": 198
             }
         },
-        { 
+        {
             "LogName": "Train",
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
@@ -230,22 +235,7 @@
                 "Height": 160
             }
         },
-        { 
-            "Action": "EditImage",
-            "Target": "Minigames/jojacorps",
-            "FromFile": "assets/Tilesheets/intro_changes.png"
-        },
-        { 
-            "Action": "EditImage",
-            "Target": "Minigames/TitleButtons",
-            "FromFile": "assets/Tilesheets/TitleButtons_Sweetpotato.png"
-        },
         {
-            "Action": "EditImage",
-            "Target": "LooseSprites/logo",
-            "FromFile": "assets/Tilesheets/logo_sweetpotato.png"
-        },
-        { 
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
             "FromFile": "assets/Tilesheets/FishOn.png",
@@ -267,13 +257,7 @@
                 "Height": 9
             }
         },
-        { 
-            "LogName": "Willys boat",
-            "Action": "Load",
-            "Target": "LooseSprites/WillysBoat",
-            "FromFile": "assets/Tilesheets/WillysBoat.png"
-        },
-        { 
+        {
             "LogName": "Saloon",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_town",
@@ -291,7 +275,7 @@
                 "Height": 144
             }
         },
-        { 
+        {
             "LogName": "Store 1",
             "Action": "EditImage",
             "Target": "Maps/{{season}}_town",
@@ -434,7 +418,7 @@
                 "Width": 16,
                 "Height": 16
             },
-            "Update":  "OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Mouse 2",
@@ -453,7 +437,7 @@
                 "Width": 64,
                 "Height": 32
             },
-            "Update":  "OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Mouse 3",
@@ -472,7 +456,7 @@
                 "Width": 80,
                 "Height": 96
             },
-            "Update":  "OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Mouse 4",
@@ -491,7 +475,7 @@
                 "Width": 32,
                 "Height": 64
             },
-            "Update":  "OnLocationChange"
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "Mouse Cursor",
