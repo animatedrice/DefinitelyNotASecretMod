@@ -1,10 +1,50 @@
 {
   "Format": "2.0.0",
+  "DynamicTokens": [
+    {
+      "Name": "ModId",
+      "Value": "SweetPotats.PJMod"
+    },
+    {
+      "Name": "ModPath",
+      "Value": "Mods/{{ModId}}"
+    },
+    {
+      "Name": "Wiggles",
+      "Value": "{{ModId}}_Wiggles"
+    },
+    {
+      "Name": "mouse",
+      "Value": "broken"
+    },
+    {
+      "Name": "mouse",
+      "Value": "repaired",
+      "When": {
+        "HasSeenEvent": "192914"
+      }
+    }
+  ],
   "Changes": [
     {
-      "LogName": "Include crops",
+      "LogName": "include npcs and changed strings",
       "Action": "Include",
-      "FromFile": "code/NewCrops/SweetPotat.json"
+      "FromFile": "assets/Characters/NPCload.json, code/Strings/strings.json"
+    },
+    {
+      "LogName": "include custom items",
+      "Action": "Include",
+      "FromFile": "code/CustomItems/SweetPotat.json, code/CustomItems/Hats.json,code/CustomItems/MuseumRewards.json, "
+    },
+    {
+      "LogName": "include custom shops",
+      "Action": "Include",
+      "FromFile": "code/ShopData.json, "
+    },
+    {
+      "LogName": "include location changes",
+      "Action": "Include",
+      "FromFile": "code/Locations/MapPatches.json, code/Locations/TilesheetEdits.json"
     }
   ]
 }

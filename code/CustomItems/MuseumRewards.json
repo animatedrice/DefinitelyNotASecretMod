@@ -1,0 +1,68 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "28": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 6
+                },
+                "31": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 7
+                },
+                "85": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 3
+                },
+                "86": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 4
+                },
+                "87": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 5
+                },
+                "88": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 0
+                },
+                "89": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 1
+                },
+                "94": {
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/badges.png}}",
+                    "SpriteIndex": 2
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/BigCraftables",
+            "Entries": {
+                "ChickenStatue_Name": "Gold Potat Badge",
+                "ChickenStatue_Description": "A badge to show off the membership to a very special club",
+                "LawnFlamingo_Name": "Lawn Flamingo",
+                "LawnFlamingo_Description": "A badge to show off the membership to a very special club",
+                "ObsidianVase_Name": "Ruby Potat Badge",
+                "ObsidianVase_Description": "A badge to show off the membership to a very special club",
+                "SkeletonModel_Name": "Silver Potat Badge",
+                "SkeletonModel_Description": "A badge to show off the membership to a very special club",
+                "SlothSkeletonL_Name": "Diamond Potat Badge",
+                "SlothSkeletonL_Description": "A badge to show off the membership to a very special club",
+                "SlothSkeletonM_Name": "World Potat Badge",
+                "SlothSkeletonM_Description": "A badge to show off the membership to a very special club ",
+                "SlothSkeletonR_Name": "Rainbow Potat Badge",
+                "SlothSkeletonR_Description": "A badge to show off the membership to a very special club",
+                "SingingStone_Name": "Twin Potat Badge",
+                "SingingStone_Description": "A badge to show off the membership to a very special club",
+                "StandingGeode_Name": "Sweet Potat Badge",
+                "StandingGeode_Description": "A badge to show off the membership to a very special club",
+                "SolidGoldLewis_Name": "Solid Gold King Bozo",
+                "SolidGoldLewis_Description": "King's secret project.",
+            }
+        }
+    ]
+}

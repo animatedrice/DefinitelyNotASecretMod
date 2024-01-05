@@ -1,0 +1,101 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "Sam": "JP"
+            }
+        },
+        {
+            "Target": "Characters/Dialogue/Rainy",
+            "Action": "EditData",
+            "Entries": {
+                "Sam": "Rain muffles sound, so I can play my guitar louder without my Mom getting mad. Hehe.$h"
+            }
+        },
+        {
+            "LogName": "Sam hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Sam",
+            "Entries": {
+                "fall_11": "1000 SamHouse 15 13 0 \"Strings\\schedules\\Sam:fall_11.000\"/1130 Hospital 7 18 3 sam_gameboy/1330 Hospital 4 6 0 \"Strings\\schedules\\Sam:fall_11.001\"/1600 Town 11 94 2 \"Strings\\schedules\\Sam:fall_11.002\"/2100 SamHouse 22 13 1 sam_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Schedule/Sam",
+            "Entries": {
+                "fall_11.000": "Mom said I should visit my cousin... Great.$7",
+                "fall_11.002": "I just got out of a meeting with PJ. Mom made me go, but now I don't have to see him for at least a month.$h",
+                "fall_11.001": "Wow PJ really? Can I go now? This is boring."
+            }
+        },
+        {
+            "LogName": "Gift tastes",
+            "Target": "Data/NPCGiftTastes",
+            "Action": "EditData",
+            "Entries": {
+                "Sam": "Aw, yea! This is my absolute favorite!/90 206 562 731/Thanks! I really like this./167 210 213 220 223 224 228 232 233 239 -5/Hmm.. this is... interesting./-81 80 152 330 -75/You really don't get it, huh?/306 307 342 -15/You got that for me? Thanks!//"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Sam": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:Sam]",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 17,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Teen",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanVisitIsland": null,
+                    "SpouseRoom": {
+                        "MapAsset": null,
+                        "MapSourceRect": {
+                            "X": 24,
+                            "Y": 9,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": null,
+                        "MapSourceRect": {
+                            "X": 16,
+                            "Y": 4,
+                            "Width": 4,
+                            "Height": 4
+                        }
+                    },
+                    "FriendsAndFamily": {
+                        "Vincent": "[LocalizedText Strings\\Characters:Relative_LittleBrother]",
+                        "Jodi": "[LocalizedText Strings\\Characters:Relative_Mom]",
+                        "Kent": "[LocalizedText Strings\\Characters:Relative_Dad]",
+                        "Sebastian": "",
+                        "Harvey": "Cousin"
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "SamHouse",
+                            "Tile": {
+                                "X": 22,
+                                "Y": 13
+                            },
+                            "Direction": "right"
+                        }
+                    ],
+                    "Appearance": []
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "Krobus": "Sad Ghost"
+            }
+        },
+        {
+            "Target": "Characters/Dialogue/Rainy",
+            "Action": "EditData",
+            "Entries": {
+                "Krobus": "Ah, the sewers are flowing quickly today. It'll get nice and humid in here... Just how I like it."
+            }
+        },
+        {
+            "LogName": "Gift tastes",
+            "Target": "Data/NPCGiftTastes",
+            "Action": "EditData",
+            "Entries": {
+                "Krobus": "This is an amazing gift. For my people it is a great honor to receive something like this./276 608 220 881 561 156 221/Thank you very much.//Humans have... interesting tastes.//Oh... Um. I guess I'll accept it./-7 769/Thank you.//"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Krobus": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:Krobus]",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 1,
+                    "HomeRegion": "Other",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+                    "SpouseRoom": {
+                        "MapAsset": null,
+                        "MapSourceRect": {
+                            "X": 12,
+                            "Y": 18,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": null,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [
+                        "2",
+                        "3",
+                        "2",
+                        "4"
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "Sewer",
+                            "Tile": {
+                                "X": 31,
+                                "Y": 17
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Appearance": [
+                        {
+                            "Id": "MovieTheater",
+                            "Condition": "ANY \"LOCATION_NAME Target MovieTheater\" \"EVENT_ID MovieTheaterScreening\"",
+                            "Season": null,
+                            "Indoors": true,
+                            "Outdoors": true,
+                            "Portrait": null,
+                            "Sprite": "Characters/Krobus_Trenchcoat",
+                            "IsIslandAttire": false,
+                            "Precedence": -1000,
+                            "Weight": 0
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

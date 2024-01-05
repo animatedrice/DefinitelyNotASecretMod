@@ -1,0 +1,82 @@
+{
+  "Changes": [
+    {
+      "LogName": "Display name in standard location",
+      "Target": "Strings/NPCNames",
+      "Action": "EditData",
+      "Entries": {
+        "Jas": "Oliver"
+      }
+    },
+    {
+      "LogName": "Oliver schedule",
+      "Action": "EditData",
+      "Target": "characters/schedules/Jas",
+      "Entries": {
+        "9": "NOT friendship Sam 6 Penny 6/GOTO spring",
+        "23": "NOT friendship Sam 6 Penny 6/GOTO spring",
+        "rain": "900 AnimalShop 2 5 0/1100 AnimalShop 15 16 2 square_3_3/1500 AnimalShop 4 16 2 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep",
+        "summer": "900 AnimalShop 2 5 0/1100 Forest 92 20 1/1320 Beach 40 23 jas_jumprope \"Strings\\schedules\\Jas:summer.000\"/1600 AnimalShop 17 14 3 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep",
+        "winter_15": "900 AnimalShop 2 5 0/1100 Forest 38 10 2 jas_jumprope \"Strings\\schedules\\Jas:winter_15.000\"/1450 Beach 19 24 2 \"Strings\\schedules\\Jas:winter_15.001\"/2300 AnimalShop 6 5 1 jas_sleep",
+        "winter_18": "900 AnimalShop 2 5 0 \"Strings\\schedules\\Jas:winter_18.000\"/1030 Hospital 14 15 0/1330 Hospital 12 18 0 \"Strings\\schedules\\Jas:winter_18.001\"/1600 AnimalShop 11 5 3 jas_read/2000 AnimalShop 6 5 1 jas_sleep",
+        "Tue": "900 ArchaeologyHouse 19 10 3 jas_read/1400 Town 85 103 2/1620 Town 16 91 0/1750 AnimalShop 6 5 1 jas_sleep",
+        "Wed": "GOTO Tue",
+        "Fri": "GOTO Tue",
+        "Sat": "1000 Town 31 89 1/1200 Town 24 12 jas_jumprope/1700 Town 28 90 1/2000 AnimalShop 6 5 1 jas_sleep",
+        "spring": "900 AnimalShop 2 5 0/1100 Forest 38 10 2 jas_jumprope \"Strings\\schedules\\Jas:spring.000\"/1500 AnimalShop 17 14 3 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedule/Jas",
+      "Entries": {
+        "winter_18.000": "We are going to film a hotel promo video with PJ today",
+        "winter_15.001": "I wonder if a mermaid will ever stay at the hotel...$s",
+        "winter_18.001": "What was my line again?  - The hospitality is extraordinary?",
+        "summer.000": "1... 2... 3... 4... Oh no! I messed up again.",
+        "winter_15.000": "1... 2... 3... 4… 5… 6… Oh no! I keep messing up.",
+        "spring.000": "1... 2... 3... 4… 5… 6… 7… 8… Oh no! Again! But I am  getting better."
+      }
+    },
+    {
+      "LogName": "Gift tastes",
+      "Target": "Data/NPCGiftTastes",
+      "Action": "EditData",
+      "Entries": {
+        "Jas": "Thank you! Honestly, thank you! I was searching for something like that for forever.$h/221 595 604 682 795 104 241/This is amazing, thanks!/18 60 64 70 88 232 233 234 222 223 340 344 402 418 903/The hell is that?!?$s/253 395 459 -26 2 16 330 873/That's the most disgusting thing I have seen in my life!//Is this a gift? Really...$s/-5 -81 -75 -79 80/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Jas": {
+          "DisplayName": "[LocalizedText Strings\\NPCNames:Jas]",
+          "BirthSeason": "Summer",
+          "BirthDay": 4,
+          "HomeRegion": "Town",
+          "Language": "Default",
+          "Gender": "Male",
+          "Age": "Teen",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanVisitIsland": "!DAY_OF_WEEK Tuesday Wednesday Friday",
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "AnimalShop",
+              "Tile": {
+                "X": 4,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "Appearance": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="25">
+ <properties>
+  <property name="DayTiles" value="Front 7 1 256 Front 7 2 288 Front 19 1 256 Front 19 2 288"/>
+  <property name="Doors" value="11 9 1 120 20 9 1 120 3 16 1 120 4 16 1 120 31 16 1 120"/>
+  <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285 Front 19 1 1253 Front 19 2 1285"/>
+  <property name="Warp" value="14 25 Town 45 71"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="500"/>
+    <frame tileid="550" duration="500"/>
+    <frame tileid="581" duration="500"/>
+    <frame tileid="582" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="936">
+   <animation>
+    <frame tileid="936" duration="100"/>
+    <frame tileid="1864" duration="100"/>
+    <frame tileid="1866" duration="100"/>
+    <frame tileid="1868" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="937">
+   <animation>
+    <frame tileid="937" duration="100"/>
+    <frame tileid="1865" duration="100"/>
+    <frame tileid="1867" duration="100"/>
+    <frame tileid="1869" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1378">
+   <animation>
+    <frame tileid="1378" duration="120"/>
+    <frame tileid="1381" duration="120"/>
+    <frame tileid="1384" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1379">
+   <animation>
+    <frame tileid="1379" duration="120"/>
+    <frame tileid="1382" duration="120"/>
+    <frame tileid="1385" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1380">
+   <animation>
+    <frame tileid="1380" duration="120"/>
+    <frame tileid="1383" duration="120"/>
+    <frame tileid="1386" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1410">
+   <animation>
+    <frame tileid="1410" duration="250"/>
+    <frame tileid="1474" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1411">
+   <animation>
+    <frame tileid="1411" duration="500"/>
+    <frame tileid="1475" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source=".townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2305" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source=".paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2341" name="z_PotatTilesheets" tilewidth="16" tileheight="16" tilecount="520" columns="10">
+  <image source="PotatTilesheets.png" width="160" height="832"/>
+  <tile id="238">
+   <animation>
+    <frame tileid="238" duration="250"/>
+    <frame tileid="248" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="440">
+   <animation>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="442" duration="300"/>
+    <frame tileid="444" duration="300"/>
+    <frame tileid="446" duration="300"/>
+    <frame tileid="448" duration="300"/>
+    <frame tileid="460" duration="300"/>
+    <frame tileid="462" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+    <frame tileid="440" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="441">
+   <animation>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="443" duration="300"/>
+    <frame tileid="445" duration="300"/>
+    <frame tileid="447" duration="300"/>
+    <frame tileid="449" duration="300"/>
+    <frame tileid="461" duration="300"/>
+    <frame tileid="463" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+    <frame tileid="441" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="450">
+   <animation>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="452" duration="300"/>
+    <frame tileid="454" duration="300"/>
+    <frame tileid="456" duration="300"/>
+    <frame tileid="458" duration="300"/>
+    <frame tileid="470" duration="300"/>
+    <frame tileid="472" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+    <frame tileid="450" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="451">
+   <animation>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="453" duration="300"/>
+    <frame tileid="455" duration="300"/>
+    <frame tileid="457" duration="300"/>
+    <frame tileid="459" duration="300"/>
+    <frame tileid="471" duration="300"/>
+    <frame tileid="473" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="451" duration="300"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="46" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9lrtOwzAUht2GVsRIsIDUhUcAJHYEA1IHHqKFwsK9Etd2aCXaNaysrMDGS/AOMCJKXwEYOJZt1T2140sIR/p0EufY/vvHcU3IKGpFQupF/7xIx8HP8ww2/gy1I/UsUHfyjK6jblbXyaB7qUDIsoWVgrvuEL+bRM9/6v4ETmCONtASGV9fi7xe5LWmOl2fvHRPF7iXfZijR3k2XddEXR3YAXYd+si4jwj5sPAe+fnN1u4tzJFQnk3XHVF3BlwAVw59ZAyicRrRZNvAQ3eI37Y6nd86jYzXMiFvZX/dW6A7pukkluex8Ba3qWHSzXjOSXfPQXfforth8Dd0nbD1zeZgeSh+B6ZJ9e0qp0oN+w6wbux91nghk/sgzn3L85ZYJ+r9dc66mc/yGxqSke9ZczflfPIXutl+IvesGO37j474RlbdD2Je6berzhCekO6vmJBvD37iSd3Sb4pw1YT76VhFe/kU3Jc8KNNx3UTxex5RRVQ0bVVRu2mhovjAdM/C/V0Kc4gS+s5Ne8QesOHIjcN+01a8bzrW4yxD/T/GmdWtOWIaA2f5Hl3rcZahnn9M2WVMWcvOiduUnxUblJ8X1bGkb7Y5TVlGkqLH5d2p16zPPnAAHAJHwHGgrza/Va9CfMZ+s/PtOeVn3EvKz7khvtr8TtPjM6baF49jag/Jea3vRNPf1B6Ss0TW/lnjFzjTkzI=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="7" name="Buildings" width="46" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzVl0tI1EEcx0f/Ge1AWiFEGvS4BZVBWRBRaOKlB2ugWYc8pJbQofRg0otO5U2UOrTe6pDW2UtdA+1xDXpcs7r1tBdUn2Hnz87Ozn/2/99dg37wYXZmfjPzndfvP1slhKj6z4ljSXztNotFGjo8HEng62qjuFkjxEQRbtQk030WznkYtHy3VAuxFZqgKxDiWJDz7cOpvyq/Tdz52nMtxhi0o2GAzA/4Cb9gClZTPm75LqesFurgPJpH4Ix1iMZFvLX5lhLie6pwfeLwSI85SroGLQ3QCHO6XNX7zvdwkPvdglOrdrTX5mqQo3cZ+ySpg2oIZOFcK3kv1frfYowMTMpof3Ouim7Obho6agp9VV3z0myaRLe9xz7dvrn76meX+PvvLEG3uusZ4b7jk7rfqHqXj8rbsSFc627Heiu7wNm5GCSPgw+E+44/hBFPvctH5e3YIIT7nLxhnechg+bJhLrVXX8l3Pf9te4/qt7lo/K+2CASaPMxJipvvthQKd3C01cQQbnjLaZu8+6FdonYdxmu6Bg4Yd0/c15RcyxXt4ojPUYMPiFzOlX5OlgPG2Cj9rtGeh1GI9qZfOE7+BUWUvnxJbSTlPVCHzw3ymd0uiDyLWw/g/+AMf5pfjfBNpkt3wRTLNg0bOb3ATgIh+AwpGWunct+o/cPCJk/bqlmxpEhmY1hikF+12tU+XbYAc2wEzqhC45CNxyX2W+12a5NU2+xR2b3pUePV0ta52Ge+b6Fd/AeVsic7hd8s19W++e4F/99nu+5bY3szVr9BglNvV/aZXZfzP29re/NHZ32U3cKnpH/gNaP8Ak+Q4OMt1+7Emjd7fFVmldSv0rvy1CCfk1TbxFbt/meC/Mt9N8K+2OkbSVqSWLDQaHucD3itDVTu7xcu8v5mIJpuAf3jfjr0h01dqX02ONGfT9m0TkHj+EJPLXeMqZ/MW3hXpQ6B/N8R+mO07c577jno5geV5nrLPnWO/S3/5PEmfe/fFuUyl/YwK8U
+  </data>
+ </layer>
+ <objectgroup id="8" name="Buildings">
+  <object id="1" name="TileData" x="304" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="256" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.2&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="272" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.3&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="448" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Starpoint 3"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="176" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="320" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Gus"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="48" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="64" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="288" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox GusFridge"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="496" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="16" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Jukebox"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="32" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Jukebox"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="528" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Arcade_Prairie"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="560" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Arcade_Minecart"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="592" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.4&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="608" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.4&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="160" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Saloon"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="176" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Saloon"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="224" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Saloon"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="256" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.7&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="208" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.6&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="176" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.5&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="512" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.8&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="528" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Pizzeria.9&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Front" width="46" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy1V0trFEEQ7pl1QrLxJvhAL6KJIj4SPDgBL6u7ohAQL4rEk/pPkoOPCGq8+LhoRL0IKrjg46Kr+QEeBI0PyMFEweSki6jgV063U9NbO9Oz437wMdM9VV1f99bU1CoVwwf7U7gM9DSzbLlPN7Ee3KLv9wTR1fOS463gALNtgnXwtUraE3ZhY6Ef+xjQfksZzLPXirQXr3Wuxmy/Q8THPtm+hvt9Xuzz97mK9ruzR6ndpda1aY6e2Xt10T3oR9c3iPkWnNWxm0yDsf2KuUVwCTyMmF+wh1FtdwLXk5Zu8qsHccwGfF6AtTLWgu8iuAQ+DGIfF93VIDl30DrvapDUnYZx+E4IugnHSzGrvYhTjv1+9CV9XHS7wOim8z+PeBfK6fZ7g6TuEOMhcDhotQ2D+JpH96iQz5Lu6+AN8JbFaW1zk83dBu+wGC7Io5u0PBO0GM6AI+Bz1b4ONAQbXhtItznrUDhvwhicjpXcdZt3/WIQ1b2mfj8fqGh8CTzKnhO++VFNUW1spoJkbTDnLeXJS9SRmZ54nCdP6m3OoAh4beD5JeWUlFtZcM29TiCdXSXlWR5w3dIZdMp2Z9cN3XwtKnP0fl1FHl/zW/34e7m8g3hFdJOcBhtTPTB9Ec3PQdRKbGBVOXrXJJIN9zP77Gf74n1WhcXK6lek3sXUEaoFVMOIG6FvABwEN2V8VwzoW011hPoVqiVPoPmpH9eVKau+VHQsCfux1gEd1/Qxr/Q997+M9a/4UQ0jbofPDnAIHM7QvUI/N99qUxdncX0n5BXVFzrjho5l4xDWeQ9+AM/B9h7m7quoHv87I637EdZ/LMQogp9Y75cf9SA2KKfm2Py4rr8TuI5B7zy4AN7F+BN+v3lwAfzMepes+rfNMU8Im2F7RNBpsBbP1+VYTwL1IrZuO6YZh4i1Ghxh3GCN1xTUkwe27qLnkXbWeXAK+XEaPAOeBSet77iUJ1Ls/6XHQPquTad6JMF1Z2kzv0WRPZg1KK5nMU+fYXT/xnva22F+0D6k/ErLORfd0n8Svu92/wHSmNbLufYrtm5XHXl6RRtpvYWtp1v8A/cJxPY=
+  </data>
+ </layer>
+ <objectgroup id="10" name="Front"/>
+ <layer id="11" name="Paths" width="46" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztV4sOwyAInO065f9/eDWR7MqQarWvZSSmq1U8DgT2ePyOENnvV5davDXrtbV346e3bLV/mPe95hFO5C8kDHGMBg7GGDE/T8BrxZ038Lhk23TBGLVw16xhGcCXoUNc5fIgYyrxScndqLGxRXrz/ce9jDk5JuMbj5pc0hP3Ub7reVa8S3fEjbrW8gEZ63DO0uML1m3Rtbe0nhXtsGpizuZSLlA/ivQtPmt7I6zXJX1Ji9TwrdVSOUcJN887WvZXWJvxd05y3DFurvEh8azpsvzFOkYlr2i+1J545tpd8/TJYQ58rNUJrV/zYCsJHTJGgoIP39neQXCo1TOJE2uWxofEMqW9OM/noS/lWYOCgc/24ntrT84+CQIjchUgvqUvkA+MJUffXEouSvKE/B7A7tx+R7oPc/HGHGr6MOa29tV7/E8+sj5p8gZMOQ9A
+  </data>
+ </layer>
+ <objectgroup id="12" name="Paths"/>
+</map>

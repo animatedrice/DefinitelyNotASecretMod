@@ -1,0 +1,66 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "Gus": "Bobby"
+            }
+        },
+        {
+            "Target": "Characters/Dialogue/Rainy",
+            "Action": "EditData",
+            "Entries": {
+                "Gus": "There's nothing like a hot fresh spaghett on a day like this, huh?#$e#I love my job. Hehehe."
+            }
+        },
+        {
+            "LogName": "Gus hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Gus",
+            "Entries": {
+                "fall_4": "800 Saloon 16 4 2 gus_sit_down/1030 Hospital 14 15 0 \"Strings\\schedules\\Gus:fall_4.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Gus:fall_4.001\"/1600 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+            }
+        },
+        {
+            "LogName": "Gift tastes",
+            "Target": "Data/NPCGiftTastes",
+            "Action": "EditData",
+            "Entries": {
+                "Gus": "Bobby baby bobby bubbi!!!/618 346 216 198 91 904 207 611 234/Bobby baby bobby bubbi!!/539 540 132 284 597/Bobby baby bobby ew-ie/570 410 119 700 800/what did I bobby baby do to deserve this?/132 278 787/Bobby baby bobby bubbi!/767/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Gus": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:Gus]",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 8,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "Saloon",
+                            "Tile": {
+                                "X": 18,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Appearance": []
+                }
+            }
+        }
+    ]
+}

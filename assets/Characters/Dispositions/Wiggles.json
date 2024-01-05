@@ -1,0 +1,73 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "{{Wiggles}}": "Wiggles"
+            }
+        },
+        {
+            "LogName": "Gift tastes",
+            "Target": "Data/NPCGiftTastes",
+            "Action": "EditData",
+            "Entries": {
+                "{{Wiggles}}": "Someone could say I love this gift, but love is overrated./224 446 348 420/This is almost as good as a plate of hot fresh spaghett./-12/I once got a gift like this and let's just say no one ever heard from them again./113/Are you mocking me? I need money not this garbagio!/126 127/What am I supposed to do with that, heh?//"
+            }
+        },
+        {
+            "Target": "Characters/Dialogue/Rainy",
+            "Action": "EditData",
+            "Entries": {
+                "{{Wiggles}}": "I can control weather. I don't know if that's relevant though."
+            }
+        },
+        {
+            "LogName": "Load sprite and portrait",
+            "Action": "Load",
+            "Target": "Characters/Wiggles, Portraits/Wiggles",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "LogName": "load dialogue and schedule",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Wiggles, Characters/Schedules/Wiggles",
+            "FromFile": "assets/{{Target}}.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{Wiggles}}": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:{{Wiggles}}]",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 7,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Negative",
+                    "CanBeRomanced": true,
+                    "SpouseRoom": {},
+                    "SpousePatio": {},
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "AnimalShop",
+                            "Tile": {
+                                "X": 29,
+                                "Y": 6
+                            },
+                            "Direction": "Down"
+                        }
+                    ],
+                    "Appearance": [],
+                    "TextureName": "Wiggles"
+                }
+            }
+        }
+    ]
+}

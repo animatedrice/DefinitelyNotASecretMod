@@ -1,0 +1,96 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "Harvey": "PJ"
+            }
+        },
+        {
+            "Target": "Characters/Dialogue/Rainy",
+            "Action": "EditData",
+            "Entries": {
+                "Harvey": "Hi @! Rainy days are perfect for a prismatic shard run. #$e#Heh. Well, I need to be on hole patrol.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Schedules/Harvey",
+            "Entries": {
+                "Mon.000": "This chat is turning my brain into slop $4",
+                "Wed.000": "Madness? Welcome to Sparta! $h",
+                "Wed.001": "Oh God, I think I just prismatic sharded myself",
+                "Fri.000": "Today there will be no more zamns, no more tomfoolery. Just good clean fun.$h",
+                "Fri.001": "I've been in my cringe era for as long as I can remember$2",
+                "Fri.002": "I am the best gamer in this room right now. $h",
+                "Sat.000": "Sex is illegal in the eyes of god.$h",
+                "winter_15.000": "I'm not sharing my soup with anyone$h"
+            }
+        },
+        {
+            "LogName": "PJ sit",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "harvey_sit_right": "34/34/34//offset 3 4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Schedules/Harvey",
+            "Entries": {
+                "spring": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep",
+                "rain": "GOTO winter",
+                "Tue": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+                "Thu": "GOTO Tue",
+                "Fri": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 SeedShop 2 23 3 \"Strings\\schedules\\Harvey:Fri.000\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Fri.001\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+                "Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+                "winter_11": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 HarveyRoom 11 5 3 harvey_read/1700 Beach 37 31 0 \"Strings\\schedules\\Harvey:winter_15.000\"/2400 HarveyRoom 13 4 1 harvey_sleep",
+                "winter": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 HarveyRoom 11 5 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+                "fall": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 46 102 2/1700 HarveyRoom 4 5 1 harvey_radio/2200 HarveyRoom 13 4 1 harvey_sleep",
+                "summer": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 23 36 2 square_7_5/1730 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep"
+            }
+        },
+        {
+            "LogName": "Gift tastes",
+            "Target": "Data/NPCGiftTastes",
+            "Action": "EditData",
+            "Entries": {
+                "Harvey": "Thanks for the bits!/614 408 206 224 424 613 {{ModId}}.SweetPotato/That's such a nice gift. Thank you!/248 216 398 223/I'd rather be bonked than getting this../395 /That's going to be an IP-ban./303 346 348/I guess I'll accept this for the halibut./708/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Harvey": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:Harvey]",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 11,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "HarveyRoom",
+                            "Tile": {
+                                "X": 23,
+                                "Y": 8
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Appearance": []
+                }
+            }
+        }
+    ]
+}

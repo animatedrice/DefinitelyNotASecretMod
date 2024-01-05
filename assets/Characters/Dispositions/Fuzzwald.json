@@ -1,0 +1,82 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Morris": "Fuzzwald"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Morris": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:Morris]",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 15,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": false,
+                    "LoveInterest": null,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "SocialTabIconSourceRect": null,
+                    "CanSocialize": true,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": true,
+                    "CanVisitIsland": null,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "SpouseRoom": null,
+                    "SpousePatio": null,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [],
+                    "FriendsAndFamily": {},
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": null,
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "JojaMart",
+                            "Tile": {
+                                "X": 12,
+                                "Y": 21
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": "Morris",
+                    "Appearance": [],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "ShakePortraits": [],
+                    "KissSpriteIndex": 28,
+                    "KissSpriteFacingRight": true,
+                    "HiddenProfileEmoteSound": null,
+                    "HiddenProfileEmoteDuration": -1,
+                    "HiddenProfileEmoteStartFrame": -1,
+                    "HiddenProfileEmoteFrameCount": 1,
+                    "HiddenProfileEmoteFrameDuration": 200.0,
+                    "FestivalVanillaActorIndex": -1,
+                    "CustomFields": {}
+                }
+            }
+        }
+    ]
+}

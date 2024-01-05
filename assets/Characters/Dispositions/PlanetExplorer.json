@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "Wizard": "Explorer"
+            }
+        },
+        {
+            "Target": "Characters/Dialogue/Rainy",
+            "Action": "EditData",
+            "Entries": {
+                "Wizard": "Stormy days are the only time I can commune with certain Aliens.#$e#I don't expect you to understand."
+            }
+        },
+        {
+            "LogName": "Gift tastes",
+            "Target": "Data/NPCGiftTastes",
+            "Action": "EditData",
+            "Entries": {
+                "Wizard": "Incredible! Where did you find this? It's like a piece of another world. You've made my day, thank you!/578 308 769 269 551/This will come in handy on my next expedition. Nice choice, thanks!/268 305 768/Not really my style. I prefer things from the great unknown. But I appreciate the gesture./400 22/What is this nonsense? I don't have time for fake artifacts. Stick to real discoveries, please./428 410/This might be useful. Thanks for thinking of me.//"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Wizard": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:Wizard]",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 17,
+                    "HomeRegion": "Other",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Negative",
+                    "CanBeRomanced": false,
+                    "CanVisitIsland": "FALSE",
+                    "SpouseRoom": null,
+                    "SpousePatio": null,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "WizardHouse",
+                            "Tile": {
+                                "X": 3,
+                                "Y": 17
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Appearance": []
+                }
+            }
+        }
+    ]
+}

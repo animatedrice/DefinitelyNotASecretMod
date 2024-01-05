@@ -1,0 +1,228 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModPath}}/Dog_Happy, {{ModPath}}/Dog_Tongue, {{ModPath}}/Dog_Ladle,{{ModPath}}/HatMouse, {{ModPath}}/PJ_Shop, {{ModPath}}/UI",
+            "FromFile": "assets/Shops/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "LogName": "Seed Shop",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}.SweetPotatoSeeds": {
+                    "Id": "{{ModId}}.SweetPotatoSeeds",
+                    "ItemId": "(O){{ModId}}.SweetPotatoSeeds",
+                    "Condition": "SEASON Spring"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "{{ModId}}.SweetPotatoSeeds",
+                    "BeforeId": "(O)472"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop"
+            ],
+            "Entries": {
+                "VisualTheme": [
+                    {
+                        "WindowBorderTexture": "{{ModPath}}/UI",
+                        "WindowBorderSourceRect": {
+                            "X": 134,
+                            "Y": 0,
+                            "Width": 18,
+                            "Height": 18
+                        },
+                        "PortraitBackgroundTexture": "{{ModPath}}/UI",
+                        "PortraitBackgroundSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 74,
+                            "Height": 74
+                        },
+                        "ItemRowBackgroundTexture": "{{ModPath}}/UI",
+                        "ItemRowBackgroundSourceRect": {
+                            "X": 134,
+                            "Y": 36,
+                            "Width": 15,
+                            "Height": 15
+                        },
+                        "DialogueBackgroundTexture": "{{ModPath}}/UI",
+                        "DialogueBackgroundSourceRect": {
+                            "X": 74,
+                            "Y": 0,
+                            "Width": 60,
+                            "Height": 60
+                        },
+                        "ScrollBarFrontTexture": "{{ModPath}}/UI",
+                        "ScrollBarFrontSourceRect": {
+                            "X": 96,
+                            "Y": 60,
+                            "Width": 6,
+                            "Height": 10
+                        },
+                        "ScrollDownTexture": "{{ModPath}}/UI",
+                        "ScrollDownSourceRect": {
+                            "X": 85,
+                            "Y": 60,
+                            "Width": 11,
+                            "Height": 12
+                        },
+                        "ScrollUpTexture": "{{ModPath}}/UI",
+                        "ScrollUpSourceRect": {
+                            "X": 74,
+                            "Y": 60,
+                            "Width": 11,
+                            "Height": 12
+                        },
+                        "ItemIconBackgroundTexture": "{{ModPath}}/UI",
+                        "ItemIconBackgroundSourceRect": {
+                            "X": 134,
+                            "Y": 18,
+                            "Width": 18,
+                            "Height": 18
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "LogName": "HatMouse",
+            "TargetField": [
+                "HatMouse",
+                "Owners",
+                "#0"
+            ],
+            "Entries": {
+                "Portrait": "Portraits/HatMouse"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "LogName": "HatMouse",
+            "TargetField": [
+                "HatMouse",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_PotatHat": {
+                    "ItemId": "{{ModId}}_PotatHat",
+                    "Price": 1000
+                },
+                "{{ModId}}_BuoyHat": {
+                    "ItemId": "{{ModId}}_BuoyHat",
+                    "Price": 1000
+                },
+                "{{ModId}}_HollowHat": {
+                    "ItemId": "{{ModId}}_HollowHat",
+                    "Price": 1000
+                },
+                "{{ModId}}_FujiHat": {
+                    "ItemId": "{{ModId}}_FujiHat",
+                    "Price": 1000
+                },
+                "{{ModId}}_FrogHat": {
+                    "ItemId": "{{ModId}}_FrogHat",
+                    "Price": 1000
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_DogShop": {
+                    "ID": "{{ModId}}_DogShop",
+                    "Owners": [
+                        {
+                            "Condition": "TIME 900 2000",
+                            "Name": "AnyOrNone",
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "Ruff day? I got some [SuggestedItem] to cheer you up.",
+                                        "*woof *woof*",
+                                        "*woof* Bone Appetit!",
+                                        "Stay pawsitive *woof*",
+                                        "Howl-o. Today's special is [SuggestedItem]."
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": false,
+                            "Portrait": "Portraits/Dog_{{Random:Happy, Tongue, Ladle}}"
+                        },
+                        {
+                            "Id": "Closed",
+                            "Name": "Any",
+                            "Portrait": null,
+                            "Dialogues": null,
+                            "ClosedMessage": "*woof* It's closed *woof*"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "ItemId": "(O)228"
+                        },
+                        {
+                            "ItemId": "(O)227"
+                        },
+                        {
+                            "RandomItemId": [
+                                "(O)198",
+                                "(O)214",
+                                "(O)649",
+                                "(O)212",
+                                "(O)202",
+                                "(O)232",
+                                "(O)606",
+                                "(O)226",
+                                "(O)242",
+                                "(O)265",
+                                "(O)728",
+                                "(O)730"
+                            ],
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "RandomItemId": [
+                                "(O)198",
+                                "(O)214",
+                                "(O)649",
+                                "(O)212",
+                                "(O)202",
+                                "(O)232",
+                                "(O)606",
+                                "(O)226",
+                                "(O)242",
+                                "(O)265",
+                                "(O)728",
+                                "(O)730"
+                            ],
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "ItemId": "(O)733",
+                            "Condition": "DAY_OF_WEEK Fri"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

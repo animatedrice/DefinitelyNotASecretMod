@@ -1,0 +1,67 @@
+{
+  "Changes": [
+    {
+      "LogName": "Display name in standard location",
+      "Target": "Strings/NPCNames",
+      "Action": "EditData",
+      "Entries": {
+        "Lewis": "King Bozo"
+      }
+    },
+    {
+      "Target": "Characters/Dialogue/Rainy",
+      "Action": "EditData",
+      "Entries": {
+        "Lewis": "Hi there, @. Taking a break?#$e#The rain is good for the kingdom."
+      }
+    },
+    {
+      "LogName": "Lewis hospital",
+      "Action": "EditData",
+      "Target": "characters/schedules/Lewis",
+      "Entries": {
+        "fall_9": "900 AnimalShop 17 5 0/1030 Hospital 14 15 0/1330 Hospital 4 6 0 \"Strings\\schedules\\Lewis:fall_9.000\"/1600 AnimalShop 24 15 0/2100 AnimalShop 12 5 3"
+      }
+    },
+    {
+      "LogName": "Gift tastes",
+      "Target": "Data/NPCGiftTastes",
+      "Action": "EditData",
+      "Entries": {
+        "Lewis": "A splendid choice! This crown is fit for a king. You have my utmost gratitude!/124 125 373 395 163 446/Ah, a fine addition to my chambers! This tapestry is quite elegant. Thank you./336 384 791/Is this a joke? Such a gift is beneath my royal standards./170 118 80/What is the meaning of this? I have no use for such rubbish. Remove it from my sight!/103 112/Hmm, a gem. It's a decent gift. I appreciate the gesture./70 72 68 66 64/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Lewis": {
+          "DisplayName": "[LocalizedText Strings\\NPCNames:Lewis]",
+          "BirthSeason": "Spring",
+          "BirthDay": 7,
+          "HomeRegion": "Town",
+          "Language": "Default",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanVisitIsland": null,
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "ManorHouse",
+              "Tile": {
+                "X": 8,
+                "Y": 5
+              },
+              "Direction": "up"
+            }
+          ],
+          "Appearance": []
+        }
+      }
+    }
+  ]
+}

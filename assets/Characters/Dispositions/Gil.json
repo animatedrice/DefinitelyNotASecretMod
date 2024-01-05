@@ -1,0 +1,70 @@
+{
+  "Changes": [
+    {
+      "LogName": "Display name in standard location",
+      "Target": "Strings/NPCNames",
+      "Action": "EditData",
+      "Entries": {
+        "Pierre": "Gil Harmon"
+      }
+    },
+    {
+      "Target": "Characters/Dialogue/Rainy",
+      "Action": "EditData",
+      "Entries": {
+        "Pierre": "Most people stay indoors on days like this... It's not good for business.$s"
+      }
+    },
+    {
+      "LogName": "Gil schedule",
+      "Action": "EditData",
+      "Target": "characters/schedules/Pierre",
+      "Entries": {
+        "rain": "GOTO spring",
+        "Fri": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 SeedShop 37 18 0 \"Strings\\schedules\\Pierre:Fri.000\"/2250 SeedShop 24 4 1 pierre_sleep",
+        "spring": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 SeedShop 11 20 0/1900 SeedShop 37 5 0/2100 SeedShop 20 5 0/2300 SeedShop 24 4 1 pierre_sleep"
+      }
+    },
+    {
+      "LogName": "Gift tastes",
+      "Target": "Data/NPCGiftTastes",
+      "Action": "EditData",
+      "Entries": {
+        "Pierre": "It's truly special. Thanks for bringing some beauty into my world./254 190 258 276 336 122/Just what I need for tending to my seeds. Good choice, thanks!/368 369 371 384/You are just like my ex-wife…/614/I would rather go back to jail than have this./170/I'm not much of a chef, but maybe I'll find some inspiration. Thanks./260 256 270/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Pierre": {
+          "DisplayName": "[LocalizedText Strings\\NPCNames:Pierre]",
+          "BirthSeason": "Spring",
+          "BirthDay": 26,
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "FriendsAndFamily": {
+            "Abigail": "[LocalizedText Strings\\Characters:Relative_Daughter]",
+            "Caroline": "ex-wife"
+          },
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "SeedShop",
+              "Tile": {
+                "X": 4,
+                "Y": 17
+              },
+              "Direction": "down"
+            }
+          ],
+          "Appearance": []
+        }
+      }
+    }
+  ]
+}

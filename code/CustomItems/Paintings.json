@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods\\SweetPotats\\Paintings",
+            "FromFile": "assets/CustomItems/Hats.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": {
+                "{{ModId}}_PotatHat": "Potat Hat/It smells sweet./false/true//Sweet Potato Hat/0/Mods\\SweetPotats\\Hats",
+                "{{ModId}}_BuoyHat": "Buoy Hat/Here comes the buoy!/false/true//Buoy Hat/1/Mods\\SweetPotats\\Hats",
+                "{{ModId}}_HollowHat": "Hollow Mask/It makes you feel hollow inside./false/true//Hollow Mask/2/Mods\\SweetPotats\\Hats",
+                "{{ModId}}_FujiHat": "Fuji Hat/Reminds you of the cutest cat./false/true//Fuji Hat/3/Mods\\SweetPotats\\Hats",
+                "{{ModId}}_FrogHat": "Froggy Hat/A hat designed to make you look cuter./false/true//Froggy Hat/4/Mods\\SweetPotats\\Hats"
+            }
+        }
+    ]
+}

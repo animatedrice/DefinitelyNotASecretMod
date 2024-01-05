@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    {
+      "LogName": "Display name in standard location",
+      "Target": "Strings/NPCNames",
+      "Action": "EditData",
+      "Entries": {
+        "Alex": "Buff Buoy"
+      }
+    },
+    {
+      "Target": "Characters/Dialogue/Rainy",
+      "Action": "EditData",
+      "Entries": {
+        "Alex": "Hmmph. This is not good weather for sports.$s#$e#Oh well, I can always lift weights inside.$h"
+      }
+    },
+    {
+      "LogName": "Alex hospital",
+      "Action": "EditData",
+      "Target": "characters/schedules/Alex",
+      "Entries": {
+        "summer_16": "800 Town 64 64 2 alex_football/1030 Hospital 7 15 3 \"Strings\\schedules\\Alex:summer_16.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Alex:summer_16.001\"/1600 JoshHouse 15 4 2/2400 JoshHouse 21 4 1 alex_sleep"
+      }
+    },
+    {
+      "LogName": "Gift tastes",
+      "Target": "Data/NPCGiftTastes",
+      "Action": "EditData",
+      "Entries": {
+        "Alex": "Hey, awesome! This'll make me more buff!/194 195 560 558/This is cool! Thanks./-5/Um... Okay. Thanks./16 330/Are you serious? This is bad for my muscles./220 221 223 233/Thanks!//"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Alex": {
+          "DisplayName": "[LocalizedText Strings\\NPCNames:Alex]",
+          "BirthSeason": "Summer",
+          "BirthDay": 13,
+          "HomeRegion": "Town",
+          "Language": "Default",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "JoshHouse",
+              "Tile": {
+                "X": 19,
+                "Y": 5
+              },
+              "Direction": "left"
+            }
+          ],
+          "Appearance": []
+        }
+      }
+    }
+  ]
+}

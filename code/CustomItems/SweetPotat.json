@@ -1,0 +1,101 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/RandomBundles",
+            "TargetField": [
+                "Pantry",
+                "BundleSets",
+                "#0",
+                "Bundles",
+                "#0"
+            ],
+            "Entries": {
+                "Items": "1 Parsnip, 1 Green Bean, 1 Cauliflower, 1 {{ModId}}.SweetPotato"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 {{ModId}}.SweetPotato 1 0/0///Spring Crops"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Gift tastes Sweet potato",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal.Like"
+                    ],
+                    "Value": "{{ModId}}.SweetPotato",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Sweet potato objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}.SweetPotato": {
+                    "Name": "Sweet Potato",
+                    "Displayname": "Sweet Potato",
+                    "Description": "A wildly popular vegetable. The sweet taste compliments any dish.",
+                    "Type": "Basic",
+                    "Category": -75,
+                    "Price": 160,
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/Objects.png}}",
+                    "ContextTags": [
+                        "color_purple",
+                        "category_vegetable"
+                    ],
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}.SweetPotatoSeeds": {
+                    "Name": "Sweet Potato Seeds",
+                    "Displayname": "Sweet Potato Seeds",
+                    "Description": "Plant in Spring for a lovely purple veggie. Takes 10 days to mature.",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 60,
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/Objects.png}}",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "category_seeds"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Sweet potato crop",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModId}}.SweetPotatoSeeds": {
+                    "Seasons": [
+                        "Spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        2,
+                        3
+                    ],
+                    "HarvestMaxStack": "2",
+                    "ExtraHarvestChance": "0.05",
+                    "HarvestItemId": "{{ModId}}.SweetPotato",
+                    "Texture": "{{InternalAssetKey: assets/CustomItems/Crops.png}}",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

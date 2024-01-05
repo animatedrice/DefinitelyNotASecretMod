@@ -1,0 +1,9 @@
+{
+    "spring": "830 Town 32 56 2/1200 Town 16 24 1/1640 Town 24 90 0/2000 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    "rain": "930 Town 51 87 0/1230 Town 47 87 0/1530 Town 44 89 3/1700 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    "fall": "900 HaleyHouse 18 16 0/1330 Forest 4 20 1/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    "winter": "900 Hospital 16 7 0/1030 Mine 12 8 2/1700 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    "summer": "800 Beach 14 8 1/1400 Beach 41 36 2/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    "Sat": "700 Town 34 57 0/850 Town 32 55 2/930 Town 24 90 0/1110 Town 21 96 1/1200 JojaMart 12 20 2/1600 Blacksmith 7 12 0/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep",
+    "Sun": "800 SeedShop 36 18 0/1200 Mountain 28 9 1/1900 Saloon 24 18 2/2300 AnimalShop 33 5 1 dobson_sleep"
+  }
