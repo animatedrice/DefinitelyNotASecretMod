@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "code/Festivals/FestivalEvents.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Festivals/Spring28",
+            "FromFile": "code/Festivals/Spring28.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/FestivalDates",
+            "Entries": {
+                "spring28": "Sweet Potato Palooza"
+            },
+            "When": {
+                "HasFlag": "{{ModId}}_PotatFest"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Town-Palooza",
+            "FromFile": "assets/Festival/{{TargetWithoutPath}}.tbin"
+        },
+        {
+            "LogName": "Overlay portrait frame",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/Tilesheets/PotatFrame.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "PatchMode": "Overlay",
+            "Update": "OnLocationChange",
+            "When": {
+                "DayEvent": "Sweet Potato Palooza"
+            }
+        },
+        {
+            "LogName": "Festival string",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Event.cs.1527": "$q -1 null#Should we move forward with the Palooza? The governor seems a little hungry.#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet.",
+                "Event.cs.1857": "You added {0} to the pie."
+            },
+            "When": {
+                "DayEvent": "Sweet Potato Palooza"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "LogName": "Display name in standard location",
+            "Target": "Strings/NPCNames",
+            "Action": "EditData",
+            "Entries": {
+                "Alex": "Buff Buoy",
+                "Caroline": "Jil",
+                "Clint": "Clunt",
+                "Demetrius": "Bababooey",
+                "Elliott": "Buoy",
+                "Gus": "Bobby",
+                "Harvey": "PJ",
+                "Jas": "Oliver",
+                "Krobus": "Sad Ghost",
+                "Lewis": "King Bozo",
+                "Linus": "Nintendad",
+                "Marnie": "Oscar",
+                "Maru": "Paul",
+                "Morris": "Fuzzwald",
+                "Pierre": "Gil Harmon",
+                "Sam": "JP",
+                "{{Wiggles}}": "Wiggles",
+                "Willy": "Lannery",
+                "Wizard": "Explorer"
+            }
+        }
+    ]
+}

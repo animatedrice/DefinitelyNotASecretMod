@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sweet potat flag",
+            "Action": "EditData",
+            "Target": "data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_PotatTrigger": {
+                    "Id": "{{ModId}}_PotatTrigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "SEASON_DAY Spring 25",
+                    "HostOnly": false,
+                    "Action": "AddMail Current {{ModId}}_PotatoFlag received",
+                    "Actions": null
+                },
+                "{{ModId}}_Trigger_PotatFest": {
+                    "Id": "{{ModId}}_Trigger_PotatFest",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_PotatCrash",
+                    "HostOnly": false,
+                    "Action": "AddMail Current {{ModId}}_PotatFest",
+                    "Actions": null
+                },
+                "{{ModId}}_Trigger_GoldenPotat": {
+                    "Id": "{{ModId}}_Trigger_GoldenPotat",
+                    "Trigger": "DayEnding",
+                    "Condition": "SEASON_DAY Summer 1",
+                    "HostOnly": false,
+                    "Action": "AddMail Current {{ModId}}_GoldenPotat",
+                    "Actions": null
+                }
+            }
+        },
+        {
+            "LogName": "Sweet potat crash",
+            "Action": "EditData",
+            "Target": "data/events/FarmHouse",
+            "Entries": {
+                "{{ModId}}_PotatCrash/LocalMail {{ModId}}_PotatoFlag": "none/-500 -500/farmer 13 23 2/pause 100/playSound Meteorite/pause 5500/message \"Sounds like something crashed into town..\"/pause 600/end"
+            }
+        }, 
+        {
+            "LogName": "Sweet potat reaction",
+            "Action": "EditData",
+            "Target": "data/events/Town",
+            "Entries": {
+                "{{ModId}}_PotatoReactions/SawEvent {{ModId}}_PotatCrash": "echos/-500 -500/farmer 28 55 2 Lewis 30 64 2 Jodi 27 69 0 Vincent 28 70 0 Haley 25 67 1 Harvey 32 67 3 Maru 34 68 3/skippable/addConversationTopic Potat_Crash 2/animate Haley false true 250 25 25 32 33 33 33 33 33 33 33 33/pause 800/viewport 28 65/pause 800/emote Harvey 16/pause 500/textAboveHead Haley \"*Click click*\"/pause 500/move farmer 0 8 2/pause 300/jump farmer/emote Maru 16/pause 500/emote farmer 16/pause 800/emote Lewis 8/pause 300/textAboveHead Lewis \"What is this?!\"/pause 800/emote Jodi 8/pause 800/textAboveHead Vincent \"Ew\"/pause 2000/emote Harvey 12/pause 1500/end position 28 62"
+            }
+        },
+        {
+            "LogName": "Sweet potat appearance",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Festival/Town-Potat.tbin",
+            "ToArea": {
+                "X": 27,
+                "Y": 64,
+                "Width": 4,
+                "Height": 5
+            },
+            "Update": "OnLocationChange",
+            "PatchMode": "Overlay",
+            "When": {
+               "HasFlag": "{{ModId}}_PotatCrash"
+            }
+        },
+        {
+            "LogName": "Sweet potat golden statue",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Festival/Town-statue.tbin",
+            "ToArea": {
+                "X": 27,
+                "Y": 64,
+                "Width": 4,
+                "Height": 5
+            },
+            "Update": "OnLocationChange",
+            "PatchMode": "Overlay",
+            "When": {
+                "HasFlag": "{{ModId}}_GoldenPotat"
+            }
+        }
+    ]
+}

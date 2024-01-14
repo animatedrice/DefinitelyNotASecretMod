@@ -2,12 +2,8 @@
   "Format": "2.0.0",
   "DynamicTokens": [
     {
-      "Name": "ModId",
-      "Value": "SweetPotats.PJMod"
-    },
-    {
       "Name": "ModPath",
-      "Value": "Mods/{{ModId}}"
+      "Value": "Mods/{{ModId}}/"
     },
     {
       "Name": "Wiggles",
@@ -21,30 +17,32 @@
       "Name": "mouse",
       "Value": "repaired",
       "When": {
-        "HasSeenEvent": "192914"
+        "HasSeenEvent": "{{ModId}}_Cutscene_MouseHouse_Repaired"
       }
     }
   ],
+  "ConfigSchema": {
+    "Version": {
+      "AllowValues": "Full, Lite",
+      "Default": "Full"
+    }
+  },
   "Changes": [
     {
-      "LogName": "include npcs and changed strings",
+      "LogName": "enable Lite version",
       "Action": "Include",
-      "FromFile": "assets/Characters/NPCload.json, code/Strings/strings.json"
+      "FromFile": "code/LiteVersion.json",
+      "When": {
+        "Version": "Lite"
+      }
     },
     {
-      "LogName": "include custom items",
+      "LogName": "Full Version",
       "Action": "Include",
-      "FromFile": "code/CustomItems/SweetPotat.json, code/CustomItems/Hats.json,code/CustomItems/MuseumRewards.json, "
-    },
-    {
-      "LogName": "include custom shops",
-      "Action": "Include",
-      "FromFile": "code/ShopData.json, "
-    },
-    {
-      "LogName": "include location changes",
-      "Action": "Include",
-      "FromFile": "code/Locations/MapPatches.json, code/Locations/TilesheetEdits.json"
+      "FromFile": "assets/Characters/NPCload.json, code/Strings/strings.json, code/Events/EventChanges.json, code/CustomItems/SweetPotat.json, code/CustomItems/Hats.json,code/CustomItems/MuseumRewards.json, code/CustomItems/Furniture.json, code/ShopData.json, code/Locations/MapPatches.json, code/Locations/TilesheetEdits.json, code/Strings/mail.json, code/Festivals/Festivals.json, code/Festivals/SweetPotatoPalooza.json, code/Quests/HatMouse.json, code/CustomItems/Movies.json",
+      "When": {
+        "Version": "Full"
+      }
     }
   ]
 }

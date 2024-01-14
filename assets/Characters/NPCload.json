@@ -1,6 +1,52 @@
 {
     "Changes": [
         {
+            "LogName": "Include names, gifttastes, dispositions, dialogue and schedule edits",
+            "Action": "Include",
+            "FromFile": "assets/Characters/NPCNames.json, assets/Characters/Dispositions.json, assets/Characters/Gifttastes.json, assets/Characters/Dialogue/OtherDialogue.json, assets/Characters/Dialogue/Rainy.json, assets/Characters/Schedules/ScheduleEdits.json, assets/Characters/Schedules/ScheduleStrings.json"
+        },
+        {
+            "LogName": "load dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Alex, Characters/Dialogue/Caroline, Characters/Dialogue/Demetrius, Characters/Dialogue/Elliott, Characters/Dialogue/Gus, Characters/Dialogue/Harvey, Characters/Dialogue/Jas, Characters/Dialogue/Krobus, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Morris, Characters/Dialogue/Maru, Characters/Dialogue/Pierre,Characters/Dialogue/Sam, Characters/Dialogue/Willy, Characters/Dialogue/Wizard",
+            "FromFile": "assets/{{Target}}.json"
+        },
+        {
+            "LogName": "load schedules",
+            "Action": "Load",
+            "Target": "Characters/schedules/Alex, Characters/schedules/Caroline, Characters/schedules/Demetrius, Characters/schedules/Elliott, Characters/schedules/Gus, Characters/schedules/Harvey, Characters/schedules/Jas, Characters/schedules/Lewis, Characters/schedules/Linus, Characters/schedules/Marnie, Characters/schedules/Morris, Characters/schedules/Maru, Characters/schedules/Pierre, Characters/schedules/Sam, Characters/schedules/Willy",
+            "FromFile": "assets/{{Target}}.json"
+        },
+        {
+            "LogName": "Load all portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Alex, Portraits/Alex_Beach, Portraits/Demetrius, Portraits/Caroline, Portraits/Caroline_Beach, Portraits/Elliott, Portraits/Elliott_Beach, Portraits/Gus, Portraits/Harvey, Portraits/Harvey_Beach, Portraits/Jas, Portraits/Lewis, Portraits/Krobus_Trenchcoat, Portraits/Linus, Portraits/Marnie, Portraits/Marnie_Beach, Portraits/Maru, Portraits/Maru_Beach, Portraits/Maru_Hospital, Portraits/Morris, Portraits/Pierre, Portraits/Pierre_Beach, Portraits/Sam, Portraits/Sam_Beach, Portraits/Vincent, Portraits/Willy, Portraits/Wizard",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "LogName": "Load all sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Alex, Characters/Alex_Beach, Characters/Demetrius, Characters/Caroline, Characters/Caroline_Beach, Characters/Elliott, Characters/Elliott_Beach, Characters/Gus, Characters/Harvey, Characters/Harvey_Beach, Characters/Jas,Characters/Lewis, Characters/Lewis_Beach, Characters/Krobus, Characters/Krobus_Trenchcoat, Characters/KrobusRaven, Characters/Linus, Characters/Marnie, Characters/Marnie_Beach, Characters/Maru, Characters/Maru_Beach, Characters/Maru_Hospital, Characters/Morris, Characters/Pierre, Characters/Pierre_Beach, Characters/Sam, Characters/Sam_Beach, Characters/Vincent, Characters/Willy, Characters/Wizard",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Wiggles, Portraits/Wiggles",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{Wiggles}}, Characters/schedules/{{Wiggles}}",
+            "FromFile": "assets/{{TargetPathOnly}}/Wiggles.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "harvey_sit_right": "34/34/34//offset 3 4"
+            }
+        },
+        {
             "Action": "EditData",
             "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
             "Entries": {
@@ -14,28 +60,6 @@
             "When": {
                 "HasMod": "Bouhm.NPCMapLocations"
             }
-        },
-        {
-            "LogName": "load dialogue",
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Alex, Characters/Dialogue/Caroline, Characters/Dialogue/Demetrius, Characters/Dialogue/Elliott, Characters/Dialogue/Gus, Characters/Dialogue/Harvey, Characters/Dialogue/Jas, Characters/Dialogue/Krobus, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Morris, Characters/Dialogue/Maru, Characters/Dialogue/Pierre,Characters/Dialogue/Sam, Characters/Dialogue/Willy, Characters/Dialogue/Wizard",
-            "FromFile": "assets/{{Target}}.json"
-        },
-        {
-            "LogName": "Load all portraits and sprites",
-            "Action": "EditImage",
-            "Target": "Characters/Alex, Characters/Alex_Beach, Portraits/Alex, Portraits/Alex_Beach, Characters/Demetrius, Portraits/Demetrius, Characters/Caroline, Characters/Caroline_Beach, Portraits/Caroline, Portraits/Caroline_Beach, Characters/Elliott, Characters/Elliott_Beach, Portraits/Elliott, Portraits/Elliott_Beach, Characters/Gus, Portraits/Gus, Characters/Harvey, Characters/Harvey_Beach, Portraits/Harvey, Portraits/Harvey_Beach, Characters/Jas, Portraits/Jas, Characters/Lewis, Characters/Lewis_Beach, Portraits/Lewis, Characters/Krobus, Characters/Krobus_Trenchcoat, Characters/KrobusRaven, Portraits/Krobus, Portraits/Krobus_Trenchcoat, Characters/Linus, Portraits/Linus, Characters/Marnie, Characters/Marnie_Beach, Portraits/Marnie, Portraits/Marnie_Beach, Characters/Maru, Characters/Maru_Beach, Characters/Maru_Hospital, Portraits/Maru, Portraits/Maru_Beach, Portraits/Maru_Hospital, Characters/Morris, Portraits/Morris, Characters/Pierre, Characters/Pierre_Beach, Portraits/Pierre, Portraits/Pierre_Beach, Characters/Sam, Characters/Sam_Beach, Portraits/Sam, Portraits/Sam_Beach, Characters/Vincent, Portraits/Vincent, Characters/Willy, Portraits/Willy, Characters/Wizard, Portraits/Wizard",
-            "FromFile": "assets/Characters/{{Target}}.png"
-        },
-        {
-            "LogName": "Include dialogue and schedule edits",
-            "Action": "Include",
-            "FromFile": "assets/Characters/Dialogue/OtherDialogue.json, assets/Characters/Schedules/ScheduleEdits.json, assets/Characters/Schedules/ScheduleStrings.json"
-        },
-        {
-            "LogName": "Include npcs",
-            "Action": "Include",
-            "FromFile": "assets/Characters/Dispositions/Bababooey.json, assets/Characters/Dispositions/Bobby.json, assets/Characters/Dispositions/BuffBuoy.json, assets/Characters/Dispositions/Buoy.json, assets/Characters/Dispositions/Gil.json, assets/Characters/Dispositions/Jil.json, assets/Characters/Dispositions/JP.json, assets/Characters/Dispositions/KingBozo.json, assets/Characters/Dispositions/Lannery.json, assets/Characters/Dispositions/Nintendad.json, assets/Characters/Dispositions/Oliver.json, assets/Characters/Dispositions/Oscar.json, assets/Characters/Dispositions/Paul.json, assets/Characters/Dispositions/PJ.json, assets/Characters/Dispositions/PlanetExplorer.json, assets/Characters/Dispositions/SadGhost.json, assets/Characters/Dispositions/Wiggles.json"
         }
     ]
 }

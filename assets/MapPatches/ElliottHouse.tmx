@@ -11,12 +11,12 @@
  <tileset firstgid="37" name="ElliottHouseIndoors" tilewidth="16" tileheight="16" tilecount="56" columns="4">
   <image source=".ElliottHouseTiles.png" width="64" height="224"/>
  </tileset>
- <tileset firstgid="93" name="z_PotatTilesheets" tilewidth="16" tileheight="16" tilecount="500" columns="10">
-  <image source="PotatTilesheets.png" width="160" height="800"/>
+ <tileset firstgid="93" name="z_PotatTilesheets" tilewidth="16" tileheight="16" tilecount="1144" columns="22">
+  <image source="PotatTilesheets.png" width="352" height="832"/>
  </tileset>
  <layer id="1" name="Back" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAc/GckjPEBTibCGB8QZiKM8YF7jIQxPvCNETf+CqXJ1f+NBP0wu94C8TsgNgXKmTEQp/8ZED+H6v8OxD9IsB8G7hKpDhkAAH1gM+A=
+   eJxjYKAcvGYmjPEBRhbCGB8QZyGM8YFlzIQxPnCNGTe+CqXJ1X+NBP0wu84C8TkgNgXKmTEQp38XEO+G6n8MxE9IsB8GlhKpDhkAABlJLSY=
   </data>
  </layer>
  <objectgroup id="2" name="Back">
@@ -33,7 +33,7 @@
  </objectgroup>
  <layer id="3" name="Buildings" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJzzZmBgUCMCe+PB6MAZixgp+kHgPSMDAzcTAwMPEH8CsrXx6HfFgn8C9fwC4t9A/IeA/r9A+X8g9UC2EBPEfmYgzQLErEDMxoRfPwjY4/AHDBDSjw0YArERBfphwIGAfkGg/zyhalkZEfosgdgKysYXfyCsSaQ6dAwAQQ0jsw==
+   eJzzZmBgUCMCe+PB6MAZixgp+kHgPDMDAz8LA4MAEF8CsrXx6HfFgp8C9TwD4udA/IKA/pdA+VdAvI6RgUGMBWL/byD/DxD/BeJ/BPSDgD0Of8AAIf3YgCEQG1GgHwYcCOgXBfrZE6r2KCNCnyUQW0HZ+OIPhDWJVIeOAY/oJ3w=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -90,7 +90,7 @@
  </objectgroup>
  <layer id="5" name="Front" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJyNzk8PATEQh+FpL3wRRATh6s9V+P5HHHFjlwu7h30bIxrRzk7yZDud/jLbE5F+CwP5X0MccMQepd6Hr/Mi3r/7USZ/xgUnvdvg6kRuKFC6fP7O/BHec+7qvif9CxVqIx9qkZh/yspb1TZfROcZ5lga+Y7/9lU0W2Ft7B9jgq32O+1/TRP5+D9ye1LVACxNG6U=
+   eJxTZWBgUCMCqzNgB5pAnMvIwJAHxDlAPIsRIg6ifzIzMPxihvC18ehvBqptAeImqF53ID4P1HcBiC8C8SVm/PovA+WvAPEMkH4WiPhTIP8ZED8H4hcE9IOANQ55GCCknxAgVv9MRgTbEIiNgNiGgP7/zAj+eiT9tkBsR8B+XSDWA2JPKN8LykfH+jj0I7sDnz24AACA4hlx
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>

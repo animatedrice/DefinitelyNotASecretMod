@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "{{ModPath}}/Hats",
+            "Target": "Mods\\SweetPotats\\Hats",
             "FromFile": "assets/CustomItems/Hats.png"
         },
         {
@@ -13,7 +13,8 @@
                 "{{ModId}}_BuoyHat": "Buoy Hat/Here comes the buoy!/false/true//Buoy Hat/1/Mods\\SweetPotats\\Hats",
                 "{{ModId}}_HollowHat": "Hollow Mask/It makes you feel hollow inside./false/true//Hollow Mask/2/Mods\\SweetPotats\\Hats",
                 "{{ModId}}_FujiHat": "Fuji Hat/Reminds you of the cutest cat./false/true//Fuji Hat/3/Mods\\SweetPotats\\Hats",
-                "{{ModId}}_FrogHat": "Frog Hat/A hat designed to make you look cuter./false/true//Frog Hat/4/Mods\\SweetPotats\\Hats"
+                "{{ModId}}_FrogHat": "Frog Hat/A hat designed to make you look cuter./false/true//Frog Hat/4/Mods\\SweetPotats\\Hats",
+                "{{ModId}}_ChefHat": "Chef Hat/A perfect hat for cooking chilis./false/true//Chef Hat/5/Mods\\SweetPotats\\Hats"
             }
         }
     ]

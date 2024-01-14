@@ -1,0 +1,130 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/SweetPotats/Furniture",
+            "FromFile": "assets/CustomItems/Furniture.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/SweetPotats/Museum",
+            "FromFile": "assets/CustomItems/Museum.png"
+        },
+        {
+            "LogName": "Museum artifacts",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "113": {
+                    "Name": "Chicken Statue",
+                    "DisplayName": "Ancient Ghost Plush",
+                    "Description": "Hopefully one day, it won't be so sad.",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 50,
+                    "Texture": "Mods/SweetPotats/Museum",
+                    "SpriteIndex": 27,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buff": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": {
+                        "Farm": 0.1
+                    },
+                    "ContextTags": [
+                        "chicken_item",
+                        "color_white",
+                        "dye_strong",
+                        "statue_item"
+                    ],
+                    "CustomFields": {}
+                },
+                "{{ModId}}.PokeCard": {
+                    "Name": "Pokemon Card",
+                    "Displayname": "Pokemon Card",
+                    "Description": "An ancient card covered in grime. There's a orange dragon depicted on it. It may have been worth a lot once.",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 60,
+                    "Texture": "Mods/SweetPotats/Museum",
+                    "SpriteIndex": 20,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buff": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": {
+                        "Town": 0.05,
+                        "Farm": 0.1
+                    },
+                    "ContextTags": [
+                        "color_orange",
+                        "dye_strong",
+                        "monster_item"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                //PJ shop
+                "{{ModId}}_SpaceKid": "Space Kid/painting/1 2/1 2/1/500/-1/Space Kid/0/Mods\\{{ModId}}\\Furniture",
+                "{{ModId}}_ForestKid": "Forest Kid/painting/1 2/1 2/1/500/-1/Forest Kid/1/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_SadGhost": "Sad Ghost/painting/1 2/1 2/1/500/-1/Sad Ghost/2/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_Buoy": "The Lost Buoy/painting/1 2/1 2/1/500/-1/The Lost Buoy/3/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_Catcher": "Ghost Catcher/painting/1 2/1 2/1/500/-1/Ghost Catcher/4/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_Fuji": "Fuji of the Day/painting/2 2/2 2/1/500/-1/Fuji of the Day/5/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_Charizard": "Charizard V/painting/2 2/2 2/1/750/-1/Charizard V/14/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_OceanKid": "Ocean Kid/painting/3 2/3 2/1/750/-1/Ocean Kid/16/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_BuoyPlush": "Buoy Plush/decor/1 2/1 1/1/1500/-1/Buoy Plush/20/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_LullabyCube": "Lullaby Cube/lamp/2 2/2 1/1/500/-1/Lullaby Cube/28/Mods\\SweetPotats\\Furniture",
+                "{{ModId}}_Candle": "Sweet Potato Pie Scented Candle/lamp/1 1/1 1/1/500/-1/Sweet Potato Pie Scented Candle/43/Mods\\SweetPotats\\Furniture",
+                //Festival         
+                "{{ModId}}_Potat": "Sweet Potato/decor/3 4/3 1/1/1500/-1/Sweet Potato/32/Mods\\SweetPotats\\Furniture",
+                //Festival
+                "{{ModId}}_PotatoBanner": "Sweet Potato Banner/painting/1 3/1 3/1/500/-1/Sweet Potato Banner/42/Mods\\SweetPotats\\Furniture/true",
+                //Museum
+                "{{ModId}}_PotatBadge": "Sweet Potat Badge/decor/1 2/1 1/1/500/-1/Sweet Potat Badge/0/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_TwinBadge": "Twin Potat Badge/decor/1 2/1 1/1/500/-1/Twin Potat Badge/1/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_SilverBadge": "Silver Potat Badge/decor/1 2/1 1/1/500/-1/Silver Potat Badge/2/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_GoldBadge": "Gold Potat Badge/decor/1 2/1 1/1/500/-1/Gold Potat Badge/3/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_RubyBadge": "Ruby Potat Badge/decor/1 2/1 1/1/500/-1/Ruby Potat Badge/4/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_DiamondBadge": "Diamond Potat Badge/decor/1 2/1 1/1/500/-1/Diamond Potat Badge/5/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_WorldBadge": "World Potat Badge/decor/1 2/1 1/1/500/-1/World Potat Badge/6/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_RainbowBadge": "Rainbow Potat Badge/decor/1 2/1 1/1/500/-1/Rainbow Potat Badge/14/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_ObsidianBadge": "Obsidian Potat Badge/decor/1 2/1 1/1/500/-1/Obsidian Potat Badge/15/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_BuoyBadge": "Buoy Potat Badge/decor/1 2/1 1/1/500/-1/Buoy Potat Badge/16/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_PixelBadge": "Pixel Potat Badge/decor/1 2/1 1/1/500/-1/Pixel Potat Badge/17/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_WigglesBadge": "Wiggles Potat Badge/decor/1 2/1 1/1/500/-1/Wiggles Potat Badge/18/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_RadioActiveBadge": "RadioActive Potat Badge/decor/1 2/1 1/1/500/-1/RadioActive Potat Badge/19/Mods\\SweetPotats\\Museum/true",
+                "{{ModId}}_CharizardCard": "Charizard/painting/2 2/2 2/1/500/-1/Charizard/28/Mods\\SweetPotats\\Museum",
+                "{{ModId}}_BuoyStatue": "Sad Ghost/decor/2 2/2 1/1/1500/-1/Sad Ghost/30/Mods\\SweetPotats\\Museum",
+                "{{ModId}}_GhostStatue": "Sad Ghost/decor/2 2/2 1/1/1500/-1/Sad Ghost/32/Mods\\SweetPotats\\Museum",
+                "{{ModId}}_LumpyPumpy": "Lumpy Pumpy/decor/2 4/2 1/1/500/-1/Lumpy Pumpy/42/Mods\\SweetPotats\\Museum"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables ",
+            "Entries": {
+                "{{ModId}}_MarioCrow": {
+                    "Name": "Mario ScareCrow",
+                    "DisplayName": "Mario Scarecrow",
+                    "Description": "[LocalizedText Strings\\BigCraftables:Scarecrow_Description]",
+                    "Price": 50,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "{{ModPath}}Furniture",
+                    "SpriteIndex": 19,
+                    "ContextTags": null,
+                    "CustomFields": {}
+                }
+            }
+        }
+    ]
+}

@@ -2,145 +2,135 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "{{ModPath}}/Dog_Happy, {{ModPath}}/Dog_Tongue, {{ModPath}}/Dog_Ladle,{{ModPath}}/HatMouse, {{ModPath}}/PJ_Shop, {{ModPath}}/UI",
+            "Target": "{{ModPath}}Dog_Happy, {{ModPath}}Dog_Tongue, {{ModPath}}Dog_Ladle, {{ModPath}}HatMouse, {{ModPath}}PJ_Shop, {{ModPath}}UI_Gil, {{ModPath}}GilHarmon, {{ModPath}}UI_Default",
             "FromFile": "assets/Shops/{{TargetWithoutPath}}.png"
         },
         {
+            "LogName": "Seed Shop",
             "Action": "EditData",
             "Target": "Data/Shops",
-            "LogName": "Seed Shop",
             "TargetField": [
                 "SeedShop",
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}.SweetPotatoSeeds": {
-                    "Id": "{{ModId}}.SweetPotatoSeeds",
-                    "ItemId": "(O){{ModId}}.SweetPotatoSeeds",
+                "{{ModId}}_SweetPotatoSeeds": {
+                    "Id": "(O){{ModId}}_SweetPotatoSeeds",
+                    "ItemId": "(O){{ModId}}_SweetPotatoSeeds",
+                    "Price": 60,
                     "Condition": "SEASON Spring"
                 }
             },
             "MoveEntries": [
                 {
-                    "Id": "{{ModId}}.SweetPotatoSeeds",
+                    "Id": "(O){{ModId}}_SweetPotatoSeeds",
                     "BeforeId": "(O)472"
                 }
             ]
         },
         {
+            "LogName": "Shops fields",
             "Action": "EditData",
             "Target": "Data/Shops",
-            "TargetField": [
-                "SeedShop"
-            ],
-            "Entries": {
-                "VisualTheme": [
-                    {
-                        "WindowBorderTexture": "{{ModPath}}/UI",
-                        "WindowBorderSourceRect": {
-                            "X": 134,
-                            "Y": 0,
-                            "Width": 18,
-                            "Height": 18
-                        },
-                        "PortraitBackgroundTexture": "{{ModPath}}/UI",
-                        "PortraitBackgroundSourceRect": {
-                            "X": 0,
-                            "Y": 0,
-                            "Width": 74,
-                            "Height": 74
-                        },
-                        "ItemRowBackgroundTexture": "{{ModPath}}/UI",
-                        "ItemRowBackgroundSourceRect": {
-                            "X": 134,
-                            "Y": 36,
-                            "Width": 15,
-                            "Height": 15
-                        },
-                        "DialogueBackgroundTexture": "{{ModPath}}/UI",
-                        "DialogueBackgroundSourceRect": {
-                            "X": 74,
-                            "Y": 0,
-                            "Width": 60,
-                            "Height": 60
-                        },
-                        "ScrollBarFrontTexture": "{{ModPath}}/UI",
-                        "ScrollBarFrontSourceRect": {
-                            "X": 96,
-                            "Y": 60,
-                            "Width": 6,
-                            "Height": 10
-                        },
-                        "ScrollDownTexture": "{{ModPath}}/UI",
-                        "ScrollDownSourceRect": {
-                            "X": 85,
-                            "Y": 60,
-                            "Width": 11,
-                            "Height": 12
-                        },
-                        "ScrollUpTexture": "{{ModPath}}/UI",
-                        "ScrollUpSourceRect": {
-                            "X": 74,
-                            "Y": 60,
-                            "Width": 11,
-                            "Height": 12
-                        },
-                        "ItemIconBackgroundTexture": "{{ModPath}}/UI",
-                        "ItemIconBackgroundSourceRect": {
-                            "X": 134,
-                            "Y": 18,
-                            "Width": 18,
-                            "Height": 18
+            "Fields": {
+                "SeedShop": {
+                    "VisualTheme": [
+                        {
+                            "DialogueColor": "#121a44",
+                            "DialogueShadowColor": "#7ea3ae",
+                            "ItemRowBackgroundHoverColor": "#7ea3ae",
+                            "ItemRowTextColor": "#121a44",
+                            "WindowBorderTexture": "{{ModPath}}UI_Gil",
+                            "WindowBorderSourceRect": {
+                                "X": 134,
+                                "Y": 0,
+                                "Width": 18,
+                                "Height": 18
+                            },
+                            "PortraitBackgroundTexture": "{{ModPath}}UI_Gil",
+                            "PortraitBackgroundSourceRect": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 74,
+                                "Height": 74
+                            },
+                            "ItemRowBackgroundTexture": "{{ModPath}}UI_Gil",
+                            "ItemRowBackgroundSourceRect": {
+                                "X": 134,
+                                "Y": 36,
+                                "Width": 15,
+                                "Height": 15
+                            },
+                            "DialogueBackgroundTexture": "{{ModPath}}UI_Gil",
+                            "DialogueBackgroundSourceRect": {
+                                "X": 74,
+                                "Y": 0,
+                                "Width": 60,
+                                "Height": 60
+                            },
+                            "ScrollBarFrontTexture": "{{ModPath}}UI_Gil",
+                            "ScrollBarFrontSourceRect": {
+                                "X": 96,
+                                "Y": 60,
+                                "Width": 6,
+                                "Height": 10
+                            },
+                            "ScrollDownTexture": "{{ModPath}}UI_Gil",
+                            "ScrollDownSourceRect": {
+                                "X": 85,
+                                "Y": 60,
+                                "Width": 11,
+                                "Height": 12
+                            },
+                            "ScrollUpTexture": "{{ModPath}}UI_Gil",
+                            "ScrollUpSourceRect": {
+                                "X": 74,
+                                "Y": 60,
+                                "Width": 11,
+                                "Height": 12
+                            },
+                            "ItemIconBackgroundTexture": "{{ModPath}}UI_Gil",
+                            "ItemIconBackgroundSourceRect": {
+                                "X": 134,
+                                "Y": 18,
+                                "Width": 18,
+                                "Height": 18
+                            }
                         }
-                    }
-                ]
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "LogName": "HatMouse",
-            "TargetField": [
-                "HatMouse",
-                "Owners",
-                "#0"
-            ],
-            "Entries": {
-                "Portrait": "Portraits/HatMouse"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "LogName": "HatMouse",
-            "TargetField": [
-                "HatMouse",
-                "Items"
-            ],
-            "Entries": {
-                "{{ModId}}_PotatHat": {
-                    "ItemId": "{{ModId}}_PotatHat",
-                    "Price": 1000
+                    ]
                 },
-                "{{ModId}}_BuoyHat": {
-                    "ItemId": "{{ModId}}_BuoyHat",
-                    "Price": 1000
-                },
-                "{{ModId}}_HollowHat": {
-                    "ItemId": "{{ModId}}_HollowHat",
-                    "Price": 1000
-                },
-                "{{ModId}}_FujiHat": {
-                    "ItemId": "{{ModId}}_FujiHat",
-                    "Price": 1000
-                },
-                "{{ModId}}_FrogHat": {
-                    "ItemId": "{{ModId}}_FrogHat",
-                    "Price": 1000
+                "HatMouse": {
+                    "Owners": [
+                        {
+                            "Portrait": "{{ModPath}}HatMouse"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "ItemId": "{{ModId}}_PotatHat",
+                            "Price": 1000
+                        },
+                        {
+                            "ItemId": "{{ModId}}_BuoyHat",
+                            "Price": 1000,
+                            "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_MouseRepaired"
+                        },
+                        {
+                            "ItemId": "{{ModId}}_HollowHat",
+                            "Price": 1000,
+                            "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_MouseRepaired"
+                        },
+                        {
+                            "ItemId": "{{ModId}}_FrogHat",
+                            "Price": 1000,
+                            "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_MouseRepaired"
+                        }
+                    ]
                 }
             }
         },
         {
+            "LogName": "Custom shops",
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
@@ -165,7 +155,7 @@
                                 }
                             ],
                             "RandomizeDialogueOnOpen": false,
-                            "Portrait": "Portraits/Dog_{{Random:Happy, Tongue, Ladle}}"
+                            "Portrait": "{{ModPath}}Dog_{{Random:Happy, Tongue, Ladle}}"
                         },
                         {
                             "Id": "Closed",
@@ -219,6 +209,169 @@
                         {
                             "ItemId": "(O)733",
                             "Condition": "DAY_OF_WEEK Fri"
+                        }
+                    ]
+                },
+                "{{ModId}}_ArtShop": {
+                    "ID": "{{ModId}}_ArtShop",
+                    "Owners": [
+                        {
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": "Welcome to the Kicky Peej shop.",
+                                    "RandomDialogue": null
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": false,
+                            "ClosedMessage": null,
+                            "Id": "Any",
+                            "Name": "Any",
+                            "Type": "Any"
+                        },
+                        {
+                            "Id": "None",
+                            "Name": "None",
+                            "ClosedMessage": "Come back later bozo.",
+                            "Dialogues": null
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "RandomItemId": [
+                                "(F){{ModId}}_Fuji",
+                                "(F){{ModId}}_SpaceKid",
+                                "(F){{ModId}}_OceanKid",
+                                "(F){{ModId}}_SadGhost",
+                                "(F){{ModId}}_Buoy",
+                                "(F){{ModId}}_Catcher"
+                            ],
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "{{ModId}}_LullabyCube",
+                            "ItemId": "{{ModId}}_LullabyCube"
+                        },
+                        {
+                            "Id": "{{ModId}}_Candle",
+                            "ItemId": "{{ModId}}_Candle"
+                        },
+                        {
+                            "ItemId": "{{ModId}}_FujiHat",
+                            "Price": 1000,
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 750"
+                        },
+                        {
+                            "Id": "{{ModId}}_BuoyPlush",
+                            "ItemId": "{{ModId}}_BuoyPlush",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 1000"
+                        },
+                        {
+                            "Id": "{{ModId}}_Potat",
+                            "ItemId": "{{ModId}}_Potat",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 1250, PLAYER_HAS_MAIL {{ModId}}_GoldenPotat"
+                        },
+                        {
+                            "Id": "{{ModId}}_LumpyPumpy",
+                            "ItemId": "{{ModId}}_LumpyPumpy",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 2000"
+                        }
+                    ]
+                },
+                "{{ModId}}_Festival_Potat": {
+                    "ID": "{{ModId}}_Festival_Potat",
+                    "Owners": [
+                        {
+                            "Id": "AnyOrNone",
+                            "Name": "AnyOrNone",
+                            "Portrait": "{{ModPath}}GilHarmon",
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": "I got some pretty 'sweet' deals for you if you know what I mean."
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": true,
+                            "ClosedMessage": null
+                            
+                        }
+                    ],
+                    "VisualTheme": [
+                        {
+                        "PortraitBackgroundTexture": "{{ModPath}}UI_Default",
+                            "PortraitBackgroundSourceRect": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 74,
+                                "Height": 74
+                            }
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Price": 2500,
+                            "Id": "(BC){{ModId}}_MarioCrow",
+                            "ItemId": "(BC){{ModId}}_MarioCrow",
+                            "AvailableStock": 1
+                        },
+                        {
+                            "Id": "(O){{ModId}}_SweetPotatoSeeds",
+                            "ItemId": "(O){{ModId}}_SweetPotatoSeeds",
+                            "Price": 30
+                        },
+                        {
+                            "Id": "(O){{ModId}}_SweetPotatPie (Recipe)",
+                            "ItemId": "(O){{ModId}}_SweetPotatPie",
+                            "IsRecipe": true,
+                            "AvailableStock": 1,
+                            "Price": 100
+                        },
+                        {
+                            "Id": "{{ModId}}_PotatoBanner",
+                            "ItemId": "{{ModId}}_PotatoBanner",
+                            "AvailableStock": 1,
+                            "Price": 500
+                        }
+                    ]
+                },
+                "{{ModId}}_Festival_Mouse": {
+                    "ID": "{{ModId}}_Festival_Mouse",
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Portrait": "{{ModPath}}HatMouse",
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    "Dialogue": "Me love potats okay poke?",
+                                    "RandomDialogue": null
+                                }
+                            ]
+                        }
+                    ],
+                    "VisualTheme": [
+                        {
+                        "PortraitBackgroundTexture": "{{ModPath}}UI_Default",
+                            "PortraitBackgroundSourceRect": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 74,
+                                "Height": 74
+                            }
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_PotatHat",
+                            "ItemId": "{{ModId}}_PotatHat",
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "{{ModId}}_ChefHat",
+                            "ItemId": "{{ModId}}_ChefHat",
+                            "Price": 1000
                         }
                     ]
                 }

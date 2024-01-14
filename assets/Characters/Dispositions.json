@@ -1,0 +1,200 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Caroline": {
+                    "FriendsAndFamily": {
+                        "Pierre": "ex-husband",
+                        "Abigail": "[LocalizedText Strings\\Characters:Relative_Daughter]"
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "SeedShop",
+                            "Tile": {
+                                "X": 22,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                },
+                "Pierre": {
+                    "FriendsAndFamily": {
+                        "Abigail": "[LocalizedText Strings\\Characters:Relative_Daughter]",
+                        "Caroline": "ex-wife"
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "SeedShop",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 17
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                },
+                "Demetrius": {
+                    "FriendsAndFamily": {
+                        "Robin": "[LocalizedText Strings\\Characters:Relative_Wife]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_Son]",
+                        "Sebastian": "[LocalizedText Strings\\Characters:Relative_Son]"
+                    }
+                },
+                "Robin": {
+                    "FriendsAndFamily": {
+                        "Demetrius": "[LocalizedText Strings\\Characters:Relative_Husband]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_Son]",
+                        "Sebastian": "[LocalizedText Strings\\Characters:Relative_Son]"
+                    }
+                },
+                "Sebastian": {
+                    "FriendsAndFamily": {
+                        "Robin": "[LocalizedText Strings\\Characters:Relative_Mom]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_HalfBrother]",
+                        "Sam": ""
+                    }
+                },
+                "Harvey": {
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "HarveyRoom",
+                            "Tile": {
+                                "X": 23,
+                                "Y": 8
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                },
+                "Marnie": {
+                    "FriendsAndFamily": {
+                        "Lewis": "",
+                        "Shane": "[LocalizedText Strings\\Characters:Relative_Nephew]",
+                        "Jas": "[LocalizedText Strings\\Characters:Relative_Nephew]"
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "AnimalShop",
+                            "Tile": {
+                                "X": 12,
+                                "Y": 14
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                },
+                "Jas": {
+                    "FriendsAndFamily": {
+                        "Marnie": "[LocalizedText Strings\\Characters:Relative_Uncle]",
+                        "Shane": "[LocalizedText Strings\\Characters:Relative_Nephew]"
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "AnimalShop",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                },
+                "Shane": {
+                    "FriendsAndFamily": {
+                        "Marnie": "[LocalizedText Strings\\Characters:Relative_Uncle]"
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{Wiggles}}": {
+                    "DisplayName": "[LocalizedText Strings\\NPCNames:{{Wiggles}}]",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 7,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Negative",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": true,
+                    "LoveInterest": null,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "SocialTabIconSourceRect": null,
+                    "CanSocialize": null,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": null,
+                    "CanVisitIsland": true,
+                    "IntroductionsQuest": null,
+                    "ItemDeliveryQuests": null,
+                    "PerfectionScore": true,
+                    "EndSlideShow": "MainGroup",
+                    "SpouseAdopts": null,
+                    "SpouseWantsChildren": false,
+                    "SpouseRoom": null,
+                    "SpousePatio": null,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [],
+                    "DumpsterDiveFriendshipEffect": 25,
+                    "DumpsterDiveEmote": 32,
+                    "FriendsAndFamily": {},
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": null,
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "AnimalShop",
+                            "Tile": {
+                                "X": 29,
+                                "Y": 6
+                            },
+                            "Direction": "Down"
+                        }
+                    ],
+                    "Appearance": [
+                        {
+                            "Id": "Default",
+                            "Portrait": "Portraits/Wiggles",
+                            "Sprite": "Characters/Wiggles"
+                        }
+                    ],
+                    "TextureName": "Wiggles",
+                    "Breather": true,
+                    "ShakePortraits": [],
+                    "KissSpriteIndex": 28,
+                    "KissSpriteFacingRight": true,
+                    "HiddenProfileEmoteSound": null,
+                    "HiddenProfileEmoteDuration": -1,
+                    "HiddenProfileEmoteStartFrame": -1,
+                    "HiddenProfileEmoteFrameCount": 1,
+                    "HiddenProfileEmoteFrameDuration": 200.0,
+                    "FormerCharacterNames": [
+                        "Dobson"
+                    ]
+                }
+            }
+        }
+    ]
+}

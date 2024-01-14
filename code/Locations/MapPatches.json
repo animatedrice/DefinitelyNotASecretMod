@@ -55,8 +55,8 @@
             "FromFile": "assets/mapPatches/{{TargetWithoutPath}}.tmx",
             "PatchMode": "Replace",
             "MapProperties": {
-                "NightTiles": "Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 25 1 1253 Front 25 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 2 17 199 Back 2 18 231 Back 6 4 574 Back 6 5 2146 Back 7 4 575 Back 7 5 607 Back 25 4 28 Back 25 5 60 Back 36 5 294 Back 36 6 262 Back 37 5 294 Back 37 6 262 Back 32 4 103 Front 4 1 1345 Front 10 1 1345 Front 24 1 1345 Front 26 1 1345 Front 30 18 809 Front 14 3 1347",
-                "DayTiles": "Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 25 1 256 Front 25 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 2 17 228 Back 2 18 260 Back 6 4 671 Back 6 5 703 Back 7 4 671 Back 7 5 703 Back 25 4 31 Back 25 5 63 Back 36 5 226 Back 36 6 258 Back 37 5 226 Back 37 6 258 Back 32 4 102"
+                "NightTiles": "Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 25 1 1253 Front 25 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 3 14 1253 Front 3 15 1285 Front 7 14 1253 Front 7 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 2 17 199 Back 2 18 231 Back 6 4 574 Back 6 5 2146 Back 7 4 575 Back 7 5 607 Back 25 4 28 Back 25 5 60 Back 36 5 294 Back 36 6 262 Back 37 5 294 Back 37 6 262 Back 32 4 103 Front 4 1 1345 Front 10 1 1345 Front 24 1 1345 Front 26 1 1345 Front 30 18 809 Front 14 3 1347",
+                "DayTiles": "Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 25 1 256 Front 25 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 3 14 256 Front 3 15 288 Front 7 14 256 Front 7 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 2 17 228 Back 2 18 260 Back 6 4 671 Back 6 5 703 Back 7 4 671 Back 7 5 703 Back 25 4 31 Back 25 5 63 Back 36 5 226 Back 36 6 258 Back 37 5 226 Back 37 6 258 Back 32 4 102"
             },
             "Update": "OnLocationChange"
         },
@@ -182,7 +182,7 @@
             "LogName": "nintendad tent",
             "Action": "EditMap",
             "Target": "Maps/Mountain",
-            "FromFile": "assets/mapPatches/Mountain_tent.tbin",
+            "FromFile": "assets/mapPatches/{{TargetWithoutPath}}.tbin",
             "ToArea": {
                 "X": 28,
                 "Y": 2,
@@ -201,7 +201,7 @@
             "LogName": "Marnie",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "Assets/mapPatches/Forest-Marnie.tbin",
+            "FromFile": "assets/mapPatches/{{TargetWithoutPath}}.tbin",
             "ToArea": {
                 "X": 81,
                 "Y": 6,
@@ -215,7 +215,7 @@
             "LogName": "Beach",
             "Action": "EditMap",
             "Target": "Maps/Beach",
-            "FromFile": "Assets/mapPatches/Beach.tbin",
+            "FromFile": "assets/mapPatches/{{TargetWithoutPath}}.tbin",
             "ToArea": {
                 "X": 0,
                 "Y": 0,

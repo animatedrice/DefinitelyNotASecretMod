@@ -1,0 +1,139 @@
+{
+    "Changes": [
+        {
+            "LogName": "Robin mail",
+            "Action": "EditData",
+            "Target": "data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Mail_Robin_Mouse": {
+                    "Id": "{{ModId}}_Mail_Robin_Mouse",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 510, PLAYER_HAS_MAIL Current hatter Received",
+                    "HostOnly": false,
+                    "Action": "AddMail Current {{ModId}}_MouseMail",
+                    "Actions": null
+                },
+                "{{ModId}}_Mail_Repair": {
+                    "Id": "{{ModId}}_Mail_Repair",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_MouseRepaired",
+                    "HostOnly": false,
+                    "Action": "AddMail Current {{ModId}}_quest_completed received",
+                    "Actions": null
+                },
+                "{{ModId}}_Readd_Order": {
+                    "Id": "{{ModId}}_Readd_Order",
+                    "Trigger": "DayEnding",
+                    "Condition": "!PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_MouseHouse, !PLAYER_SPECIAL_ORDER_ACTIVE Current {{ModId}}_MouseHouse, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Inspection",
+                    "HostOnly": false,
+                    "Action": "AddSpecialOrder {{ModId}}_MouseHouse",
+                    "Actions": null
+                }
+            }
+        },
+        {
+            "LogName": "Robin fixing house",
+            "Action": "EditData",
+            "Target": "data/events/FarmHouse",
+            "Entries": {
+                "{{ModId}}_Cutscene_MouseHouse_Repaired/LocalMail {{ModId}}_quest_completed": "continue/-500 -500/farmer 5 5 0 Robin 5 5 0/skippable/pause 500/changeLocation forest/warp Robin 37 94/faceDirection Robin 3/animate Robin false true 150 24 25 26 25/pause 800/playSound axe/pause 800/playSound axe/pause 800/viewport 37 94 clamp/pause 800/playSound axe/pause 800/playSound axe/pause 800/playSound axe/pause 800/playSound axe/globalFade/viewport -1000 -1000/pause 800/end dialogue Robin \"I'm so glad we were able to help HatMouse!\""
+            }
+        },
+        {
+            "LogName": "Hat Mouse forest quest",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModId}}_MouseQuest": "Location/Meet up with Robin/You received a letter from Robin asking you to meet her in at the abanoned house in the forest. What could it be about?/Visit Robin in the Forest./Forest/-1/0/-1/false"
+            }
+        },
+        {
+            "LogName": "Mouse inspection",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "{{ModId}}_Inspection/LocalMail {{ModId}}_MouseMail/Time 600 1900/Weather sunny/DayOfMonth 1 2 3 4 5 6 7": "continue/-500 -500/farmer 28 98 1 Robin 35 98 0/setSkipActions AddSpecialOrder {{ModId}}_MouseHouse/skippable/pause 800/viewport 34 98 clamp/move farmer 5 0 1/faceDirection Robin 3/pause 500/speak Robin \"Hey @!$4#$b#Thanks for meeting me here. $0#$b#I had heard about a strange mouse moving into the abandoned building so I couldn't resist checking it out!$0#$b# But, the place looks like it hasn't been taken care of in ages. I'm worried about the little one's safety.$2#$b#If you have a moment, I will inspect the building.\"/pause 800/move Robin 0 -2 0/viewport move 0 -2 1000/faceDirection farmer 0/pause 200/textAboveHead Robin \"Hmm...\"/pause 1200/emote farmer 8/pause 500/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin -3 0 3/faceDirection Robin 0/pause 800/emote Robin 16/pause 1300/faceDirection Robin 3/pause 800/faceDirection Robin 1/pause 800/move Robin 0 1 2/viewport move 0 2 1000/move Robin 3 0 1/move Robin 0 1 2/faceDirection Robin 3/faceDirection farmer 1/pause 500/speak Robin \"Well.. the bad news is I'm afraid that the building is on the verge of collapsing.$2\"/jump farmer/pause 300/emote farmer 16/pause 200/speak Robin \"The good news is that I would be able to repair it if I had the materials. That's where you come in.$1#$b#I estimate that I'll need 400 pieces of wood, 50 pieces of hardwood..$0#$b#... and an extra 5 pieces of cheese for the Mouse.$1#$b#I will leave a chest here for you to drop off the materials.\"/globalFade/viewport -500 -500/pause 750/message \"If I gather these materials, Robin will repair HatMouse's shop.\"/action AddSpecialOrder {{ModId}}_MouseHouse/pause 500/end dialogue Robin \"I hope we can fix HatMouse shop soon! #$e# Let me know when you got all the materials!\"/setSkipActions AddSpecialOrder {{ModId}}_MouseHouse"
+            }
+        },
+        {
+            "LogName": "Hat mouse chest",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/MapPatches/HatMouseChest.tbin",
+            "Update": "OnTimeChange",
+            "ToArea": {
+                "X": 30,
+                "Y": 95,
+                "Width": 2,
+                "Height": 2
+            },
+            "When": {
+                "HasSeenEvent": "{{ModId}}_Inspection",
+                "HasSeenEvent |contains={{ModId}}_Cutscene_MouseHouse_Repaired": false
+            },
+            "Patchmode": "Overlay"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModId}}_MouseHouse": {
+                    "Name": "Repair the HatHouse",
+                    "Requester": "Robin",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "Gather and drop off materials to repair HatMouse's shop.",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "Drop off wood.",
+                            "RequiredCount": "400",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "item_wood"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "Drop off hardwood",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "item_hardwood"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "Drop off cheese",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "MouseChest",
+                                "DropBoxGameLocation": "Forest",
+                                "DropBoxIndicatorLocation": "30.5 94.5",
+                                "AcceptedContextTags": "item_cheese"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "{{ModId}}_MouseRepaired"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

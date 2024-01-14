@@ -1,0 +1,230 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Movies",
+            "Entries": {
+                "summer_movie_1": {
+                    "Id": "summer_movie_1",
+                    "Description": "A determined buoy journeys across the boundless ocean, encountering a variety of characters on their quest to return home.",
+                    "Tags": [
+                        "family",
+                        "adventure",
+                        "art",
+                        "classic"
+                    ],
+                    "Texture": "{{InternalAssetKey:assets/Tilesheets/Movies.png}}",
+                    "SheetIndex": 0,
+                    "Scenes": [
+                        {
+                            "Image": 0,
+                            "Music": "movie_nature",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "'The Lost Buoy by PJ Liguori'",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_0"
+                        },
+                        {
+                            "Image": 1,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 500/playSound seagulls/pause 1000/playSound seagulls/pause 2000",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": "",
+                            "ID": "winter1_1"
+                        },
+                        {
+                            "Image": 2,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/playMusic rain/pause 1000/playSound thunder/pause 500",
+                            "Text": "AHHHHHHH",
+                            "Shake": true,
+                            "ResponsePoint": "",
+                            "ID": "winter1_2"
+                        },
+                        {
+                            "Image": 3,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/playMusic movie_nature/pause 800/playSound dwoop/pause 500/playSound dwoop/pause 500/playSound dwoop/pause 1000",
+                            "Text": "I know how lonely this great ocean can be. Very best of luck to you, O bulbous one. - Wise whale",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_3"
+                        },
+                        {
+                            "Image": 4,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 1000/playSound waterSlosh/pause 1000/playSound waterSlosh/pause 1000/playSound waterSlosh/pause 1500",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_4"
+                        },
+                        {
+                            "Image": 5,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 300/playSound wind/pause 3500",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_5"
+                        },
+                        {
+                            "Image": 6,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 300/playMusic rain/pause 900/playSound parrot_squawk/pause 1000/playSound parrot_squawk/pause 800/playSound parrot_squawk/pause 2000",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_6"
+                        },
+                        {
+                            "Image": 7,
+                            "Music": "movie_nature",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "/pause 3000",
+                            "Text": "",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "winter1_7"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Fields": {
+                "Harvey": {
+                    "Reactions": [
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm feeling so nervous about the screening, what if nobody likes it?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Harvey 32/message \"PJ has a smile on his face.\"",
+                                    "Text": "Everyone seems to like it!$h"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm so glad everything went well! Thanks for coming with me!$h"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "classic",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": null,
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "action",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": null,
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "horror",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": null,
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "love",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I read a glowing review of this movie in the Zuzu City Times..."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It really makes you think, doesn't it?"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "That was outstanding! I'm really glad that you brought me out for this, @.$h"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "like",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I've been wanting to see this film for a while now."
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "That was interesting! I'm going to be thinking about {0} one for a while."
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "dislike",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hmm, not sure about this one."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "*yawn*... What? Oh... what was that movie about, again?"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

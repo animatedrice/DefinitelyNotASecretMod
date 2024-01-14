@@ -1,0 +1,196 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "FishHit": {
+                    "ID": "FishHit",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Sounds/fish_on.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Tilesheets/FishOn.png",
+            "ToArea": {
+                "X": 608,
+                "Y": 1904,
+                "Width": 80,
+                "Height": 48
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "Load",
+            "Target": "{{ModPath}}Dog_Happy, {{ModPath}}Dog_Tongue, {{ModPath}}Dog_Ladle",
+            "FromFile": "assets/Shops/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Tilesheets/Buoy2.png",
+            "ToArea": {
+                "X": 170,
+                "Y": 1903,
+                "Width": 26,
+                "Height": 18
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "LogName": "Custom shops",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_DogShop": {
+                    "ID": "{{ModId}}_DogShop",
+                    "Owners": [
+                        {
+                            "Condition": "TIME 900 2000",
+                            "Name": "AnyOrNone",
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "Ruff day? I got some [SuggestedItem] to cheer you up.",
+                                        "*woof *woof*",
+                                        "*woof* Bone Appetit!",
+                                        "Stay pawsitive *woof*",
+                                        "Howl-o. Today's special is [SuggestedItem]."
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": false,
+                            "Portrait": "{{ModPath}}Dog_{{Random:Happy, Tongue, Ladle}}"
+                        },
+                        {
+                            "Id": "Closed",
+                            "Name": "Any",
+                            "Portrait": null,
+                            "Dialogues": null,
+                            "ClosedMessage": "*woof* It's closed *woof*"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "ItemId": "(O)228"
+                        },
+                        {
+                            "ItemId": "(O)227"
+                        },
+                        {
+                            "Id": "RandomFood_1",
+                            "RandomItemId": [
+                                "(O)198",
+                                "(O)214",
+                                "(O)649",
+                                "(O)212",
+                                "(O)202",
+                                "(O)232",
+                                "(O)606",
+                                "(O)226",
+                                "(O)242",
+                                "(O)265",
+                                "(O)728",
+                                "(O)730"
+                            ],
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "RandomFood_2",
+                            "RandomItemId": [
+                                "(O)198",
+                                "(O)214",
+                                "(O)649",
+                                "(O)212",
+                                "(O)202",
+                                "(O)232",
+                                "(O)606",
+                                "(O)226",
+                                "(O)242",
+                                "(O)265",
+                                "(O)728",
+                                "(O)730"
+                            ],
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "ItemId": "(O)733",
+                            "Condition": "DAY_OF_WEEK Fri"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Beach",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "assets/mapPatches/DogShop.tbin",
+            "ToArea": {
+                "X": 12,
+                "Y": 0,
+                "Width": 7,
+                "Height": 10
+            },
+            "MapProperties": {
+                "NightTiles": "Front 13 6 57 Front 18 6 58",
+                "Light": "13 6 4 18 6 4"
+            },
+            "PatchMode": "Overlay",
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "DogShop",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "124"
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "125"
+                },
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 7
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "137"
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 7
+                    },
+                    "Layer": "Buildings",
+                    "SetIndex": "138"
+                }
+            ],
+            "When": {
+                "Query: {{Time}} >= 0600 AND {{Time}} <= 900 OR {{Time}} >= 2000 AND {{Time}} <= 2600": true
+            },
+            "Update": "OnTimeChange"
+        }
+    ]
+}

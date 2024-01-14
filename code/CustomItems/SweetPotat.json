@@ -1,6 +1,11 @@
 {
     "Changes": [
         {
+            "Action": "Load",
+            "Target": "{{ModPath}}Objects, {{ModPath}}Crops",
+            "FromFile": "assets/CustomItems/{{TargetWithoutPath}}.png"
+        },
+        {
             "Action": "EditData",
             "Target": "Data/RandomBundles",
             "TargetField": [
@@ -11,7 +16,7 @@
                 "#0"
             ],
             "Entries": {
-                "Items": "1 Parsnip, 1 Green Bean, 1 Cauliflower, 1 {{ModId}}.SweetPotato"
+                "Items": "1 Parsnip, 1 Green Bean, 1 Cauliflower, 1 {{ModId}}_SweetPotato"
             },
             "Update": "OnLocationChange"
         },
@@ -19,7 +24,7 @@
             "Action": "EditData",
             "Target": "Data/Bundles",
             "Entries": {
-                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 {{ModId}}.SweetPotato 1 0/0///Spring Crops"
+                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 {{ModId}}_SweetPotato 1 0/0///Spring Crops"
             },
             "Update": "OnLocationChange"
         },
@@ -34,42 +39,81 @@
                         "Entries",
                         "Universal.Like"
                     ],
-                    "Value": "{{ModId}}.SweetPotato",
+                    "Value": "{{ModId}}_SweetPotato",
                     "Delimiter": " "
                 }
             ]
+        },
+        {
+            "Action":"EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries":{
+                "{{ModId}}_SweetPotatPie": "{{ModId}}_SweetPotato 1 -6 1 -5 1 245 1/1 10/{{ModId}}_SweetPotatPie/"
+            }
         },
         {
             "LogName": "Sweet potato objects",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModId}}.SweetPotato": {
-                    "Name": "Sweet Potato",
+                "{{ModId}}_SweetPotato": {
+                    "Name": "{{ModId}}_SweetPotato",
                     "Displayname": "Sweet Potato",
                     "Description": "A wildly popular vegetable. The sweet taste compliments any dish.",
                     "Type": "Basic",
                     "Category": -75,
                     "Price": 160,
-                    "Texture": "{{InternalAssetKey: assets/CustomItems/Objects.png}}",
+                    "Texture": "{{ModPath}}Objects",
                     "ContextTags": [
                         "color_purple",
                         "category_vegetable"
                     ],
                     "SpriteIndex": 0
                 },
-                "{{ModId}}.SweetPotatoSeeds": {
-                    "Name": "Sweet Potato Seeds",
+                "{{ModId}}_SweetPotatoSeeds": {
+                    "Name": "{{ModId}}_SweetPotatoSeeds",
                     "Displayname": "Sweet Potato Seeds",
                     "Description": "Plant in Spring for a lovely purple veggie. Takes 10 days to mature.",
                     "Type": "Seeds",
                     "Category": -74,
                     "Price": 60,
-                    "Texture": "{{InternalAssetKey: assets/CustomItems/Objects.png}}",
+                    "Texture": "{{ModPath}}Objects",
                     "SpriteIndex": 1,
                     "ContextTags": [
                         "category_seeds"
                     ]
+                },
+                "{{ModId}}_SweetPotatPie": {
+                    "Name": "{{ModId}}_SweetPotatPie",
+                    "Displayname": "Sweet Potato Pie",
+                    "Description": "A deep, caramelized flavor with a touch of spice.",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 385,
+                    "Texture": "{{ModPath}}Objects",
+                    "SpriteIndex": 2,
+                    "Edibility": 90,
+                    "IsDrink": false,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ContextTags": [
+                        "color_orange",
+                        "food_bakery",
+                        "food_sweet"
+                    ],
+                    "CustomAttributes": {
+                        "FarmingLevel": 0,
+                        "FishingLevel": 0,
+                        "MiningLevel": 0,
+                        "LuckLevel": 2,
+                        "ForagingLevel": 0,
+                        "MaxStamina": 0,
+                        "MagneticRadius": 0,
+                        "Speed": 0,
+                        "Defense": 0,
+                        "Attack": 2
+                    }
                 }
             }
         },
@@ -78,7 +122,7 @@
             "Action": "EditData",
             "Target": "Data/Crops",
             "Entries": {
-                "{{ModId}}.SweetPotatoSeeds": {
+                "{{ModId}}_SweetPotatoSeeds": {
                     "Seasons": [
                         "Spring"
                     ],
@@ -91,9 +135,34 @@
                     ],
                     "HarvestMaxStack": "2",
                     "ExtraHarvestChance": "0.05",
-                    "HarvestItemId": "{{ModId}}.SweetPotato",
-                    "Texture": "{{InternalAssetKey: assets/CustomItems/Crops.png}}",
+                    "HarvestItemId": "(O){{ModId}}_SweetPotato",
+                    "Texture": "{{ModPath}}Crops",
                     "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/GiantCrops",
+            "Entries": {
+                "{{ModId}}_SweetPotato": {
+                    "FromItemId": "(O){{ModId}}_SweetPotato",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "Id": "(O){{ModId}}_SweetPotato",
+                            "ItemId": "(O){{ModId}}_SweetPotato",
+                            "MaxItems": null,
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "{{ModPath}}Objects",
+                    "SpriteIndex": 3,
+                    "Chance": 0.5
                 }
             }
         }

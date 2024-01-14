@@ -15,10 +15,6 @@
                 "Y": "1965",
                 "Width": "16",
                 "Height": "31"
-            },
-            "Update": "OnLocationChange",
-            "When": {
-                "LocationName|contains=Wizardhouse": "true"
             }
         },
         {
@@ -38,184 +34,22 @@
             }
         },
         {
-            "LogName": "charizard",
+            "LogName": "Remove smoke",
             "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/art.png",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/Tilesheets/backpack.png",
             "ToArea": {
-                "X": 144,
-                "Y": 768,
-                "Width": 32,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "lumpy",
-            "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/statue.png",
-            "ToArea": {
-                "X": 112,
-                "Y": 832,
-                "Width": 32,
-                "Height": 64
-            }
-        },
-        {
-            "LogName": "ghost",
-            "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/plush.png",
-            "ToArea": {
-                "X": 80,
-                "Y": 832,
-                "Width": 32,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "Potats",
-            "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 128,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 288,
-                "Y": 624,
-                "Width": 128,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "golden badge",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 112,
-                "Y": 0,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 112,
-                "Y": 96,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "twin badge",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 32,
-                "Y": 0,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 96,
-                "Y": 352,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "potat and ruby badges",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 32,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 0,
-                "Y": 352,
-                "Width": 32,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "diamond,world and rainbow badges",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 48,
-                "Y": 0,
-                "Width": 48,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 80,
-                "Y": 320,
-                "Width": 48,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "silver badge",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 96,
-                "Y": 0,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 64,
-                "Y": 96,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "wiggles badge",
-            "Action": "EditImage",
-            "Target": "TileSheets/Craftables",
-            "FromFile": "assets/Tilesheets/badges.png",
-            "FromArea": {
-                "X": 128,
-                "Y": 0,
-                "Width": 16,
-                "Height": 32
-            },
-            "ToArea": {
-                "X": 64,
-                "Y": 128,
-                "Width": 16,
-                "Height": 32
-            }
-        },
-        {
-            "LogName": "poster",
-            "Action": "EditImage",
-            "Target": "TileSheets/furniture",
-            "FromFile": "assets/Tilesheets/poster.png",
-            "ToArea": {
-                "X": 65,
-                "Y": 982,
-                "Width": 15,
-                "Height": 21
+                "X": "255",
+                "Y": "1436",
+                "Width": "24",
+                "Height": "14"
             }
         },
         {
             "LogName": "billboard",
             "Action": "EditImage",
             "Target": "LooseSprites/Billboard",
-            "FromFile": "assets/Tilesheets/{{Target}}.png",
+            "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png",
             "ToArea": {
                 "X": 0,
                 "Y": 0,
