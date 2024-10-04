@@ -1,0 +1,110 @@
+{
+    "Changes": [
+        {
+            "LogName": "Vincent hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Vincent",
+            "Entries": {
+                "spring_11": "900 SamHouse 4 8 0 \"Strings\\schedules\\Vincent:spring_11.000\"/1130 Hospital 14 15 0 \"Strings\\schedules\\Vincent:spring_11.001\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Vincent:spring_11.002\"/1600 SamHouse 11 22 2 vincent_play/2000 SamHouse 8 22 3 vincent_sleep"
+            }
+        },
+        {
+            "LogName": "Sebastian hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Sebastian",
+            "Entries": {
+                "summer_4": "900 SebastianRoom 10 7 1 \"Strings\\schedules\\Sebastian:summer_4.000\"/1000 Hospital 15 16 3 sebastian_cardsLeft/1330 Hospital 4 6 0 \"Strings\\schedules\\Sebastian:summer_4.001\"/1600 SebastianRoom 11 9 1 sebastian_sleep"
+            }
+        },
+        {
+            "LogName": "Robin hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Robin",
+            "Entries": {
+                "summer_18": "700 ScienceHouse 8 18 2/800 Hospital 14 15 0 \"Strings\\schedules\\Robin:summer_18.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Robin:summer_18.001\"/1600 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep"
+            }
+        },
+        {
+            "LogName": "Penny hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Penny",
+            "Entries": {
+                "winter_4": "900 Trailer 1 8 0 \"Strings\\schedules\\Penny:winter_4.000\"/1130 Hospital 15 17 1 /1330 Hospital 4 6 0 \"Strings\\schedules\\Penny:winter_4.001\"/1600 Town 75 52 2 penny_sit_down/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep"
+            }
+        },
+        {
+            "LogName": "Pam hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Pam",
+            "Entries": {
+                "spring_25": "800 Trailer 15 4 2 pam_sit_down/1130 Hospital 15 17 1 \"Strings\\schedules\\Pam:spring_25.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Pam:spring_25.001\"/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep"
+            }
+        },
+        {
+            "LogName": "Leah hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Leah",
+            "Entries": {
+                "spring_16": "900 LeahHouse 3 7 3 leah_sculpt/1030 Hospital 14 15 0 \"Strings\\schedules\\Leah:spring_16.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Leah:spring_16.001\"/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep"
+            }
+        },
+        {
+            "LogName": "Jodi hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Jodi",
+            "Entries": {
+                "spring_11": "900 SamHouse 3 5 2 \"Strings\\schedules\\Jodi:spring_11.000\"/1130 Hospital 11 15 2 \"Strings\\schedules\\Jodi:spring_11.001\"/1230 Hospital 15 17 1 \"Strings\\schedules\\Jodi:spring_11.002\"/1600 SamHouse 12 22 3 \"Strings\\schedules\\Jodi:spring_11.003\"/2000 SamHouse 4 12 2 jodi_sit_down/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep",
+                "spring_18": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 Hospital 14 15 0/1330 Hospital 7 15 3 \"Strings\\schedules\\Jodi:spring_18.000\"/1600 SamHouse 5 5 0/1900 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+            }
+        },
+        {
+            "LogName": "Haley hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Haley",
+            "Entries": {
+                "winter_9": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1030 Hospital 14 15 0 \"Strings\\schedules\\Haley:winter_9.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Haley:winter_9.001\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep"
+            }
+        },
+        {
+            "LogName": "George hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/George",
+            "Entries": {
+                "23": "630 JoshHouse 5 21 3 \"Strings\\schedules\\George:23.000\"/1030 Hospital 10 15 0 \"Strings\\schedules\\George:23.001\"/1330 Hospital 4 6 0 \"Strings\\schedules\\George:23.002\"/1600 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep"
+            }
+        },
+        {
+            "LogName": "Evelyn hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Evelyn",
+            "Entries": {
+                "2": "800 JoshHouse 3 17 0 square_3_1_0/1030 Hospital 14 15 0 \"Strings\\schedules\\Evelyn:2.000\"/1330 Hospital 3 6 0 \"Strings\\schedules\\Evelyn:2.001\"/1600 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+                "23": "800 JoshHouse 3 17 0 square_3_1_0/1040 Hospital 10 16 0 \"Strings\\schedules\\Evelyn:23.000\"/1330 Hospital 3 6 0 \"Strings\\schedules\\Evelyn:23.001\"/1610 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+            }
+        },
+        {
+            "LogName": "Emily hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Emily",
+            "Entries": {
+                "winter_11": "900 HaleyHouse 16 5 2/1030 Hospital 14 15 0 \"Strings\\schedules\\Emily:winter_11.000\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Emily:winter_11.001\"/1600 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+            }
+        },
+        {
+            "LogName": "Clint hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Clint",
+            "Entries": {
+                "winter_16": "900 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:winter_16.000\"/1030 Hospital 7 15 3 \"Strings\\schedules\\Clint:winter_16.001\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Clint:winter_16.002\"/1600 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
+            }
+        },
+        {
+            "LogName": "Abigail hospital",
+            "Action": "EditData",
+            "Target": "characters/schedules/Abigail",
+            "Entries": {
+                "spring_4": "900 SeedShop 11 5 0 \"Strings\\schedules\\Abigail:spring_4.000\"/1230 Hospital 13 15 2 \"Strings\\schedules\\Abigail:spring_4.001\"/1330 Hospital 4 6 0 \"Strings\\schedules\\Abigail:spring_4.002\"/1600 SeedShop 10 5 0/2000 SeedShop 1 9 3 abigail_sleep"
+            }
+        }
+    ]
+}

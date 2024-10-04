@@ -8,25 +8,37 @@
         {
             "LogName": "load dialogue",
             "Action": "Load",
-            "Target": "Characters/Dialogue/Alex, Characters/Dialogue/Caroline, Characters/Dialogue/Demetrius, Characters/Dialogue/Elliott, Characters/Dialogue/Gus, Characters/Dialogue/Harvey, Characters/Dialogue/Jas, Characters/Dialogue/Krobus, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Morris, Characters/Dialogue/Maru, Characters/Dialogue/Pierre,Characters/Dialogue/Sam, Characters/Dialogue/Willy, Characters/Dialogue/Wizard",
+            "Target": "Characters/Dialogue/Alex, Characters/Dialogue/Caroline, Characters/Dialogue/Demetrius, Characters/Dialogue/Elliott, Characters/Dialogue/Gus, Characters/Dialogue/Harvey, Characters/Dialogue/Jas, Characters/Dialogue/Krobus, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Maru, Characters/Dialogue/Pierre,Characters/Dialogue/Sam, Characters/Dialogue/Willy, Characters/Dialogue/Wizard",
             "FromFile": "assets/{{Target}}.json"
         },
         {
             "LogName": "load schedules",
             "Action": "Load",
-            "Target": "Characters/schedules/Alex, Characters/schedules/Caroline, Characters/schedules/Demetrius, Characters/schedules/Elliott, Characters/schedules/Gus, Characters/schedules/Harvey, Characters/schedules/Jas, Characters/schedules/Lewis, Characters/schedules/Linus, Characters/schedules/Marnie, Characters/schedules/Morris, Characters/schedules/Maru, Characters/schedules/Pierre, Characters/schedules/Sam, Characters/schedules/Willy",
+            "Target": "Characters/schedules/Alex, Characters/schedules/Caroline, Characters/schedules/Demetrius, Characters/schedules/Elliott, Characters/schedules/Gus, Characters/schedules/Harvey, Characters/schedules/Jas, Characters/schedules/Lewis, Characters/schedules/Linus, Characters/schedules/Marnie, Characters/schedules/Maru, Characters/schedules/Pierre, Characters/schedules/Sam, Characters/schedules/Willy",
             "FromFile": "assets/{{Target}}.json"
         },
         {
             "LogName": "Load all portraits",
             "Action": "EditImage",
-            "Target": "Portraits/Alex, Portraits/Alex_Beach, Portraits/Demetrius, Portraits/Caroline, Portraits/Caroline_Beach, Portraits/Elliott, Portraits/Elliott_Beach, Portraits/Gus, Portraits/Harvey, Portraits/Harvey_Beach, Portraits/Jas, Portraits/Lewis, Portraits/Krobus_Trenchcoat, Portraits/Linus, Portraits/Marnie, Portraits/Marnie_Beach, Portraits/Maru, Portraits/Maru_Beach, Portraits/Maru_Hospital, Portraits/Morris, Portraits/Pierre, Portraits/Pierre_Beach, Portraits/Sam, Portraits/Sam_Beach, Portraits/Vincent, Portraits/Willy, Portraits/Wizard",
+            "Target": "Portraits/Alex, Portraits/Alex_Beach, Portraits/Demetrius, Portraits/Caroline, Portraits/Caroline_Winter, Portraits/Caroline_Beach, Portraits/Elliott, Portraits/Elliott_Beach, Portraits/Gus, Portraits/Harvey, Portraits/Harvey_Beach, Portraits/Jas, Portraits/Lewis, Portraits/Krobus, Portraits/Krobus_Trenchcoat, Portraits/Linus, Portraits/Marnie, Portraits/Marnie_Beach, Portraits/Maru, Portraits/Maru_Beach, Portraits/Maru_Hospital, Portraits/Morris, Portraits/Pierre, Portraits/Pierre_Beach, Portraits/Sam, Portraits/Sam_Beach, Portraits/Vincent, Portraits/Willy, Portraits/Wizard",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "LogName": "replace winter portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Alex_Winter, Portraits/Demetrius_Winter, Portraits/Elliott_Winter, Portraits/Gus_Winter, Portraits/Harvey_Winter, Portraits/Jas_Winter, Portraits/Lewis_Winter, Portraits/Linus_Winter, Portraits/Marnie_Winter, Portraits/Maru_Winter, Portraits/Pierre_Winter, Portraits/Sam_Winter, Portraits/Vincent_Winter, Portraits/Willy_Winter",
             "FromFile": "assets/Characters/{{Target}}.png"
         },
         {
             "LogName": "Load all sprites",
             "Action": "EditImage",
-            "Target": "Characters/Alex, Characters/Alex_Beach, Characters/Demetrius, Characters/Caroline, Characters/Caroline_Beach, Characters/Elliott, Characters/Elliott_Beach, Characters/Gus, Characters/Harvey, Characters/Harvey_Beach, Characters/Jas,Characters/Lewis, Characters/Lewis_Beach, Characters/Krobus, Characters/Krobus_Trenchcoat, Characters/KrobusRaven, Characters/Linus, Characters/Marnie, Characters/Marnie_Beach, Characters/Maru, Characters/Maru_Beach, Characters/Maru_Hospital, Characters/Morris, Characters/Pierre, Characters/Pierre_Beach, Characters/Sam, Characters/Sam_Beach, Characters/Vincent, Characters/Willy, Characters/Wizard",
+            "Target": "Characters/Alex, Characters/Alex_Beach, Characters/Demetrius, Characters/Caroline, Characters/Caroline_winter, Characters/Caroline_Beach, Characters/Elliott, Characters/Elliott_Beach, Characters/Gus, Characters/Harvey, Characters/Harvey_Beach, Characters/Jas,Characters/Lewis, Characters/Lewis_Beach, Characters/Krobus, Characters/Krobus_Trenchcoat, Characters/KrobusRaven, Characters/Linus, Characters/Marnie, Characters/Marnie_Beach, Characters/Maru, Characters/Maru_Beach, Characters/Maru_Hospital, Characters/Morris, Characters/Pierre, Characters/Pierre_Beach, Characters/Robin, Characters/Sam, Characters/Sam_Beach, Characters/Vincent, Characters/Willy, Characters/Wizard",
+            "FromFile": "assets/Characters/{{Target}}.png"
+        },
+        {
+            "LogName": "replace winter sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Alex_Winter, Characters/Demetrius_Winter, Characters/Elliott_Winter, Characters/Gus_Winter, Characters/Harvey_Winter, Characters/Jas_Winter, Characters/Lewis_Winter, Characters/Linus_Winter, Characters/Marnie_Winter, Characters/Maru_Winter, Characters/Pierre_Winter, Characters/Sam_Winter, Characters/Vincent_Winter, Characters/Willy_Winter",
             "FromFile": "assets/Characters/{{Target}}.png"
         },
         {

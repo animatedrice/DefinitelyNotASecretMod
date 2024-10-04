@@ -1,7 +1,9 @@
 {
     "9": "NOT friendship Sam 6 Penny 6/GOTO spring",
     "23": "NOT friendship Sam 6 Penny 6/GOTO spring",
+    "GreenRain": "610 AnimalShop 23 14 2",
     "rain": "900 AnimalShop 2 5 0/1100 AnimalShop 15 16 2 square_3_3/1500 AnimalShop 4 16 2 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep",
+    "DesertFestival_3": "700 AnimalShop 7 5 0/900 Desert 19 47 2 \"Strings\\\\1_6_Strings:DesertFestival_Jas\"/1130 Desert 30 55 2 \"Strings\\\\1_6_Strings:DesertFestival_Jas\"/2250 Desert 19 47 2 \"Strings\\\\1_6_Strings:DesertFestival_Jas\"/2330 bed",
     "summer": "900 AnimalShop 2 5 0/1100 Forest 92 20 1/1320 Beach 40 23 jas_jumprope \"Strings\\schedules\\Jas:summer.000\"/1600 AnimalShop 17 14 3 jas_read/1900 AnimalShop 2 5 0/2100 AnimalShop 6 5 1 jas_sleep",
     "winter_15": "900 AnimalShop 2 5 0/1100 Forest 38 10 2 jas_jumprope \"Strings\\schedules\\Jas:winter_15.000\"/1450 Beach 19 24 2 \"Strings\\schedules\\Jas:winter_15.001\"/2300 AnimalShop 6 5 1 jas_sleep",
     "winter_18": "900 AnimalShop 2 5 0 \"Strings\\schedules\\Jas:winter_18.000\"/1030 Hospital 14 15 0/1330 Hospital 12 18 0 \"Strings\\schedules\\Jas:winter_18.001\"/1600 AnimalShop 11 5 3 jas_read/2000 AnimalShop 6 5 1 jas_sleep",

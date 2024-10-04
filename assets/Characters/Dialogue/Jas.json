@@ -1,7 +1,12 @@
 {
     "Potat_Crash": "I hope that giant sweet potato will bring more people to our hotel! $h",
     "Introduction": "Hello!$1#$b#I'm Oliver, ass. manager at Oscar's Hotel.",
-    "Resort_Entering": "I see a crab!",
+    "AcceptBirthdayGift_Positive": "Wow, a birthday present! I love it!$h",
+    "GreenRain": "I'm scared...$s",
+    "GreenRain_2": "I hope the rain doesn't turn my hair green...$s",
+    "AcceptBirthdayGift_Negative": "A birthday present? Oh... I don't like this.$s",
+    "AcceptGift_(O)StardropTea": "Are you sure? It smells so good! I'll only drink a thimbleful a day.$h",
+   "Resort_Entering": "I see a crab!",
     "Resort_Leaving": "I've got sand in my shoe...$s",
     "Resort_Shore": "I'm collecting seashells... they will make for nice decor in the hotel!$h",
     "Resort": "Oscar told me not to get burnt... But when I walk fast, it feels cool, so I think I'll be okay.$h",

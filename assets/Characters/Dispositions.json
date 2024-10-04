@@ -62,6 +62,7 @@
                     }
                 },
                 "Harvey": {
+                    "CanBeRomanced": false,
                     "Home": [
                         {
                             "Id": "Default",
@@ -76,6 +77,7 @@
                     ]
                 },
                 "Marnie": {
+                    "Gender": "Male",
                     "FriendsAndFamily": {
                         "Lewis": "",
                         "Shane": "[LocalizedText Strings\\Characters:Relative_Nephew]",
@@ -95,6 +97,7 @@
                     ]
                 },
                 "Jas": {
+                    "Gender": "Male",
                     "FriendsAndFamily": {
                         "Marnie": "[LocalizedText Strings\\Characters:Relative_Uncle]",
                         "Shane": "[LocalizedText Strings\\Characters:Relative_Nephew]"
@@ -116,6 +119,9 @@
                     "FriendsAndFamily": {
                         "Marnie": "[LocalizedText Strings\\Characters:Relative_Uncle]"
                     }
+                },
+                "Maru": {
+                    "Gender": "Male"
                 }
             }
         },

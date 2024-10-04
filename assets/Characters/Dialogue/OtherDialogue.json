@@ -136,6 +136,7 @@
             "Entries": {
                 "Introduction": "Hmmph... It's irritating to have to meet all these new people, huh?#$b#Name's George, by the way. Now fuck off... Hmmph.",
                 "Wed": "Buff Buoy is my grandson. Have I told you that already?#$e#Huh? Speak up.",
+                "Thu": "I can't talk right now, young man.^I can't talk right now, miss.#$e#My favorite program is on. Buzz off!" ,  
                 "Wed_inlaw_Alex": "Never have I expected to see Buff buoy so happy. Welcome to the family!^You're part of the family, now. I'm glad that my grandson found such a nice wife.",
                 "Wed8": "I wish my legs worked so I could play catch with Buff Buoy.$s#$e#That'll never happen.$s"
             }
@@ -200,8 +201,8 @@
             "Entries": {
                 "Potat_Crash": "I can feel a positive energy emanating from that sweet potato.",
                 "Mon8": "There's good people in this town who just can't seem to find happiness. It makes me sad.$u#$e#Working in the restaurant, I hear first-hand about everyone's problems.$u",
-                "Tue": "I work part-time at Bobby' pizzeria. It pays the bills.",
-                "Tue4": "I'm just working at Bobby' to make ends meet... but my real passion is tailoring.$u#$e#I made these clothes from scratch, see?",
+                "Tue": "I work part-time at Bobby's pizzeria. It pays the bills.",
+                "Tue4": "I'm just working at Bobby's to make ends meet... but my real passion is tailoring.$u#$e#I made these clothes from scratch, see?",
                 "summer_Tue6": "I feel bad for Nintendad. People judge him, but he's just living a different lifestyle.$u#$e#I wish everyone could learn to be accepting of others.",
                 "summer_Fri": "If I wasn't so busy I'd come help you on the farm!#$e#But Bobby would be upset if I had another job...$s",
                 "summer_Fri6": "You know, I'm sure Bobby would understand if I wanted to leave the pizzeria someday.#$b#There's so much out there, I can't stay a waitress forever.$u",
@@ -217,7 +218,8 @@
             "Entries": {
                 "Potat_Crash": "*sigh*... I wish Emily would talk to me about that crash.$s",
                 "Introduction": "Er... hi. I'm Clunt.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.",
-                "Resort_Shore_2": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clunt's body is glistening..."
+                "Resort_Shore_2": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clunt's body is glistening...",
+                "Wed6": "Oh, hi @. I've been told I'm an energy vampire. Do you know what that means?"
             }
         }
     ]
