@@ -21,28 +21,12 @@
       }
     }
   ],
-  "ConfigSchema": {
-    "Version": {
-      "AllowValues": "Full, Lite",
-      "Default": "Full"
-    }
-  },
   "Changes": [
     {
-      "LogName": "enable Lite version",
+      "LogName": "Load all json files",
       "Action": "Include",
-      "FromFile": "code/LiteVersion.json",
-      "When": {
-        "Version": "Lite"
-      }
-    },
-    {
-      "LogName": "Full Version",
-      "Action": "Include",
-      "FromFile": "assets/Characters/NPCload.json, code/Strings/strings.json, code/Events/EventChanges.json, code/CustomItems/SweetPotat.json, code/CustomItems/Hats.json,code/CustomItems/MuseumRewards.json, code/CustomItems/Furniture.json, code/ShopData.json, code/Locations/MapPatches.json, code/Locations/TilesheetEdits.json, code/Strings/mail.json, code/Festivals/Festivals.json, code/Festivals/SweetPotatoPalooza.json, code/Quests/HatMouse.json, code/CustomItems/Movies.json",
-      "When": {
-        "Version": "Full"
-      }
+      "FromFile": "assets/Characters/NPCload.json, code/Strings/strings.json, code/Events/EventChanges.json, code/CustomItems/SweetPotat.json, code/CustomItems/Hats.json,code/CustomItems/MuseumRewards.json, code/CustomItems/Furniture.json, code/ShopData.json, code/Locations/MapPatches.json, code/Locations/TilesheetEdits.json, code/Strings/mail.json, code/Festivals/Festivals.json, code/Festivals/SweetPotatoPalooza.json, code/Quests/HatMouse.json, code/CustomItems/Movies.json, code/Sounds.json"
+      
     }
   ]
 }
