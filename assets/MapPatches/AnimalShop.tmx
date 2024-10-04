@@ -205,7 +205,7 @@
   </object>
   <object id="16" name="TileData" x="432" y="208" width="16" height="16">
    <properties>
-    <property name="Action" value="Door Dobson"/>
+    <property name="Action" value="Door SweetPotats.PJMod_Wiggles"/>
    </properties>
   </object>
   <object id="17" name="TileData" x="480" y="208" width="16" height="16">

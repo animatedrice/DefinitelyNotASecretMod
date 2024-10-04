@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="49">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="53">
  <properties>
   <property name="DayTiles" value="Front 2 11 256 Front 2 12 288 Front 15 1 256 Front 15 2 288 Front 20 1 256 Front 20 2 288"/>
   <property name="Doors" value="5 9 1 120 5 13 1 120 10 13 1 120 9 5 1 120 10 5 1 120"/>
@@ -37,7 +37,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="24" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1k7lOw0AQhkd418IUOIEn4GgCCi0NEjWnKJGAgpbjBbgEHSUhNCkR9ChEygNw1KSioyAOBZXzCPyWbXlYr9lVJH7pk70zs79nx3bDIWr8M7NenqqX5VOl6zlNvWn/J+iCgPJ+6roLAgM91v+UoF+K1hVR7D+EXCiJHFGMYPuXsHcZrIBVMA/uic5V/zfcd8Ak9vouUQmUwRgYBw8yrrvAdVrpb5PySvNlERPivg8upaaY6Vbq56vz5nkfzygJfT1XAP+ezPZH5zpC/BicsFlE6hQ8/y85mJVwi7/XSGHyHfQ175efaQK91UAd7LK5zchi/2jWfvId8Hnwmh2Z+TdBS/FX63W9qfoY8P/douy/2068TDGeM/kfsB4Pk6spxnMm/1PU3CWcUTx/U4znTP4C72UPZ933sr6qoA2+Wa9XoAauQR3cgNFhs79Oi/qwVib/NdSsK2xofJrgEbRY7NXC31ZP4Bm8sNi7pX8F7+DLjVkYsX8mWfjbMKjPDxRQs/o=
+   eJy1k7lOw0AQhkdk18IUOIEn4GgCCi0NEjWnKJGAgpbjBbgUOkpCaFIi6FGIlAfgqElFR0EcCirnEfiNbXlYr9lVJH7pk70zs79nx3ajQNT4Z2bdLBU3zSdK1nOaetP+D9AFPmX91HUX+AZ6rP8pQb8Urssi338IuUASFUQ+gu1fwt5lsAJWwTy4I6qq/q+474BJ7PUcoiIogTEwDu5lVHeO67TS3yZlleRL4odqgPs+uJCaYqYbqZ+vzpvnPTynKPT1XD78ezLdH57rCPFjcMJmEaqT8/y/VMCshJP/vYYK4u+gr3m//EwT6K0G6mCXzW1G5vuH8/bi74DPg9fsyNS/CVqKv1qv603V+4D/7xal/9127GWK8ZzJ/4D1eBhfTTGeM/mfouY25oyi+ZtiPGfyF3gvezjrvpv2VQFt8MV6vQQ1cAXq4BqMDpv9dVrUh7Uy+a+hZl1hQ+PTBA+gxWIvFv62egRP4JnF3iz9y3gHn07Ewoj9M8nC34ZBfb4Bzu60eg==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -216,14 +216,14 @@
     <property name="Action" value="Message &quot;PJShop.6&quot;"/>
    </properties>
   </object>
-  <object id="47" name="TileData" x="64" y="256" width="16" height="16">
+  <object id="51" name="TileData" x="64" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop SweetPotats.PJMod_ArtShopt"/>
+    <property name="Action" value="OpenShop SweetPotats.PJMod_ArtShop none 600 2600 4 15 2 1"/>
    </properties>
   </object>
-  <object id="48" name="TileData" x="80" y="256" width="16" height="16">
+  <object id="52" name="TileData" x="80" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop SweetPotats.PJMod_ArtShopt"/>
+    <property name="Action" value="OpenShop SweetPotats.PJMod_ArtShop none 600 2600 4 15 2 1"/>
    </properties>
   </object>
  </objectgroup>
@@ -235,7 +235,7 @@
  <objectgroup id="8" name="Paths"/>
  <layer id="5" name="Front" width="24" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlLdOA0EQhtf4DmxeAUoyiBIRTKqQ4A3IdISC9ACkB6A2UIBNDwUNBRKxJhVgISQKaoSBB+Bb3S63XOIkM9KnvZud+T0ze+tcUohtyKtVswPZELY8sV7yKl9aQa03cAt3UAuX+E8gZ+TtwzGcq5ysJXymfTpf6tfz3gCN0ARtcA3PSff3RcD7sdK6s4W4t3/7zPh2njugE7qgDl6M/VvFMLkjKj+F3jsU4QM+YdP+3YtZz4C/1Z/9oqIpLUQLTNsBwYYNsX9V7u/XtAx1Vlnh+1F2gf6l7erLvmbwz8KcipGzkGc6EnCGcU3qd5DfCT2KLsuZtbRCyt+TjtGWoLZFWIZ+Y26Vqn7Tssa8w+rRMU8pV7+m3KE/4Hy9FjVvre/tOYhe6LOc+5M30PMeZR1TjCufPJN80s9+RE0F9d3Je3fA+6Fw5l9k/YBP+FI+GTfO8wRMwhQ0p4Pn4J2HvHenrGfCmX9ZQogkWGAn3DOZhwVYhKWIOZv6r2gPUsdQ2vW3wgM8GrErsAprsA4b8FYRr/5S7C/9DGsPtKi1OyR2F/YgZ/iOYuiXanH008bdqK78P/04d0X/H2Qi7lEppnuMqjPMvgEsnIjG
+   eJytlEkvBEEUx2tMNzO+Akc7cRTL2E4SvoHdzXKwfQCDD+A8ODDjzsHFQWI92w6ISBycxeAD+FW6SpfedDJe8kt1v3rvP++96pp8UogtKKhVsw25EDY9sV4KKl/ao1qv4QZuoRYu8B9D3sjbgyM4Uzk5S/hM+3S+1K/nvQEaoQna4Aqek+7vi4D3I6V1awtxZ//2mfHtPHdAJ3RBHbwY+zcO2WFyR1R+Cr13KMIHfMKG/bsXs54Bf6s/+0WHbFNaiBaYtgOCDRti/7Lc369pGeqsssL3o+wc/Qvb1Zd9zeCfhTkVI2chz3Qk4AzjmtTvIL8TehRdljNvaY8pf086RluC2hZhGfqNuVWq+k3LGfMOq0fHPKVc/Zpyh/6A8/Va1Ly1vrfnIHqhz3LuT8FAz3uUdUwxrnzyTApJP3sRNcl65Xcn790+7wfCmX+R9QM+4Uv5ZNw4zxMwCVPQnA6eg3ce8t6dsJ4KZ/5lCSGSYIGdcM9kHhZgEZYi5mzqv6I9SB1DadffCvfwYMSuQBZWYQ3W4a0iXv2l2F/6GdYeaFFrd0jsDuxC3vAdxtAv1eLop427UV35f/px7or+P8hE3KNSTPcYVWeYfQMx9onG
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
