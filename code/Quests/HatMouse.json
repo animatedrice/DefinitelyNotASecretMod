@@ -8,7 +8,7 @@
                 "{{ModId}}_Mail_Robin_Mouse": {
                     "Id": "{{ModId}}_Mail_Robin_Mouse",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 510, PLAYER_HAS_MAIL Current hatter Received",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 750, PLAYER_HAS_MAIL Current hatter Received",
                     "HostOnly": false,
                     "Action": "AddMail Current {{ModId}}_MouseMail",
                     "Actions": null
@@ -21,8 +21,8 @@
                     "Action": "AddMail Current {{ModId}}_quest_completed received",
                     "Actions": null
                 },
-                "{{ModId}}_Readd_Order": {
-                    "Id": "{{ModId}}_Readd_Order",
+                "{{ModId}}_Read_Order": {
+                    "Id": "{{ModId}}_Read_Order",
                     "Trigger": "DayEnding",
                     "Condition": "!PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_MouseHouse, !PLAYER_SPECIAL_ORDER_ACTIVE Current {{ModId}}_MouseHouse, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Inspection",
                     "HostOnly": false,
@@ -128,7 +128,8 @@
                         {
                             "Type": "Mail",
                             "Data": {
-                                "MailReceived": "{{ModId}}_MouseRepaired"
+                                "MailReceived": "{{ModId}}_MouseRepaired",
+                                "NoLetter": false
                             }
                         }
                     ]

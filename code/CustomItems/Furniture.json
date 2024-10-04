@@ -2,6 +2,11 @@
     "Changes": [
         {
             "Action": "Load",
+            "Target": "{{ModPath}}Balloon, {{ModPath}}Yapping, {{ModPath}}Mario",
+            "FromFile": "assets/CustomItems/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Mods/SweetPotats/Furniture",
             "FromFile": "assets/CustomItems/Furniture.png"
         },
@@ -15,6 +20,34 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
+                "108": {
+                    "Name": "Rare Disc",
+                    "Displayname": "Pokemon Card",
+                    "Description": "An ancient card covered in grime. There's a orange dragon depicted on it. It may have been worth a lot once.",
+                    "Type": "Arch",
+                    "Category": 0,
+                    "Price": 300,
+                    "Texture": "Mods/SweetPotats/Museum",
+                    "SpriteIndex": 20,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": {
+                        "UndergroundMine": 0.009999999776482582
+                    },
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_orange",
+                        "dye_strong"
+                    ],
+                    "CustomFields": null
+                },
                 "113": {
                     "Name": "Chicken Statue",
                     "DisplayName": "Ancient Ghost Plush",
@@ -40,29 +73,80 @@
                     ],
                     "CustomFields": {}
                 },
-                "{{ModId}}.PokeCard": {
-                    "Name": "Pokemon Card",
-                    "Displayname": "Pokemon Card",
-                    "Description": "An ancient card covered in grime. There's a orange dragon depicted on it. It may have been worth a lot once.",
-                    "Type": "Basic",
+                "119": {
+                    "Name": "Bone Flute",
+                    "DisplayName": "Train Whistle",
+                    "Description": "A small whistle that sounds just like a train.",
+                    "Type": "Arch",
                     "Category": 0,
-                    "Price": 60,
-                    "Texture": "Mods/SweetPotats/Museum",
-                    "SpriteIndex": 20,
+                    "Price": 100,
+                    "Texture": null,
+                    "SpriteIndex": 119,
                     "Edibility": -300,
                     "IsDrink": false,
-                    "Buff": null,
+                    "Buffs": null,
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": null,
                     "ArtifactSpotChances": {
-                        "Town": 0.05,
-                        "Farm": 0.1
+                        "Mountain": 0.009999999776482582,
+                        "Forest": 0.009999999776482582,
+                        "UndergroundMine": 0.019999999552965164,
+                        "Town": 0.004999999888241291
                     },
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_orange",
+                        "bone_item",
+                        "color_sand",
                         "dye_strong",
-                        "monster_item"
-                    ]
+                        "instrument_item",
+                        "prehistoric_item"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Balloon": {
+                    "Name": "{{ModId}}_Balloon",
+                    "Displayname": "Red Balloon",
+                    "Description": "It seems a little sad all alone.",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "CanBeGivenAsGift": true,
+                    "Price": 100,
+                    "Texture": "{{ModPath}}Balloon",
+                    "ContextTags": [
+                        "color_red",
+                        "category_building_resources"
+                    ],
+                    "SpriteIndex": 0
+                },
+                "PurpleBook": {
+                    "Name": "Book Of Stars",
+                    "DisplayName": "Book Of Yapping",
+                    "Description": "[LocalizedText Strings\\1_6_Strings:PurpleBook_Description]",
+                    "Type": "asdf",
+                    "Category": -103,
+                    "Price": 2500,
+                    "Texture": "{{ModPath}}Yapping",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_green",
+                        "book_item"
+                    ],
+                    "CustomFields": null
                 }
             }
         },
@@ -71,7 +155,7 @@
             "Target": "Data/Furniture",
             "Entries": {
                 //PJ shop
-                "{{ModId}}_SpaceKid": "Space Kid/painting/1 2/1 2/1/500/-1/Space Kid/0/Mods\\{{ModId}}\\Furniture",
+                "{{ModId}}_SpaceKid": "Space Kid/painting/1 2/1 2/1/500/-1/Space Kid/0/Mods\\SweetPotats\\Furniture",
                 "{{ModId}}_ForestKid": "Forest Kid/painting/1 2/1 2/1/500/-1/Forest Kid/1/Mods\\SweetPotats\\Furniture",
                 "{{ModId}}_SadGhost": "Sad Ghost/painting/1 2/1 2/1/500/-1/Sad Ghost/2/Mods\\SweetPotats\\Furniture",
                 "{{ModId}}_Buoy": "The Lost Buoy/painting/1 2/1 2/1/500/-1/The Lost Buoy/3/Mods\\SweetPotats\\Furniture",
@@ -101,7 +185,7 @@
                 "{{ModId}}_WigglesBadge": "Wiggles Potat Badge/decor/1 2/1 1/1/500/-1/Wiggles Potat Badge/18/Mods\\SweetPotats\\Museum/true",
                 "{{ModId}}_RadioActiveBadge": "RadioActive Potat Badge/decor/1 2/1 1/1/500/-1/RadioActive Potat Badge/19/Mods\\SweetPotats\\Museum/true",
                 "{{ModId}}_CharizardCard": "Charizard/painting/2 2/2 2/1/500/-1/Charizard/28/Mods\\SweetPotats\\Museum",
-                "{{ModId}}_BuoyStatue": "Sad Ghost/decor/2 2/2 1/1/1500/-1/Sad Ghost/30/Mods\\SweetPotats\\Museum",
+                "{{ModId}}_BuoyStatue": "Big Buoy/decor/2 2/2 1/1/1500/-1/Big Buoy/30/Mods\\SweetPotats\\Museum",
                 "{{ModId}}_GhostStatue": "Sad Ghost/decor/2 2/2 1/1/1500/-1/Sad Ghost/32/Mods\\SweetPotats\\Museum",
                 "{{ModId}}_LumpyPumpy": "Lumpy Pumpy/decor/2 4/2 1/1/500/-1/Lumpy Pumpy/42/Mods\\SweetPotats\\Museum"
             }
@@ -119,10 +203,37 @@
                     "CanBePlacedOutdoors": true,
                     "CanBePlacedIndoors": true,
                     "IsLamp": false,
-                    "Texture": "{{ModPath}}Furniture",
-                    "SpriteIndex": 19,
+                    "Texture": "{{ModPath}}Mario",
+                    "SpriteIndex": 0,
                     "ContextTags": null,
                     "CustomFields": {}
+                }
+            }
+        },
+        {
+            "LogName": "Gift tastes Balloon",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Balloon",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "37": {
+                    "DisplayName": "PJ's Badonker",
+                    "Description": "It seems perfect for bonking bozos."
                 }
             }
         }

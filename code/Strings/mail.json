@@ -5,9 +5,10 @@
       "Target": "Data/Mail",
       "Entries": {
         "{{ModId}}_Potatostatue": "Dear @,^To honour the arrival of the giant sweet potato I have decided to place a statue in the Town square. Please take some time out of your day to admire it.^ - King Bozo[#]Sweet Potato Statue",
-        "{{ModId}}_PotatFest": "Dear @,^As you might have seen, the town was blessed by a giant sweet potato. ^^To celebrate this blessing, we will honour the sweet potato with a palooza.^You wouldn't want to miss it ^^Make sure to arrive between 12 PM and 6 PM in the town square if you'd like to attend.^ -King Bozo[#]Sweet Potato Palooza Notice",
-        "{{ModId}}_MouseMail": "Hi @!^ I was out for a walk in the Cindersap Forest when I stumbled upon the abandoned house south of the river. I'm a bit worried about its state and I think we should check it out. Can you meet me there at your earliest convenience?^ - Robin%action AddQuest {{ModId}}_MouseQuest%%[#]Robin's note",
-        "{{ModId}}_MouseRepaired": "Hey poke,^Thanks so much for fixing my house. I added some new hats to my shop! ^- Hat Mouse[#]A Note From Hat Mouse"
+        "{{ModId}}_PotatFest": "Dear @,^As you might have seen, the town was blessed by a giant sweet potato. ^^To celebrate this blessing, we will honour the sweet potato with a palooza.^You wouldn't want to miss it! ^^Make sure to arrive between 12 PM and 6 PM in the town square if you'd like to attend.^ -King Bozo[#]Sweet Potato Palooza Notice",
+        "{{ModId}}_MouseMail": "Hi @!^ I was out for a walk in the Cindersap Forest when I stumbled upon the abandoned house south of the river. Its condition has me a bit concerned, and I think it needs our attention. Can you meet me there when you get a chance?^ - Robin%action AddQuest {{ModId}}_MouseQuest%%[#]Robin's note",
+        "{{ModId}}_MouseRepaired": "Hey poke,^Squeak! Thanks so much for fixing my house. I love my cozy new home! I added some snazzy new hats to my shop! ^^(PS: bring coins) ^- Hat Mouse[#]A Note From Hat Mouse",
+        "{{ModId}}_GoldenPotat": "Dear @,^After all the excitement of the Sweet Potato Palooza, the town has dediced to erect a golden potato statue in the town square to commemorate this unique event. Feel free to admire it the next time you're in town.^ -King Bozo[#]Golden Statue"
       }
     }
   ]

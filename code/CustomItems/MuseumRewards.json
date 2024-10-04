@@ -44,7 +44,7 @@
                     "RewardItemId": "(F){{ModId}}_GhostStatue"
                 },
                 "burnt_offering": {
-                    "RewardItemId": "(F){{ModId}}_BuoyStatue"
+                    "RewardItemId": "{{ModId}}_CharizardCard"
                 },
                 "sloth_l": {
                     "RewardItemId": "(F){{ModId}}_ObsidianBadge"
@@ -54,27 +54,6 @@
                 },
                 "sloth_3": {
                     "RewardItemId": "(F){{ModId}}_WigglesBadge"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/MuseumRewards",
-            "Entries": {
-                "{{ModId}}_PokemonCard": {
-                    "TargetContextTags": [
-                        {
-                            "Tag": "monster_item",
-                            "Count": 1
-                        }
-                    ],
-                    "RewardItemId": "(F){{ModId}}_Charizard",
-                    "RewardItemCount": 1,
-                    "RewardItemIsSpecial": true,
-                    "RewardItemIsRecipe": false,
-                    "RewardActions": null,
-                    "FlagOnCompletion": false,
-                    "CustomFields": {}
                 }
             }
         }

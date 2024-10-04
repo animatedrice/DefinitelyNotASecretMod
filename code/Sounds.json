@@ -4,8 +4,8 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModId}}_PotatMusic": {
-                    "ID": "{{ModId}}_PotatMusic",
+                "SweetPotats.PJMod_PotatMusic": {
+                    "ID": "SweetPotats.PJMod_PotatMusic",
                     "Category": "Music",
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/Sounds/Potat_Song.ogg}}"

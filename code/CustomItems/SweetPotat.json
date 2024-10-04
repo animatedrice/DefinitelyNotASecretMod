@@ -45,9 +45,9 @@
             ]
         },
         {
-            "Action":"EditData",
+            "Action": "EditData",
             "Target": "Data/CookingRecipes",
-            "Entries":{
+            "Entries": {
                 "{{ModId}}_SweetPotatPie": "{{ModId}}_SweetPotato 1 -6 1 -5 1 245 1/1 10/{{ModId}}_SweetPotatPie/"
             }
         },
@@ -73,7 +73,7 @@
                 "{{ModId}}_SweetPotatoSeeds": {
                     "Name": "{{ModId}}_SweetPotatoSeeds",
                     "Displayname": "Sweet Potato Seeds",
-                    "Description": "Plant in Spring for a lovely purple veggie. Takes 10 days to mature.",
+                    "Description": "Plant in Summer for a lovely purple veggie. Takes 10 days to mature.",
                     "Type": "Seeds",
                     "Category": -74,
                     "Price": 60,
@@ -124,7 +124,7 @@
             "Entries": {
                 "{{ModId}}_SweetPotatoSeeds": {
                     "Seasons": [
-                        "Spring"
+                        "Summer"
                     ],
                     "DaysInPhase": [
                         1,

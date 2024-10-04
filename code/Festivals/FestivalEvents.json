@@ -61,7 +61,8 @@
             "Update": "OnLocationChange",
             "PatchMode": "Overlay",
             "When": {
-               "HasFlag": "{{ModId}}_PotatCrash"
+               "HasSeenEvent": "{{ModId}}_PotatCrash",
+               "HasFlag|contains={{ModId}}_GoldenPotat": false
             }
         },
         {

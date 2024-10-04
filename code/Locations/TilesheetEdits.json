@@ -30,7 +30,57 @@
             },
             "Update": "OnLocationChange",
             "When": {
-                "LocationName|contains=Wizardhouse": "true"
+                "LocationName": "Wizardhouse"
+            }
+        },
+        {
+            "LogName": "Remove smoke",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/Tilesheets/SmokePatch.png",
+            "ToArea": {
+                "X": "372",
+                "Y": "1955",
+                "Width": "11",
+                "Height": "13"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Wizardhouse"
+            }
+        },
+        {
+            "LogName": "Remove ticket popup",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors_1_6",
+            "FromFile": "Assets/Tilesheets/TicketPatch.png",
+            "ToArea": {
+                "X": "239",
+                "Y": "239",
+                "Width": "17",
+                "Height": "17"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Town",
+                "HasSeenEvent|contains=15389722": false
+            }
+        },
+        {
+            "LogName": "Remove Text popup",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "Assets/Tilesheets/TextPatch.png",
+            "ToArea": {
+                "X": "140",
+                "Y": "464",
+                "Width": "21",
+                "Height": "25"
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Town",
+                "HasSeenEvent|contains=15389722": false
             }
         },
         {
